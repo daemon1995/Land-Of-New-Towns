@@ -1,0 +1,35 @@
+﻿{
+	"caption": {
+		"Cn_Simp": "",
+		"en_US": "Land of New Towns",
+		"ru_RU": ""
+	},
+	"description": {
+		"full": {
+			"Cn_Simp": "",
+			"en_US": "readme.txt",
+			"ru_RU": ""
+		},
+		"short": {
+			"Cn_Simp": "",
+			"en_US": "",
+			"ru_RU": ""
+		}
+	},
+	"author": "AnT",
+	"homepage": "https://sites.google.com/view/landofnewtowns",
+	"icon": {
+		"file": "LoNT.ico",
+		"index": 0
+	},
+	"mod_version": "3.1",
+	"priority": 2,
+	"compatibility": {
+		"class": "all",
+		"entries": {}
+	},
+	"platform": "era",
+	"info_version": "3.1",
+	"plugins": {},
+	"category": "platform"
+}

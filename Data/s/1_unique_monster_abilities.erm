@@ -1,0 +1,372 @@
+ZVSE
+
+ ; variables
+!!VRv4076:S0;	variable for Temple_of_Light monsters    (0-default / 1 make damage to undead)
+!#VRi^damage_end^:S0;
+
+
+
+!?BA0; 
+!!VRv4076:S0;	reset to default
+
+
+
+!?BG1; - срабатывает при передаче хода от одного существа к другому (для привидений)
+!!VRi^damage_end^:S0;
+!!VRi^monster_hp^:S0;
+
+
+
+
+------------------------------------------------
+ ; FU(casting_spell):P x1 / x2 / x3 / x4 / x5
+ ; x1 - monster id 
+ ; x2 - type of action (2-move, 6-attack, 7-shoot, 10-spellcast)
+ ; x3 - spell
+ ; x4 - spell_effect (0...3)
+ ; x5 - chance 
+  
+ 
+
+!?BG&v997>-1;							trigger at any action any monster 
+
+ ; all towns
+!!FU(casting_spell):P251/7/71/2/30;				Ancient Spider
+!!FU(casting_spell):P281/7/60/3/25;				Alhoon   (30 -> 25)
+!!FU(casting_spell):P295/10/16/2/100;			Royal Indrik
+!!FU(casting_spell):P395/6/72/2/50;				Kelpie     	roots (72)
+!!FU(casting_spell):P395/6/72/2/50;				Kelpie     	roots (72)
+!!FU(casting_spell):P329/6/57/2/50;				____Iratus (гром титанов)     new
+
+
+
+ ; Druid town
+!!FU(casting_spell_on_itself):P258/2/51/3/50;	Leprekons-jr.   luck
+!!FU(casting_spell_on_itself):P259/2/51/3/50;	Leprekons   luck
+!!FU(casting_spell_on_itself):P267/2/65/3/20;	Sriggans	(clone)
+ 
+
+ ; Strange Cult
+!!FU(casting_spell):P338/7/54/2/50; 			Mage of Void (338)	slowness(54)	
+!!FU(casting_spell):P336/10/15/2/100; 			Shaman-Cultist		ice arrow(15)
+
+ ; Monastery
+!!VRy10:R4;										5 different spells for Mimik	 
+!!FU(casting_spell)&y10=0:P303/10/17/2/100;		Mimik		lightning (17)
+!!FU(casting_spell)&y10=1:P303/10/20/2/100;
+!!FU(casting_spell)&y10=2:P303/10/21/2/100;
+!!FU(casting_spell)&y10=3:P303/10/13/2/100;
+!!FU(casting_spell)&y10=4:P303/10/15/2/100; 
+!!FU(casting_spell):P307/10/23/2/100;			Monk-Reader		meteor rain (23) 
+ 
+ ; Bastion
+!!FU(casting_spell_on_itself):P317/6/46/2/30;	Warriors of Desert  (on attack)	
+!!FU(casting_spell_on_itself):P317/2/46/2/50;	Warriors of Desert	(on move)
+!!FU(casting_spell):P325/6/75/2/50; 			Warrior of Anubis		spell (75)
+
+ ; Oasis
+!!FU(casting_spell_on_itself):P346/6/53/2/30;	Ugals, haste
+!!FU(casting_spell_on_itself):P346/2/53/2/30;
+!!FU(casting_spell):P354/7/15/2/35;				faqir2, magic arrow
+!!FU(casting_spell_on_itself):P354/2/30/2/40;			air shield
+!!FU(casting_spell_on_itself):P354/6/30/2/40;
+
+ 
+ ; Cove town
+!!FU(casting_spell):P367/7/45/2/20;				Жрица ЊорЯ			weakness (45)
+!!FU(casting_spell):P368/7/45/2/50;				‡аклинательница		
+
+ ; Temple of Light 
+!!FU(casting_spell):P435/10/25/2/100;			knights-crusaders, exorcism(25) 
+!-!FU(casting_spell):P436/6/21/1/15;				Knight of sparks
+!-!FU(casting_spell):P437/6/21/1/35;				Knight of fire,  fireball
+!-!FU(casting_spell):P438/10/25/1/100;			Monk of Light jr., exorcism(25)
+!!FU(casting_spell):P439/7/15/1/30;				Monk of Light    magic bolt  30%chance
+!!FU(casting_spell):P441/6/25/1/40;				Knights of Shining    Exorcism(25)
+!!FU(undead_takes_more_damage_part1):P432/6/-1/1/100;	attack, increased damage to undead by 30%
+!!FU(undead_takes_more_damage_part1):P432/7/-1/1/100;	shoot	
+!!FU(undead_takes_more_damage_part1):P433/6/-1/2/100;
+!!FU(undead_takes_more_damage_part1):P433/7/-1/2/100;
+!!FU(undead_takes_more_damage_part1):P434/6/-1/1/100;
+!!FU(undead_takes_more_damage_part1):P435/6/-1/2/100;
+!!FU(undead_takes_more_damage_part1):P436/6/-1/1/100;
+!!FU(undead_takes_more_damage_part1):P437/6/-1/2/100;
+!!FU(undead_takes_more_damage_part1):P438/6/-1/1/100;
+!!FU(undead_takes_more_damage_part1):P438/7/-1/1/100;
+!!FU(undead_takes_more_damage_part1):P439/6/-1/2/100;
+!!FU(undead_takes_more_damage_part1):P439/7/-1/2/100;
+!!FU(undead_takes_more_damage_part1):P440/6/-1/1/100;
+!!FU(undead_takes_more_damage_part1):P441/6/-1/2/100;	increased damage to undead part_1
+!!FU(undead_takes_more_damage_part1):P442/6/-1/1/100;
+!!FU(undead_takes_more_damage_part1):P443/6/-1/2/100;
+
+ ; Deep Swamp
+!!FU(casting_spell):P453/10/54/3/90;			Morra, slow all
+!!FU(casting_spell):P453/6/54/3/40;
+
+ ; Ice Castle
+!!FU(casting_spell_on_itself):P485/6/43/2/30;	ice bears (Bloodlust)
+!!FU(casting_spell):P489/6/45/2/35;				Yorr   (Weakness)  35% chance
+
+ ; Elemental Palace
+!!FU(casting_spell):P495/6/20/2/40;			elemental of frost   (circle of frost) 
+!!FU(casting_spell):P497/6/20/3/35;			ice guard   (circle of frost)
+!!FU(casting_spell):P504/6/20/3/50;			ice atronach   (circle of frost) 
+
+
+
+
+
+
+   
+
+
+	
+	
+ ; reduce damage taken by percents  / ignore damage, chance	
+!?MF1; 
+ ; Sand town
+!!FU(monster_reduces_damage_taken):P234/-15;		Stone Warrior 
+!!FU(monster_reduces_damage_taken):P235/-50;		Stone Giants 
+
+ ; Cove town
+!!FU(monster_reduces_damage_taken):P369/-30;		NIXX   -30%  
+!!FU(monster_reduces_damage_taken):P370/-60;		NiXX Warrior
+
+ ; Ruins
+!!FU(monster_reduces_damage_taken):P400/-20;		LIVING STONE
+!!FU(monster_reduces_damage_taken):P401/-30;		Colosus
+
+ ; increase damage to undead (by 50%) only for Temple_of_Light monsters
+!!FU(undead_takes_more_damage_part2)&v4076=1:P20;		increase by 20%
+!!FU(undead_takes_more_damage_part2)&v4076=2:P40;		increase by 40%
+
+ ; Deep Swamp
+!!FU(monster_ignore_damage):P465/20;				ghost of swamp
+ 
+
+ 
+!-!FU(UMA_ghost_ability):P464/6/50;				swamp ghost_1 	create 50% of soul eated creatures	 
+!-!FU(UMA_ghost_ability):P464/3/50;
+
+
+
+
+
+
+
+-----------------------------------------------
+ ; Oasis
+-----------------------------------------------
+
+ ; Oasis:    Sand spirit (352)  dodge attack 30% chance
+!?MF1;
+!!MF:N?y1 E?y9;                  [y1 - номер стека получающего урон, y9 - разрешен ли урон]
+!!BMy1:T?y2 N?y5;                [y2 - тип монстра, y5 - кол-во]
+!!BG:A?y3;                       [y3 - тип действиЯ]
+!!VRy3|y3=7/y3=10:S6;            [если прЯмаЯ атака или стрельба]
+!!VRy4:S1 R100;                  [y4 - генерациЯ шанса промаха]
+!---!FU|y9=0/y3<>6/y4>35/y2<>69:E;  [выход, если: ...]
+!!FU|y9=0/y3<>6/y4>30/y2<>352:E;  [выход, если: ...]
+!!MF:E0;                         [запрещаем урон]
+!!UN:C6916044/4/?y10;            [y10 - проверка на быструю битву]
+!!FU&y10<>0:E;                   [выход, если: ...]
+!!UN&y5=1:N3/z3/y2/0;            [z3 - название одного монстра]
+!!UN&y5<>1:N3/z3/y2/1;           [z3 - название группы монстров]
+!!VRz2&y5=1:S^%Z3 dodged the attack.^;    [z2 - генерациЯ описаниЯ]
+!!VRz2&y5<>1:S^%Z3 dodged the attack.^;  [z2 - генерациЯ описаниЯ]
+!!MM:Sz2;                        [уведомить в логе битвы]
+!!VRz2:S^AIRSHELD.wav^;          [z2 - будет звук промаха]
+!!SN:Pz2;                        [овзучить промах]
+!!UN:C6919200/4/?y10;            [combatmanager]
+!!VRy2:Sy1 *1352 +21708 +y10;    [структура стека]
+!!UN:Cy2/1/1;      !!VRy2:+2;    [необходимые параметры]
+!!UN:Cy2/1/17;                    [проиграть группу (17) анимации дефа]
+
+** end 
+
+
+
+
+
+
+-------------------------------------------------------------------
+
+!?FU(casting_spell);
+
+ ; x1 - monster id
+ ; x2 - type of action (2-move, 6-attack, 7-shoot, 10-spellcast)
+ ; x3 - spell
+ ; x4 - spell_effect (0...3)
+ ; x5 - chance 
+ 
+!!BG:A?y10; 				//выЯснЯем тип этого действиЯ
+!!BG&y10=x2:N?y11; 			//если это была стрельба - то определим номер стека существ, которые стрелЯли
+!!BMy11&y10=x2:T?y12; 		//если это была стрельба - то определим тип существ, которые стрелЯли
+!!BG&y10=x2/y12=x1:E?y13; 	//если это были Титаны - то определим номер стека существ, по которой производилсЯ выстрел
+!!BMy13&y10=x2/y12=x1:P?y14; //определим позицию стека существ, по которой производилсЯ выстрел
+!!VRy5:S0;
+!!VRy5:R100;
+	!!FU(casting_spell)&y5>x5:E;					chance
+	
+!!BMy11&y10=x2/y12=x1/y14>-1:Cx3/y14/0/x4/1;		cast spell (x3) Medium Effect(x4)
+
+
+!!FU(casting_spell):E;
+
+
+
+
+
+------------------------------------------------
+
+!?FU(casting_spell_on_itself);
+
+ ; x1 - monster id
+ ; x2 - type of action (2-move, 6-attack, 7-shoot, 10-spellcast)
+ ; x3 - spell
+ ; x4 - spell_effect (0...3)
+ ; x5 - chance 
+
+!!BG:A?y10; 				//выЯснЯем тип этого действиЯ
+!!BG&y10=x2:N?y11; 										
+!!BMy11&y10=x2:T?y12; 
+!!BG&y10=x2/y12=x1:N?y13; 							cast on itself
+!!BMy13&y10=x2/y12=x1:P?y14; 
+!!VRy5:S0;
+	!!VRy5:R100;
+	!!FU(casting_spell_on_itself)&y5>x5:E;			chance
+
+	!!BMy13&y10=x2/y12=x1:Gx3/?y30/?y31;			exit, if spell is already has been cast on the monster	
+	!!FU(casting_spell_on_itself)&y30>0:E;					
+	
+!!BMy11&y10=x2/y12=x1/y14>-1:Cx3/y14/0/x4/1;		cast spell (x3) Medium Effect(x4)
+
+
+!!FU(casting_spell_on_itself):E;
+
+
+
+
+
+---------------------------------------------------
+
+!?FU(undead_takes_more_damage_part1);       working!   do not delete (keep for later use)
+
+ ; x1 - monster id
+ ; x2 - type of action (2-move, 6-attack, 7-shoot, 10-spellcast)
+ ; not used x3 - spell
+ ; x4 - value for v4076 
+ ; x5 - chance 
+ 
+!!BG:A?y10; 				//выЯснЯем тип этого действиЯ
+!!BG&y10=x2:N?y11; 			//если это была стрельба - то определим номер стека существ, которые стрелЯли
+!!BMy11&y10=x2:T?y12; 		//если это была стрельба - то определим тип существ, которые стрелЯли
+!!BG&y10=x2/y12=x1:E?y13; 	//если это были Титаны - то определим номер стека существ, по которой производилсЯ выстрел
+!!BMy13&y10=x2/y12=x1:P?y14; //определим позицию стека существ, по которой производилсЯ выстрел
+!!BMy13:T?y15;				type of monster attacked
+
+!!BMy13:F?i; 										записать флаги стека в переменную i 
+!!VRi:&262144; 										is undead 
+	!!FU(undead_takes_more_damage_part1)&i=<0:E;	exit if not undead
+	
+!!VRy5:S0;
+!!VRy5:R100;
+	!!FU(undead_takes_more_damage_part1)&y5>x5:E;	chance
+	
+	
+!!VRv4076&y10=x2/y12=x1/y14>-1:Sx4;			variable for Temple_of_Light monsters    
+											(0-default / 1 make damage to undead)	
+!-!BMy11&y10=x2/y12=x1/y14>-1:Cx3/y14/0/x4/1;		cast spell (x3) Medium Effect(x4)
+
+!-!BMy13:V29;								show animation
+
+!!FU(undead_takes_more_damage_part1):E;
+
+
+
+
+
+---------------------------------------------------
+
+!?FU(monster_reduces_damage_taken);
+
+	; x1 - monster id
+	; x2 - reduce damage taken by percents
+	!!MF:N?y10; 			number of stack
+	!!BMy10:T?y11;			y7= monster id
+	!!MF:D?y1; 
+	!!VRy1:*x2 :100; 		-30%
+	!!MF&y11=x1:Fdy1; 		[снижаем получаемый урон на %] for monster  
+
+!!FU(monster_reduces_damage_taken):E;
+
+
+
+
+
+---------------------------------------------------
+
+!?FU(undead_takes_more_damage_part2);
+
+	 ; x1 -  increase damage taken by percents
+	!!MF:N?y10; 			number of stack
+	!!BMy10:T?y11;			monster id
+	
+	!!BMy10:F?y3; 								записать флаги стека в переменную i 
+	!!VRi:&262144; 								is undead 
+	!-!IF&y3>0:M^undead^;
+	!!FU(undead_takes_more_damage_part2)&y3=<0:E;		exit if not undead
+		
+	!!MF:D?y1; 
+	!!VRy1:*x1 :100; 		+30% +60%
+	!!MF:Fdy1; 		[снижаем получаемый урон на %] for monster  
+	
+	!!VRv4076:S0;	variable for Temple_of_Light monsters    (0-default / 1 make damage to undead)
+	
+
+!!FU(undead_takes_more_damage_part2):E;
+
+
+
+
+
+---------------------------------------------------
+
+!?FU(monster_ignore_damage);
+
+ ; x1 - monster id
+ ; x2 - chance
+!-?MF1;
+!!MF:N?y1 E?y9;                  [y1 - номер стека получающего урон, y9 - разрешен ли урон]
+!!BMy1:T?y2 N?y5;                [y2 - тип монстра, y5 - кол-во]
+!!BG:A?y3;                       [y3 - тип действиЯ]
+!!VRy3|y3=7/y3=10:S6;            [если прЯмаЯ атака или стрельба]
+!!VRy4:S1 R100;                  [y4 - генерациЯ шанса промаха]
+!!FU|y9=0/y3<>6/y4>x2/y2<>x1:E;  [выход, если: ...]					chance, monster id
+!!MF:E0;                         [запрещаем урон]
+!!UN:C6916044/4/?y10;            [y10 - проверка на быструю битву]
+!!FU&y10<>0:E;                   [выход, если: ...]
+!!UN&y5=1:N3/z3/y2/0;            [z3 - название одного монстра]
+!!UN&y5<>1:N3/z3/y2/1;           [z3 - название группы монстров]
+!!VRz2&y5=1:S^%Z3 dodged the attack.^;    [z2 - генерациЯ описаниЯ]
+!!VRz2&y5<>1:S^%Z3 dodged the attack.^;  [z2 - генерациЯ описаниЯ]
+!!MM:Sz2;                        [уведомить в логе битвы]
+!!VRz2:S^AIRSHELD.wav^;          [z2 - будет звук промаха]
+!!SN:Pz2;                        [овзучить промах]
+!!UN:C6919200/4/?y10;            [combatmanager]
+!!VRy2:Sy1 *1352 +21708 +y10;    [структура стека]
+!!UN:Cy2/1/1;      !!VRy2:+2;    [необходимые параметры]
+!-!UN:Cy2/1/17;                  [проиграть группу (17) анимации дефа]
+
+!!BMy1:V84; 50;					  show animation
+
+
+
+!!FU(monster_ignore_damage):E;
+
+
+
+
+----------------------------------------------------------------
+

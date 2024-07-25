@@ -1,0 +1,92 @@
+ZVSE
+
+; replace dragon utopia (type 25) by emissars (type 16/13...16)
+; and add new lvl_8 dwellings
+; variables:
+; v8020
+; v8021
+; v8022
+; v8023
+; v8024
+
+
+	
+!?FU(OnEveryDay)&1000/i^timerWeekday^=1/i^timerWeek^=1;		only once	
+
+
+; show dragon's utopia on map
+!--!FU(show_on_map):P25/-1;
+
+
+
+ ; calculate level_8 dwellings on map
+!!UN:U25/-1/?y20;
+!--!IF:M^Dragon's Utopia count:  %y20 ^;
+
+
+
+!!VRy10:R3;										generate from 0 to 3 
+!!VRy10:Sy10+13;								y10 - type of emissars 13...16
+!!FU(replace_object_on_map2):P25/-1/y10;		replace 
+
+!!UN:R1;	redraw screen
+!-!IF:M^Done1!^;	
+
+
+
+
+
+
+
+-----------------------------
+
+!?FU(replace_object_on_map2); 
+ ; x1 - type
+ ; x2 - subtype
+ ; x3 - subtype of new object to be placed
+!!VRv8020:Sx1;
+!!VRv8021:Sx2; 
+!!VRv8022:Sx3;
+
+	!!VRv8023:S0;
+	!!VRv8023:R3;			generate variable to choose type of new lvl_8 dwelling
+	!!VRv8024:S0;
+	!!VRv8024:R3;
+	!-!IF:M^y5=%v8023    y6=%v8024 ^;
+	
+	
+	
+
+!!VRv100:S0;		
+!!UN:Ux1/x2/?v100;
+!!VRv1:S-1; 
+!!DO(dw_NN445)/1/v100/1:P; 
+	!?FU(dw_NN445); 
+	!!UN:Uv8020/v8021/-1/1;
+	!-!IF:M^%v100    %x16^;	
+	!!UN&x16=3:Ov1/v2/v3;					delete object	(dragon utopia № 3) &x16=3
+	!!UN&x16=3:Iv1/v2/v3/16/v8022/1;		place new object
+	
+	
+	 ; replace dragon utopia №4 by new lvl_8
+	!!UN&x16=4:Ov1/v2/v3;						delete object	
+	!!UN&x16=4/v8023=0:Iv1/v2/v3/17/109/1;		place new object Giant Ents
+	!!UN&x16=4/v8023=1:Iv1/v2/v3/17/109/1;			
+	!!UN&x16=4/v8023=2:Iv1/v2/v3/17/120/1;		Legendary Worms
+	!!UN&x16=4/v8023=3:Iv1/v2/v3/17/109/1;		
+	
+	
+	
+	
+	 ; replace dragon utopia №6 by new lvl_8
+	!!UN&x16=6:Ov1/v2/v3;						delete object	
+	!!UN&x16=6/v8024=0:Iv1/v2/v3/17/109/1;		place new object Giant Ents
+	!!UN&x16=6/v8024=1:Iv1/v2/v3/17/109/1;			
+	!!UN&x16=6/v8024=2:Iv1/v2/v3/17/120/1;		Legendary Worms
+	!!UN&x16=6/v8024=3:Iv1/v2/v3/17/120/1;		
+
+	
+
+!!FU(replace_object_on_map2):E; 
+
+	

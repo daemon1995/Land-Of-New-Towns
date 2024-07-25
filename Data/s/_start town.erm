@@ -1,0 +1,65 @@
+ZVSE
+
+ ; set start town for Players
+ 
+
+-------------------------------------------------------------
+ 
+!?FU(start_town);
+
+ ; x1 - variable, user's choice on dialog choosing town
+ ; x2 - town_id on map  (0- for first player, 1- Ai_1,  2- Ai_2)
+
+!!VRy1:Sx2+4000;				v4000 v4001 v4002
+!!CA0/x2:P?y20/?y21/?y22;		get coordinates of town_id (0,1,2)
+
+
+
+
+!!VRvy1&x1=97:S0;				default homm3 town 
+
+!!VRi^random_town^&x1=98:R20; 		random town 
+!!VRy1&x1=98:Si^random_town^+99;	(99...119)
+
+!!CAy20/y21/y22&x1=99:T1;		WonderWoods (base on Rampart)
+!!VRvy1&x1=99:S1;
+
+!!CAy20/y21/y22&x1=100:T8;		Eldorado 
+!!VRvy1&x1=100:S1;				
+
+!!CAy20/y21/y22&x1=101:T6;		SandTown 
+!!VRvy1&x1=101:S1;
+
+!!CAy20/y21/y22&x1=102:T5;		ShadowTown 
+!!VRvy1&x1=102:S1;		
+
+!!CAy20/y21/y22&x1=103:T8;		Neutral town 
+!!VRvy1&x1=103:S2;	
+
+!!CAy20/y21/y22&x1=104:T1;		Druid Town 
+!!VRvy1&x1=104:S2;				
+
+
+ ; edit for 3.1
+!!CAy20/y21/y22&x1=105:T1;		Forest Town 
+!!VRvy1&x1=105:S3;	 
+
+!!CAy20/y21/y22&x1=106:T6;		Bastion Town 
+!!VRvy1&x1=106:S2;
+
+!!CAy20/y21/y22&x1=107:T0;		Cove (Castle based)     
+!!VRvy1&x1=107:S1;	
+
+!!CAy20/y21/y22&x1=108:T0;		Temple of Light (Castle based)     
+!!VRvy1&x1=108:S3;
+ 
+
+
+
+
+
+
+!!FU(start_town):E;
+
+
+

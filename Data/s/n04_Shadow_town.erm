@@ -1,0 +1,68 @@
+ZVSE
+
+
+ ; Shadow town - based on Dungeon
+
+	
+-------------------------------------------------------------------	
+	
+	
+	
+!?FU(shadow___town); 					
+
+
+-----------------------------
+ ; replace town screen
+ ----------------------------
+ 
+!!SN:R^TBDNBACK.pcx^/^tbdnback1.pcx^;			
+!!SN:R^DUNGEON.MP3^/^DarkTown.mp3^;
+!!SN:R^TBDnMage.def^/^TBDnMagen.def^;
+!!SN:R^TBDnMag2.def^/^TBDnMag2n.def^;
+!!SN:R^TBDnMag3.def^/^TBDnMag3n.def^;
+!!SN:R^TBDnMag4.def^/^TBDnMag4n.def^;
+!!SN:R^TBDnMag5.def^/^TBDnMag5n.def^;
+!!SN:R^TBDnExt0.def^/^TBDnExt0n.def^;
+!!SN:R^TBDnDw_3.def^/^TBDnDw_3n.def^;
+!!SN:R^TBDnUp_3.def^/^TBDnUp_3n.def^;
+!rr!SN:R^TBDnMag5.def^/^mag5.def^;
+
+!!SN:R^TPCASdun.pcx^/^TPCASsha.pcx^;		back for monsters avatars
+
+ 
+ 
+ 
+ -----------------------------
+ ; replace creatures
+-----------------------------
+
+	!!FU(shadow___monsters):P;
+
+
+
+ !!FU(shadow___town):E;  end function
+ 
+ 
+ 
+ 
+ 
+ 
+ -------------------------
+!?FU(shadow___monsters);
+ 
+!!UN:T5/0/0/238;	
+!!UN:T5/0/1/239;
+!!UN:T5/1/0/240;	
+!!UN:T5/1/1/241;
+!!UN:T5/2/0/242;	
+!!UN:T5/2/1/243;
+!!UN:T5/3/0/244;
+!!UN:T5/3/1/245;
+!!UN:T5/4/0/246;
+!!UN:T5/4/1/247;
+!!UN:T5/5/0/248;
+!!UN:T5/5/1/249;
+!!UN:T5/6/0/250;
+!!UN:T5/6/1/251;
+
+!!FU(shadow___monsters):E;
