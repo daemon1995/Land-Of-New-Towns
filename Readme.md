@@ -6,8 +6,8 @@ Mod Homepage:	https://sites.google.com/view/landofnewtowns
 This mod adds 10 new towns with new creatures to the game:  Wonderwoods, Eldorado, SandTown, ShadowTown, Neutral Town, ForestTown, Bastion(Pavilion), Druids town, Cove, Knights Castle. Total number of towns is 19 with no replacements.
 
 ver. 3.1.2
-* stability fixes
-* fix errors with monsters
+ * stability fixes
+ * fix errors with monsters
 
 
 ------------------------------------------------
