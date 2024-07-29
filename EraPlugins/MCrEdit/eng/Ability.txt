@@ -261,13 +261,13 @@ cast luck on allies and himself
 shoot
 Cure allies
 cast happiness on allies
-csat happiness 2 times on allies
+cast happiness on allies 2 times 
 
-disease on attack
-Binds enemies in place by roots.
-Binds enemies in place by roots. 20% chance create clone, regeneration
+inflicts disease when attacking an enemy
+Binds enemies in place.
+Binds enemies in place.. 20% chance create clone, regeneration
 Shoot, Immune to fire spells, no melee penalty
-Shoot fireball, Immune to fire spells, no melee penalty
+Shoots a fireball, Immune to fire spells, no melee penalty
 
 
 
@@ -327,7 +327,7 @@ Teleport, increased chance of casting aging spell.  Ñreates mummies from killed 
 
 
 
-Undead, 50% chance of casting  Titan's Thunder, 50% reduce defence
+
 
 
 
@@ -498,11 +498,11 @@ Bind enemies
 
 
 
-neutral moral, immune for ice bolt frost ring
-protect from shooting 15%, neutral moral, attack on 2 cells,  immune for ice bolt frost ring
-Shoot, neutral moral, mind immune, attack on 2 cells,  immune for ice bolt frost ring
-50% magic resistance, neutral moral, immune for ice bolt frost ring
-70% magic resistance, neutral moral, immune for ice bolt frost ring
+
+
+
+
+
 
 
 
