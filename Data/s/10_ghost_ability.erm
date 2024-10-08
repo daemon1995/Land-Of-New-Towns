@@ -1,0 +1,59 @@
+ZVSE
+
+
+
+
+!-?BG1; - срабатывает при передаче хода от одного существа к другому
+!-!VRi^damage_end^:S0;
+!-!VRi^monster_hp^:S0;
+
+
+
+
+
+
+!-?BG&v997>-1;
+!-!FU(monster_takes_damage):P297/6; 				for Finist
+
+
+--------------------------------------------------------------------------
+
+!?FU(UMA_ghost_ability);          unique monster ability - UMA
+
+ ; x1 - monster id
+ ; x2 - type of action (2-move, 6-attack, 7-shoot, 10-spellcast)
+ ; x3 - percent of creatures to increase 
+
+!!BG:A?y10; 				//выЯснЯем тип этого действиЯ
+!!BG&y10=x2:N?y11; 			//если это была стрельба - то определим номер стека существ, которые стрелЯли
+!!BMy11&y10=x2:T?y12; 		//если это была стрельба - то определим тип существ, которые стрелЯли
+!!BG&y10=x2/y12=x1:E?y13; 	//если это были Титаны - то определим номер стека существ, по которой производилсЯ выстрел
+!!BMy13&y10=x2/y12=x1:P?y14; //определим позицию стека существ, по которой производилсЯ выстрел
+!!BMy13:T?y15;				type of monster attacked
+
+
+!!BMy13:N?y31;										number of monsters 						
+!!VRi^monster_hp^&i^damage_end^=0:Sy31;				number of monsters before hit
+
+!!VRi^damage_end^:S1;
+!!VRy35&i^damage_end^=1:Si^monster_hp^-y31;			number of monsters after hit  (difference)
+!!VRy35:Si^monster_hp^-y31;
+!!VRy35:*x3 :100; 									percents of summoned monsters
+
+!!VRz2&i^damage_end^=1/y35>0:S^AIRSHELD.wav^;          [z2 - будет звук промаха]
+!!SN&i^damage_end^=1/y35>0:Pz2;                        [овзучить промах]
+!!BMy11&i^damage_end^=1/y35>0:V83;
+!!BMy11&i^damage_end^=1/y35>0:N?y50;
+!!VRy51&i^damage_end^=1/y35>0:Sy50+y35;
+!!BMy11&i^damage_end^=1/y35>0:Ny51;
+
+!-!VRi^damage_end^:S0;
+	
+
+
+!!FU(UMA_ghost_ability):E;
+
+
+
+
+

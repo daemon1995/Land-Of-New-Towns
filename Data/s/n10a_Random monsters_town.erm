@@ -1,0 +1,173 @@
+ZVSE
+
+Erm file created by AnT
+
+ ; random monsters in town - based on Inferno (all creatures in town are random)
+ ; variables used v4080    v4085   v4100 
+
+ 
+!#VRv4090:S0; 	town_with_random_monsters have 8 level creatures (n=0 / y=1)
+!#VRv4091;		variables for  8_lv creatures growth
+!#VRv4092;	
+-------------------------------------------------------------------	
+
+
+
+	
+	
+	
+!?FU(random_monsters_in_town_v2);    	
+
+-----------------------------
+ ; replace town screen
+ ----------------------------
+ 
+!!SN:R^tbinback.pcx^/^tbinbackR.pcx^;			
+!!SN:R^InfernoTown.mp3^/^RandomMonstersTown.mp3^;
+
+
+  
+ -----------------------------
+ ; replace creatures
+-----------------------------
+!-!VRv4114:S326;
+
+!!UN:T3/0/0/v4101;
+!!UN:T3/0/1/v4102;
+!!UN:T3/1/0/v4103;
+!!UN:T3/1/1/v4104;
+!!UN:T3/2/0/v4105;
+!!UN:T3/2/1/v4106;
+!!UN:T3/3/0/v4107;
+!!UN:T3/3/1/v4108;
+!!UN:T3/4/0/v4109;
+!!UN:T3/4/1/v4110;
+!!UN:T3/5/0/v4111;
+!!UN:T3/5/1/v4112;
+!!UN:T3/6/0/v4113;
+!!UN:T3/6/1/v4114;
+
+
+
+!!FU(random_monsters_in_town_v2):E;  end function
+
+
+
+
+ 
+-------------------------------------------------------------
+
+!?FU(Make_random_monster);
+
+!!VRv1111;
+!!VRv4100:S0;
+!!VRv4100:R210;
+!!MA:Lv4100/?v1111;
+
+!!VRv4100:S10;
+
+!!FU(Make_random_monster):E;  end function 
+
+
+
+
+
+----------------------------------------------------------------
+
+!?FU(Make_random_monster_by_level);   
+
+!!VRv4085:S100;
+
+	!!DO(rmbl)/0/30/1:P;
+	!?FU(rmbl);
+	!!FU(rmbl)&v4085=v4080:E;    			exit if the desired monster level  v4080
+	!!VRv4100:S0;
+	!!VRv4100:R344;          326  old_value=237
+	
+	 ;  these creatures will not be generated:
+	!!VRv4100&v4100=122:S10;				restricted monsters replace by id10
+	!!VRv4100&v4100=124:S10;	
+	!!VRv4100&v4100=126:S10;
+	!!VRv4100&v4100=128:S10;
+	!!VRv4100&v4100=145:S10;
+	!!VRv4100&v4100=146:S10;	ballista
+	!!VRv4100&v4100=147:S10;	first aid
+	!!VRv4100&v4100=148:S10;	ammo carts
+	!!VRv4100&v4100=149:S10;
+	!!VRv4100&v4100=160:S10;	god1...god4
+	!!VRv4100&v4100=161:S10;
+	!!VRv4100&v4100=162:S10;
+	!!VRv4100&v4100=163:S10;
+
+	!!VRv4100&v4100=327:S10;
+	!!VRv4100&v4100=328:S10;
+	!!VRv4100&v4100=329:S10;
+	!!VRv4100&v4100=330:S10;
+	
+	!!VRv4100&v4100=349:S10;
+	!!VRv4100&v4100=350:S10;
+	!!VRv4100&v4100>=174/v4100<=191:S10;	restricted monsters commanders
+
+	!!MA:Lv4100/?v4085;
+	!!FU(rmbl):E;
+
+
+!!FU(Make_random_monster_by_level):E;  end function 
+
+
+
+
+----------------------------------------------------------------
+
+
+
+
+
+ ; create random creatures only once in game for variables v4101...v4114
+!?PI;    
+
+!!VRv4080:S100;			level of monster 
+!!VRv4100:S0;  
+
+!!VRv4080:S0;									level 1
+!!FU(Make_random_monster_by_level):P;
+!!VRv4101:Sv4100;
+!!FU(Make_random_monster_by_level):P;  
+!!VRv4102:Sv4100;
+
+!!VRv4080:S1;									level 2
+!!FU(Make_random_monster_by_level):P;
+!!VRv4103:Sv4100;
+!!FU(Make_random_monster_by_level):P;
+!!VRv4104:Sv4100;
+
+!!VRv4080:S2;
+!!FU(Make_random_monster_by_level):P;
+!!VRv4105:Sv4100;
+!!FU(Make_random_monster_by_level):P;
+!!VRv4106:Sv4100;
+
+!!VRv4080:S3;
+!!FU(Make_random_monster_by_level):P;
+!!VRv4107:Sv4100;
+!!FU(Make_random_monster_by_level):P;
+!!VRv4108:Sv4100;
+
+!!VRv4080:S4;
+!!FU(Make_random_monster_by_level):P;
+!!VRv4109:Sv4100;
+!!FU(Make_random_monster_by_level):P;
+!!VRv4110:Sv4100;
+
+!!VRv4080:S5;
+!!FU(Make_random_monster_by_level):P;
+!!VRv4111:Sv4100;
+!!FU(Make_random_monster_by_level):P;
+!!VRv4112:Sv4100;
+
+!!VRv4080:S6;
+!!FU(Make_random_monster_by_level):P;
+!!VRv4113:Sv4100;
+!!FU(Make_random_monster_by_level):P;
+!!VRv4114:Sv4100;
+
