@@ -258,58 +258,58 @@ Keepers junior
 Keepers
 leprechauns jr.
 Leprechauns
-Herbalist students
-Herbalists
-Fauns
-Satir
 Turquoise Harpies
 Forest Harpies
+Fauns
+Satir
+Alikorns jr.
+Alikorns
 Young Spriggans
 Spriggans
-Druids Apprentice
-Druids
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
+Finists jr.
+Finists
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Ravens
 Black Ravens
 Forest Guards jr.
 Forest Guards
 Forest shooters
 Forest archers
-Alikorns jr.
-Alikorn
-Wild boars
-Big wild boars
+Herbalists jr.
+Herbalists
+Green Princes
+Green Kings
 Indriks
 Royal Indriks
-Finist jr.
-Finists
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
+Druids Apprentice
+Druids
+creature . 1111
+creature 111
+
+
+
+
+
+
+
+
+
+
+
+
 Scarabs
 Sacred scarabs
 Whippers
@@ -324,39 +324,39 @@ Sphinxes
 Sphinxes oracle
 Servants of Anubis
 Warriors of Anubis
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
+m 1111
+War1111
+Necross Dragons
+Lordes Iratuses
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mon1
+
+
+
+
+
+
+
 Nymphs
 Oceanids
 Crew Mates
@@ -372,62 +372,62 @@ Nix Warriors
 Sea Serpents
 Haspids
 Sea Dogs
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Trainers
 Squires
 Archers of Light jr.
@@ -442,16 +442,16 @@ Cavalry Crusaders
 Champion Crusaders
 Warriors of Ray
 Warriors of Light
-l
-l
-l
-l
-l
+
+
+
+
+
 Dark Angels
 Legendary Sand Worms
-l
-l
-l
+
+
+
 Sky genies
 Grandmasters gremlins
 Gnoll Shamans
@@ -460,49 +460,56 @@ Advanced  Chaos Hydras
 
 Lava elementals
 Dendroid Leaders
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
-l
+
+
+
+
+
+
+
+
+
+Swam witch
+
+
+
+
+Snow Centaurids jr.
+Snow Centaurides
+snow boars jr.
+snow Boars
+Blue snow Birds
+Snow Birds
+snow tigers
+Ice Tigers
+Snow Bears
+Polar Bears
+Young Yeties
+Yeti
+young Yorrs
+Yorrs
+walking snow jr.
+Walking snow
+Elementals of Ice wind
+Elementals of Snowstorm
+Elementals of Cold jr.
+Elementals of Cold
+Snow Queens
+Ice Queens
+Snow Giants
+Ice Giants
+Snow Golems
+Snow Golem-warriors
+Snow Golem-spellcasters
+Snow Atronachs
+Ice Atronachs
+
+
+
+
+
+
+arquebusiers
 
 
 
@@ -521,16 +528,9 @@ l
 
 
 
+Necro Sphinxes
 
-
-
-
-
-
-
-
-
-
+Sphinxes
 
 
 
