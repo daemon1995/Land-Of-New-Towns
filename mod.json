@@ -1,7 +1,7 @@
 {
 	"caption": {
 		"Cn_Simp": "",
-		"en_US": "Land of New Towns",
+		"en_US": "Land Of New Towns",
 		"ru_RU": ""
 	},
 	
@@ -27,7 +27,7 @@
 		"index": 0
 	},
 	
-	"mod_version": "3.1.2",
+	"mod_version": "3.2",
 	
 	"priority": 2,
 	
@@ -37,7 +37,7 @@
 	},
 	
 	"platform": "era",
-	"info_version": "3.1.2",
+	"info_version": "3.2",
 	"plugins": {},
 	"category": "gameplay"
 }
