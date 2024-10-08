@@ -1,16 +1,21 @@
-Changelog:
+Version history:
+
+3.2
+* add 2 new towns: Ice Castle, Elemental Palace (rework of Limes VCMI mod)
+* allow choosing start town for multiplayer 
+  (see file "...\Mods\Land Of New Towns\Data\s\___options.erm") 
+* edit lineup of creatures Magic Forest, Druid town
+* new objects on map (Golden Utopia, Magic Utopia, Rotten Dragons Utopia)
+* edit balance for several towns
+* fix some bugs
+
 
 3.1.2
 * stability fixes
 * fix errors with monsters
 
-
-3.1.1
-*fixed error on game start
-
-
 3.1
-* Adds 3 new towns: Druid Town, Cove town, Knights Castle in homm3. 
+* Added 3 new towns: Druid Town, Cove town, Knights Castle in homm3. 
   Total number of towns is 19 (no replacements)
 * fixed names of creatures
 * Eldorado graphic fixes
@@ -25,7 +30,7 @@ Changelog:
 * new monsters
 * add dialog for choosing start town
 * some changes in game balance
-* some other improvements
+* some other improvements 
 
 
 2.2
@@ -34,15 +39,14 @@ Changelog:
  * add options file (...Land Of New Towns\Data\s\0_options.erm )
  * add emissares (Gods’ Representatives) dwellings on random map generated
  * some improvements
-
 New Neutral Town based on Conflux. To play this town choose Conflux on game start, then on dialog window choose "New town var.2" (1 option -Conflux, 2-EldoradoTown, 3-NeutralTown). Mod compatibility  tested on ERa 3.9.2 (assembly v2.54)
-
 
 
 2.1
  * Mod now support any map size, any count of towns on map
  * Add Rampart (total number of towns is 13)
  * Some graphical improvements
+
 
 
 2.0

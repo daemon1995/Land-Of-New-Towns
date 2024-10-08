@@ -1,0 +1,9 @@
+ZVSE
+
+
+
+ ; show the dialog for choosing the starting town for player 1...8 (human or Ai)
+ ; S1 - for player 1  /  S2 - for players 1,2  /  S3 - for players 1,2,3  / and so on
+ ; for example for two players line should be:    !#VRv4086:S2;
+
+!#VRv4086:S1;	

@@ -31,25 +31,6 @@ ZVSE
 
 
 
-
-!-?FU(OnEveryDay)&i^timerWeekday^=6/i^timerOwner^=0;
- ; make Techno monsters growth equal to inferno defaults on the end of week
-!-MA:G416/15;
-!-MA:G417/15;
-!-MA:G418/8;
-!-!MA:G419/8;
-!-!MA:G420/5; 
-!-!MA:G421/5;
-!-!MA:G422/4;
-!-!MA:G423/4; 
-!-!MA:G424/3;
-!-!MA:G425/3;
-!-!MA:G426/2;
-!-!MA:G427/2;
-!-!MA:G428/1;
-!-!MA:G429/1;
-
-
 !?FU(OnEveryDay)&i^timerWeekday^=7/i^timerOwner^=0;
  ; make Techno monsters growth equal to inferno defaults on the end of week
 !!MA:G416/15;
@@ -115,7 +96,7 @@ ZVSE
 	; Conflux
 	!!FU(reduce_growth)&y2=8/vx16=0:Py1/6/1/200;  160;	increase Phoenix growth *2
 	
-	; Rampart
+	; WonderWoods (Rampart)
 	!!FU(reduce_growth)&y2=1/vx16=1:Py1/2/7/65; 		level_2 snipers
 	!!FU(reduce_growth)&y2=1/vx16=1:Py1/3/5/80; 		level_3 petrels
 	!!FU(reduce_growth)&y2=1/vx16=1:Py1/4/3/80;			
@@ -126,19 +107,19 @@ ZVSE
 	!!FU(reduce_growth)&y2=7/vx16=2:Py1/2/8/80;
 	
 	; Ice Castle
-	!!FU(reduce_growth)&y2=4/vx16=1:Py1/0/12/85;	60;
-	!!FU(reduce_growth)&y2=4/vx16=1:Py1/1/8/70;
-	!!FU(reduce_growth)&y2=4/vx16=1:Py1/2/7/85;	95;
-	!!FU(reduce_growth)&y2=4/vx16=1:Py1/3/4/80;
-	!!FU(reduce_growth)&y2=4/vx16=1:Py1/4/3/95;
+	!!FU(reduce_growth)&y2=2/vx16=2:Py1/0/16/70;	85	60;	1
+	!!FU(reduce_growth)&y2=2/vx16=2:Py1/1/8/70;				8
+	!!FU(reduce_growth)&y2=2/vx16=2:Py1/2/7/85;	95;			7
+	!!FU(reduce_growth)&y2=2/vx16=2:Py1/3/4/80;				4
+	!-!FU(reduce_growth)&y2=2/vx16=2:Py1/4/3/95;			    3
 	
-	; Elemental Palace
-	!!FU(reduce_growth)&y2=4/vx16=2:Py1/0/12/70;	
-	!!FU(reduce_growth)&y2=4/vx16=2:Py1/1/8/90;
-	!!FU(reduce_growth)&y2=4/vx16=2:Py1/2/7/95;	
-	!!FU(reduce_growth)&y2=4/vx16=2:Py1/3/4/90;
-	!!FU(reduce_growth)&y2=4/vx16=2:Py1/4/3/70;		60;
-	!!FU(reduce_growth)&y2=4/vx16=2:Py1/5/2/50;
+	; Elemental Palace     
+	!!FU(reduce_growth)&y2=2/vx16=3:Py1/0/16/70;				1 level
+	!-!FU(reduce_growth)&y2=2/vx16=3:Py1/1/9/90;
+	!-!FU(reduce_growth)&y2=2/vx16=3:Py1/2/4/95;	
+	!-!FU(reduce_growth)&y2=2/vx16=3:Py1/3/5/90;
+	!!FU(reduce_growth)&y2=2/vx16=3:Py1/4/3/60;		60;			5 level
+	!!FU(reduce_growth)&y2=2/vx16=3:Py1/5/2/50;					6 level
 
 
 	!!FU(nnh2towns):E;

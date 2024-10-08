@@ -1,0 +1,244 @@
+ZVSE
+
+
+ ; Ice Castle - based on Tower
+
+	
+-------------------------------------------------------------------	
+	
+!?FU(icecastle___town); 					
+
+-----------------------------
+ ;  replace town screen
+-----------------------------
+
+!!FU(SetBuilding'sPosition):P2/0/0/0;
+!!FU(SetBuilding'sPosition):P2/1/0/0;
+!!FU(SetBuilding'sPosition):P2/2/0/0;
+!!FU(SetBuilding'sPosition):P2/3/0/0;
+!!FU(SetBuilding'sPosition):P2/4/0/0;
+!!FU(SetBuilding'sPosition):P2/5/0/0;		tavern
+!-!FU(SetBuilding'sPosition):P4/6/0/0;		shipyard
+
+!!FU(SetBuilding'sPosition):P2/7/0/0;
+!!FU(SetBuilding'sPosition):P2/8/0/0;
+!!FU(SetBuilding'sPosition):P2/9/0/0;
+!!FU(SetBuilding'sPosition):P2/10/0/0;
+!!FU(SetBuilding'sPosition):P2/11/0/0;
+!!FU(SetBuilding'sPosition):P2/12/0/0;
+!!FU(SetBuilding'sPosition):P2/13/0/0;
+!!FU(SetBuilding'sPosition):P2/14/0/0;	market
+!!FU(SetBuilding'sPosition):P2/15/0/0;	silo
+!!FU(SetBuilding'sPosition):P2/16/0/0;	blacksmith
+!!FU(SetBuilding'sPosition):P2/17/0/0;	artifact traders
+!!FU(SetBuilding'sPosition):P2/21/0/0;	increaser of magic
+!!FU(SetBuilding'sPosition):P2/22/0/0;	library  EXT1
+!!FU(SetBuilding'sPosition):P2/23/0/0;
+!!FU(SetBuilding'sPosition):P2/24/0/0;
+!!FU(SetBuilding'sPosition):P2/25/0/0;
+!!FU(SetBuilding'sPosition):P2/26/0/0;	grail
+!!FU(SetBuilding'sPosition):P2/27/0/0;
+!!FU(SetBuilding'sPosition):P2/28/0/0;
+!!FU(SetBuilding'sPosition):P2/29/0/0;
+!!FU(SetBuilding'sPosition):P2/30/0/0;	level 1		
+!!FU(SetBuilding'sPosition):P2/31/0/0;
+!!FU(SetBuilding'sPosition):P2/32/0/0;	3
+!!FU(SetBuilding'sPosition):P2/33/0/0;
+!!FU(SetBuilding'sPosition):P2/34/0/0;	5
+!!FU(SetBuilding'sPosition):P2/35/0/0;
+!!FU(SetBuilding'sPosition):P2/36/0/0;
+!!FU(SetBuilding'sPosition):P2/37/0/0;		upg lv	1	
+!!FU(SetBuilding'sPosition):P2/38/0/0;		
+!!FU(SetBuilding'sPosition):P2/39/0/0;		
+!!FU(SetBuilding'sPosition):P2/40/0/0;
+!!FU(SetBuilding'sPosition):P2/41/0/0;
+!!FU(SetBuilding'sPosition):P2/42/0/0;
+!!FU(SetBuilding'sPosition):P2/43/0/0;
+
+!-!FU(SetBuilding'sPriority):P2/9/19;		Castle over Grail texture
+
+
+
+!!SN:R^tbtwback.pcx^/^icecback.pcx^;
+!!SN:R^TowerTown.mp3^/^IceCastle.mp3^;
+
+!-!SN:R^itpt.def^/^itpt_v1.def^;				town left avatar var1
+!!SN:R^TPMAGETW.pcx^/^TPMAGEic.pcx^;
+!!SN:R^TPCASTOW.PCX^/^TPCASice.pcx^;
+!!SN:R^HALLTowr.def^/^HALLicec.def^;
+
+ ; docks 
+
+!!SN:R^tbtwblak.def^/^ice-spec2.def^;
+!!SN:R^TBTWCAS2.def^/^ice-cas2.def^;
+!!SN:R^TBTWCAS3.def^/^ice-cas3.def^;
+!!SN:R^TBTWCSTL.def^/^ice-cas1.def^;
+!!SN:R^TBTWDW_0.def^/^ice-dw4.def^;
+!!SN:R^TBTWDW_1.def^/^ice-dw1.def^;
+!!SN:R^TBTWDW_2.def^/^ice-spec3.def^;
+!!SN:R^TBTWDW_3.def^/^ice-dw2.def^;
+!!SN:R^TBTWDW_4.def^/^ice-yeti1.def^;
+!!SN:R^TBTWDW_5.def^/^ice-dw3.def^;
+!!SN:R^TBTWDW_6.def^/^ice-dw7.def^;
+!!SN:R^TBTWEXT0.def^/^^;
+!!SN:R^TBTWEXT1.def^/^ice-dw5u.def^;
+!!SN:R^TBTWEXT2.def^/^ice-holes.def^;		//	wall of knowledge
+!!SN:R^TBTWHAL2.def^/^ice-hall2.def^;
+!!SN:R^TBTWHAL3.def^/^ice-hall3.def^;
+!!SN:R^TBTWHAL4.def^/^ice-hall3.def^;
+!!SN:R^TBTWHALL.def^/^ice-hall1.def^;
+!!SN:R^TBTwHoly.def^/^ele-grail.def^;
+!!SN:R^TBTWHRD1.def^/^ice-dw1.def^;
+!!SN:R^TBTWHRD2.def^/^ice-dw1.def^;
+!!SN:R^TBTWMAG2.def^/^ice-mg2.def^;
+!!SN:R^TBTWMAG3.def^/^ice-mg3.def^;
+!!SN:R^TBTWMAG4.def^/^ice-mg4.def^;
+!!SN:R^TBTWMAG5.def^/^ice-mg4.def^;
+!!SN:R^TBTWMAGE.def^/^ice-mg1.def^;
+!!SN:R^TBTWMARK.def^/^ice-smith.def^;				 
+!!SN:R^TBTWSILO.def^/^ice-dw5.def^;
+!!SN:R^TBTWSPEC.def^/^ice-artif.def^;		artifact traders
+!!SN:R^TBTWTVRN.def^/^ice-tavern.def^;
+!!SN:R^TBTWUP_0.def^/^ice-dw4u.def^;
+!!SN:R^TBTWUP_1.def^/^ice-dw1.def^;
+!!SN:R^TBTWUP_2.def^/^ice-spec3.def^;
+!!SN:R^TBTWUP_3.def^/^ice-dw2u.def^;
+!!SN:R^TBTWUP_4.def^/^ice-yeti2.def^;
+!!SN:R^TBTWUP_5.def^/^ice-dw3.def^;
+!!SN:R^TBTWUP_6.def^/^ice-dw7u.def^;
+
+!!SN:R^TOTBlkA.pcx^/^to-spec2b.pcx^;
+!!SN:R^TOTCas1.pcx^/^to-cas1b.pcx^;
+!!SN:R^TOtcas2.pcx^/^to-cas2b.pcx^;
+!!SN:R^TOTCas3.pcx^/^to-cas3b.pcx^;
+!!SN:R^TOTCasW.pcx^/^^;
+!!SN:R^TOTGar1.pcx^/^to-dw1b.pcx^;
+!!SN:R^TOTGar1H.pcx^/^to-dw1b.pcx^;
+!!SN:R^TOTGar2.pcx^/^to-dw1b.pcx^;
+!!SN:R^TOTGar2H.pcx^/^to-dw1b.pcx^;
+!!SN:R^TOTGen1.pcx^/^to-yeti1.pcx^;
+!!SN:R^TOTGen2.pcx^/^to-yeti1.pcx^;
+!!SN:R^TOTGld1.pcx^/^to-mg1b.pcx^;
+!!SN:R^TOTGld2.pcx^/^to-mg2b.pcx^;
+!!SN:R^TOTGld3.pcx^/^to-mg3b.pcx^;
+!!SN:R^TOTGld4.pcx^/^to-mg4b.pcx^;
+!!SN:R^TOTGld5.pcx^/^to-mg4b.pcx^;
+!!SN:R^TOTGldL.pcx^/^to-dw5ub.pcx^;		library EXT1
+!!SN:R^TOTGldW.pcx^/^to-holesb.pcx^;	ext2 wall of knowledge
+!!SN:R^TOTGol1A.pcx^/^to-spec3b.pcx^;
+!!SN:R^TOTGol2A.pcx^/^to-spec3b.pcx^;
+!!SN:R^TOTGrm1A.pcx^/^to-dw4b.pcx^;
+!!SN:R^TOTGrm2A.pcx^/^to-dw4ub.pcx^;
+!!SN:R^TOTHal1.pcx^/^to-hall1b.pcx^;
+!!SN:R^TOTHal2.pcx^/^to-hall2b.pcx^;
+!!SN:R^TOTHal3.pcx^/^to-hall3b.pcx^;
+!!SN:R^TOTHal4.pcx^/^to-hall3b.pcx^;
+!!SN:R^TOTHolyA.pcx^/^to-grailb.pcx^;
+!!SN:R^TOTMag1.pcx^/^to-dw2b.pcx^;
+!!SN:R^TOTMag2.pcx^/^to-dw2b.pcx^;
+!!SN:R^TOTMrk.pcx^/^to-smithb.pcx^;
+!!SN:R^TOTMrkA.pcx^/^toiceartif.pcx^;
+!!SN:R^TOTMrkS.pcx^/^to-dw5b.pcx^;
+!!SN:R^TOTNag1.pcx^/^to-dw3b.pcx^;
+!!SN:R^TOTNag2.pcx^/^to-dw3b.pcx^;
+!!SN:R^TOTTav.pcx^/^to-tavernb.pcx^;
+!!SN:R^TOTTit1.pcx^/^to-dw7b.pcx^;
+!!SN:R^TOTTit2.pcx^/^to-dw7b.pcx^;
+
+!!SN:R^TZTBLKA.pcx^/^tz-spec2a.pcx^;		blacksmith
+!!SN:R^TZTCAS1.pcx^/^tz-cas1a.pcx^;
+!!SN:R^TZTCAS2.pcx^/^tz-cas2a.pcx^;
+!!SN:R^TZTCAS3.pcx^/^tz-cas3a.pcx^;
+!!SN:R^TZTCASW.pcx^/^^;
+!!SN:R^TZTGAR1.pcx^/^tz-dw1a.pcx^;
+!!SN:R^TZTGAR1H.pcx^/^tz-dw1a.pcx^;
+!!SN:R^TZTGAR2.pcx^/^tz-dw1a.pcx^;
+!!SN:R^TZTGAR2H.pcx^/^tz-dw1a.pcx^;
+!!SN:R^TZTGEN1.pcx^/^tz-yeti1.pcx^;
+!!SN:R^TZTGEN2.pcx^/^tz-yeti1.pcx^;
+!!SN:R^TZTGLD1.pcx^/^tz-mg1a.pcx^;
+!!SN:R^TZTGLD2.pcx^/^tz-mg2a.pcx^;
+!!SN:R^TZTGLD3.pcx^/^tz-mg3a.pcx^;
+!!SN:R^TZTGLD4.pcx^/^tz-mg4a.pcx^;
+!!SN:R^TZTGLD5.pcx^/^tz-mg4a.pcx^;
+!!SN:R^TZTGLDL.pcx^/^tz-dw5ua.pcx^;
+!!SN:R^TZTGLDW.pcx^/^tz-holesa.pcx^;
+!!SN:R^TZTGOL1A.pcx^/^tz-spec3a.pcx^;
+!!SN:R^TZTGOL2A.pcx^/^tz-spec3a.pcx^;
+!!SN:R^TZTGRM1A.pcx^/^tz-dw4a.pcx^;
+!!SN:R^TZTGRM2A.pcx^/^tz-dw4ua.pcx^;
+!!SN:R^TZTHAL1.pcx^/^tz-hall1a.pcx^;
+!!SN:R^TZTHAL2.pcx^/^tz-hall2a.pcx^;
+!!SN:R^TZTHAL3.pcx^/^tz-hall3a.pcx^;
+!!SN:R^TZTHAL4.pcx^/^tz-hall3a.pcx^;
+!!SN:R^TZTHOLYA.pcx^/^tz-graila.pcx^;
+!!SN:R^TZTMAG1.pcx^/^tz-dw2a.pcx^;
+!!SN:R^TZTMAG2.pcx^/^tz-dw2a.pcx^;
+!!SN:R^TZTMRK.pcx^/^tz-smitha.pcx^;
+!!SN:R^TZTMRKA.pcx^/^tziceartif.pcx^;
+!!SN:R^TZTMRKS.pcx^/^tz-dw5a.pcx^;
+!!SN:R^TZTNAG1.pcx^/^tz-dw3a.pcx^;
+!!SN:R^TZTNAG2.pcx^/^tz-dw3a.pcx^;
+!!SN:R^TZTTAV.pcx^/^tz-taverna.pcx^;
+!!SN:R^TZTTIT1.pcx^/^tz-dw7a.pcx^;
+!!SN:R^TZTTIT2.pcx^/^tz-dw7a.pcx^;
+
+
+
+ ; set building priority
+!-!FU(SetBuilding'sPriority):P2/26/37;		Grail 
+!-!FU(SetBuilding'sPriority):P2/7/37;
+
+!-!FU(SetBuilding'sPriority):P2/14/39;		market
+!-!FU(SetBuilding'sPriority):P2/8/38;
+!-!FU(SetBuilding'sPriority):P2/9/19;		Castle over Grail texture
+ 
+!-!FU(SetBuilding'sPriority):P2/32/7;	
+!-!FU(SetBuilding'sPriority):P2/33/8;	
+!-!FU(SetBuilding'sPriority):P2/34/9;
+!-!FU(SetBuilding'sPriority):P2/35/33;
+!-!FU(SetBuilding'sPriority):P2/36/41;
+
+!-!FU(SetBuilding'sPriority):P2/5/40;
+
+
+
+
+	; replace creatures
+	!!FU(icecastle___monsters):P;
+	
+	
+!!FU(icecastle___town):E;  end function 
+
+
+
+
+
+
+------------------------------------------------
+
+
+!?FU(icecastle___monsters);
+
+!!UN:T2/0/0/476;
+!!UN:T2/0/1/477;
+!!UN:T2/1/0/478;
+!!UN:T2/1/1/479;
+!!UN:T2/2/0/480;
+!!UN:T2/2/1/481;	
+!!UN:T2/3/0/482;
+!!UN:T2/3/1/483;
+!!UN:T2/4/0/484;	
+!!UN:T2/4/1/485;	
+!!UN:T2/5/0/486;
+!!UN:T2/5/1/487;
+!!UN:T2/6/0/488;
+!!UN:T2/6/1/489;
+
+!!FU(icecastle___monsters):E;	
+	
+	
+	
+	
+	
+	

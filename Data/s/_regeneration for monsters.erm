@@ -32,7 +32,12 @@ ZVSE2
 !!if&(monType)=507;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=90:S7;	!!en;	homuncul
 !!if&(monType)=508;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=100:S10;	!!en;	shined homuncul
 
-  
+ ; Pyramid
+!!if&(monType)=548;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=100:S200; !!en;	Avatar Anubis 
+
+ ; Preserve
+!!if&(monType)=569;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=100:S35;	!!en;	dryads
+!!if&(monType)=570;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=100:S35;	!!en;	oak dryads  
   
 !!en;
 

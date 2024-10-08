@@ -137,6 +137,7 @@ Stronghold
  ----------------------------
  
 !!SN:R^tbstback.pcx^/^TBSTBACKn.pcx^;			replace background
+!-!SN:R^tbstback.pcx^/^TBSTBACK1.pcx^;			replace background
 !!SN:R^StrongHold.mp3^/^Sandtown.mp3^;
 !!SN:R^TBStCas2.def^/^TBStCas2n.def^;			
 !!SN:R^TBStCstl.def^/^TBStCstln.def^;
@@ -144,8 +145,9 @@ Stronghold
 !!SN:R^TBStDw_6.def^/^TBStDw_6n.def^;
 !!SN:R^TBStExt3.def^/^TBStExt3n.def^;
 !!SN:R^TBStHal4.def^/^TBStHal4n.def^;
-!!SN:R^TBStMag2.def^/^TBStMag2n.def^;
+!!SN:R^TBStMag2.def^/^TBSaMag2.def^;
 !!SN:R^TBStMag3.def^/^TBStMag3n.def^;
+!!SN:R^TBStMage.def^/^TBSaMage.def^;
 !!SN:R^TBStUp_1.def^/^TBStUp_1n.def^;
 !!SN:R^TBStUp_4.def^/^TBStUp_4n.def^;
 !!SN:R^TBStUp_6.def^/^TBStUp_6n.def^;

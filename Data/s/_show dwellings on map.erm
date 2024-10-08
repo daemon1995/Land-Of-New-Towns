@@ -18,10 +18,35 @@ ZVSE
 !-!FU(show_on_map):P17/124;		Serafims
 !-!IF:M^Done!^;			  %v100  
 
+
+ ; Creatures
+!-!FU(show_on_map):P54/483;		
+!-!FU(show_on_map):P54/485;	
+!-!FU(show_on_map):P54/489;		
+!-!FU(show_on_map):P54/495;
+!-!FU(show_on_map):P54/497;		
+!-!FU(show_on_map):P54/499;
+!-!FU(show_on_map):P54/502;		
+!-!FU(show_on_map):P54/504;	
+
+
 !-!FU(show_on_map):P17/65;		
-!-!FU(show_on_map):P17/64;		
+!-!FU(show_on_map):P17/64;	
+
+
+ ; Utopia
+!--!FU(show_on_map):P25/0; 
+!--!FU(show_on_map):P63/83;
+!--!FU(show_on_map):P63/84;
+!--!FU(show_on_map):P63/88;
+
+!-!FU(show_on_map):P35/0;
+!-!FU(show_on_map):P35/1;
 !-!IF:M^Done!^;	
 
+
+!-?FU(OnEveryDay);
+!-!FU(show_on_map):P35/1;
 
 
 
