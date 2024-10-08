@@ -95,8 +95,8 @@ ZVSE
 !!SN:R^TBCSHAL4.def^/^COV13.def^;
 !!SN:R^TBCSHALL.def^/^COV10.def^;
 !!SN:R^TBCSHOLY.def^/^COV26.def^;
-!-!SN:R^TBCSHRD1.def^/^COV32.def^;		grifons horde
-!-!SN:R^TBCSHRD2.def^/^COV39.def^;		grifons horde upg		COV39.def
+!!SN:R^TBCSHRD1.def^/^COV31.def^;		grifons horde							?
+!!SN:R^TBCSHRD2.def^/^COV38.def^;		grifons horde upg		COV39.def		?
 !!SN:R^TBCSMAG2.def^/^COV01.def^;
 !!SN:R^TBCSMAG3.def^/^COV02.def^;
 !!SN:R^TBCSMAG4.def^/^COV03.def^;

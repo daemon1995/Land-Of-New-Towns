@@ -259,16 +259,16 @@ fast
 
 Cast luck
 cast luck on allies and himself
-shoot
-Cure allies
+
+15% reduce defence
 cast happiness on allies
 cast happiness on allies 2 times 
-
-inflicts disease when attacking an enemy
-Binds enemies in place.
-Binds enemies in place.. 20% chance create clone, regeneration
-Shoot, Immune to fire spells, no melee penalty
-Shoots a fireball, Immune to fire spells, no melee penalty
+fly, magic aura
+Fly, Magic Aura, luck, 40% spell resistance
+Roots enemies in place.
+Roots enemies in place. 20% chance create clone, regeneration
+Always high moral
+Cast resurrection 2 times. Always high moral
 
 
 
@@ -285,18 +285,18 @@ Shoots a fireball, Immune to fire spells, no melee penalty
 
 fly
 fly, curse enemies
-20% magic resistance
-close range shooting, mind immune, 20% magic resistance
-range retallion
-range retallion, no obstacle penalty
-Fly, Magic Aura
-Fly, Magic Aura, luck
+30% magic resistance
+chance of cast magic arrow, 50% magic resistance
+shoot
+Precision, range retaliation
 
-
+Cure allies
+always high moral
+Cast bless on allies. Always high moral. 30% magic resistance.
 Magic Aura, fearless
-Magic Aura, fearless. Cast Ice lightning 3 times
-Always high moral
-Cast resurrection 2 times. Always high moral
+Magic Aura, fearless. Cast Ice lightning. Protection from Earth
+Shoots, Immune to fire spells, no melee penalty
+Shoots a fireball, Immune to fire spells, no melee penalty
 
 
 
@@ -327,8 +327,8 @@ teleport, chance of casting aging spell
 Teleport, increased chance of casting aging spell.  Ñreates mummies from killed allies
 
 
-
-
+Undead. -1 to enemy morale. 30% chance to block attack. Aging. Acid breath. Magic resistance 50%. Attacks twice. Fear. Fearlessness
+Undead, 50% chance of casting  Titan's Thunder, 50% reduce defence
 
 
 
@@ -476,6 +476,34 @@ Bind enemies
 
 
 
+shoot
+
+luck, immune for spells level 1
+immune to ice bolt, frost ring
+no enemy retaliation, fearless, immune to ice bolt, frost ring
+
+20% chance death blow, retalitation
+
+35% chance of death blow
+
+40% chance of regeneration, chance of selfhaste, immune to cold
+15% protection from shooting
+fear, 25% protection from shooting, immune to cold
+neutral moral
+neutral moral, 20% protection from shooting, immune to cold
+fly, neutral moral, 30% protection from shooting
+shoot, fly, neutral moral, 30% protection from shooting
+neutral moral, vulnerability to fire
+Chance of ice circle, neutral moral, vulnerability to fire. Protection from Air.
+neutral moral
+chance of incorporeality, cast ice bolt, neutral moral
+neutral moral, 20% protection of shooting
+cast earthquake, neutral moral, 60% protection of shooting
+neutral moral, immune to ice bolt, frost ring
+protect from shooting 15%, neutral moral, attack on 2 cells,  immune for ice bolt frost ring
+Shoot, neutral moral, mind immune, attack on 2 cells,  immune for ice bolt frost ring
+50% magic resistance, neutral moral, immune for ice bolt frost ring
+cast frost ring, 70% magic resistance, neutral moral, immune for ice bolt frost ring
 
 
 
@@ -501,37 +529,9 @@ Bind enemies
 
 
 
+Curse on attack
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+immune for 1-4 spell levels, mindspell immune
 
 
 
@@ -1261,16 +1261,16 @@ fast
 
 Cast luck
 cast luck on allies and himself
-shoot
-Cure allies
-cast happiness on allies
-csat happiness 2 times on allies
 
-disease on attack
-Binds enemies in place by roots.
-Binds enemies in place by roots. 20% chance create clone, regeneration
-Shoot, Immune to fire spells, no melee penalty
-Shoot fireball, Immune to fire spells, no melee penalty
+15% reduce defence
+cast happiness on allies
+cast happiness on allies 2 times 
+fly, magic aura
+Fly, Magic Aura, luck, 40% spell resistance
+Roots enemies in place.
+Roots enemies in place. 20% chance create clone, regeneration
+Always high moral
+Cast resurrection 2 times. Always high moral
 
 
 
@@ -1287,18 +1287,18 @@ Shoot fireball, Immune to fire spells, no melee penalty
 
 fly
 fly, curse enemies
-20% magic resistance
-close range shooting, mind immune, 20% magic resistance
-range retallion
-range retallion, no obstacle penalty
-Fly, Magic Aura
-Fly, Magic Aura, luck
+30% magic resistance
+chance of cast magic arrow, 50% magic resistance
+shoot
+Precision, range retaliation
 
-
+Cure allies
+always high moral
+Cast bless on allies. Always high moral. 30% magic resistance.
 Magic Aura, fearless
-Magic Aura, fearless. Cast Ice lightning 3 times
-Always high moral
-Cast resurrection 2 times. Always high moral
+Magic Aura, fearless. Cast Ice lightning. Protection from Earth
+Shoots, Immune to fire spells, no melee penalty
+Shoots a fireball, Immune to fire spells, no melee penalty
 
 
 
@@ -1329,7 +1329,7 @@ teleport, chance of casting aging spell
 Teleport, increased chance of casting aging spell.  Ñreates mummies from killed allies
 
 
-
+Undead. -1 to enemy morale. 30% chance to block attack. Aging. Acid breath. Magic resistance 50%. Attacks twice. Fear. Fearlessness
 Undead, 50% chance of casting  Titan's Thunder, 50% reduce defence
 
 
@@ -1478,34 +1478,34 @@ Bind enemies
 
 
 
+shoot
 
+luck, immune for spells level 1
+immune to ice bolt, frost ring
+no enemy retaliation, fearless, immune to ice bolt, frost ring
 
+20% chance death blow, retalitation
 
+35% chance of death blow
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-neutral moral, immune for ice bolt frost ring
+40% chance of regeneration, chance of selfhaste, immune to cold
+15% protection from shooting
+fear, 25% protection from shooting, immune to cold
+neutral moral
+neutral moral, 20% protection from shooting, immune to cold
+fly, neutral moral, 30% protection from shooting
+shoot, fly, neutral moral, 30% protection from shooting
+neutral moral, vulnerability to fire
+Chance of ice circle, neutral moral, vulnerability to fire. Protection from Air.
+neutral moral
+chance of incorporeality, cast ice bolt, neutral moral
+neutral moral, 20% protection of shooting
+cast earthquake, neutral moral, 60% protection of shooting
+neutral moral, immune to ice bolt, frost ring
 protect from shooting 15%, neutral moral, attack on 2 cells,  immune for ice bolt frost ring
 Shoot, neutral moral, mind immune, attack on 2 cells,  immune for ice bolt frost ring
 50% magic resistance, neutral moral, immune for ice bolt frost ring
-70% magic resistance, neutral moral, immune for ice bolt frost ring
+cast frost ring, 70% magic resistance, neutral moral, immune for ice bolt frost ring
 
 
 
@@ -1531,7 +1531,9 @@ Shoot, neutral moral, mind immune, attack on 2 cells,  immune for ice bolt frost
 
 
 
+Curse on attack
 
+immune for 1-4 spell levels, mindspell immune
 
 
 
@@ -2000,6 +2002,4 @@ Shoot, neutral moral, mind immune, attack on 2 cells,  immune for ice bolt frost
 
 
 
-
-
->>>>>>> 77c3f8ee4df656ba3ec9804a6acb7400ec88bda9
+>>>>>>> 582f6eb0703fb3590472fde8c8bdde82fef6369c

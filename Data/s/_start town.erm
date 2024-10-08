@@ -11,18 +11,25 @@ ZVSE
  ; x2 - town_id on map  (0- for first player, 1- Ai_1,  2- Ai_2)
 
 !!VRy1:Sx2+4000;				v4000 v4001 v4002
-!!CA0/x2:P?y20/?y21/?y22;		get coordinates of town_id (0,1,2)
+!!CA0/x2:P?y20/?y21/?y22;		get coordinates of town_id (0,1,2 ...)
 
 
 
 
 !!VRvy1&x1=97:S0;				default homm3 town 
+	
+!!VRy30&x1=98:R11; 				random town generate variable old:R25(99...119)
+!!VRx1&x1=98:Sy30+99;			(99...110)
 
-!!VRi^random_town^&x1=98:R20; 		random town 
-!!VRy1&x1=98:Si^random_town^+99;	(99...119)
 
 !!CAy20/y21/y22&x1=99:T1;		WonderWoods (base on Rampart)
 !!VRvy1&x1=99:S1;
+
+!-!CAy20/y21/y22&x1=99:T1;	!!VRvy1&x1=99:S1;		WonderWoods (base on Rampart)
+!-!CAy20/y21/y22&x1=100:T8;	!!VRvy1&x1=100:S1;		Eldorado
+!-!CAy20/y21/y22&x1=101:T6;	!!VRvy1&x1=101:S1;		SandTown	
+!-!CAy20/y21/y22&x1=102:T5;	!!VRvy1&x1=102:S1;		ShadowTown
+!-!CAy20/y21/y22&x1=103:T8;	!!VRvy1&x1=103:S2;		Neutral town	
 
 !!CAy20/y21/y22&x1=100:T8;		Eldorado 
 !!VRvy1&x1=100:S1;				
@@ -36,23 +43,36 @@ ZVSE
 !!CAy20/y21/y22&x1=103:T8;		Neutral town 
 !!VRvy1&x1=103:S2;	
 
-!!CAy20/y21/y22&x1=104:T1;		Druid Town 
+!!CAy20/y21/y22&x1=104:T1;		Magic Forest	ex. Druid Town 
 !!VRvy1&x1=104:S2;				
 
 
- ; edit for 3.1
-!!CAy20/y21/y22&x1=105:T1;		Forest Town 
-!!VRvy1&x1=105:S3;	 
+
+!!CAy20/y21/y22&x1=105:T1;		Druid Town 
+!!VRvy1&x1=105:S3;	
+
+	
 
 !!CAy20/y21/y22&x1=106:T6;		Bastion Town 
 !!VRvy1&x1=106:S2;
 
+
+
 !!CAy20/y21/y22&x1=107:T0;		Cove (Castle based)     
 !!VRvy1&x1=107:S1;	
 
-!!CAy20/y21/y22&x1=108:T0;		Temple of Light (Castle based)     
+
+
+!!CAy20/y21/y22&x1=108:T0;		Knight's Castle (Castle based)     
 !!VRvy1&x1=108:S3;
- 
+
+
+
+!!CAy20/y21/y22&x1=109:T2;		Ice Castle       4/1
+!!VRvy1&x1=109:S2;
+
+!!CAy20/y21/y22&x1=110:T2;		Elemental Palace     
+!!VRvy1&x1=110:S3;
 
 
 
@@ -60,6 +80,3 @@ ZVSE
 
 
 !!FU(start_town):E;
-
-
-

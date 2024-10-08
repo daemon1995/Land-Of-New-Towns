@@ -26,20 +26,23 @@ vx16						vx16 - new type of town (default / new / new_var2 / new_var3)
  
 !!UN&y2=1/vx16=0:Iy10/y11/y12/63/91/1;		Rampart (default vx16=0)
 !!UN&y2=1/vx16=1:Iy10/y11/y12/63/101/1;		WonderWoods 
-!!UN&y2=1/vx16=2:Iy10/y11/y12/63/106/1;		Druids town
-!!UN&y2=1/vx16=3:Iy10/y11/y12/63/108/1;		Forest town
-!!UN&y2=1/vx16=4:Iy10/y11/y12/63/114/1;		Kitezh Grad
+!!UN&y2=1/vx16=2:Iy10/y11/y12/63/106/1;		Magic Forest
+!!UN&y2=1/vx16=3:Iy10/y11/y12/63/108/1;		
+!!UN&y2=1/vx16=4:Iy10/y11/y12/63/114/1;		
+!!UN&y2=1/vx16=5:Iy10/y11/y12/63/126/1;				
 
 !!UN&y2=2/vx16=0:Iy10/y11/y12/63/92/1;		Tower
-!!UN&y2=2/vx16=1:Iy10/y11/y12/63/109/1;		Monastery
+!!UN&y2=2/vx16=1:Iy10/y11/y12/63/109/1;		
+!!UN&y2=2/vx16=2:Iy10/y11/y12/63/120/1;		Ice Castle
+!!UN&y2=2/vx16=3:Iy10/y11/y12/63/121/1;		Elemental Palace
 
 !!UN&y2=3/vx16=0:Iy10/y11/y12/63/93/1;		Inferno
-!!UN&y2=3/vx16=1:Iy10/y11/y12/63/117/1;		Techno town
-!-!UN&y2=3/vx16=1:Iy10/y11/y12/63/99/1;		town with Random monsters
+!!UN&y2=3/vx16=1:Iy10/y11/y12/63/117/1;		
+!!UN&y2=3/vx16=2:Iy10/y11/y12/63/122/1;		
+!-!UN&y2=3/vx16=1:Iy10/y11/y12/63/99/1;		
 
 !!UN&y2=4/vx16=0:Iy10/y11/y12/63/94/1;		Necropolis
-!!UN&y2=4/vx16=1:Iy10/y11/y12/63/120/1;		Ice Castle
-!!UN&y2=4/vx16=2:Iy10/y11/y12/63/121/1;		Elemental Palace
+!!UN&y2=4/vx16=1:Iy10/y11/y12/63/123/1;		Abandoned Pyramid
 
 !!UN&y2=5/vx16=0:Iy10/y11/y12/63/95/1;		Dungeon (default)
 !!UN&y2=5/vx16=1:Iy10/y11/y12/63/104/1;		Shadow town
@@ -49,6 +52,8 @@ vx16						vx16 - new type of town (default / new / new_var2 / new_var3)
 !!UN&y2=6/vx16=0:Iy10/y11/y12/63/96/1;		Stronghold
 !!UN&y2=6/vx16=1:Iy10/y11/y12/63/103/1;		Sand town
 !!UN&y2=6/vx16=2:Iy10/y11/y12/63/110/1;		Bastion
+!!UN&y2=6/vx16=3:Iy10/y11/y12/63/124/1;		Pyramid
+!!UN&y2=6/vx16=4:Iy10/y11/y12/63/125/1;		Ancent Temple
 
 !!UN&y2=7/vx16=0:Iy10/y11/y12/63/97/1;		Fortress
 !!UN&y2=7/vx16=1:Iy10/y11/y12/63/107/1;		Mystic town

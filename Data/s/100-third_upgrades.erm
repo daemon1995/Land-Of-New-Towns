@@ -2,14 +2,24 @@ ZVSE
 
 
 
-!?PI;
+!-?PI;
+!-!FU(third_upgrades_and_deny_buildings):P;
 
-!--?CM0; temporary
-!--!IF:M^11^;
 
- ; 3rd upgrades (my)
-!!MA:U99/456;				Upg. Gnolls to GnollsShamans (expensive)
-!!MA:U23/461;				Ents leaders
+!?FU(OnGameEnter);
+!-!IF:M^asdasdas^;
+!!FU(third_upgrades_and_deny_buildings):P;
+
+
+
+-----------------------------------------------------------
+
+!?FU(third_upgrades_and_deny_buildings);
+
+ ; 3rd upgrades (my) 
+ ; keep this
+!-!MA:U99/456;				Upg. Gnolls to GnollsShamans (expensive)  temporary disable
+!-!MA:U23/461;				Ents leaders							temporary disable
 !-!MA:U131/459;				upgrade Phoenix to Sunrise Phoenix
  
  
@@ -26,7 +36,7 @@ vx16						vx16 - new type of town (default / new / new_var2 / new_var3)
 
 
 -----------------------------------------------
- ; disable some special bilding for new towns:
+ ; disable some special building for new towns:
 -----------------------------------------------
  
  ; disallow to build griffon's horde for Cove 
@@ -40,19 +50,19 @@ vx16						vx16 - new type of town (default / new / new_var2 / new_var3)
 !!CA0/y1&y2=2/vx16=1:B5/21; 	disallow View tower (21) for Monastery
 !!CA0/y1&y2=0/vx16=2:B5/17;		disallow Mayak (17) for Ruins
 
- ; disallow for IceCastle
-!!CA0/y1&y2=4/vx16=1:B5/6;		shipyard 
-!!CA0/y1&y2=4/vx16=1:B5/17;		Cover of Darkness
-!!CA0/y1&y2=4/vx16=1:B5/18;		skeletons horde1
-!!CA0/y1&y2=4/vx16=1:B5/19;		skeletons horde2
-!!CA0/y1&y2=4/vx16=1:B5/22;		Skeleton Transformer
 
- ; disallow for Elemental Palace
-!!CA0/y1&y2=4/vx16=2:B5/6;		shipyard 
-!!CA0/y1&y2=4/vx16=2:B5/17;		Cover of Darkness
-!!CA0/y1&y2=4/vx16=2:B5/18;		skeletons horde1
-!!CA0/y1&y2=4/vx16=2:B5/19;		skeletons horde2
-!!CA0/y1&y2=4/vx16=2:B5/22;		Skeleton Transformer
+ ; disallow for IceCastle
+!!CA0/y1&y2=2/vx16=2:B5/4;			mage_guild level 5
+!!CA0/y1&y2=2/vx16=2:B5/17;			artifacts traders
+!!CA0/y1&y2=2/vx16=2:B5/21;			view tower
+!!CA0/y1&y2=2/vx16=2:B5/23;			wall of knowledge
+
+
+ ; Elemental Palace
+!!CA0/y1&y2=2/vx16=2:B5/4;			mage_guild level 5
+!!CA0/y1&y2=2/vx16=2:B5/17;			artifacts traders
+!!CA0/y1&y2=2/vx16=2:B5/23;			wall of knowledge
+
 
 
 
@@ -78,7 +88,7 @@ vx16						vx16 - new type of town (default / new / new_var2 / new_var3)
 
 
  ; Elemental Palace
-!!FU(dex_SetDwellingSlotByTownId)&y2=4/vx16=2:Py1/5/1/2/502/100;		snow golems-enchanters
+!!FU(dex_SetDwellingSlotByTownId)&y2=2/vx16=3:Py1/5/1/2/502/100;		snow golems-enchanters
 
 
 ; Fortress
@@ -97,6 +107,10 @@ vx16						vx16 - new type of town (default / new / new_var2 / new_var3)
  
 
 !!FU(nn2p):E; 
+
+
+
+!!FU(third_upgrades_and_deny_buildings):E;
 
 
  ; temporary

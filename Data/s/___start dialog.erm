@@ -25,13 +25,16 @@ ZVSE
 
 !?PI;
 !!VRv4058:C0/0; 						v4058 sel. tw/v4059 tw nums
-!!VRv4059:S12;							max number of selection    23
+!!VRv4059:S14;							max number of selection	28
 !!VRv360:Sv4059 -1 +97; 97-144	
 
 
 !!DL528:N^start_dlg1.txt^;				read DL information
 
-!!DL528:S;
+!-!IF:M^1^;
+!-!DL528:S;
+
+
 
 
 

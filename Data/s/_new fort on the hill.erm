@@ -1,0 +1,37 @@
+ZVSE
+
+ ; new fort on hill type/subtype 35/1
+
+
+
+ ; visit new (Gold) fort on the hill   
+!?OB35/1;
+
+!!MA:U193/136; 		[upg sorceress to enchanter]
+!-!IF:M^Gold fort on hill^;
+!!MA:U23/461;		to dendroid-leader
+!!MA:U37/454;		upg master-genie to sky-genie
+!!MA:U29/455;		master-gremlens  to grandmaster-gremlins
+!!MA:U99/456;		gnoll to gnoll-shaman
+!!MA:U107/457;		vasilisk to vasilisk-king
+!!MA:U111/458;		shaos_hydra to advanced_shaos_hydra
+!-!MA:U131/457;		phoenix to advanced_phoenix
+!!MA:U9/169;		fanatic to war zealot 
+
+
+
+
+
+
+ ; after visit restore upgrade settings
+!$OB35/1; 
+!-!IF:M^fort on hill restore^;
+!!MA:U193/-1; [upg sorceress to enchanter] 
+
+!!MA:U23/-1;		to dendroid-leader
+!!MA:U37/-1;		upg master-genie to sky-genie
+!!MA:U29/-1;		master-gremlens  to grandmaster-gremlins
+!!MA:U99/-1;		gnoll to gnoll-shaman
+!!MA:U107/-1;		vasilisk to vasilisk-king
+!!MA:U111/-1;		shaos_hydra to advanced_shaos_hydra
+!!MA:U9/-1;

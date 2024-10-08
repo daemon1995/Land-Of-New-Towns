@@ -60,10 +60,10 @@ ZVSE
 !!SN:R^StrongHold.mp3^/^BastionTown.mp3^;
 !!SN:R^HALLSTRN.def^/^HALLSTRNb.def^;
 
-
-!!SN:R^TPCASSTR.PCX^/^TPCASbas.pcx^;		back for monsters avatars
-
 !!SN:R^HALLSTRN.def^/^HALLBAST.def^;
+!-!SN:R^TPTHBKST.pcx^/^TPTHBKba.pcx^;			background for hall
+!!SN:R^TPCASSTR.pcx^/^TPCASbas.pcx^;			background for creatures
+!!SN:R^CRBKGSTR.pcx^/^CRBKGbas.pcx^;			 
 !!SN:D;
 
 !!SN:R^TBSTBLAK.def^/^TBSTBLAKb.def^;
@@ -138,7 +138,6 @@ ZVSE
 !!SN:R^TOSVAH.pcx^/^TOSVAHb.pcx^;
 !!SN:R^TOSWOL1.pcx^/^TOSWOL1b.pcx^;
 !!SN:R^TOSWOL2.pcx^/^TOSWOL2b.pcx^;
-!--!SN:R^TPCASSTR.pcx^/^TPCASSTRb.pcx^;
 !!SN:R^TPMAGEST.pcx^/^TPMAGESTb.pcx^;
 !!SN:R^TZSBEH1A.pcx^/^TZSBEH1Ab.pcx^;
 !!SN:R^TZSBEH2A.pcx^/^TZSBEH2Ab.pcx^;

@@ -40,15 +40,18 @@ ZVSE
 
 
 
- ; Druid town
+ ; Magic Forest   (ex. Druid town)
 !!FU(casting_spell_on_itself):P258/2/51/3/50;	Leprekons-jr.   luck
 !!FU(casting_spell_on_itself):P259/2/51/3/50;	Leprekons   luck
 !!FU(casting_spell_on_itself):P267/2/65/3/20;	Sriggans	(clone)
- 
+
+
+ ; Druid town 
+!!FU(casting_spell):P287/7/15/2/30; 			Forest Guards		magic arrow(15) 
 
  ; Strange Cult
 !!FU(casting_spell):P338/7/54/2/50; 			Mage of Void (338)	slowness(54)	
-!!FU(casting_spell):P336/10/15/2/100; 			Shaman-Cultist		ice arrow(15)
+!!FU(casting_spell):P336/10/16/2/100; 			Shaman-Cultist		ice arrow(16)
 
  ; Monastery
 !!VRy10:R4;										5 different spells for Mimik	 
@@ -83,7 +86,7 @@ ZVSE
 !-!FU(casting_spell):P438/10/25/1/100;			Monk of Light jr., exorcism(25)
 !!FU(casting_spell):P439/7/15/1/30;				Monk of Light    magic bolt  30%chance
 !!FU(casting_spell):P441/6/25/1/40;				Knights of Shining    Exorcism(25)
-!!FU(undead_takes_more_damage_part1):P432/6/-1/1/100;	attack, increased damage to undead by 30%
+!!FU(undead_takes_more_damage_part1):P432/6/-1/1/100;	attack, increased damage to undead 
 !!FU(undead_takes_more_damage_part1):P432/7/-1/1/100;	shoot	
 !!FU(undead_takes_more_damage_part1):P433/6/-1/2/100;
 !!FU(undead_takes_more_damage_part1):P433/7/-1/2/100;
@@ -106,12 +109,27 @@ ZVSE
 
  ; Ice Castle
 !!FU(casting_spell_on_itself):P485/6/43/2/30;	ice bears (Bloodlust)
+!!FU(casting_spell_on_itself):P487/2/53/2/30;	Yeti (haste)
 !!FU(casting_spell):P489/6/45/2/35;				Yorr   (Weakness)  35% chance
 
  ; Elemental Palace
-!!FU(casting_spell):P495/6/20/2/40;			elemental of frost   (circle of frost) 
-!!FU(casting_spell):P497/6/20/3/35;			ice guard   (circle of frost)
-!!FU(casting_spell):P504/6/20/3/50;			ice atronach   (circle of frost) 
+
+!!FU(casting_spell):P495/6/20/2/40;				elemental of frost   (circle of frost)
+!!FU(casting_spell):P497/10/16/2/100; 			Queen of Ice			ice arrow(16)
+!!FU(casting_spell):P504/10/20/3/100;			Ice Atronash   (circle of frost)
+
+
+ ; Abandoned Pyramid  
+!!FU(UMA_transform_creature):P531/6/58/-1/20;	Ancient NecroSphinx  transform to zombie (58), 20% chance 
+!!FU(casting_spell):P532/10/24/2/100;			Owner of Pyramid, Death Ripple
+
+
+ ; Ancient Temple 
+!!FU(casting_spell):P558/7/13/1/60;			Amazons, fire arrow, 60% chance
+
+
+ ; Preserve
+!!FU(casting_spell):P576/6/17/2/65;			Shiny Storm Egles,  lightning 
 
 
 
@@ -138,17 +156,23 @@ ZVSE
 !!FU(monster_reduces_damage_taken):P401/-30;		Colosus
 
  ; increase damage to undead (by 50%) only for Temple_of_Light monsters
-!!FU(undead_takes_more_damage_part2)&v4076=1:P20;		increase by 20%
-!!FU(undead_takes_more_damage_part2)&v4076=2:P40;		increase by 40%
+!!FU(undead_takes_more_damage_part2)&v4076=1:P15;		increase by 15%
+!!FU(undead_takes_more_damage_part2)&v4076=2:P30;		increase by 30%
+
+ ; Elemental Palace
+!!FU(monster_ignore_damage):P497/27;				Queen of Ice
 
  ; Deep Swamp
 !!FU(monster_ignore_damage):P465/20;				ghost of swamp
+
+ ; all monsters
+!!FU(monster_ignore_damage):P328/30;				Necross Dragon
+
  
 
  
 !-!FU(UMA_ghost_ability):P464/6/50;				swamp ghost_1 	create 50% of soul eated creatures	 
 !-!FU(UMA_ghost_ability):P464/3/50;
-
 
 
 
@@ -285,13 +309,22 @@ ZVSE
 	!!MF:N?y10; 			number of stack
 	!!BMy10:T?y11;			monster id
 	
-	!!BMy10:F?y3; 								записать флаги стека в переменную i 
+	!-!BMy10:F?y3; 								записать флаги стека в переменную i 
+	!-!VRi:&262144; 								is undead 
+	!--!IF&y3>0:M^undead^;
+	!-!FU(undead_takes_more_damage_part2)&y3=<0:E;		exit if not undead
+	
+	!!BMy10:F?i; 								записать флаги стека в переменную i 
 	!!VRi:&262144; 								is undead 
 	!-!IF&y3>0:M^undead^;
-	!!FU(undead_takes_more_damage_part2)&y3=<0:E;		exit if not undead
+	!!FU(undead_takes_more_damage_part2)&i<0:E;		exit if not undead
+	
+	
+	
 		
 	!!MF:D?y1; 
-	!!VRy1:*x1 :100; 		+30% +60%
+		!-!BMy10:V34;	29;			show animation	
+	!!VRy1:*x1 :100; 	increase damage by +15% +30%					+30% +60%
 	!!MF:Fdy1; 		[снижаем получаемый урон на %] for monster  
 	
 	!!VRv4076:S0;	variable for Temple_of_Light monsters    (0-default / 1 make damage to undead)
@@ -330,6 +363,7 @@ ZVSE
 !!VRy2:Sy1 *1352 +21708 +y10;    [структура стека]
 !!UN:Cy2/1/1;      !!VRy2:+2;    [необходимые параметры]
 !-!UN:Cy2/1/17;                  [проиграть группу (17) анимации дефа]
+!-!IF:M^adas^;
 
 !!BMy1:V84; 50;					  show animation
 
@@ -341,4 +375,50 @@ ZVSE
 
 
 ----------------------------------------------------------------
+
+ ; transform creatures like werewolfs
+
+!?FU(UMA_transform_creature);
+
+ ; x1 - monster id
+ ; x2 - type of action (2-move, 6-attack, 7-shoot, 10-spellcast)
+ ; x3 - transform to monster_id 						(old value - spell)
+ ; x4 - spell_effect (0...3)
+ ; x5 - chance 
+ 
+!!BG:A?y10; 				//выясняем тип этого действия
+!!BG&y10=x2:N?y11; 			//если это была стрельба - то определим номер стека существ, которые стреляли
+!!BMy11&y10=x2:T?y12; 		//если это была стрельба - то определим тип существ, которые стреляли
+!!BG&y10=x2/y12=x1:E?y13; 	//если это были “итаны - то определим номер стека существ, по которой производился выстрел
+!!BMy13&y10=x2/y12=x1:P?y14; //определим позицию стека существ, по которой производился выстрел
+!!VRy5:S0;
+!!VRy5:R100;
+	!!FU(casting_spell)&y5>x5:E;					chance
+	
+	!!BMy13:N?y1;						get number of monsters being attacked at stack y13
+	!!BMy13:T?y2;						type of monster
+	!!BMy13:P?y3;						get position of monster
+	!!BMy13:I?y4;						get player side left (0) or right (1)
+	
+	!!BMy13&y10=x2/y12=x1:K500000;		kill monster
+	!-!BMy13&y10=x2/y12=x1:C64/y3/3/1/0;	erase cell
+	!!BUy13&y10=x2/y12=x1:R;
+	!!VRz2:S^AIRSHELD.wav^;           	[z2 - будет звук промаха]
+	!!SN&y10=x2/y12=x1:Pz2;           	[озвучить промах]
+	!!BMy13&y10=x2/y12=x1:V51;			[проиграть группу (17) анимации дефа]
+
+	!!BU&y10=x2/y12=x1:Sx3/y1/y3/y4/1/1;		set new monster
+	!!BUy13&y10=x2/y12=x1:R;					
+	
+	!!VRz3&y10=x2/y12=x1:S^NecroSphinx transform enemy to zombies^;	
+	!!BU&y10=x2/y12=x1:Mz3;				show message in battle log
+	
+	!!BG&y10=x2/y12=x1:A8;				skip the move
+
+	
+!-!BMy11&y10=x2/y12=x1/y14>-1:Cx3/y14/0/x4/1;		cast spell (x3) Medium Effect(x4)
+
+
+
+!!FU(UMA_transform_creature):E;
 

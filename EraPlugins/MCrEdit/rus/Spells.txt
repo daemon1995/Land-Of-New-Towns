@@ -1,81 +1,81 @@
-Вызов Корабля
-Затопление Корабля
-Видения
-Просмотр Земли
-Подкрепления
-Просмотр Воздуха
-Полет
-Хождение по Воде
-Дверь Измерений
-Городской Портал
-Зыбучие Пески
-Минное Поле
-Силовое Поле
-Стена Огня
-Землетрясение
-Волшебная Стрела
-Ледяная Молния
-Удар Молнии
-Взрыв
-Цепная Молния
-Кольцо Холода
-Огненный Шар
-Инферно
-Метеоритный Дождь
-Волна Смерти
-Экзорцизм
-Армагеддон
-Щит
-Воздушный Щит
-Огненный Щит
-Защита от Воздуха
-Защита от Огня
-Защита от Воды
-Защита от Земли
-Антимагия
-Снятие Заклинаний
-Волшебное Зеркало
-Лечение
-Воскрешение
-Оживление Мертвых
-Жертва
-Благословление
-Проклятье
-Кровожадность
-Точность
-Слабость
-Каменная Кожа
-Разрушающий Луч
-Молитва
-Радость
-Печаль
-Удача
-Неудача
-Ускорение
-Медлительность
-Палач
-Бешенство
-Гром Титанов
-Контрудар
-Берсерк
-Гипноз
-Забывчивость
-Слепота
-Телепортация
-Устранение Преград
-Клон
-Элементаль Огня
-Элементаль Земли
-Элементаль Воды
-Элементаль Воздуха
-Окаменение
-Яд
-Корни
-Болезнь
-Паралич
-Старость
-Облако Смерти
-Удар Молнии
-Снять пол. заклинания
-Смертельный взгляд
-Кислотное дыхание
+Summon Boat
+Scuttle Boat
+Visions
+View Earth
+Reinforcement
+View Air
+Fly
+Water Walk
+Dimension Door
+Town Portal
+Quicksand
+Land Mine
+Force Field
+Fire Wall
+Earthquake
+Magic Arrow
+Ice Bolt
+Lightning Bolt
+Implosion
+Chain Lightning
+Frost Ring
+Fireball
+Inferno
+Meteor Shower
+Death Ripple
+Exorcism
+Armageddon
+Shield
+Air Shield
+Fire Shield
+Protection from Air
+Protection from Fire
+Protection from Water
+Protection from Earth
+Anti-Magic
+Dispel
+Magic Mirror
+Cure 
+Resurrection
+Animate Dead
+Sacrifice
+Bless
+Curse
+Bloodlust
+Precision
+Weakness
+Stone Skin
+Disrupting Ray
+Prayer
+Mirth
+Sorrow
+Fortune
+Misfortune
+Haste
+Slow 
+Slayer
+Frenzy
+Titan's Lightning Bolt
+Counterstrike
+Berserk
+Hypnotize
+Forgetfulness
+Blind
+Teleport
+Remove Obstacle
+Clone
+Fire Elemental
+Earth Elemental
+Water Elemental
+Air Elemental
+Stone Gaze
+Poison
+Bind
+Disease
+Paralyze
+Age
+Death Cloud
+Thunderbolt
+Dispel Helpful Spells
+Death Stare
+Acid Breath

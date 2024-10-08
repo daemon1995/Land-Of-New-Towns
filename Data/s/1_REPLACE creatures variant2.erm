@@ -17,20 +17,24 @@ ZVSE
 
 !!FU(rampart___monsters)&y5=1/vv100=0:P;
 !!FU(wonderwoods___monsters)&y5=1/vv100=1:P;			rampart (y5=1)     var=1 (vv100)
-!!FU(druid___monsters)&y5=1/vv100=2:P;
-!!FU(forest___monsters)&y5=1/vv100=3:P;
+!!FU(magicforest___monsters)&y5=1/vv100=2:P;
+!!FU(druid___monsters)&y5=1/vv100=3:P;
 !!FU(kitezh_grad___monsters)&y5=1/vv100=4:P;
+!!FU(preserve___monsters)&y5=1/vv100=5:P;
 
 !!FU(tower___monsters)&y5=2/vv100=0:P;
 !!FU(monastery___monsters)&y5=2/vv100=1:P;
+!!FU(icecastle___monsters)&y5=2/vv100=2:P;
+!!FU(elementalpalace___monsters)&y5=2/vv100=3:P;
 
 !!FU(inferno___monsters)&y5=3/vv100=0:P;
 !-!FU(techno___monsters_for_AI)&y5=3/vv100=1:P;
 !!FU(techno___monsters)&y5=3/vv100=1:P;
+!!FU(courtyyard___monsters)&y5=3/vv100=2:P; 
 
 !!FU(necropolis___monsters)&y5=4/vv100=0:P;
-!!FU(icecastle___monsters)&y5=4/vv100=1:P;
-!!FU(elementalpalace___monsters)&y5=4/vv100=2:P;
+!-!FU(icecastle___monsters)&y5=4/vv100=1:P;
+!!FU(abandonedpyramid___monsters)&y5=4/vv100=1:P;
 
 !!FU(dungeon___monsters)&y5=5/vv100=0:P;
 !!FU(shadow___monsters)&y5=5/vv100=1:P;
@@ -41,6 +45,8 @@ ZVSE
 !!FU(stronghold___monsters)&y5=6/vv100=0:P;	
 !!FU(sand___monsters)&y5=6/vv100=1:P;
 !!FU(bastion___monsters)&y5=6/vv100=2:P;
+!!FU(pyramid___monsters)&y5=6/vv100=3:P;
+!!FU(ancienttemple___monsters)&y5=6/vv100=4:P;
 
 !!FU(fortress___monsters)&y5=7/vv100=0:P;
 !!FU(mystic___monsters)&y5=7/vv100=1:P;
@@ -50,6 +56,7 @@ ZVSE
 !!FU(eldorado___monsters)&y5=8/vv100=1:P;
 !!FU(neutral___monsters)&y5=8/vv100=2:P;
 !!FU(oasis___monsters)&y5=8/vv100=3:P;
+
 
 
 

@@ -71,9 +71,9 @@ ZVSE
 	 ; replace dragon utopia №4 by new lvl_8
 	!!UN&x16=4:Ov1/v2/v3;						delete object	
 	!!UN&x16=4/v8023=0:Iv1/v2/v3/17/109/1;		place new object Giant Ents
-	!!UN&x16=4/v8023=1:Iv1/v2/v3/17/109/1;			
+	!!UN&x16=4/v8023=1:Iv1/v2/v3/17/109/1;		-Shedu Temple	
 	!!UN&x16=4/v8023=2:Iv1/v2/v3/17/120/1;		Legendary Worms
-	!!UN&x16=4/v8023=3:Iv1/v2/v3/17/109/1;		
+	!!UN&x16=4/v8023=3:Iv1/v2/v3/17/109/1;		-Serafims
 	
 	
 	
@@ -81,9 +81,11 @@ ZVSE
 	 ; replace dragon utopia №6 by new lvl_8
 	!!UN&x16=6:Ov1/v2/v3;						delete object	
 	!!UN&x16=6/v8024=0:Iv1/v2/v3/17/109/1;		place new object Giant Ents
-	!!UN&x16=6/v8024=1:Iv1/v2/v3/17/109/1;			
+	!!UN&x16=6/v8024=1:Iv1/v2/v3/17/109/1;		-Shedu Temple	
 	!!UN&x16=6/v8024=2:Iv1/v2/v3/17/120/1;		Legendary Worms
-	!!UN&x16=6/v8024=3:Iv1/v2/v3/17/120/1;		
+	!!UN&x16=6/v8024=3:Iv1/v2/v3/17/109/1;		-Serafims
+	
+	
 
 	
 

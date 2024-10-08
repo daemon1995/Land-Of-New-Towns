@@ -73,6 +73,59 @@ ZVSE
 
 --------------------------------------
 
+!?FU(restore_XY_coordinates_tower);
+
+!!FU(SetBuilding'sPosition):P2/0/597/82;
+!!FU(SetBuilding'sPosition):P2/1/593/65;
+!!FU(SetBuilding'sPosition):P2/2/593/48;
+!!FU(SetBuilding'sPosition):P2/3/593/31;
+!!FU(SetBuilding'sPosition):P2/4/593/14;
+!!FU(SetBuilding'sPosition):P2/5/375/278;
+!!FU(SetBuilding'sPosition):P2/6/0/0;
+!!FU(SetBuilding'sPosition):P2/7/304/0;
+!!FU(SetBuilding'sPosition):P2/8/301/0;
+!!FU(SetBuilding'sPosition):P2/9/301/0;
+!!FU(SetBuilding'sPosition):P2/10/0/260;
+!!FU(SetBuilding'sPosition):P2/11/0/220;
+!!FU(SetBuilding'sPosition):P2/12/0/82;
+!!FU(SetBuilding'sPosition):P2/13/0/82;			
+!!FU(SetBuilding'sPosition):P2/14/614/292;
+!!FU(SetBuilding'sPosition):P2/15/763/214;
+!!FU(SetBuilding'sPosition):P2/16/478/211;
+!!FU(SetBuilding'sPosition):P2/17/674/276;
+!!FU(SetBuilding'sPosition):P2/18/0/47;
+!!FU(SetBuilding'sPosition):P2/19/0/28;
+!!FU(SetBuilding'sPosition):P2/20/0/0;
+!!FU(SetBuilding'sPosition):P2/21/409/82;
+!!FU(SetBuilding'sPosition):P2/22/702/115;
+!!FU(SetBuilding'sPosition):P2/23/593/189; 	
+!!FU(SetBuilding'sPosition):P2/24/0/0;
+!!FU(SetBuilding'sPosition):P2/25/0/0;	
+!!FU(SetBuilding'sPosition):P2/26/236/14;	
+!!FU(SetBuilding'sPosition):P2/27/0/0;
+!!FU(SetBuilding'sPosition):P2/28/0/0;	
+!!FU(SetBuilding'sPosition):P2/29/0/0;
+!!FU(SetBuilding'sPosition):P2/30/453/221;			level_1	
+!!FU(SetBuilding'sPosition):P2/31/4/47;
+!!FU(SetBuilding'sPosition):P2/32/209/177;
+!!FU(SetBuilding'sPosition):P2/33/613/95;
+!!FU(SetBuilding'sPosition):P2/34/511/75;
+!!FU(SetBuilding'sPosition):P2/35/681/208;
+!!FU(SetBuilding'sPosition):P2/36/75/144;
+!!FU(SetBuilding'sPosition):P2/37/453/221;		4/28;				level_1 upg	
+!!FU(SetBuilding'sPosition):P2/38/446/221;		
+!!FU(SetBuilding'sPosition):P2/39/209/177;
+!!FU(SetBuilding'sPosition):P2/40/613/74;
+!!FU(SetBuilding'sPosition):P2/41/511/8;
+!!FU(SetBuilding'sPosition):P2/42/681/157;
+!!FU(SetBuilding'sPosition):P2/43/75/91;
+
+
+!!FU(restore_XY_coordinates_tower):E;
+
+
+-----------------------------------------------
+
 
 !?FU(restore_XY_coordinates_inferno);
 
