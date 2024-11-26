@@ -18,7 +18,7 @@ ZVSE
 
 !!VRvy1&x1=97:S0;				default homm3 town 
 	
-!!VRy30&x1=98:R11; 				random town generate variable old:R25(99...119)
+!!VRy30&x1=98:R12; 				random town generate variable old:R25(99...119,120)
 !!VRx1&x1=98:Sy30+99;			(99...110)
 
 
@@ -74,7 +74,8 @@ ZVSE
 !!CAy20/y21/y22&x1=110:T2;		Elemental Palace     
 !!VRvy1&x1=110:S3;
 
-
+!!CAy20/y21/y22&x1=111:T6;		Pyramid     
+!!VRvy1&x1=111:S3;
 
 
 

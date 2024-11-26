@@ -40,6 +40,6 @@ option:  S0/S1  (No/Yes)
 !#VRi^t21_Elem^:S1;
 !#VRi^t22_Cour^:S0;
 !#VRi^t23_Aban^:S0;
-!#VRi^t24_Pyra^:S0;
+!#VRi^t24_Pyra^:S1;
 !#VRi^t25_Anci^:S0;
 !#VRi^t26_Pres^:S0;

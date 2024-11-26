@@ -204,7 +204,7 @@ No enemy retaliation,paralyze
 stone gaze
 Range retaliation
 range attack, bind enemy
-No enemy retaliation
+
 attack on 2 cells, stone gaze
 
 Shooting army
@@ -445,11 +445,11 @@ Fire wall, Fly, high moral, immune to fire spells, +20% damage to undead
 
 
 
-
+attack all around, high moral, 20% defense bonus, fearless
 
 50% chance of death blow, no moral, no enemy retaliation
 regenerates
-
+damage spell reduced 85%, neutral moral
 
 
 cast random spell, hates infreeti
@@ -535,6 +535,18 @@ immune for 1-4 spell levels, mindspell immune
 
 
 
+poison enemy
+
+attack all around
+
+shoot
+magic from spells reduced 50%, neutral moral
+magic from spells reduced 85%, neutral moral
+
+50% protecrion from shooting
+60% protecrion from shooting
+neutral moral
+regeneration, no enemy retallion, teleport, neutral moral
 
 
 
@@ -564,27 +576,15 @@ immune for 1-4 spell levels, mindspell immune
 
 
 
+acid breath
 
 
 
+shoot
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+dispel helpful spells on attack
+shoot
+shoot, 15% protection from shooting
 
 
 

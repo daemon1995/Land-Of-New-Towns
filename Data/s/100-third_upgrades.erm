@@ -86,9 +86,20 @@ vx16						vx16 - new type of town (default / new / new_var2 / new_var3)
  ; Ice Castle
 !-!FU(dex_SetDwellingSlotByTownId)&y2=4/vx16=1:Py1/2/1/2/173/20;		santa-gremlins
 
+ ; Kitezh Grad
+!!FU(dex_SetDwellingSlotByTownId)&y2=1/vx16=4:Py1/6/1/2/577/35;			volot
+
+ ; Deep Swamp
+!!FU(dex_SetDwellingSlotByTownId)&y2=7/vx16=2:Py1/6/1/2/580/40;			Swamp Keeper
+
 
  ; Elemental Palace
 !!FU(dex_SetDwellingSlotByTownId)&y2=2/vx16=3:Py1/5/1/2/502/100;		snow golems-enchanters
+
+ ; Pyramid
+!!FU(dex_SetDwellingSlotByTownId)&y2=6/vx16=3:Py1/4/1/2/451/65;			Upg. Golden Golem   451
+!!FU(dex_SetDwellingSlotByTownId)&y2=6/vx16=3:Py1/5/1/2/546/30;			Great Sphinx 546
+!-!FU(dex_SetDwellingSlotByTownId)&y2=6/vx16=3:Py1/5/1/0/546/30;			Great Sphinx 546
 
 
 ; Fortress
@@ -104,6 +115,13 @@ vx16						vx16 - new type of town (default / new / new_var2 / new_var3)
 !-!FU(dex_SetDwellingSlotByTownId)&y2=8/vx16=0:Py1/6/0/0/130/200;		dw7 Phoenix increase growth to 2
 !-!FU(dex_SetDwellingSlotByTownId)&y2=8/vx16=0:Py1/6/1/0/131/200;		upg.Phoenix increase growth to 2
 !-!FU(dex_SetDwellingSlotByTownId)&y2=8/vx16=0:Py1/6/1/1/130/200;		Phoenix increase growth to 2
+
+
+ ; Techno town 579
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/6/1/2/579/60;			Prime Leader
+
+ ; Ancient Temple
+!!FU(dex_SetDwellingSlotByTownId)&y2=6/vx16=4:Py1/6/1/2/578/70;			color Coatl
  
 
 !!FU(nn2p):E; 

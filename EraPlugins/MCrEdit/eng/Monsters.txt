@@ -201,7 +201,7 @@ Treefolk Wizard
 Magician
 Giant Ent
 Ancient Ent
-Vermilion petrel
+Forest Bird
 Loogan
 Treefolk
 Ent
@@ -446,11 +446,11 @@ Warrior of Light
 Blank Monster #442
 Blank Monster #443
 Blank Monster #444
-Blank Monster #445
+Epic Palladin
 Blank Monster #446
 Dark Angel
 Legendary Sand Worm
-Blank Monster #449
+Upg. Golden Golem
 Blank Monster #450
 Blank Monster #451
 Sky genie
@@ -470,7 +470,7 @@ Blank Monster #465
 Blank Monster #466
 Blank Monster #467
 Blank Monster #468
-Swam witch
+Blank Monster #469
 Blank Monster #470
 Blank Monster #471
 Blank Monster #472
@@ -533,21 +533,21 @@ Necro Sphinx
 Blank Monster #529
 Sphinx
 Blank Monster #531
-Blank Monster #532
-Blank Monster #533
-Blank Monster #534
-Blank Monster #535
-Blank Monster #536
-Blank Monster #537
-Blank Monster #538
-Blank Monster #539
-Blank Monster #540
-Blank Monster #541
-Blank Monster #542
-Blank Monster #543
-Blank Monster #544
-Blank Monster #545
-Blank Monster #546
+Big Scarab
+Golden Scarab
+Wadjet
+Poisonous Wadjet
+Warrior Inpu jr.
+Warrior Inpu
+small avatar of Gorus
+avatar of Gorus
+silver Golem
+Golden Golem of Pyramid
+Stone Sphinx jr.
+Stone Sphinx
+Great Sphinxes
+small avatar of Anubis
+avatars of Anubis
 Blank Monster #547
 Blank Monster #548
 Blank Monster #549
@@ -577,17 +577,17 @@ Blank Monster #572
 Blank Monster #573
 Blank Monster #574
 Blank Monster #575
-Blank Monster #576
+Colorful Coatl
 Blank Monster #577
 Blank Monster #578
-Blank Monster #579
-Blank Monster #580
-Blank Monster #581
-Blank Monster #582
-Blank Monster #583
-Blank Monster #584
-Blank Monster #585
-Blank Monster #586
+Walking Plant jr.
+Walking Plant
+Treebeard jr.
+Treebeard
+Young Brownie
+Brownies
+young Green Giant
+Green Giant
 Blank Monster #587
 Blank Monster #588
 Blank Monster #589

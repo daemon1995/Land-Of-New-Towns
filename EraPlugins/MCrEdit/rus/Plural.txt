@@ -1,594 +1,592 @@
-Pikemen
-Halberdiers
-Archers
-Marksmen
-Griffins
-Royal Griffins
-Swordsmen
-Crusaders
-Monks
-Zealots
-Cavaliers
-Champions
-Angels
-Archangels
-Centaurs
-Centaur Captains
-Dwarves
-Battle Dwarves
-Wood Elves
-Grand Elves
-Pegasi
-Silver Pegasi
-Dendroid Guards
-Dendroid Soldiers
-Unicorns
-War Unicorns
-Green Dragons
-Gold Dragons
-Gremlins
-Master Gremlins
-Stone Gargoyles
-Obsidian Gargoyles
-Stone Golems
-Iron Golems
-Magi
-Arch Magi
-Genies
-Master Genies
-Nagas
-Naga Queens
-Giants
-Titans
-Imps
-Familiars
-Gogs
-Magogs
-Hell Hounds
-Cerberi
-Demons
-Horned Demons
-Pit Fiends
-Pit Lords
-Efreet
-Efreet Sultans
-Devils
-Arch Devils
-Skeletons
-Skeleton Warriors
-Walking Dead
-Zombies
-Wights
-Wraiths
-Vampires
-Vampire Lords
-Liches
-Power Liches
-Black Knights
-Dread Knights
-Bone Dragons
-Ghost Dragons
-Troglodytes
-Infernal Troglodytes
-Harpies
-Harpy Hags
-Beholders
-Evil Eyes
-Medusas
-Medusa Queens
-Minotaurs
-Minotaur Kings
-Manticores
-Scorpicores
-Red Dragons
-Black Dragons
-Goblins
-Hobgoblins
-Wolf Riders
-Wolf Raiders
-Orcs
-Orc Chieftains
-Ogres
-Ogre Magi
-Rocs
-Thunderbirds
-Cyclopes
-Cyclops Kings
-Behemoths
-Ancient Behemoths
-Gnolls
-Gnoll Marauders
-Lizardmen
-Lizard Warriors
-Gorgons
-Mighty Gorgons
-Serpent Flies
-Dragon Flies
-Basilisks
-Greater Basilisks
-Wyverns
-Wyvern Monarchs
-Hydras
-Chaos Hydras
-Air Elementals
-Earth Elementals
-Fire Elementals
-Water Elementals
-Gold Golems
-Diamond Golems
-Pixies
-Sprites
-Psychic Elementals
-Magic Elementals
+Копейщики
+Алебардщики
+Арбалетчики
+Тяжёлые арбалетчики
+Грифоны
+Королевские грифоны
+Мечники
+Крестоносцы
+Монахи
+Фанатики
+Кавалеристы
+Чемпионы
+Ангелы
+Архангелы
+Кентавры
+Капитаны кентавров
+Гномы
+Боевые гномы
+Лесные эльфы
+Благородные эльфы
+Пегасы
+Серебряные пегасы
+Дендроиды-охранники
+Дендроиды-солдаты
+Единороги
+Боевые единороги
+Зелёные драконы
+Золотые драконы
+Гремлины
+Мастер-гремлины
+Каменные горгульи
+Обсидиановые горгульи
+Каменные големы
+Стальные големы
+Маги
+Архимаги
+Джинны
+Мастер-джинны
+Наги
+Королевы наг
+Гиганты
+Титаны
+Бесы
+Черти
+Гоги
+Магоги
+Адские гончие
+Церберы
+Демоны
+Рогатые демоны
+Порождения зла
+Адские отродья
+Ифриты
+Султаны Ифритов
+Дьяволы
+Архидьяволы
+Скелеты
+Скелеты-воины
+Живые мертвецы
+Зомби
+Стражи
+Призраки
+Вампиры
+Лорды вампиров
+Личи
+Могущественные личи
+Чёрные рыцари
+Рыцари смерти
+Костяные Драконы
+Драконы Привидения
+Троглодиты
+Адские троглодиты
+Гарпии
+Гарпии-ведьмы
+Бехолдеры
+Злые глаза
+Медузы
+Королевы медуз
+Минотавры
+Короли минотавров
+Мантикоры
+Скорпикоры
+Красные драконы
+Чёрные драконы
+Гоблины
+Хобгоблины
+Наездники на волках
+Налётчики
+Орки
+Вожди орков
+Огры
+Огры-шаманы
+Птицы-рух
+Громовые птицы
+Циклопы
+Короли циклопов
+Чудища
+Древние чудища
+Гноллы
+Гноллы-мародеры
+Ящеры
+Ящеры-воины
+Горгоны
+Могучие Горгоны
+Змии
+Змии-Драконы
+Василиски
+Великие василиски
+Виверны
+Виверны-монархи
+Гидры
+Гидры хаоса
+Воздушные элементали
+Элементали земли
+Огненные элементали
+Элементали воды
+Золотые големы
+Алмазные големы
+Маленькие феи
+Феи
+Психические элементали
+Магические элементали
 NOT USED (1)
-Ice Elementals
+Ледяные элементали
 NOT USED (2)
-Magma Elementals
+Элементали магмы
 NOT USED (3)
-Storm Elementals
+Элементали шторма
 NOT USED (4)
-Energy Elementals
-Firebirds
-Phoenixes
-Azure Dragons
-Crystal Dragons
-Faerie Dragons
-Rust Dragons
-Enchanters
-Sharpshooters
-Halflings
-Peasants
-Boars
-Mummies
-Nomads
-Rogues
-Trolls
-Catapults
-Ballistas
-First Aid Tents
-Ammo Carts
-Arrow Towers
-Supreme Archangels
-Diamond Dragons
-Lords of Thunder
-Hell Barons
-Blood Dragons
-Darkness Dragons
-Ghost Behemoths
-Hell Hydras
-Sacred Phoenixes
-Ghosts
-Emissaries of War
-Emissaries of Peace
-Emissaries of Mana
-Emissaries of Lore
-Fire Messengers
-Earth Messengers
-Air Messengers
-Water Messengers
-Gorynyches
-War Zealots
-Arctic Sharpshooters
-Lava Sharpshooters
-Nightmares
-Santa Gremlins
-Paladins
-Hierophants
-Temple Guardians
-Succubuses
-Soul Eaters
-Brutes
-Ogre Leaders
-Shamans
-Astral Spirits
-Paladins
-Hierophants
-Temple Guardians
-Succubuses
-Soul Eaters
-Brutes
-Ogre Leaders
-Shamans
-Astral Spirits
-Sylvan Centaurs
-Sorceresses
-Werewolves
-Hell Steeds
-Dracoliches
-Wood dwellers
-Treefolk Wizards
-Magician
-Giant Ents
-Ancient Ents
-Vermilion petrels
-Loogans
-Treefolks
-Ents
-Petrels
-Loogans warriors
-Small Wooddwellers
-Small Magicians
-Guards
-Elder Guards
-Beastmans
-Beastmen-Jaguars
-Riders
-Rider - Champions
-Sacrificers
-Higher Sacrificers
-Coatles
-Coatles Predators
-Preimages of Lamassu
-Lamassu
-Falcons jr.
-Falcons
-Assassins apprentieces
-Assassins
-Small Bats
-Bats
-Golems
-Clay Golems
-Centaurs hunters
-Centaurs - Warriors
-Strongmans
-Master Strongmans
-Stone Warriors
-Stone Giants
-Sand Worms
-Great Sand Worms
-Ratmans
-Predatory Ratmans
-Shadow Acolytes
-Acolytes od Darkness
-Flying Beholders
-Beholders of abyss
-Lords of Shadows
-Lords of Darkness
-Hiding-in-the-dark
-Seekers-in-the-dark
-Big Gargoyles
-Giant Gargoyles
-Spider Queens
-Ancient Spider Queens
-Ancient Gorynyches
-Halfings masters
-Sorcessers Apprentices
-Nomads of Storm
-Keepers junior
-Keepers
-leprechauns jr.
-Leprechauns
-Herbalist students
-Herbalists
-Fauns
-Satir
-Turquoise Harpies
-Forest Harpies
-Young Spriggans
-Spriggans
-Finists jr.
-Finists
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Ravens
-Black Ravens
-Forest Guards jr.
-Forest Guards
-Forest shooters
-Forest archers
-Alikorns jr.
-Alikorn
-Wild boars
-Big wild boars
-Indriks
-Royal Indriks
-Druids Apprentice
-Druids
-creature . 1111
-creature 111
-
-
-
-
-
-
-
-
-
-
-
-
-Scarabs
-Sacred scarabs
-Whippers
-Overseers
-Camel Riders
-Desert Warriors
-Priestesses
-High Priestesses
-Amts
-Ammuts
-Sphinxes
-Sphinxes oracle
-Servants of Anubis
-Warriors of Anubis
-m 1111
-War1111
-Necross Dragons
-Lordes Iratuses
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-mon1
-
-
-
-
-
-
-
-Nymphs
-Oceanids
-Crew Mates
-Seaman
-Pirates
-Corsairs
-Stormbirds
-Ayssids
-Sea Witches
-Sorceresses
-Nixes
-Nix Warriors
-Sea Serpents
-Haspids
-Sea Dogs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Trainers
-Squires
-Archers of Light jr.
-Archers of Light
-Crusaders Pikeman
-Crusaders-Knight
-Heavy Knights
-Armored Knights
-Monks of Light jr.
-Monks of Light
-Cavalry Crusaders
-Champion Crusaders
-Warriors of Ray
-Warriors of Light
-
-
-
-
-
-Dark Angels
-Legendary Sand Worms
-
-
-
-Sky genies
-Grandmasters gremlins
-Gnoll Shamans
-Kings of Vasilisks
-Advanced  Chaos Hydras
-
-Lava elementals
-Dendroid Leaders
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Snow Centaurids jr.
-Snow Centaurides
-snow boars jr.
-snow Boars
-Blue snow Birds
-Snow Birds
-snow tigers
-Ice Tigers
-Snow Bears
-Polar Bears
-Young Yeties
-Yeti
-young Yorrs
-Yorrs
-walking snow jr.
-Walking snow
-Elementals of Ice wind
-Elementals of Snowstorm
-Elementals of Cold jr.
-Elementals of Cold
-Snow Queens
-Ice Queens
-Snow Giants
-Ice Giants
-Snow Golems
-Snow Golem-warriors
-Snow Golem-spellcasters
-Snow Atronachs
-Ice Atronachs
-
-
-
-
-
-
-arquebusiers
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Necro Sphinxes
-
-Sphinxes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Энергетические элементали
+Огненные птицы
+Фениксы
+Лазурные драконы
+Кристальные драконы
+Сказочные драконы
+Ржавые драконы
+Чародеи
+Снайперы
+Хоббиты
+Крестьяне
+Орки на кабанах
+Мумии
+Кочевники
+Воры
+Тролли
+Катапульты
+Баллисты
+Палатки первой помощи
+Тележки с боеприпасами
+Стрелковые башни
+Верховные Архангелы
+Алмазные драконы
+Громовержцы
+Бароны ада
+Кровавые драконы
+Тёмные драконы
+Чудища-привидения
+Кошмарные гидры
+Духи погребального костра
+Привидения
+Эмиссары войны
+Эмиссары мира
+Эмиссары чуда
+Эмиссары знания
+Посланники огня
+Посланники земли
+Посланники воздуха
+Посланники воды
+Змеи Горынычи
+Фанатики войны
+Арктические снайперы
+Закалённые снайперы
+Кошмары
+Санта-гремлины
+Паладины
+Знахари
+Храмовницы
+Суккубы
+Пожиратели душ
+Звери
+Вожди людоедов
+Шаманы
+Астральные духи
+Паладины
+Знахари
+Храмовницы
+Суккубы
+Пожиратели душ
+Звери
+Вожди людоедов
+Шаманы
+Астральные духи
+Сильванские кентавры
+Волшебницы
+Оборотни
+Адские кони
+Драколичи
+Древесники
+Лесовики - Колдуны
+Магички
+Гигантские Энты
+Древние Энты
+Лесные Птицы
+Дуболомы
+Лесовики
+Энты
+Буревестники Леса
+Дуболомы-Воины
+Маленькие Древесники
+Магички - ученицы
+Стражники
+Стражники-Старейшины
+Зверолюды
+Зверолюды - Ягуары
+Всадники
+Всадники-Чемпионы
+Жрецы
+Верховные Жрецы
+мл. Птеросы
+Птеросы
+Прообразы Ламассу
+Ламассу
+Младшие Фалконы
+Фалконы
+Ассасины-ученики
+Ассасины
+Малые Летучие Мыши
+Летучие Мыши
+Големы
+Глиняные Големы
+Кентавры-охотники
+Кентавры-Варвары
+Силачи
+Мастер-Силачи
+Каменные Воины
+Каменные Исполины
+Песчаные Черви
+Великие Песчаные Черви
+Крысолюды
+Хищные Крысолюды
+Послушники Тени
+Послушники Тьмы 
+Смотрители
+Смотрители Глубин
+Лорды Теней
+Лорды Тьмы
+Затаившиеся-во-тьме
+Ищущие-во-тьме
+БольшиеГаргульи
+ГигантскаяГаргулья
+Паучихи
+Древние Паучихи
+Древние Змеи Горынычи
+Хоббиты-Мастера
+Волшебницы-Ученицы
+Кочевники Бури
+Младшие Хранители
+Хранители
+Младшие Лепреконы
+Лепреконы
+Бирюзовые Гарпии
+Лесные Гарпии
+Фавны
+Сатиры
+мл. Аликорны
+Аликорны
+Молодые Спригганы
+Спригганы
+Младшие Финисты
+Финисты
+маленькие  Электры
+Электры
+Окуляры
+Окуляры-Стражи
+Спауты
+Опытные Спауты
+мл. Ихтионы
+Ихтионы
+Младшие Фангармы
+Фангармы
+Иллитиды
+Алхуны
+Ксеносы
+Ксеносы-Лорды
+Вороны
+Темные Вороны
+мл. Лесные сторожа
+Лесные сторожа
+Лесные стрелки
+Лесные лучники
+Травницы-Ученицы
+Травницы
+Зеленые Наследники
+Зеленые Принцы
+Индрики
+Королевскиe Индрики
+Друиды - ученики
+Друиды
+Послушники
+Паломники
+Ослики
+Бурые Ослики
+Простые Мимики
+Мимики
+мл. монахи-культисты
+монахи-культисты
+Монахи- заклинатели
+Монахи-чтецы
+Большие Каменные Гаргульи
+Ул. Каменные Гаргульи
+Каменные Атронахи
+Обсидиановые Атронахи
+Скарабеи
+Священные Скарабеи
+Надсмотрщики
+Старшие Надсмотрщики
+Наездники на верблюде
+Воины Пустыни
+Жрицы Сехмет
+Воплощение Сехмет
+Амты
+Аммуты
+Сфинксы
+Сфинксы-Оракулы
+Слуги Анубиса
+Воины Анубиса
+Каменные Шеду_1
+Конные рыцари
+Некрос Драконы
+Лорды Иратусы
+Лич - Некромант
+мл. Подземные жители
+Подземные жители
+мл.Шаманы - культисты
+Шаманы - культисты
+мл. Маги Пустоты
+Маги Пустоты
+мл. Чумной доктор
+Чумной доктор
+мл. Вендиго
+Вендиго
+Вороны - Разведчики
+Вороньи Воины
+Большие Летучие Мыши
+Гигансткие Летучие Мыши
+Малые Угаллы
+Угаллы
+Осы
+Ядовитые Осы
+Гадюки
+Шипящие гадюки
+Младшие Песчаные Духи
+Песчаные Духи
+Факиры - ученики
+Факиры
+Большие Скорпионы
+Ужасные Скорпионы
+Каменные Шеду
+Шеду
+Нимфы
+Океаниды
+Матросы
+Головорезы
+Пираты
+Корсары
+Духи Океана
+Ассиды
+Жрицы Моря
+Заклинательницы
+Никсы
+Никсы-Воины
+Морские Змеи
+Аспиды
+Морские Волки
+Хранители Очага
+Домовые
+Ночные сказочники
+Коты Баюны
+Кузнецы - подмастерья
+Кузнецы
+Чудища111
+Баба Яга
+Сторожа Леса
+Лешие
+Сирины
+Алконосты
+Богатыри
+Былинные Богатыри
+Пигмеи
+Выжившие Пигмеи
+Следопыты
+Следопыты-Охотники
+Кокатрисы
+Геральдические Кокатрисы
+Речные Духи
+Келпи
+Ведьмы Руин
+Жрица Руин
+Перитоны
+Гранд Перитоны
+Живые Руины
+Древние Стражи
+мл. Мифические Гарпии
+Мифические Гарпии
+Большие кентавры
+Мифические кентавры
+Повелительницы змей
+Медузы Горгоны
+Циклопы-людоеды
+Циклопы-предводители
+Гигантские минотавры
+Мифические минотавры
+Гигантские Мантикоры
+Исполинские Мантикоры
+Титаны Бури
+Грозовые Титаны
+Боты
+Стальные Боты
+Роботы
+Улучш. Роботы
+Механоиды
+Улучшенные Механоиды
+Механические Грифоны
+Грифоны-Киборги
+Механические сторожи
+Механические Стражи
+мл. Технодрендноуты
+Технодрендноуты
+Праймы
+Ультра Праймы
+Ополченецы
+Сквайр
+мл. Лучники культа Света
+Лучники культа Света
+Крестоносец-Пикинер
+Рыцари-Крестоносецы
+Тяжелые Рыцари
+Бронированные рыцари
+мл. Монахи культа Света
+Монахи культа Света
+Кавалеристы-Крестоносцы
+Чемпионы-Крестоносцы
+Воины Луча
+Воины Света
+Великие Паучихи
+Эпические Бестии
+Эпические Паладины2
+Эпические Паладины
+Серафимы
+Темные Ангелы
+Легендарные Песчаные Черви
+ул. Золотые големы
+Болотные Кикиморы
+Гноллы2
+Небесные джинны
+ГрандМастер-гремлины
+Гноллы-шаманы
+Короли василисков
+Ул. Гидры хаоса
+Каменные Исполины
+Элементали лавы
+Дендроиды-предводители
+Пиявки 
+Болотные Пиявки 
+Болотные Призраки
+Болотные Духи
+Малые Болотники
+Болотники
+
+
+мл. Болотные Ведьмы
+Болотные Ведьмы
+Малые Морры
+Морры
+Егеря Болот
+Хозяины Болот
+мл. Центавриды Снегов
+Центавриды Снегов
+мл. Снежные кабаны
+Снежные кабаны
+Голубые Снежные Птицы
+Снежные Птицы
+Снежные Тигры
+Ледяные Тигры
+Снежные Медведи
+Полярные Медведи
+Молодые Йети
+Йети
+Молодые Йорры
+Йорры
+мл. Шагающие снега
+Шагающие снега
+Элементали ледяного ветра
+Элементали Вьюги
+мл. Элементали холода
+Элементаль холода
+Королевы Снегов
+Королевы Льда
+Великаны Снегов
+Великаны Льда
+Снежные големы
+Снежные големы-дуболомы
+Снежные големы-заклинатели
+Снежные Атронахи
+Ледяные Атронахи
+Гранитные Купидоны
+Мраморные Купидоны
+Гомункулы
+Позолоченные Гомункулы
+Саламандры
+Блестящие Саламандры
+Аркебузиры
+Мушкетеры
+Додо
+
+
+
+
+
+
+
+Скелеты-пирамиды
+Медленные Зомби
+Гнилой Зомби
+Мумии2
+Темные Мумии
+Мумии Пирамиды
+Древние Мумии Пирамиды
+мл. Призраки Пирамиды
+Призраки Пирамиды
+Некро Сфинксы
+Древние Некро Сфинксы
+мл. Хозяины Пирамиды
+Хозяины Пирамиды
+Большие Скарабеи
+Золотые Скарабеи
+мл. Уаджит
+Ядовитые  Уаджит
+мл. Воины Инпу
+Воины Инпу
+мл. Аватары Горуса
+Аватары Горуса
+Серебрянные големы
+Золотые_големы
+Каменные Сфинксы
+ул. Каменные Сфинксы
+Великие Сфинксы
+мл. Аватары Анубиса
+Аватар Анубиса
+Зеленые Муравьи
+Пятнистые Муравьи
+мл. Клинки Вихря
+Клинки Вихря
+мл. Воины Щита
+Воины Щита
+мл. Наездники на тиграх
+Наездники на тиграх
+мл. Лучники огня
+Лучники огня
+Летающие Кокатрисы
+Прожорливый Кокатрис
+Коатли
+Хищные Коатли
+
+
+
+Феи Заповедника
+
+
+Дриады
+Дриады Дубов
+Кабаны
+Шипастые Кабаны
+
+
+Гигантский Орел
+Сияющий Орел
+Волоты
+Разноцветные Коатли
+Праймы - Лидеры
+Болотные Хранители
+мл. Ходячие Растения
+Ходячие Растения
+Древо
+Древобороды
+мл. Наездники на пеньках
+Наездники на пеньках
+молодые Зеленые Гиганты
+Зеленые Гиганты
 
 
 

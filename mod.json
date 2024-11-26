@@ -27,7 +27,7 @@
 		"index": 0
 	},
 	
-	"mod_version": "3.2",
+	"mod_version": "3.3",
 	
 	"priority": 2,
 	
@@ -37,7 +37,7 @@
 	},
 	
 	"platform": "era",
-	"info_version": "3.2",
+	"info_version": "3.3",
 	"plugins": {},
 	"category": "gameplay"
 }

@@ -25,7 +25,7 @@ ZVSE
 
 !?PI;
 !!VRv4058:C0/0; 						v4058 sel. tw/v4059 tw nums
-!!VRv4059:S14;							max number of selection	28
+!!VRv4059:S15;							max number of selection	28
 !!VRv360:Sv4059 -1 +97; 97-144	
 
 

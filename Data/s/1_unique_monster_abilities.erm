@@ -50,8 +50,10 @@ ZVSE
 !!FU(casting_spell):P287/7/15/2/30; 			Forest Guards		magic arrow(15) 
 
  ; Strange Cult
-!!FU(casting_spell):P338/7/54/2/50; 			Mage of Void (338)	slowness(54)	
-!!FU(casting_spell):P336/10/16/2/100; 			Shaman-Cultist		ice arrow(16)
+!!FU(casting_spell):P336/7/54/2/40; 			Mage of Void (338)	slowness(54)	
+!!FU(casting_spell):P334/10/16/2/100; 			Shaman-Cultist		ice arrow(16)
+!!FU(casting_spell):P340/6/50/2/40; 			Wendigo	   (sorrow 50 )
+!!FU(casting_spell):P344/6/45/2/50;				Giant Bat (Disrupting Ray 47)
 
  ; Monastery
 !!VRy10:R4;										5 different spells for Mimik	 
@@ -79,6 +81,9 @@ ZVSE
 !!FU(casting_spell):P367/7/45/2/20;				∆рица Моря			weakness (45)
 !!FU(casting_spell):P368/7/45/2/50;				Заклинательница		
 
+ ; Kitezh Grad
+!-!FU(casting_spell):P387/6/57/2/18;				Bilinny Bogatyr		thunder of titans (57)
+ 
  ; Temple of Light 
 !!FU(casting_spell):P435/10/25/2/100;			knights-crusaders, exorcism(25) 
 !-!FU(casting_spell):P436/6/21/1/15;				Knight of sparks
@@ -104,8 +109,10 @@ ZVSE
 !!FU(undead_takes_more_damage_part1):P443/6/-1/2/100;
 
  ; Deep Swamp
-!!FU(casting_spell):P453/10/54/3/90;			Morra, slow all
-!!FU(casting_spell):P453/6/54/3/40;
+!-!FU(casting_spell):P453/10/54/3/90;			Morra, slow all
+!!FU(casting_spell):P473/6/54/1/40;				Morra, slow
+
+
 
  ; Ice Castle
 !!FU(casting_spell_on_itself):P485/6/43/2/30;	ice bears (Bloodlust)
@@ -131,6 +138,9 @@ ZVSE
  ; Preserve
 !!FU(casting_spell):P576/6/17/2/65;			Shiny Storm Egles,  lightning 
 
+
+ ; 8 level creatures
+!!FU(casting_spell):P444/7/71/3/80;			Great Ancient Spider
 
 
 
@@ -161,6 +171,9 @@ ZVSE
 
  ; Elemental Palace
 !!FU(monster_ignore_damage):P497/27;				Queen of Ice
+
+ ; Abandoned Pyramid
+!!FU(monster_ignore_damage):P529/20;				Ghost of Pyramid
 
  ; Deep Swamp
 !!FU(monster_ignore_damage):P465/20;				ghost of swamp

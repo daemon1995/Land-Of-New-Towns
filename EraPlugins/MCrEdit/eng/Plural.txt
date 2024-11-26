@@ -200,11 +200,11 @@ Treefolk Wizards
 Magician
 Giant Ents
 Ancient Ents
-Vermilion petrels
+Forest Birds
 Loogans
 Treefolks
 Ents
-Petrels
+Vermilion Petrels
 Loogans warriors
 Small Wooddwellers
 Small Magicians
@@ -445,11 +445,11 @@ Warriors of Light
 
 
 
-
+Epic Palladins
 
 Dark Angels
 Legendary Sand Worms
-
+Upg. Golden Golem
 
 
 Sky genies
@@ -469,7 +469,7 @@ Dendroid Leaders
 
 
 
-Swam witch
+
 
 
 
@@ -478,8 +478,8 @@ Snow Centaurids jr.
 Snow Centaurides
 snow boars jr.
 snow Boars
-Blue snow Birds
-Snow Birds
+Blue Snowbirds
+SnowBirds
 snow tigers
 Ice Tigers
 Snow Bears
@@ -532,6 +532,21 @@ Necro Sphinxes
 
 Sphinxes
 
+Big Scarabs
+Golden Scarabs
+Wadjet
+Poisonous Wadjet
+Warriors Inpu jr.
+Warrior Inpu
+small avatars of Gorus
+avatars of Gorus
+silver Golems
+Golden Golems of Pyramid
+Stone Sphinxes jr.
+Stone Sphinxes
+Great Sphinxes
+small avatars of Anubis
+avatars of Anubis
 
 
 
@@ -561,32 +576,17 @@ Sphinxes
 
 
 
+Colorful Coatles
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Walking Plants jr.
+Walking Plants
+Treebeards jr.
+Treebeards
+Young Brownies
+Brownies
+young Green Giants
+Green Giants
 
 
 
