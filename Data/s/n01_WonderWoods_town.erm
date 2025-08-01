@@ -206,8 +206,10 @@ ZVSE
 !!UN:T1/6/0/205;
 !!UN:T1/6/1/201;
 
+	; exit if WondersWoods old creatures enabled 
+	!!FU(wonderwoods___monsters)&v4087=1:E;
 
-	; new version
+	
 !!UN:T1/1/0/581;
 !!UN:T1/1/1/582;
 !!UN:T1/2/0/583;

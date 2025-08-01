@@ -1,6 +1,20 @@
 Version history:
 
-ver. 3.3
+ver. 3.4
+* Added 2 new towns: Mythology (based on Mythology mod), Techno town (based on Technocracy VCMI). 
+  Total number of towns is 24 with no replacements
+* Sand town rework
+* edit lineup of Knight's Castle creatures 
+* added new neutral creatures & map objects
+* Pyramid town graphic fixes
+* fix errors on AI turn
+* fix error in MapEditor
+* added new option to enable/disable new towns
+  (see file "...\Mods\Land Of New Towns\Data\s\___options.erm")
+* minor changes in Elemental Palace creatures abilities	
+* minor changes in Druid town creatures abilities	
+
+3.3
 * WonderWoods town rework
 * add new town: Pyramid
 * fix error in MapEditor

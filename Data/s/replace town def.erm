@@ -22,24 +22,24 @@ vx16						vx16 - new type of town (default / new / new_var2 / new_var3)
 !!UN&y2=0/vx16=0:Iy10/y11/y12/63/90/1;		Castle
 !!UN&y2=0/vx16=1:Iy10/y11/y12/63/113/1;		Cove
 !!UN&y2=0/vx16=2:Iy10/y11/y12/63/115/1;		Ruins
-!!UN&y2=0/vx16=3:Iy10/y11/y12/63/118/1;		Temple of Light
+!!UN&y2=0/vx16=3:Iy10/y11/y12/63/118/1;		Knight's Castle
  
 !!UN&y2=1/vx16=0:Iy10/y11/y12/63/91/1;		Rampart (default vx16=0)
 !!UN&y2=1/vx16=1:Iy10/y11/y12/63/101/1;		WonderWoods 
 !!UN&y2=1/vx16=2:Iy10/y11/y12/63/106/1;		Magic Forest
-!!UN&y2=1/vx16=3:Iy10/y11/y12/63/108/1;		
-!!UN&y2=1/vx16=4:Iy10/y11/y12/63/114/1;		
-!!UN&y2=1/vx16=5:Iy10/y11/y12/63/126/1;				
+!!UN&y2=1/vx16=3:Iy10/y11/y12/63/108/1;		Druids town
+!!UN&y2=1/vx16=4:Iy10/y11/y12/63/114/1;		Kitezh Grad
+!!UN&y2=1/vx16=5:Iy10/y11/y12/63/126/1;		Preserve			
 
 !!UN&y2=2/vx16=0:Iy10/y11/y12/63/92/1;		Tower
-!!UN&y2=2/vx16=1:Iy10/y11/y12/63/109/1;		
+!!UN&y2=2/vx16=1:Iy10/y11/y12/63/109/1;		Monastery
 !!UN&y2=2/vx16=2:Iy10/y11/y12/63/120/1;		Ice Castle
 !!UN&y2=2/vx16=3:Iy10/y11/y12/63/121/1;		Elemental Palace
 
 !!UN&y2=3/vx16=0:Iy10/y11/y12/63/93/1;		Inferno
-!!UN&y2=3/vx16=1:Iy10/y11/y12/63/117/1;		
-!!UN&y2=3/vx16=2:Iy10/y11/y12/63/122/1;		
-!-!UN&y2=3/vx16=1:Iy10/y11/y12/63/99/1;		
+!!UN&y2=3/vx16=1:Iy10/y11/y12/63/117/1;		Techno town
+!!UN&y2=3/vx16=2:Iy10/y11/y12/63/122/1;		Courtyard
+!-!UN&y2=3/vx16=1:Iy10/y11/y12/63/99/1;		town with Random monsters
 
 !!UN&y2=4/vx16=0:Iy10/y11/y12/63/94/1;		Necropolis
 !!UN&y2=4/vx16=1:Iy10/y11/y12/63/123/1;		Abandoned Pyramid
@@ -65,6 +65,9 @@ vx16						vx16 - new type of town (default / new / new_var2 / new_var3)
 !!UN&y2=8/vx16=3:Iy10/y11/y12/63/112/1;		Oasis 
 
 
+	!!FU(reduce_monster_growth_for Mythology):P;
+
+	FU(third_upgrades_and_deny_buildings):P;	
 
 
 !!FU(place_town_def):E; 

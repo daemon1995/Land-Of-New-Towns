@@ -1,0 +1,302 @@
+ZVSE
+
+
+ ; Mythology town - based on Dungeon
+
+	
+-------------------------------------------------------------------	
+	
+	
+	
+!?FU(mythology___town); 					
+
+
+-----------------------------
+ ; replace town screen
+ ----------------------------
+ 
+!!FU(Restore_Default_TownScreen):P;
+ 
+!!SN:R^TBDNBACK.pcx^/^TBMHBACK.pcx^;
+!!SN:R^DUNGEON.MP3^/^Mythology.mp3^;
+!!SN:R^HALLDUNG.def^/^HALLMYTH.def^;
+!!SN:R^TPMAGEDN.pcx^/^TPMAGEmy.pcx^;
+!!SN:R^TPCASdun.pcx^/^TPCASmyt.pcx^;		back for monsters avatars
+!!SN:R^CRBKGDUN.PCX^/^CRBKGmyt.pcx^;
+
+!!FU(SetBuilding'sPosition):P5/18/0/26;		horde1
+!!FU(SetBuilding'sPosition):P5/19/0/26;	
+	
+!!FU(SetBuilding'sPosition):P5/30/0/26;
+!!FU(SetBuilding'sPosition):P5/31/0/275;
+!!FU(SetBuilding'sPosition):P5/32/280/55;
+
+!!FU(SetBuilding'sPosition):P5/37/0/26;
+!!FU(SetBuilding'sPosition):P5/38/0/275;
+!!FU(SetBuilding'sPosition):P5/39/280/15;
+	
+	
+	
+!!SN:R^TBDNBlak.def^/^TBMHBlak.def^;
+!!SN:R^TBDNCas2.def^/^TBMHCas2.def^;
+!!SN:R^TBDNCas3.def^/^TBMHCas3.def^;
+!!SN:R^TBDNCstl.def^/^TBMHCstl.def^;
+!!SN:R^TBDNDw_0.def^/^TBMHDw_0.def^;
+!!SN:R^TBDNDw_1.def^/^TBMHDw_1.def^;
+!!SN:R^TBDNDw_2.def^/^TBMHDw_2.def^;
+!!SN:R^TBDNDw_3.def^/^TBMHDw_3.def^;
+!!SN:R^TBDNDw_4.def^/^TBMHDw_4.def^;
+!!SN:R^TBDNDw_5.def^/^TBMHDw_5.def^;
+!!SN:R^TBDNDw_6.def^/^TBMHDw_6.def^;
+!!SN:R^TBDNExt0.def^/^TBMHExt0.def^;
+!!SN:R^TBDNExt1.def^/^TBMHExt1.def^;
+!!SN:R^TBDNExt2.def^/^TBMHExt2.def^;
+!!SN:R^TBDNHal2.def^/^TBMHHal2.def^;
+!!SN:R^TBDNHal3.def^/^TBMHHal3.def^;
+!!SN:R^TBDNHal4.def^/^TBMHHal4.def^;
+!!SN:R^TBDNHall.def^/^TBMHHall.def^;
+!!SN:R^TBDNHoly.def^/^TBMHHoly.def^;
+!!SN:R^TBDNHrd1.def^/^TBMHUp_0.def^;	^TBMHHrd1.def^;
+!!SN:R^TBDNHrd2.def^/^TBMHHrd2.def^;
+!!SN:R^TBDNMag2.def^/^TBMHMag2.def^;
+!!SN:R^TBDNMag3.def^/^TBMHMag3.def^;
+!!SN:R^TBDNMag4.def^/^TBMHMag4.def^;
+!!SN:R^TBDNMag5.def^/^TBMHMag5.def^;
+!!SN:R^TBDNMage.def^/^TBMHMage.def^;
+!!SN:R^TBDNMark.def^/^TBMHMark.def^;
+!!SN:R^TBDNSilo.def^/^TBMHSilo.def^;
+!!SN:R^TBDNSpec.def^/^TBMHSpec.def^;
+!!SN:R^TBDNTvrn.def^/^TBMHTvrn.def^;
+!!SN:R^TBDNUp_0.def^/^TBMHUp_0.def^;
+!!SN:R^TBDNUp_1.def^/^TBMHUp_1.def^;
+!!SN:R^TBDNUp_2.def^/^TBMHUp_2.def^;
+!!SN:R^TBDNUp_3.def^/^TBMHUp_3.def^;
+!!SN:R^TBDNUp_4.def^/^TBMHUp_4.def^;
+!!SN:R^TBDNUp_5.def^/^TBMHUp_5.def^;
+!!SN:R^TBDNUp_6.def^/^TBMHUp_6.def^;
+
+!!SN:R^TODACAD.pcx^/^TODACADy.pcx^;
+!!SN:R^TODART.pcx^/^TODARTy.pcx^;
+!!SN:R^TODBEH1A.pcx^/^TODBEH1Ay.pcx^;
+!!SN:R^TODBEH2A.pcx^/^TODBEH2Ay.pcx^;
+!!SN:R^TODCAS1.pcx^/^TODCAS1y.pcx^;
+!!SN:R^TODCAS2.pcx^/^TODCAS2y.pcx^;
+!!SN:R^TODCAS3.pcx^/^TODCAS3y.pcx^;
+!!SN:R^TODDRA1A.pcx^/^TODDRA1Ay.pcx^;
+!!SN:R^TODDRA2A.pcx^/^TODDRA2Ay.pcx^;
+!!SN:R^TODHALL1.pcx^/^TODHALL1y.pcx^;
+!!SN:R^TODHALL2.pcx^/^TODHALL2y.pcx^;
+!!SN:R^TODHALL3.pcx^/^TODHALL3y.pcx^;
+!!SN:R^TODHALL4.pcx^/^TODHALL4y.pcx^;
+!!SN:R^TODHAR1.pcx^/^TODHAR1y.pcx^; 	^TODTRG1Ay.pcx^;	^TODHAR1y.pcx^;
+!!SN:R^TODHAR2.pcx^/^TODHAR2y.pcx^; 	^TODTRG2Ay.pcx^;	^TODHAR2y.pcx^;
+!!SN:R^TODHOLY.pcx^/^TODHOLYy.pcx^;
+!!SN:R^TODMAG1.pcx^/^TODMAG1y.pcx^;
+!!SN:R^TODMAG2.pcx^/^TODMAG2y.pcx^;
+!!SN:R^TODMAG3.pcx^/^TODMAG3y.pcx^;
+!!SN:R^TODMAG4.pcx^/^TODMAG4y.pcx^;
+!!SN:R^TODMAG5.pcx^/^TODMAG5y.pcx^;
+!!SN:R^TODMAN1.pcx^/^TODMAN1y.pcx^;
+!!SN:R^TODMAN2.pcx^/^TODMAN2y.pcx^;
+!!SN:R^TODMARK.pcx^/^TODMARKy.pcx^;
+!!SN:R^TODMED1.pcx^/^TODMED1y.pcx^;
+!!SN:R^TODMED2.pcx^/^TODMED2y.pcx^;
+!!SN:R^TODMIN1.pcx^/^TODMIN1y.pcx^;
+!!SN:R^TODMIN2.pcx^/^TODMIN2y.pcx^;
+!!SN:R^TODPORTA.pcx^/^TODPORTAy.pcx^;
+!!SN:R^TODSILO.pcx^/^TODSILOy.pcx^;
+!!SN:R^TODSMITH.pcx^/^TODSMITHy.pcx^;
+!!SN:R^TODTAV.pcx^/^TODTAVy.pcx^;
+!!SN:R^TODTR1HA.pcx^/^TODTR1HAy.pcx^;
+!!SN:R^TODTR2HA.pcx^/^TODTR2HAy.pcx^;
+!!SN:R^TODTRG1A.pcx^/^TODTRG1Ay.pcx^;
+!!SN:R^TODTRG2A.pcx^/^TODTRG2Ay.pcx^;
+!!SN:R^TODVOR1A.pcx^/^TODVOR1Ay.pcx^;
+
+!!SN:R^TZDACAD.pcx^/^TZDACADy.pcx^;
+!!SN:R^TZDART.pcx^/^TZDARTy.pcx^;
+!!SN:R^TZDBEH1A.pcx^/^TZDBEH1Ay.pcx^;
+!!SN:R^TZDBEH2A.pcx^/^TZDBEH2Ay.pcx^;
+!!SN:R^TZDCAS1.pcx^/^TZDCAS1y.pcx^;
+!!SN:R^TZDCAS2.pcx^/^TZDCAS2y.pcx^;
+!!SN:R^TZDCAS3.pcx^/^TZDCAS3y.pcx^;
+!!SN:R^TZDDRA1A.pcx^/^TZDDRA1Ay.pcx^;
+!!SN:R^TZDDRA2A.pcx^/^TZDDRA2Ay.pcx^;
+!!SN:R^TZDHALL1.pcx^/^TZDHALL1y.pcx^;
+!!SN:R^TZDHALL2.pcx^/^TZDHALL2y.pcx^;
+!!SN:R^TZDHALL3.pcx^/^TZDHALL3y.pcx^;
+!!SN:R^TZDHALL4.pcx^/^TZDHALL4y.pcx^;
+!!SN:R^TZDHAR1.pcx^/^TZDHAR1y.pcx^;
+!!SN:R^TZDHAR2.pcx^/^TZDHAR2y.pcx^;
+!!SN:R^TZDHOLY.pcx^/^TZDHOLYy.pcx^;
+!!SN:R^TZDMAG1.pcx^/^TZDMAG1y.pcx^;
+!!SN:R^TZDMAG2.pcx^/^TZDMAG2y.pcx^;
+!!SN:R^TZDMAG3.pcx^/^TZDMAG3y.pcx^;
+!!SN:R^TZDMAG4.pcx^/^TZDMAG4y.pcx^;
+!!SN:R^TZDMAG5.pcx^/^TZDMAG5y.pcx^;
+!!SN:R^TZDMAN1.pcx^/^TZDMAN1y.pcx^;
+!!SN:R^TZDMAN2.pcx^/^TZDMAN2y.pcx^;
+!!SN:R^TZDMARK.pcx^/^TZDMARKy.pcx^;
+!!SN:R^TZDMED1.pcx^/^TZDMED1y.pcx^;
+!!SN:R^TZDMED2.pcx^/^TZDMED2y.pcx^;
+!!SN:R^TZDMIN1.pcx^/^TZDMIN1y.pcx^;
+!!SN:R^TZDMIN2.pcx^/^TZDMIN2y.pcx^;
+!!SN:R^TZDPORTA.pcx^/^TZDPORTAy.pcx^;
+!!SN:R^TZDSILO.pcx^/^TZDSILOy.pcx^;
+!!SN:R^TZDSMITH.pcx^/^TZDSMITHy.pcx^;
+!!SN:R^TZDTAV.pcx^/^TZDTAVy.pcx^;
+!!SN:R^TZDTR1HA.pcx^/^TZDTR1HAy.pcx^;
+!!SN:R^TZDTR2HA.pcx^/^TZDTR2HAy.pcx^;
+!!SN:R^TZDTRG1A.pcx^/^TZDTRG1Ay.pcx^;
+!!SN:R^TZDTRG2A.pcx^/^TZDTRG2Ay.pcx^;
+!!SN:R^TZDVOR1A.pcx^/^TZDVOR1Ay.pcx^;
+
+
+
+ 
+ 
+ -----------------------------
+ ; replace creatures
+-----------------------------
+
+	!!FU(mythology___monsters):P; 
+
+
+
+ !!FU(mythology___town):E;  end function
+ 
+ 
+ 
+ 
+ -----------------------------
+ 
+!?FU(mythology___monsters);
+
+!!UN:T5/0/0/402;	
+!!UN:T5/0/1/403;
+!!UN:T5/1/0/72;		139;	Kentavr1 404;	
+!!UN:T5/1/1/73;		405;	Kentavr2 405;
+!!UN:T5/2/0/74;	
+!!UN:T5/2/1/75;		139;	407;
+!!UN:T5/3/0/76;	
+!!UN:T5/3/1/77;		139;	409;
+!!UN:T5/4/0/78;		410;
+!!UN:T5/4/1/79;		411;
+!!UN:T5/5/0/80;		412;
+!!UN:T5/5/1/81;		413;
+!!UN:T5/6/0/414;
+!!UN:T5/6/1/415;
+
+!!UN:T5/0/0/402;	
+!!UN:T5/0/1/403;
+!!UN:T5/1/0/404;		139;	Kentavr1 404;	
+!!UN:T5/1/1/405;		405;	Kentavr2 405;
+!!UN:T5/2/0/406;	
+!!UN:T5/2/1/407;		139;	407;
+!!UN:T5/3/0/408;	
+!!UN:T5/3/1/409;		139;	409;
+!!UN:T5/4/0/410;		410;
+!!UN:T5/4/1/411;		411;
+!!UN:T5/5/0/412;		412;
+!!UN:T5/5/1/413;		413;
+!!UN:T5/6/0/414;
+!!UN:T5/6/1/415;
+ 
+!!FU(mythology___monsters):E; 
+ 
+ 
+ 
+ ----------------------------------------------------
+ 
+ 
+!-?PI;
+!-!FU(reduce_monster_growth_for Mythology):P;
+
+
+
+
+------------------------------------------------
+
+!?FU(reduce_monster_growth_for Mythology);
+
+!!DO(nnh2)/4000/v4052/1:P5;			x16 is a counter of DO2
+!?FU(nnh2);
+!!VRy1:Sx16-4000;     		y1 - current town id
+!!CA0/y1:T?y2; 				y2 - game_default_type of this town  (0...8)
+vx16						vx16 - new type of town (default / new / new_var2 / new_var3)
+
+
+ ; Cove town
+!-!FU(dex_SetDwellingSlotByTownId)&y2=0/vx16=1:Py1/2/1/2/373/100;	Sea Wolf(373),  100% of creatures (100)
+
+
+ ; Mythology town
+; building level2 
+!!FU(dex_SetDwellingSlotByTownId)&y2=5/vx16=3:Py1/1/0/0/404/40;	Kentavr1,  40% of creatures (40)
+; upgraded building level2 can buy both creatures 404/405 (for upg dw - change slot id for comfort):
+!!FU(dex_SetDwellingSlotByTownId)&y2=5/vx16=3:Py1/1/1/1/404/40;	Kentavr1
+!!FU(dex_SetDwellingSlotByTownId)&y2=5/vx16=3:Py1/1/1/0/405/40;	Kentavr2
+
+!!FU(dex_SetDwellingSlotByTownId)&y2=5/vx16=3:Py1/2/0/0/406/60;	Meduza1
+!!FU(dex_SetDwellingSlotByTownId)&y2=5/vx16=3:Py1/2/1/1/406/60;	Meduza1
+!!FU(dex_SetDwellingSlotByTownId)&y2=5/vx16=3:Py1/2/1/0/407/60;	Meduza_Gorgona
+
+!!FU(dex_SetDwellingSlotByTownId)&y2=5/vx16=3:Py1/3/0/0/408/50;	Cyclops_cannibal
+!!FU(dex_SetDwellingSlotByTownId)&y2=5/vx16=3:Py1/3/1/1/408/50;	Cyclops_cannibal
+!!FU(dex_SetDwellingSlotByTownId)&y2=5/vx16=3:Py1/3/1/0/409/50;	Cyclops2
+
+!!FU(dex_SetDwellingSlotByTownId)&y2=5/vx16=3:Py1/4/0/0/410/70;	dw  Minotavr 1
+!!FU(dex_SetDwellingSlotByTownId)&y2=5/vx16=3:Py1/4/1/1/410/70;	upg_dw  Minotavr 1
+!!FU(dex_SetDwellingSlotByTownId)&y2=5/vx16=3:Py1/4/1/0/411/70;	upg_dw  Minotavr 2
+
+!!FU(dex_SetDwellingSlotByTownId)&y2=5/vx16=3:Py1/5/0/0/412/80;	dw  Mantikora 1
+!!FU(dex_SetDwellingSlotByTownId)&y2=5/vx16=3:Py1/5/1/1/412/80;	upg_dw  Mantikora 1
+!!FU(dex_SetDwellingSlotByTownId)&y2=5/vx16=3:Py1/5/1/0/413/80;	upg_dw  Mantikora 2
+
+
+ ; sky genie (454) for Tower	
+!-!FU(dex_SetDwellingSlotByTownId)&y2=2/vx16=0:Py1/4/1/2/454/70;
+!-!FU(dex_SetDwellingSlotByTownId):Py1/4/1/2/454/70;
+
+
+
+!!FU(nnh2):E; 
+
+
+!!FU(reduce_monster_growth_for Mythology):E;
+
+
+
+
+--------------------------------------------
+
+!?FU(mythology___monsters_for_AI);
+
+!!UN:T5/0/0/402;										Mythic Harpia	
+!!UN:T5/0/1/403;
+
+!!FU(dex_SetDwellingSlotByTownType):P5/1/0/0/404/40;	Kentavr1,  40% of creatures (40)
+!!FU(dex_SetDwellingSlotByTownType):P5/1/1/1/404/40;	Kentavr1
+!!FU(dex_SetDwellingSlotByTownType):P5/1/1/0/405/40;	Kentavr2
+       
+!!FU(dex_SetDwellingSlotByTownType):P5/2/0/0/406/60;	Meduza1
+!!FU(dex_SetDwellingSlotByTownType):P5/2/1/1/406/60;	Meduza1
+!!FU(dex_SetDwellingSlotByTownType):P5/2/1/0/407/60;	Meduza_Gorgona
+
+!!FU(dex_SetDwellingSlotByTownType):P5/3/0/0/408/50;	Cyclops_cannibal
+!!FU(dex_SetDwellingSlotByTownType):P5/3/1/1/408/50;	Cyclops_cannibal
+!!FU(dex_SetDwellingSlotByTownType):P5/3/1/0/409/50;	Cyclops2
+
+!!FU(dex_SetDwellingSlotByTownType):P5/4/0/0/410/70;	dw  Minotavr 1
+!!FU(dex_SetDwellingSlotByTownType):P5/4/1/1/410/70;	upg_dw  Minotavr 1
+!!FU(dex_SetDwellingSlotByTownType):P5/4/1/0/411/70;	upg_dw  Minotavr 2
+
+!!FU(dex_SetDwellingSlotByTownType):P5/5/0/0/412/80;	dw  Mantikora 1
+!!FU(dex_SetDwellingSlotByTownType):P5/5/1/1/412/80;	upg_dw  Mantikora 1
+!!FU(dex_SetDwellingSlotByTownType):P5/5/1/0/413/80;	upg_dw  Mantikora 2
+
+!!UN:T5/6/0/414;										Strorm Titans
+!!UN:T5/6/1/415;
+
+ 
+!!FU(mythology___monsters_for_AI):E; 

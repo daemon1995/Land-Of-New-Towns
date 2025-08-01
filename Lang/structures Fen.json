@@ -1,0 +1,50 @@
+{
+	"fen" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"extraAnimation": { "animation" : "tbFEEXT2.def",  "x" : 46,  "y" : 119 },
+				"mageGuild1":     { "animation" : "tbFEMAGE.def",  "x" : 707, "y" : 166, "z" : 1,    "border" : "toFEMAG1.bmp", "area" : "tzFEMAG1.bmp" },
+				"mageGuild2":     { "animation" : "tbFEMAG2.def",  "x" : 706, "y" : 135, "z" : 1,    "border" : "toFEMAG2.bmp", "area" : "tzFEMAG2.bmp" },
+				"mageGuild3":     { "animation" : "tbFEMAG3.def",  "x" : 704, "y" : 107, "z" : 1,    "border" : "toFEM301.bmp", "area" : "tzFEM301.bmp" },
+				"mageGuild4":     { "animation" : "tbFEMAG4.def",  "x" : 704, "y" : 76,  "z" : 1,    "border" : "toFEM401.bmp", "area" : "tzFEM401.bmp" },
+				"mageGuild5":     { "animation" : "tbFEMAG5.def",  "x" : 704, "y" : 46,  "z" : 1,    "border" : "toFEM501.bmp", "area" : "tzFEM501.bmp" },
+				"tavern":         { "animation" : "tbFETVRN.def",  "x" : 0,   "y" : 230, "z" : 1,    "border" : "toFETAV1.bmp", "area" : "tzFETAV1.bmp" },
+				"fort":           { "animation" : "tbFECSTL.def",  "x" : 595, "y" : 66,  "z" : -4,   "border" : "toFECAS1.bmp", "area" : "tzFECAS1.bmp" },
+				"citadel":        { "animation" : "TBfeCAS2.def",  "x" : 478, "y" : 66,  "z" : -4,   "border" : "toFECAS2.bmp", "area" : "tzFECAS2.bmp" },
+				"castle":         { "animation" : "TBfeCAS3.def",  "x" : 478, "y" : 37,  "z" : -4,   "border" : "toFECAS3.bmp", "area" : "tzFECAS3.bmp" },
+				"villageHall":    { "animation" : "tbFEHALL.def",  "x" : 0,   "y" : 209,             "border" : "toFEH101.bmp", "area" : "tzFEH101.bmp" },
+				"townHall":       { "animation" : "tbFEHAL2.def",  "x" : 0,   "y" : 176,             "border" : "toFEH201.bmp", "area" : "tzFEH201.bmp" },
+				"cityHall":       { "animation" : "tbFEHAL3.def",  "x" : 0,   "y" : 164,             "border" : "toFEH301.bmp", "area" : "tzFEH301.bmp" },
+				"capitol":        { "animation" : "tbFEHAL4.def",  "x" : 0,   "y" : 154,             "border" : "toFEH401.bmp", "area" : "tzFEH401.bmp" },
+				"marketplace":    { "animation" : "tbFEMARK.def",  "x" : 413, "y" : 264,             "border" : "toFEMRK1.bmp", "area" : "tzFEMRK1.bmp" },
+				"resourceSilo":   { "animation" : "tbFESILO.def",  "x" : 488, "y" : 228,             "border" : "toFEMRK2.bmp", "area" : "tzFEMRK2.bmp" },
+				"blacksmith":     { "animation" : "tbFEBLAK.def",  "x" : 213, "y" : 251,             "border" : "toFEBLAK.bmp", "area" : "tzFEBLAK.bmp" },
+				"special3":       { "animation" : "tbFESPEC.def",  "x" : 0,   "y" : 0,               "border" : "toFELT01.bmp", "area" : "tzFELT01.bmp" },
+				"horde1":         { "animation" : "tbFEHRD1.def",  "x" : 76,  "y" : 53,  "z" : -1,   "border" : "toFEGR1H.bmp", "area" : "tzFEGR1H.bmp", "hidden" : true },
+				"horde1Upgr":     { "animation" : "tbFEHRD2.def",  "x" : 76,  "y" : 35,  "z" : -1,   "border" : "toFEGR2H.bmp", "area" : "tzFEGR2H.bmp", "hidden" : true, "builds" : "horde1" },
+				"special2":       { "animation" : "tbFEEXT0.def",  "x" : 384, "y" : 193, "z" : -2,   "border" : "toFECAVM.bmp", "area" : "tzFECAVM.bmp" },
+				"special1":       { "animation" : "tbFEEXT1.def",  "x" : 0,   "y" : 198, "z" :  2,   "border" : "toFETAV2.bmp", "area" : "tzFETAV2.bmp" },
+				"grail":          { "animation" : "tbFEHOLY.def",  "x" : 0,   "y" : 0,   "z" : -3,   "border" : "toFEHOLY.bmp", "area" : "tzFEHOLY.bmp" },
+				"dwellingLvl1":   { "animation" : "tbFEDW_0.def",  "x" : 304, "y" : 92,              "border" : "toFEPIK1.bmp", "area" : "tzFEPIK1.bmp" },
+				"dwellingLvl2":   { "animation" : "tbFEDW_1.def",  "x" : 360, "y" : 130,             "border" : "toFECRS1.bmp", "area" : "tzFECRS1.bmp" },
+				"dwellingLvl3":   { "animation" : "tbFEDW_2.def",  "x" : 76,  "y" : 57,  "z" : -1,   "border" : "toFEGR1N.bmp", "area" : "tzFEGR1N.bmp" },
+				"dwellingLvl4":   { "animation" : "tbFEDW_3.def",  "x" : 176, "y" : 101,             "border" : "toFESWD1.bmp", "area" : "tzFESWD1.bmp" },
+				"dwellingLvl5":   { "animation" : "tbFEDW_4.def",  "x" : 563, "y" : 211, "z" : 1,    "border" : "toFEMON1.bmp", "area" : "tzFEMON1.bmp" },
+				"dwellingLvl6":   { "animation" : "tbFEDW_5.def",  "x" : 174, "y" : 190, "z" : -1,   "border" : "toFEC101.bmp", "area" : "tzFECAV1.bmp" },
+				"dwellingLvl7":   { "animation" : "tbFEDW_6.def",  "x" : 0,   "y" : 0,   "z" : 1,    "border" : "toFEANG1.bmp", "area" : "tzFEANG1.bmp" },
+				"dwellingUpLvl1": { "animation" : "tbFEUP_0.def",  "x" : 304, "y" : 65,              "border" : "toFEPIK2.bmp", "area" : "tzFEPIK2.bmp" },
+				"dwellingUpLvl2": { "animation" : "tbFEUP_1.def",  "x" : 360, "y" : 115,             "border" : "toFECRS2.bmp", "area" : "tzFECRS2.bmp" },
+			   "dwellingUp2Lvl1": { "animation" : "tbFEUP2_0.def", "x" : 304, "y" : 60,  "z" : -1,   "border" : "toFEPIK3.bmp", "area" : "tzFEPIK3.bmp" },
+			   "dwellingUp2Lvl2": { "animation" : "tbFEUP2_1.def", "x" : 363, "y" : 111,             "border" : "toFECRS3.bmp", "area" : "tzFECRS3.bmp" },
+				"dwellingUpLvl3": { "animation" : "tbFEUP_2.def",  "x" : 76,  "y" : 35,  "z" : -1,   "border" : "toFEGR2N.bmp", "area" : "tzFEGR2N.bmp" },
+				"dwellingUpLvl4": { "animation" : "tbFEUP_3.def",  "x" : 176, "y" : 85,              "border" : "toFESWD2.bmp", "area" : "tzFESWD2.bmp" },
+				"dwellingUpLvl5": { "animation" : "tbFEUP_4.def",  "x" : 563, "y" : 173, "z" : 1,    "border" : "toFEMON2.bmp", "area" : "tzFEMON2.bmp" },
+				"dwellingUpLvl6": { "animation" : "tbFEUP_5.def",  "x" : 160, "y" : 190, "z" : -1,   "border" : "toFECAV2.bmp", "area" : "tzFECAV2.bmp" },
+				"dwellingUpLvl7": { "animation" : "tbFEUP_6.def",  "x" : 0,   "y" : 0,   "z" : 1,    "border" : "toFEANG2.bmp", "area" : "tzFEANG2.bmp" }
+			}
+		}
+	}
+}

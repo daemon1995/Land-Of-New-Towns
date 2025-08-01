@@ -1,0 +1,52 @@
+{
+	"nightwatch" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"extraAnimation":  { "animation" : "tbNWEXT2.def",  "x" : 0, "y" : 0 },
+				"mageGuild1":      { "animation" : "tbNWMAGE.def",  "x" : 0, "y" : 0,   "z" : 1,    "border" : "toNWMAG1.pcx", "area" : "tzNWMAG1.pcx" },
+				"mageGuild2":      { "animation" : "tbNWMAG2.def",  "x" : 0, "y" : 0,   "z" : 1,    "border" : "toNWMAG2.pcx", "area" : "tzNWMAG2.pcx" },
+				"mageGuild3":      { "animation" : "tbNWMAG3.def",  "x" : 0, "y" : 0,   "z" : 1,    "border" : "toNWM301.pcx", "area" : "tzNWM301.pcx" },
+				"mageGuild4":      { "animation" : "tbNWMAG4.def",  "x" : 0, "y" : 0,   "z" : 1,    "border" : "toNWM401.pcx", "area" : "tzNWM401.pcx" },
+				"mageGuild5":      { "animation" : "tbNWMAG5.def",	 "x" : 0,   "y" : 0,  "z" : 1,   "border" :"mg5b.pcx",     "area" : "mg5a.pcx" },
+				"tavern":          { "animation" : "tbNWTVRN.def",  "x" : 0,   "y" : 230, "z" : 1, "border" : "toNWTAV1.pcx",    "area" : "tzNWTAV1.pcx" },
+				"shipyard":        { "animation" : "tbNWDOCK.def",  "x" : 0, "y" : 0,   "z" : -3,   "border" : "toNWDKMS.pcx", "area" : "tzNWDKMS.pcx" },
+				"fort":            { "animation" : "tbNWCSTL.def",  "x" : 0, "y" : 0,               "border" : "toNWCAS1.pcx", "area" : "tzNWCAS1.pcx" },
+				"citadel":         { "animation" : "tbNWCAS2.def",  "x" : 0, "y" : 0,   "z" : -4,   "border" : "toNWCAS2.pcx", "area" : "tzNWCAS2.pcx" },
+				"castle":          { "animation" : "tbNWCAS3.def",  "x" : 0, "y" : 0,   "z" : -4,   "border" : "toNWCAS3.pcx", "area" : "tzNWCAS3.pcx" },
+				"villageHall":     { "animation" : "tbNWHALL.def",  "x" : 0, "y" : 0,               "border" : "toNWH101.pcx", "area" : "tzNWH101.pcx" },
+				"townHall":        { "animation" : "tbNWHAL2.def",  "x" : 0, "y" : 0,               "border" : "toNWH201.pcx", "area" : "tzNWH201.pcx" },
+				"cityHall":        { "animation" : "tbNWHAL3.def",  "x" : 0, "y" : 0,               "border" : "toNWH301.pcx", "area" : "tzNWH301.pcx" },
+				"capitol":         { "animation" : "tbNWHAL4.def",  "x" : 0, "y" : 0,               "border" : "toNWH401.pcx", "area" : "tzNWH401.pcx" },
+				"marketplace":     { "animation" : "tbNWMARK.def",  "x" : 0, "y" : 0,               "border" : "toNWMRK1.pcx", "area" : "tzNWMRK1.pcx" },
+				"resourceSilo":    { "animation" : "tbNWSILO.def",  "x" : 0, "y" : 0,               "border" : "toNWMRK2.pcx", "area" : "tzNWMRK2.pcx" },
+				"blacksmith":      { "animation" : "tbNWBLAK.def",  "x" : 0, "y" : 0,               "border" : "toNWBLAK.pcx", "area" : "tzNWBLAK.pcx" },
+				"horde1":          { "animation" : "tbNWHRD1.def",  "x" : 0, "y" : 0,   "z" : -1,   "border" : "toNWGR1H.pcx", "area" : "tzNWGR1H.pcx", "hidden" : true },
+				"horde1Upgr":      { "animation" : "tbNWHRD2.def",  "x" : 0, "y" : 0,   "z" : -1,   "border" : "toNWGR2H.pcx", "area" : "tzNWGR2H.pcx", "hidden" : true, "builds" : "horde1" },
+				"special1":        { "animation" : "tbNWSPEC.def",  "x" : 0, "y" : 0,               "border" : "toNWLT01.pcx", "area" : "tzNWLT01.pcx" },
+				"ship":            { "animation" : "tbNWBOAT.def",  "x" : 0, "y" : 0,   "z" : -3,   "border" : "toNWDKMN.pcx", "area" : "tzNWDKMN.pcx", "hidden" : true },
+				"special2":        { "animation" : "tbNWEXT0.def",  "x" : 0, "y" : 0,   "z" : -2,   "border" : "toNWCAVM.pcx", "area" : "tzNWCAVM.pcx" },
+				"special3":        { "animation" : "tbNWEXT1.def", "x" : 0,   "y" : 198, "z" :  1, "border" :  "toNWTAV2.pcx", "area" : "tzNWTAV2.pcx" },
+				"grail":           { "animation" : "tbNWHOLY.def",  "x" : 0, "y" : 0,   "z" : -1,   "border" : "toNWHOLY.pcx", "area" : "tzNWHOLY.pcx" },
+				"dwellingLvl1":    { "animation" : "tbNWDW_0.def",  "x" : 0, "y" : 0,               "border" : "toNWPIK1.pcx", "area" : "tzNWPIK1.pcx" },
+				"dwellingLvl2":    { "animation" : "tbNWDW_1.def",  "x" : 360, "y" : 130,           "border" : "toNWCRS0.pcx", "area" : "tzNWCRS0.pcx" },
+				"dwellingLvl3":    { "animation" : "tbNWDW_2.def",  "x" : 0, "y" : 0,   "z" : -1,   "border" : "toNWGR1N.pcx", "area" : "tzNWGR1N.pcx" },
+			    "dwellingLvl4":    { "animation" : "tbNWDW_3.def",  "x" : 0, "y" : 0,               "border" : "toNWSWD1.pcx", "area" : "tzNWSWD1.pcx" },
+				"dwellingLvl5":    { "animation" : "tbNWDW_4.def",  "x" : 0, "y" : 0,   "z" : 1,    "border" : "toNWMON1.pcx", "area" : "tzNWMON1.pcx" },
+				"dwellingLvl6":    { "animation" : "tbNWDW_5.def",  "x" : 0, "y" : 0,   "z" : -1,   "border" : "toNWC101.pcx", "area" : "tzNWCAV1.pcx" },
+				"dwellingLvl7":    { "animation" : "tbNWDW_6.def",  "x" : 438, "y" : 15,  "z" : -5, "border" : "toNWANG1.pcx", "area" : "tzNWANG1.pcx" },
+				"dwellingUpLvl1":  { "animation" : "tbNWUP_0.def",  "x" : 0, "y" : 0,               "border" : "toNWPIK2.pcx", "area" : "tzNWPIK2.pcx" },
+			    "dwellingUp2Lvl1": { "animation" : "tbNWUP2_0.def", "x" : 0, "y" : 0,   "z" : -1,   "border" : "toNWPIK3.pcx", "area" : "tzNWPIK3.pcx" },
+				"dwellingUpLvl2":  { "animation" : "tbNWUP_1.def",  "x" : 0, "y" : 0,               "border" : "toNWCRS1.pcx", "area" : "tzNWCRS1.pcx" },
+				"dwellingUp2Lvl2": { "animation" : "tbNWUP2_1.def",  "x" : 0, "y" : 0,              "border" : "toNWCRS2.pcx", "area" : "tzNWCRS2.pcx" },
+				"dwellingUpLvl3":  { "animation" : "tbNWUP_2.def",  "x" : 0, "y" : 0,   "z" : -1,   "border" : "toNWGR2N.pcx", "area" : "tzNWGR2N.pcx" },
+		        "dwellingUpLvl4":  { "animation" : "tbNWUP_3.def",  "x" : 0, "y" : 0,   "z" : 1,    "border" : "toNWSWD2.pcx", "area" : "tzNWSWD2.pcx" },
+				"dwellingUpLvl5":  { "animation" : "tbNWUP_4.def",  "x" : 0, "y" : 0,   "z" : 1,    "border" : "toNWMON2.pcx", "area" : "tzNWMON2.pcx" },
+				"dwellingUpLvl6":  { "animation" : "tbNWUP_5.def",  "x" : 0, "y" : 0,   "z" : -1,   "border" : "toNWCAV2.pcx", "area" : "tzNWCAV2.pcx" },
+				"dwellingUpLvl7":  { "animation" : "tbNWUP_6.def",  "x" : 438, "y" : 15,  "z" : -5, "border" : "toNWANG2.pcx", "area" : "tzNWANG2.pcx" }
+			}
+		}
+	}
+}

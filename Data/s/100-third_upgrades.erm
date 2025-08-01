@@ -44,6 +44,7 @@ vx16						vx16 - new type of town (default / new / new_var2 / new_var3)
 !!CA0/y1&y2=0/vx16=1:B5/19; 
 
 !!CA0/y1&y2=5/vx16=1:B5/22;		disallow portal (22) for Shadow town 
+!!CA0/y1&y2=6/vx16=1:B5/23;		disallow Valgalla temple (23) for Sand town 
 !!CA0/y1&y2=8/vx16=1:B5/21;		disallow University of magic (21) for Eldorado 
 !!CA0/y1&y2=8/vx16=2:B5/21;		disallow University of magic (21) for Neutral town 
 !!CA0/y1&y2=8/vx16=3:B5/21; 	disallow University of magic (21) for Oasis
@@ -70,6 +71,9 @@ vx16						vx16 - new type of town (default / new / new_var2 / new_var3)
  ; Third upgrades (my)
 ----------------------------------------
 
+; Sand Town
+!!FU(dex_SetDwellingSlotByTownId)&y2=6/vx16=1:Py1/6/1/2/602/60;			Stone Giant
+
 ; Castle
 !!FU(dex_SetDwellingSlotByTownId)&y2=0/vx16=0:Py1/4/1/2/169/70;			War Zealot
 
@@ -83,18 +87,26 @@ vx16						vx16 - new type of town (default / new / new_var2 / new_var3)
  ; Necropolis
 !!FU(dex_SetDwellingSlotByTownId)&y2=4/vx16=0:Py1/2/1/2/159/30;			ghosts (159)
 
+
  ; Ice Castle
 !-!FU(dex_SetDwellingSlotByTownId)&y2=4/vx16=1:Py1/2/1/2/173/20;		santa-gremlins
 
  ; Kitezh Grad
-!!FU(dex_SetDwellingSlotByTownId)&y2=1/vx16=4:Py1/6/1/2/577/35;			volot
+!!FU(dex_SetDwellingSlotByTownId)&y2=1/vx16=4:Py1/0/1/2/589/30;			Mohovik
+!!FU(dex_SetDwellingSlotByTownId)&y2=1/vx16=4:Py1/4/1/2/198/35;			advanced Treefolk Wizards
+!!FU(dex_SetDwellingSlotByTownId)&y2=1/vx16=4:Py1/6/1/2/577/35;			Volot
 
  ; Deep Swamp
 !!FU(dex_SetDwellingSlotByTownId)&y2=7/vx16=2:Py1/6/1/2/580/40;			Swamp Keeper
 
+ ; Citadel
+!!FU(dex_SetDwellingSlotByTownId)&y2=6/vx16=0:Py1/6/1/2/603/60;			Big Behemots
 
  ; Elemental Palace
 !!FU(dex_SetDwellingSlotByTownId)&y2=2/vx16=3:Py1/5/1/2/502/100;		snow golems-enchanters
+
+ ; Courtyard
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=2:Py1/4/1/2/515/100;		Great dodo
 
  ; Pyramid
 !!FU(dex_SetDwellingSlotByTownId)&y2=6/vx16=3:Py1/4/1/2/451/65;			Upg. Golden Golem   451

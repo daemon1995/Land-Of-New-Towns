@@ -192,7 +192,7 @@ ZVSE
 
 
 
-!!FU(SetBuilding'sPriority):P6/28/16;	blacksmith (16)	
+!!FU(SetBuilding'sPriority):P6/28/10;	blacksmith (16)	
 !!FU(SetBuilding'sPriority):P6/29/22;	ballists(22)
 
 !!FU(SetBuilding'sPriority):P6/31/14;	market	needed to prevent disappear!!!
@@ -211,14 +211,19 @@ ZVSE
 !!FU(SetBuilding'sPriority):P6/23/38;
 !!FU(SetBuilding'sPriority):P6/40/39;
 
+!-!FU(SetBuilding'sPriority):P6/33/33;	
+!-!FU(SetBuilding'sPriority):P6/40/40;
+
 !!FU(SetBuilding'sPriority):P6/35/34;	
 !!FU(SetBuilding'sPriority):P6/36/41;	
 	
 !!FU(SetBuilding'sPriority):P6/37/35;	dwelling level_6 priority(35)
 !!FU(SetBuilding'sPriority):P6/38/42;	dwelling level_6up priority
 
-!-!FU(SetBuilding'sPriority):P6/37/35;	dwelling level_6 priority(35)
+!-!FU(SetBuilding'sPriority):P6/37/35;	dwelling level_7 priority(35)
 !!FU(SetBuilding'sPriority):P6/26/43;	dwelling level_6up priority
+
+	
 
 
 

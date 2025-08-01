@@ -29,7 +29,7 @@ ZVSE
 !!FU(SetBuilding'sPosition):P2/13/0/0;
 !!FU(SetBuilding'sPosition):P2/14/0/0;	market
 !!FU(SetBuilding'sPosition):P2/15/0/0;	silo
-!!FU(SetBuilding'sPosition):P2/16/0/0;	blacksmith
+!!FU(SetBuilding'sPosition):P2/16/140/40;	blacksmith
 !!FU(SetBuilding'sPosition):P2/17/0/0;	artifact traders
 !!FU(SetBuilding'sPosition):P2/21/0/0;	increaser of magic
 !!FU(SetBuilding'sPosition):P2/22/0/0;	library  EXT1
@@ -43,14 +43,14 @@ ZVSE
 !!FU(SetBuilding'sPosition):P2/30/0/0;	level 1		
 !!FU(SetBuilding'sPosition):P2/31/0/0;
 !!FU(SetBuilding'sPosition):P2/32/0/0;	3
-!!FU(SetBuilding'sPosition):P2/33/0/0;
+!!FU(SetBuilding'sPosition):P2/33/-135/-30; 0/0;
 !!FU(SetBuilding'sPosition):P2/34/0/0;	5
 !!FU(SetBuilding'sPosition):P2/35/0/0;
 !!FU(SetBuilding'sPosition):P2/36/0/0;
 !!FU(SetBuilding'sPosition):P2/37/0/0;		upg lv	1	
 !!FU(SetBuilding'sPosition):P2/38/0/0;		
 !!FU(SetBuilding'sPosition):P2/39/0/0;		
-!!FU(SetBuilding'sPosition):P2/40/0/0;
+!!FU(SetBuilding'sPosition):P2/40/-135/-30;	0/0;
 !!FU(SetBuilding'sPosition):P2/41/0/0;
 !!FU(SetBuilding'sPosition):P2/42/0/0;
 !!FU(SetBuilding'sPosition):P2/43/0/0;
@@ -58,7 +58,7 @@ ZVSE
 
 	 ; for Elemental Palace
 	!-!SN:R^tbtwback.pcx^/^elemback.pcx^;
-	!!SN:R^tbtwback.pcx^/^icecback2.pcx^;
+	!!SN:R^tbtwback.pcx^/^tbELback5.pcx^;
 	
 	!!SN:R^TowerTown.mp3^/^ElementalPalace.mp3^;
 
@@ -74,35 +74,35 @@ ZVSE
 !!SN:R^TBTWCAS3.def^/^ele-cas3.def^;		ice-cas3.def t21_Elem.def
 !!SN:R^TBTWCSTL.def^/^ele-cas3.def^;		ice-cas1.def		ele-cas3.def
 !!SN:R^TBTWDW_0.def^/^ice-dw4.def^;
-!!SN:R^TBTWDW_1.def^/^ice-dw1.def^;
+!!SN:R^TBTWDW_1.def^/^ele-dw1.def^;
 !!SN:R^TBTWDW_2.def^/^ice-spec3.def^;
-!!SN:R^TBTWDW_3.def^/^ice-dw2.def^;
+!!SN:R^TBTWDW_3.def^/^ele-dw2.def^;
 !!SN:R^TBTWDW_4.def^/^ice-yeti1.def^;
 !!SN:R^TBTWDW_5.def^/^ice-dw3.def^;
 !!SN:R^TBTWDW_6.def^/^ice-dw7.def^;
 !!SN:R^TBTWEXT0.def^/^ice-snow2.def^;		snow
-!!SN:R^TBTWEXT1.def^/^ice-dw5u.def^;
+!!SN:R^TBTWEXT1.def^/^ele-dw5u.def^;
 !!SN:R^TBTWEXT2.def^/^ice-holes.def^;		//	wall of knowledge
 !!SN:R^TBTWHAL2.def^/^ice-hall2.def^;
 !!SN:R^TBTWHAL3.def^/^ice-hall3.def^;
 !!SN:R^TBTWHAL4.def^/^ice-hall3.def^;
 !!SN:R^TBTWHALL.def^/^ice-hall1.def^;
-!!SN:R^TBTwHoly.def^/^ele-grail.def^;
-!!SN:R^TBTWHRD1.def^/^ice-dw1.def^;
-!!SN:R^TBTWHRD2.def^/^ice-dw1.def^;
+!!SN:R^TBTwHoly.def^/^ele-grailE.def^;
+!!SN:R^TBTWHRD1.def^/^ele-dw1.def^;
+!!SN:R^TBTWHRD2.def^/^ele-dw1.def^;
 !!SN:R^TBTWMAG2.def^/^ice-mg2.def^;
 !!SN:R^TBTWMAG3.def^/^ice-mg3.def^;
 !!SN:R^TBTWMAG4.def^/^ice-mg4.def^;
 !!SN:R^TBTWMAG5.def^/^ice-mg4.def^;
 !!SN:R^TBTWMAGE.def^/^ice-mg1.def^;
 !!SN:R^TBTWMARK.def^/^ice-smith.def^;				bugs!!!  restore def coordinates 
-!!SN:R^TBTWSILO.def^/^ice-dw5.def^;
+!!SN:R^TBTWSILO.def^/^ele-dw5u.def^;
 !!SN:R^TBTWSPEC.def^/^ice-artif.def^;				artfact traders
-!!SN:R^TBTWTVRN.def^/^ice-tavern.def^;
+!!SN:R^TBTWTVRN.def^/^ele-tavern.def^;
 !!SN:R^TBTWUP_0.def^/^ice-dw4u.def^;
-!!SN:R^TBTWUP_1.def^/^ice-dw1.def^;
+!!SN:R^TBTWUP_1.def^/^ele-dw1.def^;
 !!SN:R^TBTWUP_2.def^/^ice-spec3.def^;
-!!SN:R^TBTWUP_3.def^/^ice-dw2u.def^;
+!!SN:R^TBTWUP_3.def^/^ele-dw2.def^;
 !!SN:R^TBTWUP_4.def^/^ice-yeti2.def^;
 !!SN:R^TBTWUP_5.def^/^ice-dw3.def^;
 !!SN:R^TBTWUP_6.def^/^ice-dw7u.def^;
@@ -134,14 +134,14 @@ ZVSE
 !!SN:R^TOTHal3.pcx^/^to-hall3b.pcx^;
 !!SN:R^TOTHal4.pcx^/^to-hall3b.pcx^;
 !!SN:R^TOTHolyA.pcx^/^to-grailb.pcx^;
-!!SN:R^TOTMag1.pcx^/^to-dw2b.pcx^;
-!!SN:R^TOTMag2.pcx^/^to-dw2b.pcx^;
+!!SN:R^TOTMag1.pcx^/^to-dw2E.pcx^;
+!!SN:R^TOTMag2.pcx^/^to-dw2E.pcx^;
 !!SN:R^TOTMrk.pcx^/^to-smithb.pcx^;
 !!SN:R^TOTMrkA.pcx^/^toiceartif.pcx^;
 !!SN:R^TOTMrkS.pcx^/^to-dw5b.pcx^;
 !!SN:R^TOTNag1.pcx^/^to-dw3b.pcx^;
 !!SN:R^TOTNag2.pcx^/^to-dw3b.pcx^;
-!!SN:R^TOTTav.pcx^/^to-tavernb.pcx^;
+!!SN:R^TOTTav.pcx^/^to-tavernE.pcx^;
 !!SN:R^TOTTit1.pcx^/^to-dw7b.pcx^;
 !!SN:R^TOTTit2.pcx^/^to-dw7b.pcx^;
 
@@ -172,14 +172,14 @@ ZVSE
 !!SN:R^TZTHAL3.pcx^/^tz-hall3a.pcx^;
 !!SN:R^TZTHAL4.pcx^/^tz-hall3a.pcx^;
 !!SN:R^TZTHOLYA.pcx^/^tz-graila.pcx^;
-!!SN:R^TZTMAG1.pcx^/^tz-dw2a.pcx^;
-!!SN:R^TZTMAG2.pcx^/^tz-dw2a.pcx^;
+!!SN:R^TZTMAG1.pcx^/^tz-dw2E.pcx^;
+!!SN:R^TZTMAG2.pcx^/^tz-dw2E.pcx^;
 !!SN:R^TZTMRK.pcx^/^tz-smitha.pcx^;
 !!SN:R^TZTMRKA.pcx^/^tziceartif.pcx^;
 !!SN:R^TZTMRKS.pcx^/^tz-dw5a.pcx^;
 !!SN:R^TZTNAG1.pcx^/^tz-dw3a.pcx^;
 !!SN:R^TZTNAG2.pcx^/^tz-dw3a.pcx^;
-!!SN:R^TZTTAV.pcx^/^tz-taverna.pcx^;
+!!SN:R^TZTTAV.pcx^/^tz-tavernE.pcx^;
 !!SN:R^TZTTIT1.pcx^/^tz-dw7a.pcx^;
 !!SN:R^TZTTIT2.pcx^/^tz-dw7a.pcx^;
 

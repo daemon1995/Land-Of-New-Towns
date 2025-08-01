@@ -1,0 +1,262 @@
+ZVSE
+
+
+ ; Ruins town - based on Castle
+
+	
+-------------------------------------------------------------------	
+	
+	
+	
+!?FU(ruins___town); 					
+
+-----------------------------
+ ; replace town screen
+ ----------------------------
+ 
+
+!!FU(SetBuilding'sPosition):P0/0/291/97;
+!!FU(SetBuilding'sPosition):P0/1/294/73;
+!!FU(SetBuilding'sPosition):P0/2/294/52;
+!!FU(SetBuilding'sPosition):P0/3/294/35;
+!!FU(SetBuilding'sPosition):P0/5/471/171;	tavern
+!!FU(SetBuilding'sPosition):P0/6/323/228;	doks     323/228; shipyard		150
+!!FU(SetBuilding'sPosition):P0/7/626/105;	fort
+!!FU(SetBuilding'sPosition):P0/8/626/104; 
+!!FU(SetBuilding'sPosition):P0/9/626/39;	626/39;
+!!FU(SetBuilding'sPosition):P0/10/520/179;	uprava
+!!FU(SetBuilding'sPosition):P0/11/377/172;
+!!FU(SetBuilding'sPosition):P0/12/377/172;
+!!FU(SetBuilding'sPosition):P0/13/377/172;			
+!!FU(SetBuilding'sPosition):P0/14/285/237;	market
+!!FU(SetBuilding'sPosition):P0/15/351/259;	resourceSilo
+!!FU(SetBuilding'sPosition):P0/16/614/164;	blacksmith
+!!FU(SetBuilding'sPosition):P0/17/550/229;
+!!FU(SetBuilding'sPosition):P0/18/88/206;	373/239;	grifons horde 
+!!FU(SetBuilding'sPosition):P0/19/88/206;	373/220;	grifons horde upg
+!!FU(SetBuilding'sPosition):P0/20/320/203;	doks with ship
+!!FU(SetBuilding'sPosition):P0/21/473/282;
+!!FU(SetBuilding'sPosition):P0/22/471/171;	brotherhood 617/286;		617/286;
+!!FU(SetBuilding'sPosition):P0/23/0/290; 			vodopad? 0/18;   ext2	31/5;
+!!FU(SetBuilding'sPosition):P0/26/339/130;		grail	
+!!FU(SetBuilding'sPosition):P0/30/424/136;		level 1		
+!!FU(SetBuilding'sPosition):P0/31/0/63;
+!!FU(SetBuilding'sPosition):P0/32/88/206;		3
+!!FU(SetBuilding'sPosition):P0/33/162/158;
+!!FU(SetBuilding'sPosition):P0/34/88/275;		5
+!!FU(SetBuilding'sPosition):P0/35/526/107;
+!!FU(SetBuilding'sPosition):P0/36/87/116;
+
+!!FU(SetBuilding'sPosition):P0/37/424/136;		424/136; upg lv	1	
+!!FU(SetBuilding'sPosition):P0/38/0/63;		
+!!FU(SetBuilding'sPosition):P0/39/89/190;		3
+!!FU(SetBuilding'sPosition):P0/40/146/154;
+!!FU(SetBuilding'sPosition):P0/41/88/270;		5
+!!FU(SetBuilding'sPosition):P0/42/526/107;
+!!FU(SetBuilding'sPosition):P0/43/42/114; 
+
+ 
+
+ 
+ 
+!-!FU(Restore_Default_TownScreen):P;			restore default screen first
+!!SN:R^TBcsback.pcx^/^Ruinback.pcx^;			
+!!SN:R^CstleTown.mp3^/^Ruins.mp3^;
+!!SN:R^HALLCSTL.def^/^HALLRUIN.def^;
+!!SN:R^TPMAGECS.pcx^/^TPMAGEru.pcx^;
+
+
+
+
+
+!!SN:R^tbcsblak.def^/^RUI16.def^;
+!!SN:R^TBCSBOAT.def^/^RUI20.def^;	doks with ship
+!!SN:R^TBCSCAS2.def^/^RUI08.def^;	+
+!!SN:R^TBCSCAS3.def^/^RUI09.def^;		RUI09.def
+!!SN:R^TBCSCSTL.def^/^RUI07.def^;	+
+!!SN:R^TBCSDOCK.def^/^RUI06.def^;		shipyard
+	!-!SN:R^TBCSDOCK.def^/^TBCSDOCK3.def^;		shipyard
+!!SN:R^TBCSDW_0.def^/^RUI30.def^;
+!!SN:R^TBCSDW_1.def^/^RUI31.def^;
+!!SN:R^TBCSDW_2.def^/^RUI32.def^;
+!!SN:R^TBCSDW_3.def^/^RUI33.def^;
+!!SN:R^TBCSDW_4.def^/^RUI34.def^;
+!!SN:R^TBCSDW_5.def^/^RUI35.def^;
+!!SN:R^TBCSDW_6.def^/^RUI36.def^;
+	!!SN:R^TBCSEXT0.def^/^^;
+	!-!SN:R^TBCSEXT1.def^/^RUI16.def^;		brotherhood
+!!SN:R^TBCSEXT1.def^/^RUI05.def^;		brotherhood
+!!SN:R^TBCSEXT2.def^/^RUI23n.def^;		waterfall? ======   don't work
+!!SN:R^TBCSEXT2.def^/^TBruEXT2.def^;	small waterfall
+!!SN:R^TBCSHAL2.def^/^RUI11.def^;
+!!SN:R^TBCSHAL3.def^/^RUI12.def^;
+!!SN:R^TBCSHAL4.def^/^RUI13.def^;
+!!SN:R^TBCSHALL.def^/^RUI10.def^;
+!!SN:R^TBCSHOLY.def^/^RUI26.def^;
+!!SN:R^TBCSHRD1.def^/^RUI32.def^;    	grifons horde      RUI32.def^;
+!!SN:R^TBCSHRD2.def^/^RUI39.def^;		grifons horde upg		RUI39.def
+!!SN:R^TBCSMAG2.def^/^RUI01.def^;
+!!SN:R^TBCSMAG3.def^/^RUI02.def^;
+!!SN:R^TBCSMAG4.def^/^RUI03.def^;
+!!SN:R^TBCSMAGE.def^/^RUI00.def^;
+!!SN:R^TBCSMARK.def^/^RUI14.def^;
+!!SN:R^TBCSSILO.def^/^RUI15.def^;
+	!!SN:R^TBCSSPEC.def^/^^;				mayak, enable to prevent eror on wog cheats
+!!SN:R^TBCSTVRN.def^/^RUI05.def^;
+!!SN:R^TBCSUP_0.def^/^RUI37.def^;
+!!SN:R^TBCSUP_1.def^/^RUI38.def^;
+!!SN:R^TBCSUP_2.def^/^RUI39.def^;
+!!SN:R^TBCSUP_3.def^/^RUI40.def^;
+!!SN:R^TBCSUP_4.def^/^RUI41.def^;
+!!SN:R^TBCSUP_5.def^/^RUI42.def^;
+!!SN:R^TBCSUP_6.def^/^RUI43.def^;
+
+
+
+!!SN:R^TOCSANG1.pcx^/^RUI36.pcx^;
+!!SN:R^TOCSANG2.pcx^/^RUI43.pcx^;
+!!SN:R^TOCSBLAK.pcx^/^RUI16.pcx^;
+!!SN:R^TOCSC101.pcx^/^^;
+!!SN:R^TOCSC201.pcx^/^^;
+!!SN:R^TOCSCAS1.pcx^/^RUI07.pcx^;
+!!SN:R^TOCSCAS2.pcx^/^RUI08.pcx^;
+!!SN:R^TOCSCAS3.pcx^/^RUI09.pcx^; 09
+!!SN:R^TOCSCAV1.pcx^/^RUI35.pcx^;
+!!SN:R^TOCSCAV2.pcx^/^RUI42.pcx^;
+!!SN:R^TOCSCAVM.pcx^/^^;
+!!SN:R^TOCSCRS1.pcx^/^RUI31.pcx^;
+!!SN:R^TOCSCRS2.pcx^/^RUI31.pcx^;
+!!SN:R^TOCSDKMN.pcx^/^^;	
+!!SN:R^TOCSDKMS.pcx^/^^;
+!!SN:R^TOCSDKNN.pcx^/^RUI06.pcx^;	doks
+!!SN:R^TOCSDKNS.pcx^/^RUI20.pcx^;	doks with ship
+
+!!SN:R^TOCSGR1H.pcx^/^RUI32.pcx^;			grifons horde
+!!SN:R^TOCSGR1N.pcx^/^RUI32.pcx^;	+ 32
+!!SN:R^TOCSGR2H.pcx^/^RUI39.pcx^;			grifons horde upg
+!!SN:R^TOCSGR2N.pcx^/^RUI39.pcx^;	+ 39
+!!SN:R^TOCSH101.pcx^/^RUI10.pcx^;
+!!SN:R^TOCSH201.pcx^/^RUI11.pcx^;
+!!SN:R^TOCSH301.pcx^/^RUI12.pcx^;
+!!SN:R^TOCSH401.pcx^/^RUI13.pcx^;
+!!SN:R^TOCSHOLY.pcx^/^RUI26.pcx^;
+!!SN:R^TOCSLT01.pcx^/^^;
+!!SN:R^TOCSM301.pcx^/^RUI02.pcx^;
+!!SN:R^TOCSM401.pcx^/^RUI03.pcx^;
+!!SN:R^TOCSMAG1.pcx^/^RUI00.pcx^;
+!!SN:R^TOCSMAG2.pcx^/^RUI01.pcx^;
+!!SN:R^TOCSMON1.pcx^/^RUI34.pcx^;
+!!SN:R^TOCSMON2.pcx^/^RUI41.pcx^;
+!!SN:R^TOCSMRK1.pcx^/^RUI14.pcx^;
+!!SN:R^TOCSMRK2.pcx^/^RUI15.pcx^;
+!!SN:R^TOCSPIK1.pcx^/^RUI30.pcx^;
+!!SN:R^TOCSPIK2.pcx^/^RUI37.pcx^;
+!!SN:R^TOCSSWD1.pcx^/^RUI33.pcx^;
+!!SN:R^TOCSSWD2.pcx^/^RUI40.pcx^;
+!!SN:R^TOCSTAV1.pcx^/^RUI05.pcx^;
+!!SN:R^TOCSTAV2.pcx^/^RUI05.pcx^;	brotherhood
+
+
+!!SN:R^TZCSANG1.pcx^/^RZI36.pcx^;
+!!SN:R^TZCSANG2.pcx^/^RZI43.pcx^;
+!!SN:R^TZCSBLAK.pcx^/^RZI16.pcx^;
+!!SN:R^TZCSCAS1.pcx^/^RZI07.pcx^;
+!!SN:R^TZCSCAS2.pcx^/^RZI08.pcx^;
+!!SN:R^TZCSCAS3.pcx^/^RZI09.pcx^;   09
+!!SN:R^TZCSCAV1.pcx^/^RZI35.pcx^;
+!!SN:R^TZCSCAV2.pcx^/^RZI42.pcx^;
+!!SN:R^TZCSCAVM.pcx^/^^;
+!!SN:R^TZCSCRS1.pcx^/^RZI31.pcx^;
+!!SN:R^TZCSCRS2.pcx^/^RZI38.pcx^;
+
+!!SN:R^TZCSDKMN.pcx^/^^;				
+!!SN:R^TZCSDKMS.pcx^/^^;
+!!SN:R^TZCSDKNN.pcx^/^RZI06.pcx^;	doks
+!!SN:R^TZCSDKNS.pcx^/^RZI20.pcx^;
+
+!!SN:R^TZCSGR1H.pcx^/^RZI32.pcx^;   
+!!SN:R^TZCSGR1N.pcx^/^RZI32.pcx^;   RZI32.pcx
+!!SN:R^TZCSGR2H.pcx^/^RZI39.pcx^;  
+!!SN:R^TZCSGR2N.pcx^/^RZI39.pcx^;	+ 39
+!!SN:R^TZCSH101.pcx^/^RZI10.pcx^;
+!!SN:R^TZCSH201.pcx^/^RZI11.pcx^;
+!!SN:R^TZCSH301.pcx^/^RZI12.pcx^;
+!!SN:R^TZCSH401.pcx^/^RZI13.pcx^;
+!!SN:R^TZCSHOLY.pcx^/^RZI26.pcx^;
+!!SN:R^TZCSLT01.pcx^/^^;
+!!SN:R^TZCSM301.pcx^/^RZI02.pcx^;
+!!SN:R^TZCSM401.pcx^/^RZI03.pcx^;
+!!SN:R^TZCSMAG1.pcx^/^RZI00.pcx^;
+!!SN:R^TZCSMAG2.pcx^/^RZI01.pcx^;
+!!SN:R^TZCSMON1.pcx^/^RZI34.pcx^;
+!!SN:R^TZCSMON2.pcx^/^RZI41.pcx^;
+!!SN:R^TZCSMRK1.pcx^/^RZI14.pcx^;
+!!SN:R^TZCSMRK2.pcx^/^RZI15.pcx^;
+!!SN:R^TZCSPIK1.pcx^/^RZI30.pcx^;
+!!SN:R^TZCSPIK2.pcx^/^RZI37.pcx^;
+!!SN:R^TZCSSWD1.pcx^/^RZI33.pcx^;
+!!SN:R^TZCSSWD2.pcx^/^RZI40.pcx^;
+!!SN:R^TZCSTAV1.pcx^/^RZI05.pcx^;
+!!SN:R^TZCSTAV2.pcx^/^RZI05.pcx^;
+
+
+
+	
+!!FU(SetBuilding'sPriority):P0/29/14;	market (14) 		
+!!FU(SetBuilding'sPriority):P0/30/15;	resource silo
+
+!!FU(SetBuilding'sPriority):P0/31/16;	blacksmith
+	
+!!FU(SetBuilding'sPriority):P0/34/10;	uprava 1..4
+!!FU(SetBuilding'sPriority):P0/35/11;	
+!!FU(SetBuilding'sPriority):P0/36/12;	
+!!FU(SetBuilding'sPriority):P0/37/13;	
+
+!!FU(SetBuilding'sPriority):P0/38/5;	tavern
+!!FU(SetBuilding'sPriority):P0/39/22;	brotherhood of sword (for tavern)
+
+!!FU(SetBuilding'sPriority):P0/40/34;	dwelling 5 level		
+!!FU(SetBuilding'sPriority):P0/41/41;	dwelling 5 upg level	
+	
+	
+ 
+ 
+ -----------------------------
+ ; replace creatures
+-----------------------------
+
+	!!FU(ruins___monsters):P; 
+
+
+
+
+ !!FU(ruins___town):E;  end function
+ 
+ 
+ 
+ 
+ 
+ --------------------------
+!?FU(ruins___monsters);
+
+!!UN:T0/0/0/388;   
+!!UN:T0/0/1/389;
+!!UN:T0/1/0/390;
+!!UN:T0/1/1/391;
+!!UN:T0/2/0/392;		
+!!UN:T0/2/1/393;		
+!!UN:T0/3/0/394;
+!!UN:T0/3/1/395;
+!!UN:T0/4/0/396;	 	
+!!UN:T0/4/1/397; 		
+!!UN:T0/5/0/398;	 	
+!!UN:T0/5/1/399; 		
+!!UN:T0/6/0/400;
+!!UN:T0/6/1/401;
+ 
+!!FU(ruins___monsters):E; 
+ 
+ 
+ 
+ 
+ 

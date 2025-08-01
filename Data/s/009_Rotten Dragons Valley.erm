@@ -149,14 +149,14 @@ At the end of the mod search for Check_Forbidden_Artifacts and remove the code t
 
 
 ******Misc********
-!#VRi^CB_009_Revisit^:S28;               (Write here the number of days after which the CB can be visited again for example after 28 days, 0 means disabled)
-!#VRi^CB_009_Custom_Growth^:S2;         (Write here the number in percent% in which the CB should increase its guard EVERY week. If you write 10 the growth is exactly like neutrals grow. Linear and Exponential growth can be active at the same time)
+!#VRi^CB_009_Revisit^:S0;               (Write here the number of days after which the CB can be visited again for example after 28 days, 0 means disabled)
+!#VRi^CB_009_Custom_Growth^:S1;         (Write here the number in percent% in which the CB should increase its guard EVERY week. If you write 10 the growth is exactly like neutrals grow. Linear and Exponential growth can be active at the same time)
 !#VRi^CB_009_Custom_Growth_Linear^:S0;  (Write here the number of untis the CB should increase its guard EVERY week. If you write 25, this will be added to every stack in the CB every week. Linear and Exponential growth can be active at the same time)
 !#VRi^CB_009_Custom_Sound^:S1;          (1=yes, 0=no, if activated you need to find the correct sound file of the object you want to replace, use the SN trigger for it. That is necessary so that it can be replaced and your custom file can be played.)
 !#VRs^CB_009_CB_Sound^:S^DRAGON.wav^;    (Set the name of the sound file that should be played when visiting the object, only works when CB_009_Custom_Sound is set active)
 !#VRi^CB_009_Guards_Type_Slot_Upgrade_0^:S-1; (-1 means disabled. Type in the number of which the first creature (Slot 0) should upgrade to. Chance that the creature in slot 0 gets upgraded if possible. 20%)
 !#VRi^CB_009_Generate_Random_CB^:S0;    (Not implemented, 1=yes, 0=no, I'll only do it if there is demand. This will generate a totaly random creature bank. Could be interesting.)
-!#VRi^CB_009_Stack_Experience^:S1;      (1= Enable Stack Experience, 0=Disable Stack Experience, Requirea the Stack Experience Option 900 from WoG to be enabled)
+!#VRi^CB_009_Stack_Experience^:S0;      (1= Enable Stack Experience, 0=Disable Stack Experience, Requirea the Stack Experience Option 900 from WoG to be enabled)
 
                                        ;(To exclude certain artifacts to appear as reward go to func: (CB_009_Check_Forbidden_Artifacts))
 

@@ -223,18 +223,18 @@ Preimage of Lamassu
 Lamassu
 Falcon jr.
 Falcon
-Assassin apprentiece
-Assassin
-Small Bat
-Bat
-Golem
-Clay Golem
-Centaurs hunter
-Centaurs Warrior
-Strongman
-Master Strongman
-Stone Warrior
-Stone Giant
+Desert goblin jr.
+Desert goblin
+Small reptile
+reptile
+Axe thrower jr
+Axe thrower
+Sand golem jr.
+Sand golem
+Strongmans 
+Strongmans master
+Centaur of desert jr.
+Centaurs of desert
 Sand Worm
 Great Sand Worm
 Ratmans
@@ -255,8 +255,8 @@ Ancient Gorynyches
 Halfing master
 Sorcesser Apprentice
 Nomad of Storm
-Keeper junior
-Keeper
+Gnome jr.
+Forest Gnome
 leprechaun jr.
 Leprechaun
 Turquoise Harpy
@@ -401,48 +401,48 @@ Blank Monster #396
 Blank Monster #397
 Blank Monster #398
 Blank Monster #399
-Blank Monster #400
-Blank Monster #401
-Blank Monster #402
-Blank Monster #403
-Blank Monster #404
-Blank Monster #405
-Blank Monster #406
-Blank Monster #407
-Blank Monster #408
-Blank Monster #409
-Blank Monster #410
-Blank Monster #411
-Blank Monster #412
-Blank Monster #413
-Blank Monster #414
-Blank Monster #415
-Blank Monster #416
-Blank Monster #417
-Blank Monster #418
-Blank Monster #419
-Blank Monster #420
-Blank Monster #421
-Blank Monster #422
-Blank Monster #423
-Blank Monster #424
-Blank Monster #425
-Blank Monster #426
-Blank Monster #427
+Mythical harpy jr.
+Mythical harpy
+Big centaur
+Mythical Centaur
+Mistress of Snakes
+Medusa Gorgon
+Cyclop the Cannibal
+Cyclops Leader
+Big Minotaur
+Mythical Minotaur
+Giant Manticora
+Colossal Manticore
+Young Colossus
+Colossus
+Bot
+Steel Bot
+Robot
+Upgraded Robot
+Mechanical Griffin
+Griffin Cyborg
+Mechanoid
+upg. Mechanoid
+Mechanical Guard jr.
+Mechanical Guard
+TechnoDreadnought jr.
+TechnoDreadnoughts
+Prime
+Ultra Primes
 Trainer
 Squire
 Archer of Light jr.
 Archers of Light
 Crusader Pikeman
-Crusader-Knight
+Knights Templar
 Heavy Knight
 Armored Knight
 Monk of Light jr.
 Monks of Light
 Cavalry Crusader
 Champion Crusader
-Warrior of Ray
-Warrior of Light
+Fearless Knight
+Great Knigt
 Blank Monster #442
 Blank Monster #443
 Blank Monster #444
@@ -578,7 +578,7 @@ Blank Monster #573
 Blank Monster #574
 Blank Monster #575
 Colorful Coatl
-Blank Monster #577
+Prime Leader
 Blank Monster #578
 Walking Plant jr.
 Walking Plant
@@ -591,19 +591,19 @@ Green Giant
 Blank Monster #587
 Blank Monster #588
 Blank Monster #589
-Blank Monster #590
-Blank Monster #591
-Blank Monster #592
-Blank Monster #593
-Blank Monster #594
-Blank Monster #595
-Blank Monster #596
-Blank Monster #597
-Blank Monster #598
-Blank Monster #599
-Blank Monster #600
-Blank Monster #601
-Blank Monster #602
+Atlant
+Mythic Minotaur
+Titan of Thunder
+Titan of Storm
+Tiamat
+Sea Wurm
+Big Sea Wurm
+Triton
+Dark Elemental
+Fire Ifrit
+The Great Stone Giant
+Green Behemoth
+Metamorph
 Blank Monster #603
 Blank Monster #604
 Blank Monster #605

@@ -23,8 +23,9 @@ ZVSE
 !-!IF:M^variable:   %v1   %y25    %y26     %y27^;
 
 !!VRy1:S0;						switch off
-!!VRy1&y25=10/y27=570:S1;		switch on for oak driads
+!!VRy1&y25=10/y27=283:S1;		switch on for xenox-lords
 !!VRy1&y25=10/y27=533:S1;		owner of pyramid
+!!VRy1&y25=10/y27=570:S1;		switch on for oak driads
 
 
 
@@ -45,8 +46,10 @@ ZVSE
   !-!VRv10&v11=66/y4=1:S48;     [демоны]
   !-!VRv10&v11=66/y4>1:S49;     [рогатые демоны]
   
-  !!VRv10&y27=570:S566;		new monster (455) summon for driads
+  
+  !!VRv10&y27=283:S278;		summon Fangarm jr. (278) 
   !!VRv10&y27=533:S526;		ancient mummy of Pyramid (526) for owner of pyramid (533)
+  !!VRv10&y27=570:S566;		new monster (455) summon for driads
   
 !!en:;
 ** end

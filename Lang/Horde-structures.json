@@ -1,0 +1,52 @@
+{
+	"horde" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"extraAnimation":  { "animation" : "holake.def",		"x" : 0, "y" : 0, "z" : 0 },
+				"extraCapitol":    { "animation" : "howfall.def",	    "x" : 0, "y" : 0, "z" : 1 },
+				"mageGuild1" :     { "animation" : "homg1.def", 		"x" : 0, "y" : 0, "z" : 1, "border" : "homg1b.pcx",    	"area" : "hzmg1a.pcx" },
+				"mageGuild2" :     { "animation" : "homg2.def",  		"x" : 0, "y" : 0, "z" : 1, "border" : "homg2b.pcx",    	"area" : "hzmg2a.pcx" },
+				"mageGuild3" :     { "animation" : "homg3.def",		"x" : 0, "y" : 0, "z" : 1, 	"border" 	: "homg3b.pcx",    	"area" : "hzmg3a.pcx" },
+				"mageGuild4" :     { "animation" : "homg4.def",  		"x" : 0, "y" : 0, "z" : 1, "border" : "homg4b.pcx",    	"area" : "hzmg4a.pcx" },
+				"mageGuild5" :     { "animation" : "homg5.def",  		"x" : 0, "y" : 0, "z" : 1, "border" : "homg5b.pcx",    	"area" : "hzmg5a.pcx" },
+				"tavern" :         { "animation" : "hotvern.def",     "x" : 0, "y" : 0, "z" : 5, "border" 	: "hotvernb.pcx",  	"area" : "hztverna.pcx" },
+				"fort" :           { "animation" : "hocas2.def",      "x" : 0, "y" : 0, "z" : -2, "border" 	: "hocast1b.pcx",  	"area" : "hzcast1a.pcx" },
+				"citadel" :        { "animation" : "hocas4.def",      "x" : 0, "y" : 0, "z" : -2, "border" 	: "hocast3b.pcx",  	"area" : "hzcast3a.pcx" },
+				"castle" :         { "animation" : "hocas5.def",      "x" : 0, "y" : 0, "z" : -2, "border" 	: "hocast5b.pcx",  	"area" : "hzcast5a.pcx" },
+				"villageHall" :    { "animation" : "hohall1.def",     "x" : 0, "y" : 0, "z" : -1, "border" 	: "hohall1b.pcx",  	"area" : "hzhall1a.pcx" },
+				"townHall" :       { "animation" : "hohall2.def",     "x" : 0, "y" : 0, "z" : -1, "border" 	: "hohall2b.pcx", 	"area" : "hzhall2a.pcx" },
+				"cityHall" :       { "animation" : "hohall3.def",     "x" : 0, "y" : 0, "z" : -1, "border"	: "hohall3b.pcx",  	"area" : "hzhall3a.pcx" },
+				"capitol" :        { "animation" : "hohall4.def",     "x" : 0, "y" : 0, "z" : -1, "border"	: "hohall4b.pcx",  	"area" : "hzhall4a.pcx" },
+				"marketplace" :    { "animation" : "homarket.def",    "x" : 0, "y" : 0, "z" : 9, "border" 	: "homarketb.pcx", 	"area" : "hzmarketa.pcx" },
+				"resourceSilo" :   { "animation" : "hosilo.def",      "x" : 0, "y" : 0, "z" : 10, "border"	: "hosilob.pcx",   	"area" : "hzsiloa.pcx" },
+				"blacksmith" :     { "animation" : "hosmith.def",     "x" : 0, "y" : 0, "z" : 8, "border"	: "hosmithb.pcx",  	"area" : "hzsmitha.pcx" },
+				"special1" :       { "animation" : "hotguild.def",    "x" : 0, "y" : 0, "z" : 4, "border"	: "hotguildb.pcx", 	"area" : "hztguilda.pcx" },
+				"special3":        { "animation" : "hobridge.def",    "x" : 0, "y" : 0, "z" : 2, "border"	: "hobridge1.pcx", 	"area" : "hzbridge.pcx" },				
+	    	    "horde1":          { "animation" : "hohorde1.def",    "x" : 0, "y" : 0, "z" : 7, "border"	: "hohorde1b.pcx", 	"area" : "hzhorde1a.pcx", "hidden" : true },
+	    	    "horde1Upg":       { "animation" : "hoh1Upg.def",    "x" : 0, "y" : 0, "z" : 7, "border" 	: "hoh1Upgb.pcx", 	"area" : "hzh1Upga.pcx", "hidden" : true, "builds" : "horde1" },
+				"horde1Upg2":      { "animation" : "hoh1Upg2.def",    "x" : 0, "y" : 0, "z" : 7, "border" 	: "hoh1Upg2b.pcx", 	"area" : "hzh1Upg2a.pcx", "hidden" : true, "builds" : "horde1Upg" },
+				"grail" :          { "animation" : "hocol.def",  		"x" : 0, "y" : 0, "z" : 3, "border" : "hocolb.pcx",    	"area" : "hzcola.pcx" },
+				"dwellingLvl1" :   { "animation" : "hodw1.def", 		"x" : 0, "y" : 0, "z" : 4, "border" : "hodw1b.pcx",    	"area" : "hzdw1a.pcx" },
+				"dwellingLvl2" :   { "animation" : "hodw2.def",		"x" : 0, "y" : 0, "z" : 1, 	"border" 	: "hodw2b.pcx",    	"area" : "hzdw2a.pcx" },
+				"dwellingLvl3" :   { "animation" : "hodw3.def",  		"x" : 0, "y" : 0, "z" : 0, "border" : "hodw3b.pcx",    	"area" : "hzdw3a.pcx" },
+				"dwellingLvl4" :   { "animation" : "hodw4.def", 		"x" : 0, "y" : 0, "z" : 4, "border" : "hodw4b.pcx",     "area" : "hzdw4a.pcx" },
+				"dwellingLvl5" :   { "animation" : "hodw5.def",  		"x" : 0, "y" : 0, "z" : 0, "border" : "hodw5b.pcx",     "area" : "hzdw5a.pcx" },
+				"dwellingLvl6" :   { "animation" : "hodw6.def",  		"x" : 0, "y" : 0, "z" : 0, "border" : "hodw6b.pcx",   	"area" : "hzdw6a.pcx" },
+				"dwellingLvl7" :   { "animation" : "hodw7.def",  		"x" : 0, "y" : 0, "z" : 0, "border" : "hodw7b.pcx",    	"area" : "hzdw7a.pcx" },
+				"dwellingUpLvl1" : { "animation" : "hodw1upg.def",  	"x" : 0, "y" : 0, "z" : 4, "border" : "hodw1upgb.pcx", 	"area" : "hzdw1upga.pcx" },
+				"dwellingUpLvl2" : { "animation" : "hodw2upg.def",  	"x" : 0, "y" : 0, "z" : 1, "border" : "hodw2upgb.pcx", 	"area" : "hzdw2upga.pcx" },
+				"dwellingUpLvl3" : { "animation" : "hodw3upg.def",  	"x" : 0, "y" : 0, "z" : 0, "border" : "hodw3upgb.pcx", 	"area" : "hzdw3upga.pcx" },
+				"dwellingUp2Lvl3" :{ "animation" : "hodw3upg2.def",   "x" : 0, "y" : 0, "z" : 1, "border" 	: "hodw3upg2b.pcx", "area" : "hzdw3upg2a.pcx" },
+				"dwellingUpLvl4" : { "animation" : "hodw4upg.def",  	"x" : 0, "y" : 0, "z" : 4, "border" : "hodw4upgb.pcx", 	"area" : "hzdw4upga.pcx" },
+				"dwellingUpLvl5" : { "animation" : "hodw5upg.def",  	"x" : 0, "y" : 0, "z" : 0, "border" : "hodw5upgb.pcx",  "area" : "hzdw5upga.pcx" },
+				"dwellingUpLvl6" : { "animation" : "hodw6upg.def",  	"x" : 0, "y" : 0, "z" : 0, "border" : "hodw6b.pcx",     "area" : "hzdw6a.pcx" },
+				"dwellingUp2Lvl6" :{ "animation" : "hodw6_2upg.def", "x" : 0, "y" : 0, "z" : 0, "border" 	: "hodw6b.pcx",     "area" : "hzdw6a.pcx" },
+				"dwellingUpLvl7" : { "animation" : "hodw7upg.def",  	"x" : 0, "y" : 0, "z" : 0, "border" : "hodw7upgb.pcx",  "area" : "hzdw7upga.pcx" },
+			}
+		}
+	}
+}
+

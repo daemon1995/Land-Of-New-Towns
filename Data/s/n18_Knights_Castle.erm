@@ -1,0 +1,107 @@
+ZVSE
+
+
+ ; Temple of Light - based on Castle
+
+	
+-------------------------------------------------------------------	
+	
+	
+	
+!?FU(templeoflight___town); 
+
+-----------------------------
+ ; replace town screen
+ ----------------------------
+
+
+!!FU(Restore_Default_TownScreen):P;
+
+
+!!FU(SetBuilding'sPosition):P0/26/560/0; 			Grail
+!-!FU(SetBuilding'sPosition):P0/36/0/0; 
+!-!FU(SetBuilding'sPosition):P0/37/0/0; 
+!-!FU(SetBuilding'sPosition):P0/42/0/0; 
+
+!!FU(SetBuilding'sPosition):P0/36/0/0;
+!!FU(SetBuilding'sPosition):P0/43/0/0; 
+
+
+!!SN:R^TBcsback.pcx^/^TLIGback.pcx^;
+!!SN:R^HALLCSTL.def^/^HALLTEMP.def^;
+
+!!SN:R^TBCSDW_5.def^/^TBTLDW_5.def^;
+!!SN:R^TBCSUP_5.def^/^TBTLUP_5.def^;
+!-!SN:R^TBCSDW_6.def^/^TBTLDW_6n.def^;
+!-!SN:R^TBCSUP_6.def^/^TBTLUP_6n.def^;
+!!SN:R^TBCSDW_6.def^/^TBKClt7.def^;
+!!SN:R^TBCSUP_6.def^/^TBKClt7UP.def^;
+
+TBKClt7.def
+!!SN:R^TBCSHOLY.def^/^TBTLHOLYn.def^;
+
+
+!!SN:R^TOCSANG1.pcx^/^ToKClt7.pcx^;
+!!SN:R^TOCSANG2.pcx^/^ToKClt7U.pcx^;
+!-!SN:R^TOCSCAV1.pcx^/^TOTLCAV1.pcx^;
+!-!SN:R^TOCSCAV2.pcx^/^TOTLCAV2.pcx^;
+!-!SN:R^TOCSHOLY.pcx^/^TOTLHOLYn.pcx^;
+
+
+!!SN:R^TZCSANG1.pcx^/^TzKClt7.pcx^;
+!!SN:R^TZCSANG2.pcx^/^TzKClt7U.pcx^;
+!-!SN:R^TZCSCAV1.pcx^/^TZTLCAV1.pcx^;
+!-!SN:R^TZCSCAV2.pcx^/^TZTLCAV2.pcx^;
+!-!SN:R^TZCSHOLY.pcx^/^TZTLHOLY.pcx^;
+
+
+
+
+!!SN:R^CstleTown.mp3^/^KnightsCastle.mp3^;
+!-!SN:R^HALLCSTL.def^/^HALLRUIN.def^;
+
+
+ 
+ 
+ 
+ -----------------------------
+ ; replace creatures
+-----------------------------
+
+	!!FU(templeoflight___monsters):P; 
+
+
+
+
+ !!FU(templeoflight___town):E;  end function
+ 
+ 
+ 
+ 
+ 
+ 
+ -----------------------------
+!?FU(templeoflight___monsters);
+
+!!UN:T0/0/0/430;	
+!!UN:T0/0/1/431;
+!!UN:T0/1/0/432;			
+!!UN:T0/1/1/433;		
+!!UN:T0/2/0/434;	
+!!UN:T0/2/1/435;		
+!!UN:T0/3/0/436;	
+!!UN:T0/3/1/437;		
+!!UN:T0/4/0/438;		
+!!UN:T0/4/1/439;	monks of light			
+!!UN:T0/5/0/440;		
+!!UN:T0/5/1/441;		
+!!UN:T0/6/0/442;
+!!UN:T0/6/1/443;
+ 
+!!FU(templeoflight___monsters):E; 
+ 
+ 
+ 
+ ----------------------------------------------------
+ 
+ 

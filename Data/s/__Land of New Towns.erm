@@ -68,7 +68,9 @@ ZVSE
 
 
 !#VRv4070;		number of player
-!!VRv4072;		variable for rare towns 
+!!VRv4072;		variable for rare towns
+!!VRv4074;		0-human / 1-ai 
+ 
 
  ; v4101...v4114   random monsters for town (14 creatures)
  
@@ -223,8 +225,32 @@ ZVSE
 		!!VRv53&y5=8:S0;	!!VRv53&y5=8:R1;
 		!!VRv50&y5=8/v53=0/i^one_type_of_new_town^=1:S0;
 		!!VRv50&y5=8/v53=1/i^one_type_of_new_town^=1:Si^alt8^;
-
-
+		
+		
+		
+		
+		
+		
+		; i^one_type_of_new_town^=2
+		
+		!!VRi^one_type_of_new_town^&i^one_type_of_new_town^=3:S2;
+		
+		!!VRv50&y5=0/i^one_type_of_new_town^=2:Si^alt0^;
+		!!VRv50&y5=1/i^one_type_of_new_town^=2:Si^alt1^;
+		!!VRv50&y5=2/i^one_type_of_new_town^=2:Si^alt2^;
+		!!VRv50&y5=3/i^one_type_of_new_town^=2:Si^alt3^;
+		!!VRv50&y5=4/i^one_type_of_new_town^=2:Si^alt4^;
+		!!VRv50&y5=5/i^one_type_of_new_town^=2:Si^alt5^;
+		!!VRv50&y5=6/i^one_type_of_new_town^=2:Si^alt6^;
+		!!VRv50&y5=7/i^one_type_of_new_town^=2:Si^alt7^;
+		!!VRv50&y5=8/i^one_type_of_new_town^=2:Si^alt8^;
+		
+		!!VRi^one_type_of_new_town^&i^one_type_of_new_town^=2:S3;
+		
+		
+		
+		
+		
 		
 	 ; default town, if new_town disabled 	
 	!-!VRv50&y5=0/i^alt0^=3/i^t15_Ruin^=0:S0;
@@ -297,11 +323,36 @@ ZVSE
 		!!DL528:S;
 		!!FU(start_town):Pv4058/x16;
 	
-
  ; --------------------------------------------------------------
-
-
  
+ 
+  
+ 
+ ; replace classic homm3 towns with start town  if  i^one_type_of_new_town^=3;
+
+	!!DO(replacetown1)/4000/v4052/1:P5;
+	!?FU(replacetown1);
+	!!VRy1:Sx16-4000;     		y1 - current town id
+	!!CA0/y1:T?y2; 				y2 - game_default_type of this town  (0...8)
+	!!CA0/0:T?y3;				y3 - get town type of town id0
+	
+	!!VRy4:Sx16-4000;		        y4= id from 0 to 30
+	!!CA0/y4:T?y5;					y5= current town type
+	
+	!-!IF:M^==== %y3   %v4000^;
+	!!VRv50&y5=y3/i^one_type_of_new_town^=3:Sv4000;
+	
+	!!VRvx16&y5=y3/i^one_type_of_new_town^=3:Sv50;
+	!!VRv50&y5=y3/i^one_type_of_new_town^=3:S0;
+	!!FU(replacetown1):E; 
+
+	
+	
+	
+	
+	
+	
+	
  
  
 

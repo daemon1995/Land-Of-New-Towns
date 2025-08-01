@@ -1,0 +1,341 @@
+ZVSE
+
+
+ ; Techno town - based on Dungeon
+
+	
+-------------------------------------------------------------------	
+	
+	
+	
+!?FU(techno___town); 					
+
+
+-----------------------------
+ ; replace town screen
+ ----------------------------
+ 
+!-!FU(Restore_Default_TownScreen):P;
+ 
+
+!!FU(SetBuilding'sPosition):P3/0/0/0;
+!!FU(SetBuilding'sPosition):P3/1/0/0;
+!!FU(SetBuilding'sPosition):P3/2/0/0;
+!!FU(SetBuilding'sPosition):P3/3/0/0;
+!!FU(SetBuilding'sPosition):P3/4/0/0;
+!!FU(SetBuilding'sPosition):P3/5/0/0;
+!!FU(SetBuilding'sPosition):P3/6/0/0;
+!!FU(SetBuilding'sPosition):P3/7/0/0;
+!!FU(SetBuilding'sPosition):P3/8/0/0;
+!!FU(SetBuilding'sPosition):P3/9/0/0;
+!!FU(SetBuilding'sPosition):P3/10/0/0;
+!!FU(SetBuilding'sPosition):P3/11/0/0;
+!!FU(SetBuilding'sPosition):P3/12/0/0;
+!!FU(SetBuilding'sPosition):P3/13/0/0;
+!!FU(SetBuilding'sPosition):P3/14/0/0;
+!!FU(SetBuilding'sPosition):P3/15/0/0;	resourceSilo
+!-!FU(SetBuilding'sPosition):P3/16/0/325;  	blacksmith    -70/290;
+!!FU(SetBuilding'sPosition):P3/16/0/0;  	blacksmith    -70/290;
+!!FU(SetBuilding'sPosition):P3/17/0/0;
+!!FU(SetBuilding'sPosition):P3/18/0/0;	 
+!!FU(SetBuilding'sPosition):P3/19/0/0;	
+!!FU(SetBuilding'sPosition):P3/20/0/0;	doks with ship
+!!FU(SetBuilding'sPosition):P3/21/0/0;
+!!FU(SetBuilding'sPosition):P3/22/80/90;	portal
+!!FU(SetBuilding'sPosition):P3/23/0/0;	
+!!FU(SetBuilding'sPosition):P3/24/0/0;		horde mechi
+!!FU(SetBuilding'sPosition):P3/25/0/0;		horde mechi
+ ; 24 25 - horde level2
+!!FU(SetBuilding'sPosition):P3/26/0/0;	grail	
+!!FU(SetBuilding'sPosition):P3/30/0/0;	level 1		
+!!FU(SetBuilding'sPosition):P3/31/0/0;
+!!FU(SetBuilding'sPosition):P3/32/0/0;	3
+!!FU(SetBuilding'sPosition):P3/33/0/0;
+!!FU(SetBuilding'sPosition):P3/34/0/0;	5
+!!FU(SetBuilding'sPosition):P3/35/0/0;
+!!FU(SetBuilding'sPosition):P3/36/0/0;
+!!FU(SetBuilding'sPosition):P3/37/0/0;		424/136; upg lv	1	
+!!FU(SetBuilding'sPosition):P3/38/0/0;		
+!!FU(SetBuilding'sPosition):P3/39/0/0;		3
+!!FU(SetBuilding'sPosition):P3/40/0/0;
+!!FU(SetBuilding'sPosition):P3/41/0/0;
+!!FU(SetBuilding'sPosition):P3/42/0/0;
+!!FU(SetBuilding'sPosition):P3/43/0/0;
+
+
+
+!!SN:R^tbinback.pcx^/^TPTEBACK.pcx^;
+!!SN:R^InfernoTown.MP3^/^TechnoTown.mp3^;
+!!SN:R^HALLINFR.def^/^HALLTECH.def^;
+!!SN:R^TPMAGEIN.PCX^/^TPMAGEte.pcx^;
+!-!SN:R^TPMAGEIN.PCX^/^TPMAGETN.pcx^;
+!!SN:R^itpt.def^/^itpt_v1.def^;				town left avatar var1
+
+	
+	
+	
+!!SN:R^TBINBLAK.def^/^TBTEdock.def^;
+!!SN:R^TBINCas2.def^/^TBTECas2.def^;
+!!SN:R^TBINCas3.def^/^TBTECas3.def^;
+!!SN:R^TBINCstl.def^/^TBTECstl.def^;
+!!SN:R^TBINDw_0.def^/^TBTEDw_0.def^;
+!!SN:R^TBINDw_1.def^/^TBTEDw_1.def^;
+!!SN:R^TBINDw_2.def^/^TBTEDw_2.def^;
+!!SN:R^TBINDw_3.def^/^TBTEDw_3.def^;
+!!SN:R^TBINDw_4.def^/^TBTEDw_4.def^;
+!!SN:R^TBINDw_5.def^/^TBTEDw_5.def^;
+!!SN:R^TBINDw_6.def^/^TBTEDw_6.def^;
+!!SN:R^TBINExt0.def^/^TBTESPE2.def^;	sulfur clouds
+!-!SN:R^TBINExt1.def^/^TBTEExt1.def^;
+!!SN:R^TBINExt2.def^/^TBTESPE3.def^;
+!!SN:R^TBINHal2.def^/^TBTEHal2.def^;
+!!SN:R^TBINHal3.def^/^TBTEHal3.def^;
+!!SN:R^TBINHal4.def^/^TBTEHal4.def^;
+!!SN:R^TBINHall.def^/^TBTEHall.def^;
+!!SN:R^TBINHoly.def^/^TBTEHoly.def^;
+!!SN:R^TBINHrd1.def^/^TBTEHRD0.def^;	horde1  lv_1   ^TBMHHrd1.def^;
+!!SN:R^TBINHrd2.def^/^TBTEHRD1.def^;	horde 1 
+!!SN:R^TBINHrd3.def^/^TBTEDw_2.def^;	mechi
+!!SN:R^TBINHrd4.def^/^TBTEUP_2.def^;	
+!!SN:R^TBINMag2.def^/^TBTEMag2.def^;
+!!SN:R^TBINMag3.def^/^TBTEMag3.def^;
+!!SN:R^TBINMag4.def^/^TBTEMag4.def^;
+!!SN:R^TBINMag5.def^/^TBTEMag5.def^;
+!!SN:R^TBINMage.def^/^TBTEMage.def^;
+!!SN:R^TBINMark.def^/^TBTEMark.def^;
+!!SN:R^TBINSilo.def^/^TBTESilo.def^;
+!-!SN:R^TBINSpec.def^/^TBTESpec.def^;
+!!SN:R^TBINTvrn.def^/^TBTETvrn.def^;
+!!SN:R^TBINUp_0.def^/^TBTEUp_0.def^;
+!!SN:R^TBINUp_1.def^/^TBTEUp_1.def^;
+!!SN:R^TBINUp_2.def^/^TBTEUp_2.def^;
+!!SN:R^TBINUp_3.def^/^TBTEUp_3.def^;
+!!SN:R^TBINUp_4.def^/^TBTEUp_4.def^;
+!!SN:R^TBINUp_5.def^/^TBTEUp_5.def^;
+!!SN:R^TBINUp_6.def^/^TBTEUp_6.def^;
+
+!!SN:R^TOIBLKA.pcx^/^TOTEdock.pcx^;
+!!SN:R^TOICAB1A.pcx^/^TOTESPE2.pcx^;		surfur clouds
+!!SN:R^TOICAS1A.pcx^/^TOTECSTL.pcx^;
+!!SN:R^TOICAS2A.pcx^/^TOTECAS2.pcx^;
+!!SN:R^TOICAS3A.pcx^/^TOTECAS3.pcx^;
+!!SN:R^TOICASGA.pcx^/^^;
+!!SN:R^TOIDMN1.pcx^/^TOTEdw_3.pcx^;
+!!SN:R^TOIDMN2.pcx^/^TOTEup_3.pcx^;
+!!SN:R^TOIDVL1.pcx^/^TOTEdw_6.pcx^;
+!!SN:R^TOIDVL2.pcx^/^TOTEup_6.pcx^;
+!!SN:R^TOIEFR1.pcx^/^TOTEdw_5.pcx^;
+!!SN:R^TOIEFR2.pcx^/^TOTEup_5.pcx^;
+!!SN:R^TOIGOG1A.pcx^/^TOTEdw_1.pcx^;
+!!SN:R^TOIGOG2A.pcx^/^TOTEup_1.pcx^;
+!!SN:R^TOIHAL1.pcx^/^TOTEHALL.pcx^;
+!!SN:R^TOIHAL2.pcx^/^TOTEHAL2.pcx^;
+!!SN:R^TOIHAL3.pcx^/^TOTEHAL3.pcx^;
+!!SN:R^TOIHAL4.pcx^/^TOTEHAL4.pcx^;
+!!SN:R^TOIHND1.pcx^/^TOTEdw_2.pcx^;
+!!SN:R^TOIHND1H.pcx^/^TOTEdw_2.pcx^;		horde mechi
+!!SN:R^TOIHND2.pcx^/^TOTEup_2.pcx^;
+!!SN:R^TOIHND2H.pcx^/^TOTEup_2.pcx^;		horde mechi
+!!SN:R^TOIHOLY.pcx^/^TOTEHoly.pcx^;
+!!SN:R^TOIMAG1A.pcx^/^TOTEMAGE.pcx^;
+!!SN:R^TOIMAG2A.pcx^/^TOTEMAG2.pcx^;
+!!SN:R^TOIMAG3A.pcx^/^TOTEMAG3.pcx^;
+!!SN:R^TOIMAG4A.pcx^/^TOTEMAG4.pcx^;
+!!SN:R^TOIMAG5A.pcx^/^TOTEMAG5.pcx^;
+!!SN:R^TOIMAR1.pcx^/^TOTEMARK.pcx^;
+!!SN:R^TOIMAR2.pcx^/^TOTESILO.pcx^;
+!!SN:R^TOIMP1A.pcx^/^TOTEdw_0.pcx^;		horde 1
+!!SN:R^toimp1ha.pcx^/^TOTEHRD0.pcx^;
+!!SN:R^TOIMP2A.pcx^/^TOTEup_0.pcx^;
+!!SN:R^TOIMP2HA.pcx^/^TOTEHRD0.pcx^;
+!!SN:R^TOIPAIN.pcx^/^TOTESPE3.pcx^;			ext2
+!!SN:R^TOIPIT1.pcx^/^TOTEdw_4.pcx^;
+!!SN:R^TOIPIT2.pcx^/^TOTEup_4.pcx^;
+!!SN:R^TOITAV.pcx^/^TOTETVRN.pcx^;
+
+
+!!SN:R^TZIBLKA.pcx^/^TZTEDock.pcx^;
+!!SN:R^TZICAB1A.pcx^/^TZTESpe2.pcx^;
+!!SN:R^TZICAS1A.pcx^/^TZTECSTL.pcx^;
+!!SN:R^TZICAS2A.pcx^/^TZTECAS2.pcx^;
+!!SN:R^TZICAS3A.pcx^/^TZTECAS3.pcx^;
+!!SN:R^TZICASGA.pcx^/^^;
+!!SN:R^TZIDMN1.pcx^/^TZTEdw_3.pcx^;
+!!SN:R^TZIDMN2.pcx^/^TZTEup_3.pcx^;
+!!SN:R^TZIDVL1.pcx^/^TZTEdw_6.pcx^;
+!!SN:R^TZIDVL2.pcx^/^TZTEup_6.pcx^;
+!!SN:R^TZIEFR1.pcx^/^TZTEdw_5.pcx^;
+!!SN:R^TZIEFR2.pcx^/^TZTEup_5.pcx^;
+!!SN:R^TZIGOG1A.pcx^/^TZTEdw_1.pcx^;
+!!SN:R^TZIGOG2A.pcx^/^TZTEup_1.pcx^;
+!!SN:R^TZIHAL1.pcx^/^TZTEHALL.pcx^;
+!!SN:R^TZIHAL2.pcx^/^TZTEHAL2.pcx^;
+!!SN:R^TZIHAL3.pcx^/^TZTEHAL3.pcx^;
+!!SN:R^TZIHAL4.pcx^/^TZTEHAL4.pcx^;
+!!SN:R^TZIHND1.pcx^/^TZTEdw_2.pcx^;
+!!SN:R^TZIHND1H.pcx^/^TZTEdw_2.pcx^;
+!!SN:R^TZIHND2.pcx^/^TZTEup_2.pcx^;
+!!SN:R^TZIHND2H.pcx^/^TZTEup_2.pcx^;
+!!SN:R^TZIHOLY.pcx^/^TZTEHoly.pcx^;
+!!SN:R^TZIMAG1A.pcx^/^TZTEMAGE.pcx^;
+!!SN:R^TZIMAG2A.pcx^/^TZTEMAG2.pcx^;
+!!SN:R^TZIMAG3A.pcx^/^TZTEMAG3.pcx^;
+!!SN:R^TZIMAG4A.pcx^/^TZTEMAG4.pcx^;
+!!SN:R^TZIMAG5A.pcx^/^TZTEMAG5.pcx^;
+!!SN:R^TZIMAR1.pcx^/^TZTEMARK.pcx^;
+!!SN:R^TZIMAR2.pcx^/^TZTESILO.pcx^;
+!!SN:R^TZIMP1A.pcx^/^TZTEdw_0.pcx^;
+!!SN:R^TZimp1ha.pcx^/^TZTEHRD0.pcx^;
+!!SN:R^TZIMP2A.pcx^/^TZTEup_0.pcx^;
+!!SN:R^TZIMP2HA.pcx^/^TZTEHRD1.pcx^;
+!!SN:R^TZIPAIN.pcx^/^TZTESPE3.pcx^;
+!!SN:R^TZIPIT1.pcx^/^TZTEdw_4.pcx^;
+!!SN:R^TZIPIT2.pcx^/^TZTEup_4.pcx^;
+!!SN:R^TZITAV.pcx^/^TZTETVRN.pcx^;
+
+
+
+ 
+ 
+ 
+ -----------------------------
+ ; replace creatures
+-----------------------------
+
+
+	!!FU(techno___monsters):P; 
+
+
+
+ !!FU(techno___town):E;  end function
+ 
+ 
+ 
+ -----------------------------
+!?FU(techno___monsters);
+
+
+ ; new
+!!UN:T3/0/0/416;	
+!!UN:T3/0/1/417;
+!!UN:T3/1/0/418;			
+!!UN:T3/1/1/419;		
+!!UN:T3/2/0/420;	
+!!UN:T3/2/1/421;		
+!!UN:T3/3/0/422;		422, 423 Mech-Grifons
+!!UN:T3/3/1/423;		
+!!UN:T3/4/0/424;	
+!!UN:T3/4/1/425;	
+!!UN:T3/5/0/426;
+!!UN:T3/5/1/427;
+!!UN:T3/6/0/428;
+!!UN:T3/6/1/429; 
+
+ 
+!!FU(techno___monsters):E; 
+ 
+ 
+ 
+ ----------------------------------------------------
+ 
+ 
+!-?PI;
+!-!FU(reduce_monster_growth_for_Techno):P;
+
+
+
+
+------------------------------------------------
+
+!?FU(reduce_monster_growth_for_Techno);
+
+!-!IF:M^sadasdas^;
+
+!!DO(nnh2_techno)/4000/v4052/1:P5;			x16 is a counter of DO2
+!?FU(nnh2_techno);
+!!VRy1:Sx16-4000;     		y1 - current town id
+!!CA0/y1:T?y2; 				y2 - game_default_type of this town  (0...8)
+vx16						vx16 - new type of town (default / new / new_var2 / new_var3)
+
+
+ 
+
+ ; Techno town
+; building level2 
+; upgraded building level2 can buy both creatures 404/405 (for upg dw - change slot id for comfort):
+
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/0/0/0/416/40;		bot1	
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/0/1/1/416/40;	
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/0/1/0/417/40;
+
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/1/0/0/418/45;		robot1	
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/1/1/1/418/45;	
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/1/1/0/419/45;	
+
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/2/0/0/420/60;		Mechanoid	
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/2/1/1/420/60;	
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/2/1/0/421/60;	
+
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/3/0/0/422/80;		Mech Grifons 422 423 (70%=5)
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/3/1/1/422/80;	
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/3/1/0/423/80;	
+
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/4/0/0/424/50;		dw5 
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/4/1/1/424/50;		upg_dw  
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/4/1/0/425/50;		upg_dw  
+
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/5/0/0/426/50;		dw6  
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/5/1/1/426/50;		upg_dw 6 
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/5/1/0/427/50;		upg_dw 6 
+
+
+!!CA0/y1&y2=3/vx16=1:B5/18;		disallow horde dw1 (18,19) for Techno town 
+!!CA0/y1&y2=3/vx16=1:B5/19;
+!!CA0/y1&y2=3/vx16=1:B5/24;		disallow horde dw3 (24,25)
+!!CA0/y1&y2=3/vx16=1:B5/25;
+!!CA0/y1&y2=3/vx16=1:B5/21;		disallow Brimstone stormclouds
+
+
+!!FU(nnh2_techno):E; 
+
+
+!!FU(reduce_monster_growth_for_Techno):E;
+
+
+
+
+
+---------------------------------------------------------------
+
+!?FU(techno___monsters_for_AI);
+
+
+!!FU(dex_SetDwellingSlotByTownType):P3/0/0/0/416/40;		bot1	
+!!FU(dex_SetDwellingSlotByTownType):P3/0/1/1/416/40;	
+!!FU(dex_SetDwellingSlotByTownType):P3/0/1/0/417/40;
+
+!!FU(dex_SetDwellingSlotByTownType):P3/1/0/0/418/45;		robot1	
+!!FU(dex_SetDwellingSlotByTownType):P3/1/1/1/418/45;	
+!!FU(dex_SetDwellingSlotByTownType):P3/1/1/0/419/45;	
+
+!!FU(dex_SetDwellingSlotByTownType):P3/2/0/0/420/60;		Mechanoid	
+!!FU(dex_SetDwellingSlotByTownType):P3/2/1/1/420/60;	
+!!FU(dex_SetDwellingSlotByTownType):P3/2/1/0/421/60;	
+
+!!FU(dex_SetDwellingSlotByTownType):P3/3/0/0/422/80;		Mech Grifons 422 423 (70%=5)
+!!FU(dex_SetDwellingSlotByTownType):P3/3/1/1/422/80;	
+!!FU(dex_SetDwellingSlotByTownType):P3/3/1/0/423/80;	
+
+!!FU(dex_SetDwellingSlotByTownType):P3/4/0/0/424/50;		dw5 
+!!FU(dex_SetDwellingSlotByTownType):P3/4/1/1/424/50;		  
+!!FU(dex_SetDwellingSlotByTownType):P3/4/1/0/425/50;		  
+
+!!FU(dex_SetDwellingSlotByTownType):P3/5/0/0/426/50;		dw6  
+!!FU(dex_SetDwellingSlotByTownType):P3/5/1/1/426/50;		upg_dw 6 
+!!FU(dex_SetDwellingSlotByTownType):P3/5/1/0/427/50;		upg_dw 6 
+
+!!UN:T3/6/0/428;											dw7
+!!UN:T3/6/1/429;
+
+ 
+!!FU(techno___monsters_for_AI):E;

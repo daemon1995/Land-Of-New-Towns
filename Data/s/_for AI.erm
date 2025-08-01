@@ -41,9 +41,12 @@ ZVSE
 !!VRv100&v4070=5:S5;
 !!VRv100&v4070=6:S6;
 !!VRv100&v4070=7:S7;
-!!VRv100:Sv100+4000;					 
+!!VRv100:Sv100+4000;	
 
-!!FU(change_monsters_variant2):P;
+	!-!IF:M^%v100^;
+	!-!VRv100:S4002;					prevent hiring creatures from non-existent towns for AI   (temporary solution)
+
+!-!FU(change_monsters_variant2):P;
 
 
 

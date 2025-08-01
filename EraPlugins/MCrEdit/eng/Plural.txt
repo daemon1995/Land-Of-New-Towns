@@ -222,18 +222,18 @@ Preimages of Lamassu
 Lamassu
 Falcons jr.
 Falcons
-Assassins apprentieces
-Assassins
-Small Bats
-Bats
-Golems
-Clay Golems
-Centaurs hunters
-Centaurs - Warriors
-Strongmans
-Master Strongmans
-Stone Warriors
-Stone Giants
+Desert goblin jr.
+Desert goblin
+Small reptiles
+reptiles
+Axe throwers jr.
+Axe throwers
+Sand golems jr.
+Sand golems
+Strongmans 
+Strongmans masters
+Centaurs of desert jr.
+Centaurs of desert
 Sand Worms
 Great Sand Worms
 Ratmans
@@ -254,8 +254,8 @@ Ancient Gorynyches
 Halfings masters
 Sorcessers Apprentices
 Nomads of Storm
-Keepers junior
-Keepers
+Gnomes jr.
+Forest Gnomes
 leprechauns jr.
 Leprechauns
 Turquoise Harpies
@@ -400,48 +400,48 @@ Sea Dogs
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Mythical harpies jr.
+Mythical harpies
+Big centaurs
+Mythical Centaurs
+Mistresses of Snakes
+Medusas Gorgon
+Cyclops the Cannibal
+Cyclops Leaders
+Big Minotaurs
+Mythical Minotaurs
+Giant Manticores
+Colossal Manticores
+Young Colossus
+Colossus
+Bots
+Steel Bots
+Robots
+Upgraded Robots
+Mechanical Griffins
+Griffins Cyborgs
+Mechanoids
+upg. Mechanoids
+Mechanical Guards jr.
+Mechanical Guards
+TechnoDreadnoughts jr.
+TechnoDreadnoughts
+Primes
+Ultra Primes
 Trainers
 Squires
 Archers of Light jr.
 Archers of Light
 Crusaders Pikeman
-Crusaders-Knight
+Knights Templars
 Heavy Knights
 Armored Knights
 Monks of Light jr.
 Monks of Light
 Cavalry Crusaders
 Champion Crusaders
-Warriors of Ray
-Warriors of Light
+Fearless Knights
+Great Knigt
 
 
 
@@ -577,7 +577,7 @@ avatars of Anubis
 
 
 Colorful Coatles
-
+Prime Leaders
 
 Walking Plants jr.
 Walking Plants
@@ -590,19 +590,19 @@ Green Giants
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Atlants
+Mythic Minotaurs
+Titans of Thunder
+Titans of Storm
+Tiamats
+Sea Wurms
+Big Sea Wurms
+Tritons
+Dark Elementals
+Fire Ifrits
+The Great Stone Giants
+Green Behemoth
+Metamorphs
 
 
 

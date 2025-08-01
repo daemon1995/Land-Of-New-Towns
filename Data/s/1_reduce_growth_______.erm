@@ -35,34 +35,34 @@ ZVSE
  ; make Techno monsters growth equal to inferno defaults on the end of week
 !!MA:G416/15;
 !!MA:G417/15;
-!!MA:G418/8;
-!!MA:G419/8;
-!!MA:G420/5; 
-!!MA:G421/5;
-!!MA:G422/4;
-!!MA:G423/4; 
+!-!MA:G418/8;
+!-!MA:G419/8;
+!-!MA:G420/5; 
+!-!MA:G421/5;
+!-!MA:G422/4;
+!-!MA:G423/4; 
 !!MA:G424/3;
 !!MA:G425/3;
-!!MA:G426/2;
-!!MA:G427/2;
-!!MA:G428/1;
-!!MA:G429/1;
+!!MA:G426/2;	
+!!MA:G427/2;	techodendrout
+!-!MA:G428/1;
+!-!MA:G429/1;
 
  ; Mythology
-!!MA:G402/14;
-!!MA:G403/14;
+!-!MA:G402/14;
+!-!MA:G403/14;
 !!MA:G404/8;
 !!MA:G405/8;
-!!MA:G406/7; 
-!!MA:G407/7;
-!!MA:G408/4;
-!!MA:G409/4; 
-!!MA:G410/3;
-!!MA:G411/3;
-!!MA:G412/2;
-!!MA:G413/2;
-!!MA:G414/1;
-!!MA:G415/1;
+!-!MA:G406/7; 
+!-!MA:G407/7;
+!-!MA:G408/4;
+!-!MA:G409/4; 
+!-!MA:G410/3;
+!-!MA:G411/3;
+!-!MA:G412/2;
+!-!MA:G413/2;
+!-!MA:G414/1;
+!-!MA:G415/1;
 
  
 
@@ -79,25 +79,21 @@ ZVSE
 	!!CA0/y1:T?y2; 				y2 - game_default_type of this town  (0...8)
 	 ; 	vx16 - new type of town (default / new / new_var2 / new_var3)
 	
-	!!FU(reduce_growth)&y2=3/vx16=1:Py1/0/15/25;	for Techno lv_1  (town_id/level/def_growth/percents)
-	!!FU(reduce_growth)&y2=3/vx16=1:Py1/1/8/45;
-	!!FU(reduce_growth)&y2=3/vx16=1:Py1/2/5/35;		mechanoid
-	!!FU(reduce_growth)&y2=3/vx16=1:Py1/3/4/70;		mech-grifons
-	!!FU(reduce_growth)&y2=3/vx16=1:Py1/4/3/50;
+	!!FU(reduce_growth)&y2=3/vx16=1:Py1/0/15/30;	for Techno lv_1  (town_id/level/def_growth/percents) (/25)
+	!--!FU(reduce_growth)&y2=3/vx16=1:Py1/1/8/45;
+	!--!FU(reduce_growth)&y2=3/vx16=1:Py1/2/5/35;		mechanoid
+	!--!FU(reduce_growth)&y2=3/vx16=1:Py1/3/4/70;		mech-grifons
+	!!FU(reduce_growth)&y2=3/vx16=1:Py1/4/3/40;
 	!!FU(reduce_growth)&y2=3/vx16=1:Py1/5/2/50;
 	
 	; Mythology
 	!!FU(reduce_growth)&y2=5/vx16=3:Py1/1/8/40;		  lv_2
-	!!FU(reduce_growth)&y2=5/vx16=3:Py1/2/7/60;
-	!!FU(reduce_growth)&y2=5/vx16=3:Py1/3/4/50;
-	!!FU(reduce_growth)&y2=5/vx16=3:Py1/4/3/70;
-	!!FU(reduce_growth)&y2=5/vx16=3:Py1/5/2/80;
+
 	
 	; Conflux
 	!!FU(reduce_growth)&y2=8/vx16=0:Py1/6/1/200;  160;	increase Phoenix growth *2
 	
 	; WonderWoods (Rampart)
-	!!FU(reduce_growth)&y2=1/vx16=1:Py1/2/7/65; 		level_2 snipers
 	!!FU(reduce_growth)&y2=1/vx16=1:Py1/3/5/80; 		level_3 petrels
 	!!FU(reduce_growth)&y2=1/vx16=1:Py1/4/3/80;			
 	
@@ -111,13 +107,11 @@ ZVSE
 	!!FU(reduce_growth)&y2=2/vx16=2:Py1/1/8/70;				8
 	!!FU(reduce_growth)&y2=2/vx16=2:Py1/2/7/85;	95;			7
 	!!FU(reduce_growth)&y2=2/vx16=2:Py1/3/4/80;				4
-	!-!FU(reduce_growth)&y2=2/vx16=2:Py1/4/3/95;			    3
+
 	
 	; Elemental Palace     
 	!!FU(reduce_growth)&y2=2/vx16=3:Py1/0/16/70;				1 level
-	!-!FU(reduce_growth)&y2=2/vx16=3:Py1/1/9/90;
-	!-!FU(reduce_growth)&y2=2/vx16=3:Py1/2/4/95;	
-	!-!FU(reduce_growth)&y2=2/vx16=3:Py1/3/5/90;
+
 	!!FU(reduce_growth)&y2=2/vx16=3:Py1/4/3/60;		60;			5 level
 	!!FU(reduce_growth)&y2=2/vx16=3:Py1/5/2/50;					6 level
 

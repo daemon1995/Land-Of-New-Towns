@@ -28,51 +28,62 @@ ZVSE
   
  
 
-!?BG&v997>-1;							trigger at any action any monster 
+!?BG&999/v997>-1;							trigger at any action any monster     	ONLY FOR HUMAN &999 to prevent errors!
+!--!IF:M^test1^;
 
  ; all towns
 !!FU(casting_spell):P251/7/71/2/30;				Ancient Spider
 !!FU(casting_spell):P281/7/60/3/25;				Alhoon   (30 -> 25)
-!!FU(casting_spell):P295/10/16/2/100;			Royal Indrik
+!!FU(casting_spell):P295/10/16/3/100;			Royal Indrik
 !!FU(casting_spell):P395/6/72/2/50;				Kelpie     	roots (72)
 !!FU(casting_spell):P395/6/72/2/50;				Kelpie     	roots (72)
 !!FU(casting_spell):P329/6/57/2/50;				____Iratus (гром титанов)     new
+
+ ; Sand town
+!-!FU(casting_spell):P229/7/54/2/35; 			Sand slug	slowness(54)
 
 
 
  ; Magic Forest   (ex. Druid town)
 !!FU(casting_spell_on_itself):P258/2/51/3/50;	Leprekons-jr.   luck
 !!FU(casting_spell_on_itself):P259/2/51/3/50;	Leprekons   luck
-!!FU(casting_spell_on_itself):P267/2/65/3/20;	Sriggans	(clone)
+!!FU(casting_spell_on_itself):P267/2/65/3/26;	Sriggans	on move, (clone 20% chance)
+!!FU(casting_spell_on_itself):P267/6/65/3/20;	Sriggans	on attack, (clone 15% chance) 
 
 
  ; Druid town 
-!!FU(casting_spell):P287/7/15/2/30; 			Forest Guards		magic arrow(15) 
+!!FU(casting_spell):P287/7/15/1/30; 			Forest Guards		magic arrow(15) 
 
  ; Strange Cult
 !!FU(casting_spell):P336/7/54/2/40; 			Mage of Void (338)	slowness(54)	
-!!FU(casting_spell):P334/10/16/2/100; 			Shaman-Cultist		ice arrow(16)
+!!FU(casting_spell):P334/10/16/1/100; 			Shaman-Cultist		ice arrow(16)
 !!FU(casting_spell):P340/6/50/2/40; 			Wendigo	   (sorrow 50 )
 !!FU(casting_spell):P344/6/45/2/50;				Giant Bat (Disrupting Ray 47)
 
  ; Monastery
-!!VRy10:R4;										5 different spells for Mimik	 
-!!FU(casting_spell)&y10=0:P303/10/17/2/100;		Mimik		lightning (17)
-!!FU(casting_spell)&y10=1:P303/10/20/2/100;
-!!FU(casting_spell)&y10=2:P303/10/21/2/100;
-!!FU(casting_spell)&y10=3:P303/10/13/2/100;
-!!FU(casting_spell)&y10=4:P303/10/15/2/100; 
+!!VRy10:R8;										5 different spells for Mimik	 
+!!FU(casting_spell)&y10=0:P303/10/45/1/100;		Mimik		()
+!!FU(casting_spell)&y10=1:P303/10/20/1/100;
+!!FU(casting_spell)&y10=2:P303/10/21/1/100;
+!!FU(casting_spell)&y10=3:P303/10/13/1/100;
+!!FU(casting_spell)&y10=4:P303/10/15/1/100; 
+!!FU(casting_spell)&y10=5:P303/10/4/1/100;		unuseful spells
+!!FU(casting_spell)&y10=6:P303/10/0/1/100;
+!!FU(casting_spell)&y10=7:P303/10/52/1/100;
+!!FU(casting_spell)&y10=8:P303/10/41/1/100;
+!!FU(casting_spell_on_itself):P304/7/41/1/10;	monk - cliric (on shoot)
+!!FU(casting_spell_on_itself):P305/7/41/1/15;
 !!FU(casting_spell):P307/10/23/2/100;			Monk-Reader		meteor rain (23) 
  
  ; Bastion
 !!FU(casting_spell_on_itself):P317/6/46/2/30;	Warriors of Desert  (on attack)	
 !!FU(casting_spell_on_itself):P317/2/46/2/50;	Warriors of Desert	(on move)
-!!FU(casting_spell):P325/6/75/2/50; 			Warrior of Anubis		spell (75)
+!!FU(casting_spell):P325/6/75/2/35; 			Warrior of Anubis	spell (75)
 
  ; Oasis
 !!FU(casting_spell_on_itself):P346/6/53/2/30;	Ugals, haste
 !!FU(casting_spell_on_itself):P346/2/53/2/30;
-!!FU(casting_spell):P354/7/15/2/35;				faqir2, magic arrow
+!!FU(casting_spell):P354/7/15/1/35;				faqir2, magic arrow
 !!FU(casting_spell_on_itself):P354/2/30/2/40;			air shield
 !!FU(casting_spell_on_itself):P354/6/30/2/40;
 
@@ -81,16 +92,20 @@ ZVSE
 !!FU(casting_spell):P367/7/45/2/20;				∆рица Моря			weakness (45)
 !!FU(casting_spell):P368/7/45/2/50;				Заклинательница		
 
+
  ; Kitezh Grad
-!-!FU(casting_spell):P387/6/57/2/18;				Bilinny Bogatyr		thunder of titans (57)
+!!FU(casting_spell):P387/6/57/2/18;			Bilinny Bogatyr		thunder of titans (57)
+ 
  
  ; Temple of Light 
-!!FU(casting_spell):P435/10/25/2/100;			knights-crusaders, exorcism(25) 
+!-!FU(casting_spell):P435/10/25/2/100;			knights-crusaders, exorcism(25) 
+!-!FU(casting_spell_on_itself):P435/6/27/2/25;	knights-crusaders,on attack, shield 25% 
 !-!FU(casting_spell):P436/6/21/1/15;				Knight of sparks
 !-!FU(casting_spell):P437/6/21/1/35;				Knight of fire,  fireball
 !-!FU(casting_spell):P438/10/25/1/100;			Monk of Light jr., exorcism(25)
-!!FU(casting_spell):P439/7/15/1/30;				Monk of Light    magic bolt  30%chance
-!!FU(casting_spell):P441/6/25/1/40;				Knights of Shining    Exorcism(25)
+!--!FU(casting_spell):P439/7/15/1/30;				Monk of Light    magic bolt  30%chance
+!-!FU(casting_spell):P439/10/25/2/100;			Monk of Light    exorcism 
+!--!FU(casting_spell):P441/6/25/1/40;				Knights of Shining    Exorcism(25)
 !!FU(undead_takes_more_damage_part1):P432/6/-1/1/100;	attack, increased damage to undead 
 !!FU(undead_takes_more_damage_part1):P432/7/-1/1/100;	shoot	
 !!FU(undead_takes_more_damage_part1):P433/6/-1/2/100;
@@ -119,12 +134,12 @@ ZVSE
 !!FU(casting_spell_on_itself):P487/2/53/2/30;	Yeti (haste)
 !!FU(casting_spell):P489/6/45/2/35;				Yorr   (Weakness)  35% chance
 
+
  ; Elemental Palace
-
-!!FU(casting_spell):P495/6/20/2/40;				elemental of frost   (circle of frost)
-!!FU(casting_spell):P497/10/16/2/100; 			Queen of Ice			ice arrow(16)
+!!FU(casting_spell):P495/6/20/1/40;				elemental of frost   (circle of frost)
+!!FU(casting_spell):P497/10/16/1/100; 			Queen of Ice			ice arrow(16)
 !!FU(casting_spell):P504/10/20/3/100;			Ice Atronash   (circle of frost)
-
+!!FU(casting_spell_on_itself):P504/6/20/2/60;	Ice Atronash   (circle of frost)
 
  ; Abandoned Pyramid  
 !!FU(UMA_transform_creature):P531/6/58/-1/20;	Ancient NecroSphinx  transform to zombie (58), 20% chance 
@@ -144,7 +159,7 @@ ZVSE
 
 
 
-
+!--------!   Bug's Error
 
    
 
@@ -152,10 +167,11 @@ ZVSE
 	
 	
  ; reduce damage taken by percents  / ignore damage, chance	
-!?MF1; 
+!?MF1&999; 											ONLY FOR HUMAN &999 to prevent errors!
+!--!IF:M^test mf ^;
  ; Sand town
-!!FU(monster_reduces_damage_taken):P234/-15;		Stone Warrior 
-!!FU(monster_reduces_damage_taken):P235/-50;		Stone Giants 
+!--!FU(monster_reduces_damage_taken):P234/-15;		Stone Warrior 
+!!FU(monster_reduces_damage_taken):P602/-50;		Stone Giants 
 
  ; Cove town
 !!FU(monster_reduces_damage_taken):P369/-30;		NIXX   -30%  
@@ -165,15 +181,17 @@ ZVSE
 !!FU(monster_reduces_damage_taken):P400/-20;		LIVING STONE
 !!FU(monster_reduces_damage_taken):P401/-30;		Colosus
 
- ; increase damage to undead (by 50%) only for Temple_of_Light monsters
-!!FU(undead_takes_more_damage_part2)&v4076=1:P15;		increase by 15%
-!!FU(undead_takes_more_damage_part2)&v4076=2:P30;		increase by 30%
+ ; increase damage to undead (by %) only for Temple_of_Light monsters
+!!FU(undead_takes_more_damage_part2)&v4076=1:P10;		increase by 15% (P15)
+!!FU(undead_takes_more_damage_part2)&v4076=2:P20;		increase by 20%
 
  ; Elemental Palace
 !!FU(monster_ignore_damage):P497/27;				Queen of Ice
 
  ; Abandoned Pyramid
 !!FU(monster_ignore_damage):P529/20;				Ghost of Pyramid
+
+!!FU(monster_ignore_damage):P443/25;				Paladins of Light
 
  ; Deep Swamp
 !!FU(monster_ignore_damage):P465/20;				ghost of swamp
