@@ -1,0 +1,244 @@
+ZVSE
+
+
+ ; Cove town - based on Castle
+
+	
+-------------------------------------------------------------------	
+	
+	
+	
+!?FU(cove___town); 					
+
+-----------------------------
+ ; replace town screen
+ ----------------------------
+ 
+!!FU(SetBuilding'sPosition):P0/0/337/110;
+!!FU(SetBuilding'sPosition):P0/1/319/85;
+!!FU(SetBuilding'sPosition):P0/2/300/61;
+!!FU(SetBuilding'sPosition):P0/3/281/39;
+!!FU(SetBuilding'sPosition):P0/5/12/247;
+!!FU(SetBuilding'sPosition):P0/6/436/164;		doks
+!!FU(SetBuilding'sPosition):P0/7/402/148;
+!!FU(SetBuilding'sPosition):P0/8/402/114; 
+!!FU(SetBuilding'sPosition):P0/9/435/109;	402/114;		castle
+!!FU(SetBuilding'sPosition):P0/10/0/148;
+!!FU(SetBuilding'sPosition):P0/11/0/176;
+!!FU(SetBuilding'sPosition):P0/12/0/176;
+!!FU(SetBuilding'sPosition):P0/13/0/85;			
+!!FU(SetBuilding'sPosition):P0/14/157/289;
+!!FU(SetBuilding'sPosition):P0/15/320/346;
+!!FU(SetBuilding'sPosition):P0/16/608/274;
+!!FU(SetBuilding'sPosition):P0/17//137/30;  303/248;	lighthouse 		550/229;
+!-!FU(SetBuilding'sPosition):P0/18/588/64;	373/239;   grifons horde
+!-!FU(SetBuilding'sPosition):P0/19/588/64; 	 373/220;
+!!FU(SetBuilding'sPosition):P0/20/436/164;     doks with boat
+!!FU(SetBuilding'sPosition):P0/21/493/310;  473/282;		stables
+!!FU(SetBuilding'sPosition):P0/22/12/247;       brotherhood of sword 617/286;		617/286;
+!!FU(SetBuilding'sPosition):P0/23/0/18; 		ext2	31/5;
+!!FU(SetBuilding'sPosition):P0/26/0/0;		
+!!FU(SetBuilding'sPosition):P0/30/282/106;		
+!!FU(SetBuilding'sPosition):P0/31/108/64;		/266/246;
+!!FU(SetBuilding'sPosition):P0/32/588/191;
+!!FU(SetBuilding'sPosition):P0/33/696/43;
+!!FU(SetBuilding'sPosition):P0/34/370/50;	137/30;		// 5) priestesses of the sea
+!!FU(SetBuilding'sPosition):P0/35/622/160;
+!!FU(SetBuilding'sPosition):P0/36/330/260;		// sea snake		30/248;
+!!FU(SetBuilding'sPosition):P0/37/254/42;		1 upg		
+!!FU(SetBuilding'sPosition):P0/38/84/33;		
+!!FU(SetBuilding'sPosition):P0/39/588/64;
+!!FU(SetBuilding'sPosition):P0/40/696/12;
+!!FU(SetBuilding'sPosition):P0/41/370/0;
+!!FU(SetBuilding'sPosition):P0/42/663/98;
+!!FU(SetBuilding'sPosition):P0/43/291/236; 
+
+
+	!-!FU(SetBuilding'sPriority):P0/37/36;	dwelling level_6 priority(35) влияет на братсво меча
+	!!FU(SetBuilding'sPriority):P0/38/43;	dwelling level_6up priority
+	
+
+ 
+!-!FU(Restore_Default_TownScreen):P;			restore default screen first
+!!SN:R^TBcsback.pcx^/^COVEBACK.pcx^;			
+!!SN:R^CstleTown.mp3^/^CoveTown.mp3^;
+!-!SN:R^HALLCSTL.def^/^HALLCOVE.def^;
+!!SN:R^TPMAGECS.pcx^/^TPMAGECV.pcx^;
+
+!!SN:R^TPCAScas.pcx^/^TPCAScov.pcx^;
+!!SN:R^TPMAGEcs.pcx^/^TPMAGEco.pcx^;
+
+!!SN:R^HALLCSTL.def^/^HALLCOVE.def^;
+!!SN:R^itpt.def^/^itpt_v1.def^;				town left avatar var1
+!-!SN:D;
+
+
+
+!!SN:R^tbcsblak.def^/^COV16.def^;
+!!SN:R^TBCSBOAT.def^/^COV20.def^;		doks with boat
+!!SN:R^TBCSCAS2.def^/^COV08.def^;
+!!SN:R^TBCSCAS3.def^/^COV09.def^;
+!!SN:R^TBCSCSTL.def^/^COV07.def^;
+!!SN:R^TBCSDOCK.def^/^COV06.def^;
+!!SN:R^TBCSDW_0.def^/^COV30.def^;
+!!SN:R^TBCSDW_1.def^/^COV31.def^;
+!!SN:R^TBCSDW_2.def^/^COV32.def^;
+!!SN:R^TBCSDW_3.def^/^COV33.def^;
+!!SN:R^TBCSDW_4.def^/^COV34.def^;
+!!SN:R^TBCSDW_5.def^/^COV35.def^;
+!!SN:R^TBCSDW_6.def^/^COV36.def^;
+!---!SN:R^TBCSEXT0.def^/^^;
+!!SN:R^TBCSEXT1.def^/^COV05.def^;		brotherhood of sword
+!!SN:R^TBCSEXT2.def^/^COV22.def^;		waterfall? ======
+!!SN:R^TBCSHAL2.def^/^COV11.def^;
+!!SN:R^TBCSHAL3.def^/^COV12.def^;
+!!SN:R^TBCSHAL4.def^/^COV13.def^;
+!!SN:R^TBCSHALL.def^/^COV10.def^;
+!!SN:R^TBCSHOLY.def^/^COV26.def^;
+!!SN:R^TBCSHRD1.def^/^COV31.def^;		grifons horde							?
+!!SN:R^TBCSHRD2.def^/^COV38.def^;		grifons horde upg		COV39.def		?
+!!SN:R^TBCSMAG2.def^/^COV01.def^;
+!!SN:R^TBCSMAG3.def^/^COV02.def^;
+!!SN:R^TBCSMAG4.def^/^COV03.def^;
+!!SN:R^TBCSMAGE.def^/^COV00.def^;
+!!SN:R^TBCSMARK.def^/^COV14.def^;
+!!SN:R^TBCSSILO.def^/^COV15.def^;
+!!SN:R^TBCSSPEC.def^/^COV34.def^;				mayak
+!!SN:R^TBCSTVRN.def^/^COV05.def^;
+!!SN:R^TBCSUP_0.def^/^COV37.def^;
+!!SN:R^TBCSUP_1.def^/^COV38.def^;
+!!SN:R^TBCSUP_2.def^/^COV39.def^;
+!!SN:R^TBCSUP_3.def^/^COV40.def^;
+!!SN:R^TBCSUP_4.def^/^COV41.def^;
+!!SN:R^TBCSUP_5.def^/^COV42.def^;
+!!SN:R^TBCSUP_6.def^/^COV43.def^;
+
+
+!!SN:R^TOCSANG1.pcx^/^COV36.pcx^;
+!!SN:R^TOCSANG2.pcx^/^COV43.pcx^;
+!!SN:R^TOCSBLAK.pcx^/^COV16.pcx^;
+!!SN:R^TOCSC101.pcx^/^^;
+!!SN:R^TOCSC201.pcx^/^^;
+!!SN:R^TOCSCAS1.pcx^/^COV07.pcx^;
+!!SN:R^TOCSCAS2.pcx^/^COV08.pcx^;
+!!SN:R^TOCSCAS3.pcx^/^COV09.pcx^;
+!!SN:R^TOCSCAV1.pcx^/^COV35.pcx^;
+!!SN:R^TOCSCAV2.pcx^/^COV42.pcx^;
+!!SN:R^TOCSCAVM.pcx^/^^;
+!!SN:R^TOCSCRS1.pcx^/^COV31.pcx^;
+!!SN:R^TOCSCRS2.pcx^/^COV31.pcx^;
+!!SN:R^TOCSDKMN.pcx^/^^;			
+!!SN:R^TOCSDKMS.pcx^/^^;
+!!SN:R^TOCSDKNN.pcx^/^COV06.pcx^;	doks
+!!SN:R^TOCSDKNS.pcx^/^COV20.pcx^;	doks with ship
+!-!SN:R^TOCSGR1H.pcx^/^COV32.pcx^;			
+!!SN:R^TOCSGR1N.pcx^/^COV32.pcx^;	+ 32
+!-!SN:R^TOCSGR2H.pcx^/^COV39.pcx^;	
+!!SN:R^TOCSGR2N.pcx^/^COV39.pcx^;	+ 39
+!!SN:R^TOCSH101.pcx^/^COV10.pcx^;
+!!SN:R^TOCSH201.pcx^/^COV11.pcx^;
+!!SN:R^TOCSH301.pcx^/^COV12.pcx^;
+!!SN:R^TOCSH401.pcx^/^COV13.pcx^;
+!!SN:R^TOCSHOLY.pcx^/^COV26.pcx^;
+!!SN:R^TOCSLT01.pcx^/^^;
+!!SN:R^TOCSM301.pcx^/^COV02.pcx^;
+!!SN:R^TOCSM401.pcx^/^COV03.pcx^;
+!!SN:R^TOCSMAG1.pcx^/^COV00.pcx^;
+!!SN:R^TOCSMAG2.pcx^/^COV01.pcx^;
+!!SN:R^TOCSMON1.pcx^/^COV34.pcx^;
+!!SN:R^TOCSMON2.pcx^/^COV41.pcx^;
+!!SN:R^TOCSMRK1.pcx^/^COV14.pcx^;
+!!SN:R^TOCSMRK2.pcx^/^COV15.pcx^;
+!!SN:R^TOCSPIK1.pcx^/^COV30.pcx^;
+!!SN:R^TOCSPIK2.pcx^/^COV37.pcx^;
+!!SN:R^TOCSSWD1.pcx^/^COV33.pcx^;
+!!SN:R^TOCSSWD2.pcx^/^COV40.pcx^;
+!!SN:R^TOCSTAV1.pcx^/^COV05.pcx^;	tavern
+!!SN:R^TOCSTAV2.pcx^/^COV05.pcx^;	brotherhood
+
+!!SN:R^TZCSANG1.pcx^/^CZV36.pcx^;
+!!SN:R^TZCSANG2.pcx^/^CZV43.pcx^;
+!!SN:R^TZCSBLAK.pcx^/^CZV16.pcx^;
+!!SN:R^TZCSCAS1.pcx^/^CZV07.pcx^;
+!!SN:R^TZCSCAS2.pcx^/^CZV08.pcx^;
+!!SN:R^TZCSCAS3.pcx^/^CZV09.pcx^;
+!!SN:R^TZCSCAV1.pcx^/^CZV35.pcx^;
+!!SN:R^TZCSCAV2.pcx^/^CZV42.pcx^;
+!!SN:R^TZCSCAVM.pcx^/^^;
+!!SN:R^TZCSCRS1.pcx^/^CZV31.pcx^;
+!!SN:R^TZCSCRS2.pcx^/^CZV38.pcx^;
+!!SN:R^TZCSDKMN.pcx^/^^;		
+!!SN:R^TZCSDKMS.pcx^/^^;
+!!SN:R^TZCSDKNN.pcx^/^CZV06.pcx^;		doks
+!!SN:R^TZCSDKNS.pcx^/^CZV20.pcx^;
+!-!SN:R^TZCSGR1H.pcx^/^CZV32.pcx^;   
+!!SN:R^TZCSGR1N.pcx^/^CZV32.pcx^;   CZV32.pcx
+!-!SN:R^TZCSGR2H.pcx^/^CZV39.pcx^;  
+!!SN:R^TZCSGR2N.pcx^/^CZV39.pcx^;	+ 39
+!!SN:R^TZCSH101.pcx^/^CZV10.pcx^;
+!!SN:R^TZCSH201.pcx^/^CZV11.pcx^;
+!!SN:R^TZCSH301.pcx^/^CZV12.pcx^;
+!!SN:R^TZCSH401.pcx^/^CZV13.pcx^;
+!!SN:R^TZCSHOLY.pcx^/^CZV26.pcx^;
+!!SN:R^TZCSLT01.pcx^/^^;
+!!SN:R^TZCSM301.pcx^/^CZV02.pcx^;
+!!SN:R^TZCSM401.pcx^/^CZV03.pcx^;
+!!SN:R^TZCSMAG1.pcx^/^CZV00.pcx^;
+!!SN:R^TZCSMAG2.pcx^/^CZV01.pcx^;
+!!SN:R^TZCSMON1.pcx^/^CZV34.pcx^;
+!!SN:R^TZCSMON2.pcx^/^CZV41.pcx^;
+!!SN:R^TZCSMRK1.pcx^/^CZV14.pcx^;
+!!SN:R^TZCSMRK2.pcx^/^CZV15.pcx^;
+!!SN:R^TZCSPIK1.pcx^/^CZV30.pcx^;
+!!SN:R^TZCSPIK2.pcx^/^CZV37.pcx^;
+!!SN:R^TZCSSWD1.pcx^/^CZV33.pcx^;
+!!SN:R^TZCSSWD2.pcx^/^CZV40.pcx^;
+!!SN:R^TZCSTAV1.pcx^/^CZV05.pcx^;
+!!SN:R^TZCSTAV2.pcx^/^CZV05.pcx^;		brotherhood
+
+
+
+
+
+ 
+ 
+ 
+ -----------------------------
+ ; replace creatures
+-----------------------------
+
+	!!FU(cove___monsters):P; 
+
+
+
+
+ !!FU(cove___town):E;  end function
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+----------------
+!?FU(cove___monsters);
+
+!!UN:T0/0/0/359;   
+!!UN:T0/0/1/360;
+!!UN:T0/1/0/361;
+!!UN:T0/1/1/362;
+!!UN:T0/2/0/363;		
+!!UN:T0/2/1/364;		
+!!UN:T0/3/0/365;
+!!UN:T0/3/1/366;
+!!UN:T0/4/0/367;	 	
+!!UN:T0/4/1/368; 		
+!!UN:T0/5/0/369;	 	
+!!UN:T0/5/1/370; 		
+!!UN:T0/6/0/371;
+!!UN:T0/6/1/372;
+
+!!FU(cove___monsters):E; 
+ 
+ 
+ 

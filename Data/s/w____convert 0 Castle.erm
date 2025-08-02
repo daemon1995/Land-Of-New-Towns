@@ -1,0 +1,323 @@
+ZVSE
+
+
+
+!-?FU(OnEveryDay)&1000;
+
+!-!FU(convert_castle):P;
+
+
+
+
+
+	
+!?FU(nightwatch___town);
+
+	!!VRz50:S^nightwatch^;
+	!!FU(convert_castle):P;
+	
+!!FU(nightwatch___town):E;  
+
+
+
+ ; --------------------------------------------------
+ 
+!?FU(fairy___town);
+
+	!!VRz50:S^fairy^;
+	!!FU(convert_castle):P;
+	
+!!FU(fairy___town):E; 
+
+
+ ; --------------------------------------------------- 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------
+ 
+!?FU(convert_castle);
+
+
+!-!VRz8:S^^;
+!-!VRz50:S^fen^;
+!-!VRz50:S^nightwatch^;
+!-!VRz50:S^fairy^;
+
+
+
+!!VRz8:Sz50+^.town.structures.mageGuild1.x^;	!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.mageGuild1.y^;	!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/0/y1/y2;
+!!VRz8:Sz50+^.town.structures.mageGuild2.x^;	!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.mageGuild2.y^;	!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/1/y1/y2;
+!!VRz8:Sz50+^.town.structures.mageGuild3.x^;	!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.mageGuild3.y^;	!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/2/y1/y2;
+!!VRz8:Sz50+^.town.structures.mageGuild4.x^;	!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.mageGuild4.y^;	!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/3/y1/y2;
+!!VRz8:Sz50+^.town.structures.mageGuild5.x^;	!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.mageGuild5.y^;	!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/4/y1/y2;
+!!VRz8:Sz50+^.town.structures.tavern.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.tavern.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/5/y1/y2;
+!!VRz8:Sz50+^.town.structures.shipyard.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.shipyard.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/6/y1/y2;													docks
+!!VRz8:Sz50+^.town.structures.fort.x^;			!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.fort.y^;			!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/7/y1/y2;
+!!VRz8:Sz50+^.town.structures.citadel.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.citadel.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/8/y1/y2;			
+!!VRz8:Sz50+^.town.structures.castle.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.castle.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;  
+!!FU(SetBuilding'sPosition):P0/9/y1/y2;
+!!VRz8:Sz50+^.town.structures.villageHall.x^;	!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.villageHall.y^;	!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/10/y1/y2;
+!!VRz8:Sz50+^.town.structures.townHall.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.townHall.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/11/y1/y2;
+!!VRz8:Sz50+^.town.structures.cityHall.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.cityHall.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/12/y1/y2;
+!!VRz8:Sz50+^.town.structures.capitol.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.capitol.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/13/y1/y2;	
+!!VRz8:Sz50+^.town.structures.marketplace.x^;	!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.marketplace.y^;	!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/14/y1/y2;
+!!VRz8:Sz50+^.town.structures.resourceSilo.x^;	!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.resourceSilo.y^;	!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/15/y1/y2;
+!!VRz8:Sz50+^.town.structures.blacksmith.x^;	!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.blacksmith.y^;	!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/16/y1/y2;
+
+!!VRz8:Sz50+^.town.structures.special1.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.special1.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/17/y1/y2;												lighthouse
+!!VRz8:Sz50+^.town.structures.horde1.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.horde1.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/18/y1/y2;												horde1 (griffin level 3)
+!!VRz8:Sz50+^.town.structures.horde1Upgr.x^;	!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.horde1Upgr.y^;	!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/19/y1/y2;												horde1 up 
+!!VRz8:Sz50+^.town.structures.ship.x^;			!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.ship.y^;			!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/20/y1/y2;												shipyard with boat				
+
+!!VRz8:Sz50+^.town.structures.special2.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.special2.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/21/y1/y2;												stables
+!!VRz8:Sz50+^.town.structures.special3.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.special3.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/22/y1/y2;    											brotherhood		
+!-!FU(SetBuilding'sPosition):P0/23/339/191; 		23/369/191;
+
+!!VRz8:Sz50+^.town.structures.grail.x^;			!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.grail.y^;			!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/26/y1/y2;												grail
+!-!FU(SetBuilding'sPosition):P0/27/0/0;			water line in bastion
+
+!!VRz8:Sz50+^.town.structures.dwellingLvl1.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.dwellingLvl1.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/30/y1/y2;
+!!VRz8:Sz50+^.town.structures.dwellingLvl2.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.dwellingLvl2.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/31/y1/y2;
+!!VRz8:Sz50+^.town.structures.dwellingLvl3.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.dwellingLvl3.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/32/y1/y2;
+!!VRz8:Sz50+^.town.structures.dwellingLvl4.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.dwellingLvl4.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/33/y1/y2;
+!!VRz8:Sz50+^.town.structures.dwellingLvl5.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.dwellingLvl5.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/34/y1/y2;
+!!VRz8:Sz50+^.town.structures.dwellingLvl6.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.dwellingLvl6.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/35/y1/y2;
+!!VRz8:Sz50+^.town.structures.dwellingLvl7.x^;		!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.dwellingLvl7.y^;		!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/36/y1/y2;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl1.x^;	!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl1.y^;	!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/37/y1/y2;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl2.x^;	!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl2.y^;	!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/38/y1/y2;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl3.x^;	!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl3.y^;	!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/39/y1/y2;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl4.x^;	!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl4.y^;	!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/40/y1/y2;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl5.x^;	!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl5.y^;	!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/41/y1/y2;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl6.x^;	!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl6.y^;	!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/42/y1/y2;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl7.x^;	!!SN:T^%z8^/?z11;	!!VRy1:Vz11;  
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl7.y^;	!!SN:T^%z8^/?z12;	!!VRy2:Vz12;
+!!FU(SetBuilding'sPosition):P0/43/y1/y2;
+
+
+
+
+
+!!VRz8:Sz50+^.town.townBackground^;					!!SN:T^%z8^/?z55;	!!SN:R^TBCSBack.pcx^/z55;
+!!VRz8:Sz50+^.creatureBackground.120px^;			!!SN:T^%z8^/?z55;	!!SN:R^TPCAScas.pcx^/z55;
+!!VRz8:Sz50+^.creatureBackground.130px^;			!!SN:T^%z8^/?z55;	!!SN:R^CRBKGCAS.pcx^/z55;
+!-!VRz8:Sz50+^.town.icons.fort.normal^;				!!SN:T^%z8^/?z55;	!!SN:R^TPCAScas.pcx^/z55;
+!-!VRz8:Sz50+^.town.icons.fort.built^;				!!SN:T^%z8^/?z55;	!!SN:R^CRBKGCAS.pcx^/z55;
+!!VRz8:Sz50+^.town.townBackground.guildBackground^;	!!SN:T^%z8^/?z55;	!!SN:R^TPMAGECS.PCX^/z55;
+!!VRz8:Sz50+^.town.buildingsIcons^;					!!SN:T^%z8^/?z55;	!!SN:R^HALLCSTL.def^/z55; 		
+!!VRz8:Sz50+^.town.musicTheme^;						!!SN:T^%z8^/?z55;	!!SN:R^CstleTown.mp3^/z55;
+!-!IF:M^%z55^;
+
+
+
+!!VRz8:Sz50+^.town.structures.blacksmith.animation^;		!!SN:T^%z8^/?z55;	!!SN:R^tbcsblak.def^/z55;
+!!VRz8:Sz50+^.town.structures.ship.animation^;				!!SN:T^%z8^/?z55;	!!SN:R^TBCSBOAT.def^/z55;	shipyard with boat
+!!VRz8:Sz50+^.town.structures.citadel.animation^;			!!SN:T^%z8^/?z55;	!!SN:R^TBCSCAS2.def^/z55;
+!!VRz8:Sz50+^.town.structures.castle.animation^;			!!SN:T^%z8^/?z55;	!!SN:R^TBCSCAS3.def^/z55;
+!!VRz8:Sz50+^.town.structures.fort.animation^;				!!SN:T^%z8^/?z55;	!!SN:R^TBCSCSTL.def^/z55;
+!!VRz8:Sz50+^.town.structures.shipyard.animation^;			!!SN:T^%z8^/?z55;	!!SN:R^TBCSDOCK.def^/z55;	shipyard (bug on fairy / minastirith!)
+!!VRz8:Sz50+^.town.structures.dwellingLvl1.animation^;		!!SN:T^%z8^/?z55;	!!SN:R^TBCSDW_0.def^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl2.animation^;		!!SN:T^%z8^/?z55;	!!SN:R^TBCSDW_1.def^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl3.animation^;		!!SN:T^%z8^/?z55;	!!SN:R^TBCSDW_2.def^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl4.animation^;		!!SN:T^%z8^/?z55;	!!SN:R^TBCSDW_3.def^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl5.animation^;		!!SN:T^%z8^/?z55;	!!SN:R^TBCSDW_4.def^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl6.animation^;		!!SN:T^%z8^/?z55;	!!SN:R^TBCSDW_5.def^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl7.animation^;		!!SN:T^%z8^/?z55;	!!SN:R^TBCSDW_6.def^/z55;
+!!VRz8:Sz50+^.town.structures.special2.animation^;			!!SN:T^%z8^/?z55;	!!SN:R^TBCSEXT0.def^/z55;
+!!VRz8:Sz50+^.town.structures.special3.animation^;			!!SN:T^%z8^/?z55;	!!SN:R^TBCSEXT1.def^/z55;	brotherhood
+!!VRz8:Sz50+^.town.structures.extraAnimation.animation^;	!!SN:T^%z8^/?z55;	!!SN:R^TBCSEXT2.def^/z55;
+!!VRz8:Sz50+^.town.structures.townHall.animation^;			!!SN:T^%z8^/?z55;	!!SN:R^TBCSHAL2.def^/z55;
+!!VRz8:Sz50+^.town.structures.cityHall.animation^;			!!SN:T^%z8^/?z55;	!!SN:R^TBCSHAL3.def^/z55;
+!!VRz8:Sz50+^.town.structures.capitol.animation^;			!!SN:T^%z8^/?z55;	!!SN:R^TBCSHAL4.def^/z55;
+!!VRz8:Sz50+^.town.structures.villageHall.animation^;		!!SN:T^%z8^/?z55;	!!SN:R^TBCSHALL.def^/z55;
+!!VRz8:Sz50+^.town.structures.grail.animation^;				!!SN:T^%z8^/?z55;	!!SN:R^TBCSHOLY.def^/z55;
+!!VRz8:Sz50+^.town.structures.horde1.animation^;			!!SN:T^%z8^/?z55;	!!SN:R^TBCSHRD1.def^/z55;
+!!VRz8:Sz50+^.town.structures.horde1Upgr.animation^;		!!SN:T^%z8^/?z55;	!!SN:R^TBCSHRD2.def^/z55;
+!!VRz8:Sz50+^.town.structures.mageGuild2.animation^;		!!SN:T^%z8^/?z55;	!!SN:R^TBCSMAG2.def^/z55;
+!!VRz8:Sz50+^.town.structures.mageGuild3.animation^;		!!SN:T^%z8^/?z55;	!!SN:R^TBCSMAG3.def^/z55;
+!!VRz8:Sz50+^.town.structures.mageGuild4.animation^;		!!SN:T^%z8^/?z55;	!!SN:R^TBCSMAG4.def^/z55;
+!!VRz8:Sz50+^.town.structures.mageGuild1.animation^;		!!SN:T^%z8^/?z55;	!!SN:R^TBCSMAGE.def^/z55;
+!!VRz8:Sz50+^.town.structures.marketplace.animation^;		!!SN:T^%z8^/?z55;	!!SN:R^TBCSMARK.def^/z55;
+!!VRz8:Sz50+^.town.structures.resourceSilo.animation^;		!!SN:T^%z8^/?z55;	!!SN:R^TBCSSILO.def^/z55;
+!!VRz8:Sz50+^.town.structures.special1.animation^;			!!SN:T^%z8^/?z55;	!!SN:R^TBCSSPEC.def^/z55;	lighthouse
+!!VRz8:Sz50+^.town.structures.tavern.animation^;			!!SN:T^%z8^/?z55;	!!SN:R^TBCSTVRN.def^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl1.animation^;	!!SN:T^%z8^/?z55;	!!SN:R^TBCSUP_0.def^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl2.animation^;	!!SN:T^%z8^/?z55;	!!SN:R^TBCSUP_1.def^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl3.animation^;	!!SN:T^%z8^/?z55;	!!SN:R^TBCSUP_2.def^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl4.animation^;	!!SN:T^%z8^/?z55;	!!SN:R^TBCSUP_3.def^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl5.animation^;	!!SN:T^%z8^/?z55;	!!SN:R^TBCSUP_4.def^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl6.animation^;	!!SN:T^%z8^/?z55;	!!SN:R^TBCSUP_5.def^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl7.animation^;	!!SN:T^%z8^/?z55;	!!SN:R^TBCSUP_6.def^/z55;
+
+
+
+!!VRz8:Sz50+^.town.structures.dwellingLvl7.border^;		!!SN:T^%z8^/?z55;	!!SN:R^TOCSANG1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl7.border^;	!!SN:T^%z8^/?z55;	!!SN:R^TOCSANG2.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.blacksmith.border^;		!!SN:T^%z8^/?z55;	!!SN:R^TOCSBLAK.pcx^/z55;
+!-!SN:R^TOCSC101.pcx^/z55;
+!-!SN:R^TOCSC201.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.fort.border^;				!!SN:T^%z8^/?z55;	!!SN:R^TOCSCAS1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.citadel.border^;			!!SN:T^%z8^/?z55;	!!SN:R^TOCSCAS2.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.castle.border^;			!!SN:T^%z8^/?z55;	!!SN:R^TOCSCAS3.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl6.border^;		!!SN:T^%z8^/?z55;	!!SN:R^TOCSCAV1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl6.border^;	!!SN:T^%z8^/?z55;	!!SN:R^TOCSCAV2.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.special2.border^;			!!SN:T^%z8^/?z55;	!!SN:R^TOCSCAVM.pcx^/z55;	stables
+!!VRz8:Sz50+^.town.structures.dwellingLvl2.border^;		!!SN:T^%z8^/?z55;	!!SN:R^TOCSCRS1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl2.border^;	!!SN:T^%z8^/?z55;	!!SN:R^TOCSCRS2.pcx^/z55;
+!--!SN:R^TOCSDKMN.pcx^/z55;	
+!--!SN:R^TOCSDKMS.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.shipyard.border^;			!!SN:T^%z8^/?z55;	!!SN:R^TOCSDKNN.pcx^/z55;	docks
+!!VRz8:Sz50+^.town.structures.ship.border^;				!!SN:T^%z8^/?z55;	!!SN:R^TOCSDKNS.pcx^/z55;	docks with boat
+!!VRz8:Sz50+^.town.structures.dwellingLvl3.border^;		!!SN:T^%z8^/?z55;	!!SN:R^TOCSGR1H.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl3.border^;		!!SN:T^%z8^/?z55;	!!SN:R^TOCSGR1N.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl3.border^;	!!SN:T^%z8^/?z55;	!!SN:R^TOCSGR2H.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl3.border^;	!!SN:T^%z8^/?z55;	!!SN:R^TOCSGR2N.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.villageHall.border^;		!!SN:T^%z8^/?z55;	!!SN:R^TOCSH101.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.townHall.border^;			!!SN:T^%z8^/?z55;	!!SN:R^TOCSH201.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.cityHall.border^;			!!SN:T^%z8^/?z55;	!!SN:R^TOCSH301.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.capitol.border^;			!!SN:T^%z8^/?z55;	!!SN:R^TOCSH401.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.grail.border^;			!!SN:T^%z8^/?z55;	!!SN:R^TOCSHOLY.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.special1.border^;			!!SN:T^%z8^/?z55;	!!SN:R^TOCSLT01.pcx^/z55;	lighthouse
+!!VRz8:Sz50+^.town.structures.mageGuild3.border^;		!!SN:T^%z8^/?z55;	!!SN:R^TOCSM301.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.mageGuild4.border^;		!!SN:T^%z8^/?z55;	!!SN:R^TOCSM401.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.mageGuild1.border^;		!!SN:T^%z8^/?z55;	!!SN:R^TOCSMAG1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.mageGuild2.border^;		!!SN:T^%z8^/?z55;	!!SN:R^TOCSMAG2.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl5.border^;		!!SN:T^%z8^/?z55;	!!SN:R^TOCSMON1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl5.border^;	!!SN:T^%z8^/?z55;	!!SN:R^TOCSMON2.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.marketplace.border^;		!!SN:T^%z8^/?z55;	!!SN:R^TOCSMRK1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.resourceSilo.border^;		!!SN:T^%z8^/?z55;	!!SN:R^TOCSMRK2.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl1.border^;		!!SN:T^%z8^/?z55;	!!SN:R^TOCSPIK1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl1.border^;	!!SN:T^%z8^/?z55;	!!SN:R^TOCSPIK2.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl4.border^;		!!SN:T^%z8^/?z55;	!!SN:R^TOCSSWD1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl4.border^;	!!SN:T^%z8^/?z55;	!!SN:R^TOCSSWD2.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.tavern.border^;			!!SN:T^%z8^/?z55;	!!SN:R^TOCSTAV1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.special3.border^;			!!SN:T^%z8^/?z55;	!!SN:R^TOCSTAV2.pcx^/z55;	brotherhood 
+
+
+
+!!VRz8:Sz50+^.town.structures.dwellingLvl7.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSANG1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl7.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSANG2.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.blacksmith.area^;		!!SN:T^%z8^/?z55;	!!SN:R^TZCSBLAK.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.fort.area^;			!!SN:T^%z8^/?z55;	!!SN:R^TZCSCAS1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.citadel.area^;		!!SN:T^%z8^/?z55;	!!SN:R^TZCSCAS2.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.castle.area^;			!!SN:T^%z8^/?z55;	!!SN:R^TZCSCAS3.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl6.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSCAV1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl6.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSCAV2.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.special2.area^;		!!SN:T^%z8^/?z55;	!!SN:R^TZCSCAVM.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl2.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSCRS1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl2.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSCRS2.pcx^/z55;
+!-!SN:R^TZCSDKMN.pcx^/z55;
+!-!SN:R^TZCSDKMS.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.shipyard.area^;		!!SN:T^%z8^/?z55;	!!SN:R^TZCSDKNN.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.ship.area^;			!!SN:T^%z8^/?z55;	!!SN:R^TZCSDKNS.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl3.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSGR1H.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl3.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSGR1N.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl3.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSGR2H.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl3.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSGR2N.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.villageHall.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSH101.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.townHall.area^;		!!SN:T^%z8^/?z55;	!!SN:R^TZCSH201.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.cityHall.area^;		!!SN:T^%z8^/?z55;	!!SN:R^TZCSH301.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.capitol.area^;		!!SN:T^%z8^/?z55;	!!SN:R^TZCSH401.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.grail.area^;			!!SN:T^%z8^/?z55;	!!SN:R^TZCSHOLY.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.special1.area^;		!!SN:T^%z8^/?z55;	!!SN:R^TZCSLT01.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.mageGuild3.area^;		!!SN:T^%z8^/?z55;	!!SN:R^TZCSM301.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.mageGuild4.area^;		!!SN:T^%z8^/?z55;	!!SN:R^TZCSM401.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.mageGuild1.area^;		!!SN:T^%z8^/?z55;	!!SN:R^TZCSMAG1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.mageGuild2.area^;		!!SN:T^%z8^/?z55;	!!SN:R^TZCSMAG2.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl5.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSMON1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl5.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSMON2.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.marketplace.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSMRK1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.resourceSilo.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSMRK2.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl1.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSPIK1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl1.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSPIK2.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingLvl4.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSSWD1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.dwellingUpLvl4.area^;	!!SN:T^%z8^/?z55;	!!SN:R^TZCSSWD2.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.tavern.area^;			!!SN:T^%z8^/?z55;	!!SN:R^TZCSTAV1.pcx^/z55;
+!!VRz8:Sz50+^.town.structures.special3.area^;		!!SN:T^%z8^/?z55;	!!SN:R^TZCSTAV2.pcx^/z55;	
+
+
+!!FU(convert_castle):E;

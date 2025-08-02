@@ -1,0 +1,75 @@
+ZVSE
+
+
+
+
+
+!?FU(change_monsters_variant2); function REPLACE townscreens for new 
+
+ ; variables needed: 	v4056(type of town)    
+ ; 						v100(var0...var4 for this town)
+!!VRy5:Sv4056;
+
+!!FU(castle___monsters)&y5=0/vv100=0:P;
+!!FU(cove___monsters)&y5=0/vv100=1:P;
+!!FU(ruins___monsters)&y5=0/vv100=2:P;	
+!!FU(templeoflight___monsters)&y5=0/vv100=3:P;
+
+!!FU(rampart___monsters)&y5=1/vv100=0:P;
+!!FU(wonderwoods___monsters)&y5=1/vv100=1:P;			rampart (y5=1)     var=1 (vv100)
+!!FU(magicforest___monsters)&y5=1/vv100=2:P;
+!!FU(druid___monsters)&y5=1/vv100=3:P;
+!!FU(kitezh_grad___monsters)&y5=1/vv100=4:P;
+!!FU(preserve___monsters)&y5=1/vv100=5:P;
+
+!!FU(tower___monsters)&y5=2/vv100=0:P;
+!!FU(monastery___monsters)&y5=2/vv100=1:P;
+!!FU(icecastle___monsters)&y5=2/vv100=2:P;
+!!FU(elementalpalace___monsters)&y5=2/vv100=3:P;
+
+!!FU(inferno___monsters)&y5=3/vv100=0:P;
+!-!FU(techno___monsters_for_AI)&y5=3/vv100=1:P;
+!!FU(techno___monsters)&y5=3/vv100=1:P;
+!!FU(courtyyard___monsters)&y5=3/vv100=2:P; 
+
+!!FU(necropolis___monsters)&y5=4/vv100=0:P;
+!-!FU(icecastle___monsters)&y5=4/vv100=1:P;
+!!FU(abandonedpyramid___monsters)&y5=4/vv100=1:P;
+
+!!FU(dungeon___monsters)&y5=5/vv100=0:P;
+!!FU(shadow___monsters)&y5=5/vv100=1:P;
+!!FU(strange_cult___monsters)&y5=5/vv100=2:P;
+!-!FU(mythology___monsters_for_AI)&y5=5/vv100=3:P;
+!!FU(mythology___monsters)&y5=5/vv100=3:P;
+
+!!FU(stronghold___monsters)&y5=6/vv100=0:P;	
+!!FU(sand___monsters)&y5=6/vv100=1:P;
+!!FU(bastion___monsters)&y5=6/vv100=2:P;
+!!FU(pyramid___monsters)&y5=6/vv100=3:P;
+!!FU(ancienttemple___monsters)&y5=6/vv100=4:P;
+
+!!FU(fortress___monsters)&y5=7/vv100=0:P;
+!!FU(mystic___monsters)&y5=7/vv100=1:P;
+!!FU(deepswamp___monsters)&y5=7/vv100=2:P;
+
+!!FU(conflux___monsters)&y5=8/vv100=0:P;
+!!FU(eldorado___monsters)&y5=8/vv100=1:P;
+!!FU(neutral___monsters)&y5=8/vv100=2:P;
+!!FU(oasis___monsters)&y5=8/vv100=3:P;
+
+
+
+
+ 
+!-!FU(random_monsters_in_town_v2)&y5=3/vv100=1/v4082=1:P;		town with random monsters(Inferno based)
+
+ 
+
+
+!!FU(change_monsters_variant2):E;  end function 
+
+
+
+
+
+

@@ -1,0 +1,147 @@
+ZVSE
+
+
+
+!-?PI;
+!-!FU(third_upgrades_and_deny_buildings):P;
+
+
+!?FU(OnGameEnter);
+!-!IF:M^asdasdas^;
+!!FU(third_upgrades_and_deny_buildings):P;
+
+
+
+-----------------------------------------------------------
+
+!?FU(third_upgrades_and_deny_buildings);
+
+ ; 3rd upgrades (my) 
+ ; keep this
+!-!MA:U99/456;				Upg. Gnolls to GnollsShamans (expensive)  temporary disable
+!-!MA:U23/461;				Ents leaders							temporary disable
+!-!MA:U131/459;				upgrade Phoenix to Sunrise Phoenix
+ 
+ 
+
+!!DO(nn2p)/4000/v4052/1:P;			x16 is a counter of DO2
+!?FU(nn2p);
+!!VRy1:Sx16-4000;     		y1 - current town id
+!!CA0/y1:T?y2; 				y2 - game_default_type of this town  (0...8)
+vx16						vx16 - new type of town (default / new / new_var2 / new_var3)
+
+
+ ; Cove town
+!!FU(dex_SetDwellingSlotByTownId)&y2=0/vx16=1:Py1/2/1/2/373/100;	Sea Wolf(373),  100% of creatures (100)
+
+
+-----------------------------------------------
+ ; disable some special building for new towns:
+-----------------------------------------------
+ 
+ ; disallow to build griffon's horde for Cove 
+!!CA0/y1&y2=0/vx16=1:B5/18;
+!!CA0/y1&y2=0/vx16=1:B5/19; 
+
+!!CA0/y1&y2=5/vx16=1:B5/22;		disallow portal (22) for Shadow town 
+!!CA0/y1&y2=6/vx16=1:B5/23;		disallow Valgalla temple (23) for Sand town 
+!!CA0/y1&y2=8/vx16=1:B5/21;		disallow University of magic (21) for Eldorado 
+!!CA0/y1&y2=8/vx16=2:B5/21;		disallow University of magic (21) for Neutral town 
+!!CA0/y1&y2=8/vx16=3:B5/21; 	disallow University of magic (21) for Oasis
+!!CA0/y1&y2=2/vx16=1:B5/21; 	disallow View tower (21) for Monastery
+!!CA0/y1&y2=0/vx16=2:B5/17;		disallow Mayak (17) for Ruins
+
+
+ ; disallow for IceCastle
+!!CA0/y1&y2=2/vx16=2:B5/4;			mage_guild level 5
+!!CA0/y1&y2=2/vx16=2:B5/17;			artifacts traders
+!!CA0/y1&y2=2/vx16=2:B5/21;			view tower
+!!CA0/y1&y2=2/vx16=2:B5/23;			wall of knowledge
+
+
+ ; Elemental Palace
+!!CA0/y1&y2=2/vx16=2:B5/4;			mage_guild level 5
+!!CA0/y1&y2=2/vx16=2:B5/17;			artifacts traders
+!!CA0/y1&y2=2/vx16=2:B5/23;			wall of knowledge
+
+
+
+
+----------------------------------------
+ ; Third upgrades (my)
+----------------------------------------
+
+; Sand Town
+!!FU(dex_SetDwellingSlotByTownId)&y2=6/vx16=1:Py1/6/1/2/602/60;			Stone Giant
+
+; Castle
+!!FU(dex_SetDwellingSlotByTownId)&y2=0/vx16=0:Py1/4/1/2/169/70;			War Zealot
+
+ ; Rampart
+!!FU(dex_SetDwellingSlotByTownId)&y2=1/vx16=0:Py1/4/1/2/461/100;		Ents leaders
+ 
+ ; Tower
+!!FU(dex_SetDwellingSlotByTownId)&y2=2/vx16=0:Py1/0/1/2/455/70;			Grandmaster gremlins
+!!FU(dex_SetDwellingSlotByTownId)&y2=2/vx16=0:Py1/4/1/2/454/70;			sky genie (454)   
+
+ ; Necropolis
+!!FU(dex_SetDwellingSlotByTownId)&y2=4/vx16=0:Py1/2/1/2/159/30;			ghosts (159)
+
+
+ ; Ice Castle
+!-!FU(dex_SetDwellingSlotByTownId)&y2=4/vx16=1:Py1/2/1/2/173/20;		santa-gremlins
+
+ ; Kitezh Grad
+!!FU(dex_SetDwellingSlotByTownId)&y2=1/vx16=4:Py1/0/1/2/589/30;			Mohovik
+!!FU(dex_SetDwellingSlotByTownId)&y2=1/vx16=4:Py1/4/1/2/198/35;			advanced Treefolk Wizards
+!!FU(dex_SetDwellingSlotByTownId)&y2=1/vx16=4:Py1/6/1/2/577/35;			Volot
+
+ ; Deep Swamp
+!!FU(dex_SetDwellingSlotByTownId)&y2=7/vx16=2:Py1/6/1/2/580/40;			Swamp Keeper
+
+ ; Citadel
+!!FU(dex_SetDwellingSlotByTownId)&y2=6/vx16=0:Py1/6/1/2/603/60;			Big Behemots
+
+ ; Elemental Palace
+!!FU(dex_SetDwellingSlotByTownId)&y2=2/vx16=3:Py1/5/1/2/502/100;		snow golems-enchanters
+
+ ; Courtyard
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=2:Py1/4/1/2/515/100;		Great dodo
+
+ ; Pyramid
+!!FU(dex_SetDwellingSlotByTownId)&y2=6/vx16=3:Py1/4/1/2/451/65;			Upg. Golden Golem   451
+!!FU(dex_SetDwellingSlotByTownId)&y2=6/vx16=3:Py1/5/1/2/546/30;			Great Sphinx 546
+!-!FU(dex_SetDwellingSlotByTownId)&y2=6/vx16=3:Py1/5/1/0/546/30;			Great Sphinx 546
+
+
+; Fortress
+!!FU(dex_SetDwellingSlotByTownId)&y2=7/vx16=0:Py1/0/1/2/456/100;		Gnoll-shaman
+!!FU(dex_SetDwellingSlotByTownId)&y2=7/vx16=0:Py1/3/1/2/457/65;			King vasilisk
+!!FU(dex_SetDwellingSlotByTownId)&y2=7/vx16=0:Py1/6/1/2/458/80;			Upgraded Chaos Gidra (80% 4 gidras=3 new_gidras)
+
+; Conflux
+!-!FU(dex_SetDwellingSlotByTownId)&y2=8/vx16=0:Py1/0/1/2/460/65;
+!!FU(dex_SetDwellingSlotByTownId)&y2=8/vx16=0:Py1/4/1/2/460/65;			elemental of Lava	
+!!FU(dex_SetDwellingSlotByTownId)&y2=8/vx16=0:Py1/6/1/2/459/70;			Sunrise Phoenix
+ ; increase Phoenix growth to default (*2 per week)
+!-!FU(dex_SetDwellingSlotByTownId)&y2=8/vx16=0:Py1/6/0/0/130/200;		dw7 Phoenix increase growth to 2
+!-!FU(dex_SetDwellingSlotByTownId)&y2=8/vx16=0:Py1/6/1/0/131/200;		upg.Phoenix increase growth to 2
+!-!FU(dex_SetDwellingSlotByTownId)&y2=8/vx16=0:Py1/6/1/1/130/200;		Phoenix increase growth to 2
+
+
+ ; Techno town 579
+!!FU(dex_SetDwellingSlotByTownId)&y2=3/vx16=1:Py1/6/1/2/579/60;			Prime Leader
+
+ ; Ancient Temple
+!!FU(dex_SetDwellingSlotByTownId)&y2=6/vx16=4:Py1/6/1/2/578/70;			color Coatl
+ 
+
+!!FU(nn2p):E; 
+
+
+
+!!FU(third_upgrades_and_deny_buildings):E;
+
+
+ ; temporary
+!-?CM0; 

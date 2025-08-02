@@ -1,0 +1,412 @@
+ZVSE
+
+ ; ERM script written by AnT
+ ; Adding new towns to game
+  
+
+
+	; each variable for each town (from id0...id8 - total 9 towns) on map:
+	0-default town, 1-new town, 2-new town var2 
+!#VRv4000:S0;
+!#VRv4001:S0;
+!#VRv4002:S0;
+!#VRv4003:S0;
+!#VRv4004:S0;
+!#VRv4005:S0;
+!#VRv4006:S0;
+!#VRv4007:S0;
+!#VRv4008:S0;
+!#VRv4009:S0;
+!#VRv4010:S0;
+!#VRv4011:S0;
+!#VRv4012:S0;
+!#VRv4013:S0;
+!#VRv4014:S0;
+!#VRv4015:S0;
+!#VRv4016:S0;
+!#VRv4017:S0;
+!#VRv4018:S0;
+!#VRv4019:S0;
+!#VRv4020:S0;
+!#VRv4021:S0;
+!#VRv4022:S0;
+!#VRv4023:S0;
+!#VRv4024:S0;
+!#VRv4025:S0;
+!#VRv4026:S0;
+!#VRv4027:S0;
+!#VRv4028:S0;
+!#VRv4029:S0;
+!#VRv4030:S0;
+
+!#VRv50:S0;		variable for random generator
+!#VRv53:S0;		addtitional variable for random generator (for one new town_type)
+!#VRv100;       variable for current town id
+!#VRv51;       	count of towns on map (constant)
+!old#VRv52;     variable for count of towns on map
+!#VRv60;		number of player
+!#VRv61;       	what town AI 1 used: v61=0 default, or v61=1 newTown,   or   v61=2 new town var.2
+!#VRv62;       	what town AI 2 used: default or newTown
+!#VRv63;       	what town AI 3 used: default or newTown
+!#VRv64;       	what town AI 4 used: default or newTown
+!#VRv65;       	what town AI 5 used: default or newTown
+!#VRv66;       	what town AI 6 used: default or newTown
+!#VRv67;       	what town AI 7 used: default or newTown
+!#VRv157;       count for days
+!#VRv4060;		player number  
+!#VRv4051;		count of towns on map  (new variable)
+!#VRv4052;		variable for count of towns on map 
+!#VRv4053;		asking user choice at game start  (0- default town, 1- new town, 2 - new town var2) 
+
+
+!#VRv4056;		current type of town
+
+	(0- default's town, 1- WonderWoods  2-Eldorado ...)
+!#VRv4058;		user's choice start dialog (new version)
+ ; v4060;		town type for Ai-1
+ ; v4061;		town type for Ai-2
+
+
+!#VRv4070;		number of player
+!!VRv4072;		variable for rare towns
+!!VRv4074;		0-human / 1-ai 
+ 
+
+ ; v4101...v4114   random monsters for town (14 creatures)
+ 
+
+!#VRi^page2^:S0;			page2 dialog
+!#VRi^random_town_gen^:S0;	generate or not random town
+
+
+ ; alt 1 or 2 for town type0...8 (Castle...Conflux)
+!#VRi^alt0^:R3;			0-Castle, 1-Cove, 2-Ruins, 3-Knight's Temple   (for   town type0 Castle)
+!#VRi^alt1^:R5;			Rampart, WonderWoods, MagicForest, Druid Town, Kitezh, Preserve
+!#VRi^alt2^:R3;			Tower, Monastery, Ice Castle, Elemental Palace
+!#VRi^alt3^:R2;			Inferno, Techno town, Courtyard
+!#VRi^alt4^:R1;			Necropolis, Abandoned_Pyramid
+!#VRi^alt5^:R3;			Dungeon, ShadowTown, Strange Cult, Mythology town	
+!#VRi^alt6^:R4;			Stronghold,	SandTown, Bastion, Pyramid, Ancient Temple
+!#VRi^alt7^:R2;			Fortress, Mystic town, Deep Swamp
+!#VRi^alt8^:R3;			Conflux, Neutral town, 	Oasis
+
+
+
+
+
+
+ ; --------------------------------------------------------
+
+!?PI; 
+
+!!UN:U98/-1/?v51;						count of towns on map initialization  
+!!UN:U98/-1/?v4051;;  					initialization count of towns (global variable)
+!!VRv4052:Sv51+3999;  					linking count of towns with v4052
+!!VRv4072:R2;							variable for rare towns (v4072=1  - rare town show)
+
+
+
+ ; initialization of variables v4000...v4030...   (old10...v40) (vv51) at game start (only one time) 
+!!DO(nn1)/4000/v4052/1:P5;  			
+!?FU(nn1);
+!!VRv50:S0;			generate from 0 to 1   (to 0!)				
+
+		
+	
+	code for Neutral town
+	!!VRy4:Sx16-4000;		         	y4= id from 0 to 30
+	!!CA0/y4:T?y5;					y5= current town type
+
+	!!VRv50&y5=0:S0;	!!VRv50&y5=0:R1;		if town is castle (y5=0), and Cove town enabled	
+	!!VRv50&y5=0:S0;	!!VRv50&y5=0:R2;		Ruins
+	!!VRv50&y5=0:S0;	!!VRv50&y5=0:R3;		Knight's Temple
+	
+	!!VRv50&y5=1:S0;	!!VRv50&y5=1:R3;		Druid Town
+	!!VRv50&y5=1:S0;	!!VRv50&y5=1:R4;		Kitezh
+	!!VRv50&y5=1:S0;	!!VRv50&y5=1:R5;		Preserve
+	
+	!!VRv50&y5=2:S0;	!!VRv50&y5=2:R1;		Monastery
+	!!VRv50&y5=2:S0;	!!VRv50&y5=2:R2;		Ice Castle
+	!!VRv50&y5=2:S0;	!!VRv50&y5=2:R3;		Elemental Palace
+	
+	!!VRv50&y5=3:S0;	!!VRv50&y5=3:R1;		Techno town
+	!!VRv50&y5=3:S0;	!!VRv50&y5=3:R2;		Courtyard
+
+	!!VRv50&y5=4:S0;	!!VRv50&y5=4:R1;		Abandoned_Pyramid	
+		
+	!!VRv50&y5=5:S0;	!!VRv50&y5=5:R2;		Strange Cult
+	!!VRv50&y5=5:S0;	!!VRv50&y5=5:R3;		Mythology town	
+	
+	!!VRv50&y5=6:S0;	!!VRv50&y5=6:R2;		Bastion
+	!!VRv50&y5=6:S0;	!!VRv50&y5=6:R3;		Pyramid
+	!!VRv50&y5=6:S0;	!!VRv50&y5=6:R4;		Ancient Temple
+	
+	!!VRv50&y5=7:S0;	!!VRv50&y5=7:R1;		Mystic town
+	!!VRv50&y5=7:S0;	!!VRv50&y5=7:R2;		Deep Swamp
+	
+	!!VRv50&y5=8:S0;	!!VRv50&y5=8:R2;		Neutral town
+	!!VRv50&y5=8:S0;	!!VRv50&y5=8:R3;		Oasis
+	
+
+	
+	
+	
+	; edit later for random monsters town! 	
+	!--!VRv50&y5=3/v4082=1:S0;	
+	!--!VRv50&y5=3/v4082=1:R1;	if town is inferno (y5=3), and random monsters in town enabled generate 0_1
+	
+
+	
+	 ; default town, if new town disabled
+	!!VRv50&y5=1/v50=1/i^t01_Wond^=0:S0;		 
+	!!VRv50&y5=8/v50=1/i^t02_Eldo^=0:S0;
+	!!VRv50&y5=6/v50=1/i^t03_Sand^=0:S0;
+	!!VRv50&y5=5/v50=1/i^t04_Shad^=0:S0;
+	!!VRv50&y5=8/v50=2/i^t05_Neut^=0:S0;
+	!!VRv50&y5=1/v50=2/i^t06_Magi^=0:S0;
+	!!VRv50&y5=7/v50=1/i^t07_Myst^=0:S0;
+	!!VRv50&y5=1/v50=3/i^t08_Drui^=0:S0;
+	!!VRv50&y5=2/v50=1/i^t09_Mona^=0:S0;
+	!!VRv50&y5=6/v50=2/i^t10_Bast^=0:S0;
+	!!VRv50&y5=5/v50=2/i^t11_Stra^=0:S0;
+	!!VRv50&y5=8/v50=3/i^t12_Oasi^=0:S0;
+	!!VRv50&y5=0/v50=1/i^t13_Cove^=0:S0;
+	!!VRv50&y5=1/v50=4/i^t14_Kite^=0:S0;
+	!!VRv50&y5=0/v50=2/i^t15_Ruin^=0:S0;
+	!!VRv50&y5=5/v50=3/i^t16_Myth^=0:S0;
+	!!VRv50&y5=3/v50=1/i^t17_Tech^=0:S0;
+	!!VRv50&y5=0/v50=3/i^t18_Temp^=0:S0;
+	!!VRv50&y5=7/v50=2/i^t00_Deep^=0:S0;
+	!!VRv50&y5=2/v50=2/i^t20_Icec^=0:S0;
+	!!VRv50&y5=2/v50=3/i^t21_Elem^=0:S0;
+	!!VRv50&y5=3/v50=2/i^t22_Cour^=0:S0;
+	!!VRv50&y5=4/v50=1/i^t23_Aban^=0:S0;
+	!!VRv50&y5=6/v50=3/i^t24_Pyra^=0:S0;
+	!!VRv50&y5=6/v50=4/i^t25_Anci^=0:S0;
+	!!VRv50&y5=1/v50=5/i^t26_Pres^=0:S0;
+	
+	
+	
+	
+		 ; only one new town_type  for town(0...8)  
+		 
+		!!VRv53&y5=0:S0;	!!VRv53&y5=0:R1;
+		!!VRv50&y5=0/v53=0/i^one_type_of_new_town^=1:S0;
+		!!VRv50&y5=0/v53=1/i^one_type_of_new_town^=1:Si^alt0^;
+		
+		!!VRv53&y5=1:S0;	!!VRv53&y5=1:R1;
+		!!VRv50&y5=1/v53=0/i^one_type_of_new_town^=1:S0;
+		!!VRv50&y5=1/v53=1/i^one_type_of_new_town^=1:Si^alt1^;
+		
+		!!VRv53&y5=2:S0;	!!VRv53&y5=2:R1;
+		!!VRv50&y5=2/v53=0/i^one_type_of_new_town^=1:S0;
+		!!VRv50&y5=2/v53=1/i^one_type_of_new_town^=1:Si^alt2^;
+		
+		!!VRv53&y5=3:S0;	!!VRv53&y5=3:R1;
+		!!VRv50&y5=3/v53=0/i^one_type_of_new_town^=1:S0;
+		!!VRv50&y5=3/v53=1/i^one_type_of_new_town^=1:Si^alt3^;
+		
+		!!VRv53&y5=4:S0;	!!VRv53&y5=4:R1;
+		!!VRv50&y5=4/v53=0/i^one_type_of_new_town^=1:S0;
+		!!VRv50&y5=4/v53=1/i^one_type_of_new_town^=1:Si^alt4^;
+		
+		!!VRv53&y5=5:S0;	!!VRv53&y5=5:R1;
+		!!VRv50&y5=5/v53=0/i^one_type_of_new_town^=1:S0;
+		!!VRv50&y5=5/v53=1/i^one_type_of_new_town^=1:Si^alt5^;
+		
+		!!VRv53&y5=6:S0;	!!VRv53&y5=6:R1;
+		!!VRv50&y5=6/v53=0/i^one_type_of_new_town^=1:S0;
+		!!VRv50&y5=6/v53=1/i^one_type_of_new_town^=1:Si^alt6^;
+		
+		!!VRv53&y5=7:S0;	!!VRv53&y5=7:R1;
+		!!VRv50&y5=7/v53=0/i^one_type_of_new_town^=1:S0;
+		!!VRv50&y5=7/v53=1/i^one_type_of_new_town^=1:Si^alt7^;
+		
+		!!VRv53&y5=8:S0;	!!VRv53&y5=8:R1;
+		!!VRv50&y5=8/v53=0/i^one_type_of_new_town^=1:S0;
+		!!VRv50&y5=8/v53=1/i^one_type_of_new_town^=1:Si^alt8^;
+		
+		
+		
+		
+		
+		
+		; i^one_type_of_new_town^=2
+		
+		!!VRi^one_type_of_new_town^&i^one_type_of_new_town^=3:S2;
+		
+		!!VRv50&y5=0/i^one_type_of_new_town^=2:Si^alt0^;
+		!!VRv50&y5=1/i^one_type_of_new_town^=2:Si^alt1^;
+		!!VRv50&y5=2/i^one_type_of_new_town^=2:Si^alt2^;
+		!!VRv50&y5=3/i^one_type_of_new_town^=2:Si^alt3^;
+		!!VRv50&y5=4/i^one_type_of_new_town^=2:Si^alt4^;
+		!!VRv50&y5=5/i^one_type_of_new_town^=2:Si^alt5^;
+		!!VRv50&y5=6/i^one_type_of_new_town^=2:Si^alt6^;
+		!!VRv50&y5=7/i^one_type_of_new_town^=2:Si^alt7^;
+		!!VRv50&y5=8/i^one_type_of_new_town^=2:Si^alt8^;
+		
+		!!VRi^one_type_of_new_town^&i^one_type_of_new_town^=2:S3;
+		
+		
+		
+		
+		
+		
+	 ; default town, if new_town disabled 	
+	!-!VRv50&y5=0/i^alt0^=3/i^t15_Ruin^=0:S0;
+	
+	!!VRv50&y5=1/i^alt1^=1/i^t01_Wond^=0:S0;		default town, if new town disabled 
+	!!VRv50&y5=8/i^alt8^=1/i^t02_Eldo^=0:S0;
+	!!VRv50&y5=6/i^alt6^=1/i^t03_Sand^=0:S0;
+	!!VRv50&y5=5/i^alt5^=1/i^t04_Shad^=0:S0;
+	!!VRv50&y5=8/i^alt8^=2/i^t05_Neut^=0:S0;
+	!!VRv50&y5=1/i^alt1^=2/i^t06_Magi^=0:S0;
+	!!VRv50&y5=7/i^alt7^=1/i^t07_Myst^=0:S0;
+	!!VRv50&y5=1/i^alt1^=3/i^t08_Drui^=0:S0;
+	!!VRv50&y5=2/i^alt2^=1/i^t09_Mona^=0:S0;
+	!!VRv50&y5=6/i^alt6^=2/i^t10_Bast^=0:S0;
+	!!VRv50&y5=5/i^alt5^=2/i^t11_Stra^=0:S0;
+	!!VRv50&y5=8/i^alt8^=3/i^t12_Oasi^=0:S0;
+	!!VRv50&y5=0/i^alt0^=1/i^t13_Cove^=0:S0;
+	!!VRv50&y5=1/i^alt1^=4/i^t14_Kite^=0:S0;
+	!!VRv50&y5=0/i^alt0^=2/i^t15_Ruin^=0:S0;
+	!!VRv50&y5=5/i^alt5^=3/i^t16_Myth^=0:S0;
+	!!VRv50&y5=3/i^alt3^=1/i^t17_Tech^=0:S0;
+	!!VRv50&y5=0/i^alt0^=3/i^t18_Temp^=0:S0;
+	!!VRv50&y5=7/i^alt7^=2/i^t00_Deep^=0:S0;
+	!!VRv50&y5=2/i^alt2^=2/i^t20_Icec^=0:S0;
+	!!VRv50&y5=2/i^alt2^=3/i^t21_Elem^=0:S0;
+	!!VRv50&y5=3/i^alt4^=2/i^t22_Cour^=0:S0;
+	!!VRv50&y5=4/i^alt4^=1/i^t23_Aban^=0:S0;
+	!!VRv50&y5=6/i^alt4^=3/i^t24_Pyra^=0:S0;
+	!!VRv50&y5=6/i^alt4^=4/i^t25_Anci^=0:S0;
+	!!VRv50&y5=1/i^alt4^=5/i^t26_Pres^=0:S0;
+	
+	
+	
+!!VRvx16:Sv50;
+!-!IF&y5=1:M^%v50    %vx16^;
+!!VRv50:S0;
+!!FU(nn1):E; 
+
+
+
+
+
+
+
+
+
+
+
+
+!?PI;
+
+!-!CA0/0:P?y20/?y21/?y22;	get coordinates of first town 
+
+--------------------------------------------------------
+ ; change start town by new dialog
+ -------------------------------------------------------
+
+!!VRv4000&v4058=97:S0;				default town 
+
+	
+	
+	; start town dialog
+	!!VRv4086:Sv4086-1;
+	
+	!!DO(start_town_dlg)/0/v4086/1:P; 	
+	
+		!?FU(start_town_dlg);
+		!!VRv4058:S0;
+		!!DL528:N^start_dlg1.txt^;
+		!!DL528:S;
+		!!FU(start_town):Pv4058/x16;
+	
+ ; --------------------------------------------------------------
+ 
+ 
+  
+ 
+ ; replace classic homm3 towns with start town  if  i^one_type_of_new_town^=3;
+
+	!!DO(replacetown1)/4000/v4052/1:P5;
+	!?FU(replacetown1);
+	!!VRy1:Sx16-4000;     		y1 - current town id
+	!!CA0/y1:T?y2; 				y2 - game_default_type of this town  (0...8)
+	!!CA0/0:T?y3;				y3 - get town type of town id0
+	
+	!!VRy4:Sx16-4000;		        y4= id from 0 to 30
+	!!CA0/y4:T?y5;					y5= current town type
+	
+	!-!IF:M^==== %y3   %v4000^;
+	!!VRv50&y5=y3/i^one_type_of_new_town^=3:Sv4000;
+	
+	!!VRvx16&y5=y3/i^one_type_of_new_town^=3:Sv50;
+	!!VRv50&y5=y3/i^one_type_of_new_town^=3:S0;
+	!!FU(replacetown1):E; 
+
+	
+	
+	
+	
+	
+	
+	
+ 
+ 
+
+!?FU(OnGameEnter); 
+
+emissars on maps
+!!UN:U16/13/?y20;
+!!UN:U16/14/?y21;
+!!UN:U16/15/?y22;
+!!UN:U16/16/?y23;
+!!VRy24:S0+y20+y21+y22+y23;
+!-!FU(Random_monsters_in_town)&v4082=1:P;        ==========town with random monsters ===============
+
+
+
+
+
+
+
+ ; 	trigger on load screen townscreen
+!?FU(OnPreTownScreen);	
+!!CA-1:U?v100;    								v100 = id of current town on map
+
+!!VRv100:Sv100+4000; 							linking with variables v4000...v4030
+!!FU(Restore_Default_TownScreen)&vv100=0:P;   	replace town to default
+!!FU(RESTORE_monsters)&vv100=0:P;	  			replace monsters to default
+
+!!FU(Restore_Default_TownScreen):P;    new code
+
+!!CA-1:T?v4056;									get town type
+!!FU(Change_TownScreen_variant2):P; 
+
+
+
+
+
+
+
+
+
+
+!?FU(OnSwitchTownScreen); 
+!!VRv100:Sx1+4000; 
+!!FU(Restore_Default_TownScreen)&vv100=0:P;   
+!!FU(RESTORE_monsters)&vv100=0:P;
+
+!!CA-1:T?v4056;									get town type
+!!FU(Change_TownScreen_variant2):P; 
+	  
+
+
+
+
+
+
+
+

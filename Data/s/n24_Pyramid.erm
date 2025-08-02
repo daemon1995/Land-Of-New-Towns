@@ -1,0 +1,274 @@
+ZVSE
+
+
+ ; Bastion town - based on Stronghold 
+
+	
+-------------------------------------------------------------------	
+	
+	
+	
+!?FU(pyramid___town); 					
+
+-----------------------------
+ ; new coordinates of town dwellings
+ ----------------------------
+
+!!FU(SetBuilding'sPosition):P6/0/0/0;
+!!FU(SetBuilding'sPosition):P6/1/0/0;
+!!FU(SetBuilding'sPosition):P6/2/0/0;
+!!FU(SetBuilding'sPosition):P6/5/0/0;
+
+!!FU(SetBuilding'sPosition):P6/7/0/0;
+!!FU(SetBuilding'sPosition):P6/8/0/0;   
+!!FU(SetBuilding'sPosition):P6/9/0/0;
+
+!!FU(SetBuilding'sPosition):P6/10/0/0;
+!!FU(SetBuilding'sPosition):P6/11/0/0;
+!!FU(SetBuilding'sPosition):P6/12/0/0;
+!!FU(SetBuilding'sPosition):P6/13/0/0;		13/141/96;
+!!FU(SetBuilding'sPosition):P6/14/-15/30;	market
+!-!FU(SetBuilding'sPosition):P6/14/0/0;
+!-!FU(SetBuilding'sPosition):P6/15/-130/60;		silo	-130/60;	
+!!FU(SetBuilding'sPosition):P6/15/420/240;		silo	-130/60;		
+!!FU(SetBuilding'sPosition):P6/16/74/-8;	blacksmith
+!-!FU(SetBuilding'sPosition):P6/17/0/0;
+!!FU(SetBuilding'sPosition):P6/18/0/0;		horde 1
+!!FU(SetBuilding'sPosition):P6/19/0/0;		horde 2
+!-!FU(SetBuilding'sPosition):P6/21/100/100;		mercenary guild 
+!!FU(SetBuilding'sPosition):P6/22/74/-8;	0/-50;    dvor ballist 369/191;		
+!!FU(SetBuilding'sPosition):P6/23/0/0; 		wallgalla temple
+!-!FU(SetBuilding'sPosition):P6/26/0/0;
+!-!FU(SetBuilding'sPosition):P6/27/0/0;		water line in bastion
+
+!!FU(SetBuilding'sPosition):P6/30/0/0;
+!!FU(SetBuilding'sPosition):P6/31/-50/15;
+!!FU(SetBuilding'sPosition):P6/32/0/0;
+!!FU(SetBuilding'sPosition):P6/33/0/0;
+!!FU(SetBuilding'sPosition):P6/34/0/-8;
+!!FU(SetBuilding'sPosition):P6/35/0/0;
+!!FU(SetBuilding'sPosition):P6/36/0/0;
+
+!!FU(SetBuilding'sPosition):P6/37/0/0;
+!!FU(SetBuilding'sPosition):P6/38/-55/15;		-50/15;
+!!FU(SetBuilding'sPosition):P6/39/0/0;
+!!FU(SetBuilding'sPosition):P6/40/0/0;
+!!FU(SetBuilding'sPosition):P6/41/0/-8;
+!!FU(SetBuilding'sPosition):P6/42/0/0;
+!!FU(SetBuilding'sPosition):P6/43/0/0;
+
+-----------------------------
+ ; replace town screen
+ ----------------------------
+
+ 
+!!SN:R^tbstback.pcx^/^TBPYBACK.pcx^;	replace background
+!!SN:R^StrongHold.mp3^/^Pyramid.mp3^;
+
+!!SN:R^TPCASSTR.pcx^/^TPCASpyr.pcx^;	background for creatures
+!!SN:R^CRBKGSTR.pcx^/^CRBKGpyr.pcx^;
+
+!!SN:R^HALLSTRN.def^/^HALLPyra.def^;
+
+!!SN:D;
+ -
+!!SN:R^TBSTBLAK.def^/^PYsmith.def^;
+!!SN:R^TBSTCAS2.def^/^pycas2.def^;
+!!SN:R^TBSTCAS3.def^/^pycas3.def^;
+!!SN:R^TBSTCSTL.def^/^pycas1.def^;
+!!SN:R^TBSTDW_0.def^/^PYdw0.def^;
+!!SN:R^TBSTDW_1.def^/^PYdw5.def^;
+!!SN:R^TBSTDW_2.def^/^PYdw4.def^;
+!!SN:R^TBSTDW_3.def^/^PY_lev4.def^;
+!!SN:R^TBSTDW_4.def^/^PY_dw5.def^;		don't work?
+!!SN:R^TBSTDW_5.def^/^PYsphinx.def^;
+!!SN:R^TBSTDW_6.def^/^PYdw6.def^;
+!-!SN:R^TBSTEXT0.def^/^PYhorde1.def^;	mercenary guild
+!!SN:R^TBSTEXT1.def^/^PYsmith.def^;		ballistas
+!!SN:R^TBSTEXT2.def^/^PYspec1.def^;		walgalla temple
+!!SN:R^TBSTEXT3.def^/^PY_ext3.def^;		waterfall
+!!SN:R^TBSTHAL2.def^/^PYhall2.def^;
+!!SN:R^TBSTHAL3.def^/^PYhall3.def^;
+!!SN:R^TBSTHAL4.def^/^PYhall4.def^;		tbsthal4.def
+!!SN:R^TBSTHALL.def^/^PYhall1.def^;
+!-!SN:R^TBSTHOLY.def^/^TBSTHOLYb.def^;
+!!SN:R^TBSTHRD1.def^/^PYdw0upg.def^;
+!!SN:R^TBSTHRD2.def^/^PYdw0upg.def^;
+!!SN:R^TBSTMAG2.def^/^PYmg3.def^;
+!!SN:R^TBSTMAG3.def^/^PYmg4.def^;
+!!SN:R^TBSTMAGE.def^/^PYmg2.def^;
+!!SN:R^TBStMark.def^/^PYmket1.def^;
+!-!SN:R^TBSTMARK.def^/^^;
+!!SN:R^TBSTSILO.def^/^PYsilo.def^;
+!!SN:R^TBSTSPEC.def^/^TBpySPEC.def^;	back gate
+!!SN:R^TBSTTVRN.def^/^PYtavern.def^;
+!!SN:R^TBSTUP_0.def^/^PYdw0upg.def^;
+!!SN:R^TBSTUP_1.def^/^PYdw5upg.def^;
+!!SN:R^TBSTUP_2.def^/^PYdw4upg.def^;
+!!SN:R^TBSTUP_3.def^/^PY_lev4.def^;
+!!SN:R^TBSTUP_4.def^/^PY_dw5.def^;
+!!SN:R^TBSTUP_5.def^/^PYsphinx.def^;
+!!SN:R^TBSTUP_6.def^/^PYdw6upg2.def^;
+
+!-!SN:R^TBStMark.def^/^PYmket1.def^;
+
+!!SN:R^TOSBEH1A.pcx^/^pOdw6a.pcx^;		7 level
+!!SN:R^TOSBEH2A.pcx^/^pOdw6b.pcx^;
+!!SN:R^TOSBLK1.pcx^/^pOsmithb1.pcx^;
+!!SN:R^TOSBLK2.pcx^/^pOsmithb2.pcx^;
+!!SN:R^TOSCA1.pcx^/^pOcas1b.pcx^;
+!-!SN:R^TOSCA1EA.pcx^/^TOSCA1EAb.pcx^;
+!!SN:R^TOSCA2.pcx^/^pOcas2b.pcx^;
+!!SN:R^TOSCA3.pcx^/^pOcas3b.pcx^;
+!!SN:R^TOSCYC1.pcx^/^pOsphinxb.pcx^;
+!!SN:R^TOSCYC2A.pcx^/^pOsphinxb.pcx^;
+!!SN:R^TOSGOB1.pcx^/^pOdw0a.pcx^;
+!!SN:R^TOSGOB1H.pcx^/^pOdw0a.pcx^;
+!!SN:R^TOSGOB2.pcx^/^pOdw0a.pcx^;
+!!SN:R^TOSGOB2H.pcx^/^pOdw0a.pcx^;
+!!SN:R^TOSHAL1A.pcx^/^pOhall1b.pcx^;
+!!SN:R^TOSHAL2A.pcx^/^pOhall2b.pcx^;
+!!SN:R^TOSHAL3A.pcx^/^pOhall3b.pcx^;
+!!SN:R^TOSHAL4A.pcx^/^pOhall3b.pcx^;
+!-!SN:R^TOSHOLYA.pcx^/^TOSHOLYAb.pcx^;
+!!SN:R^TOSMAG1.pcx^/^pOmg2b.pcx^;
+!!SN:R^TOSMAG2.pcx^/^pOmg3b.pcx^;
+!!SN:R^TOSMAG3.pcx^/^pOmg4b.pcx^;
+!!SN:R^TOSMRK1.pcx^/^pOmket1b.pcx^;
+!-!SN:R^TOSMRK1C.pcx^/^TOSMRK1Cb.pcx^;
+!!SN:R^TOSMRK2.pcx^/^pOsilo.pcx^;
+!!SN:R^TOSOGR1.pcx^/^po_lev4.pcx^;
+!!SN:R^TOSOGR2.pcx^/^po_lev4.pcx^;
+!!SN:R^TOSORC1.pcx^/^pOdw4b.pcx^;
+!!SN:R^TOSORC2.pcx^/^pOdw4upgb.pcx^;
+!!SN:R^TOSROC1.pcx^/^po_dw6.pcx^;
+!!SN:R^TOSROC2.pcx^/^po_dw6.pcx^;
+!!SN:R^TOSTAV.pcx^/^pOtavernb.pcx^;
+!!SN:R^TOSVAH.pcx^/^pOspec1b.pcx^;			walgalla temple
+!!SN:R^TOSWOL1.pcx^/^pOdw5b.pcx^;			2 level
+!!SN:R^TOSWOL2.pcx^/^pOdw5upgb.pcx^;
+!-!SN:R^TPCASSTR.pcx^/^TPCASSTRb.pcx^;
+!-!SN:R^TPMAGEST.pcx^/^TPMAGESTb.pcx^;
+
+!!SN:R^TZSBEH1A.pcx^/^pZdw6a.pcx^;
+!!SN:R^TZSBEH2A.pcx^/^pZdw6upga.pcx^;
+!!SN:R^TZSBLK1.pcx^/^pZsmitha1.pcx^;
+!!SN:R^TZSBLK2.pcx^/^pZsmitha2.pcx^;
+!!SN:R^TZSCA1.pcx^/^pZcas1a.pcx^;
+!-!SN:R^TZSCA1EA.pcx^/^TZSCA1EAb.pcx^;
+!!SN:R^TZSCA2.pcx^/^pZcas2a.pcx^;
+!!SN:R^TZSCA3.pcx^/^pZcas3a.pcx^;
+!!SN:R^TZSCYC1.pcx^/^pZsphinxa.pcx^;
+!!SN:R^TZSCYC2A.pcx^/^pZsphinxa.pcx^;
+!!SN:R^TZSGOB1.pcx^/^pZdw0upb.pcx^;
+!!SN:R^TZSGOB1H.pcx^/^pZdw0upb.pcx^;
+!!SN:R^TZSGOB2.pcx^/^pZdw0upb.pcx^;
+!!SN:R^TZSGOB2H.pcx^/^pZdw0upb.pcx^;
+!!SN:R^TZSHAL1A.pcx^/^pZhall1a.pcx^;
+!!SN:R^TZSHAL2A.pcx^/^pZhall2a.pcx^;
+!!SN:R^TZSHAL3A.pcx^/^pZhall3a.pcx^;
+!!SN:R^TZSHAL4A.pcx^/^pZhall3a.pcx^;
+!-!SN:R^TZSHOLYA.pcx^/^TZSHOLYAb.pcx^;
+!!SN:R^TZSMAG1.pcx^/^pZmg2a.pcx^;
+!!SN:R^TZSMAG2.pcx^/^pZmg3a.pcx^;
+!!SN:R^TZSMAG3.pcx^/^pZmg4a.pcx^;
+!!SN:R^TZSMRK1.pcx^/^pZmket1a.pcx^;
+!-!SN:R^TZSMRK1C.pcx^/^TZSMRK1Cb.pcx^;
+!!SN:R^TZSMRK2.pcx^/^pZsilo.pcx^;
+!!SN:R^TZSOGR1.pcx^/^pz_lev4.pcx^;
+!!SN:R^TZSOGR2.pcx^/^pz_lev4.pcx^;
+!!SN:R^TZSORC1.pcx^/^pZdw4a.pcx^;
+!!SN:R^TZSORC2.pcx^/^pZdw4upga.pcx^;
+!!SN:R^TZSROC1.pcx^/^pz_dw6.pcx^;
+!!SN:R^TZSROC2.pcx^/^pz_dw6.pcx^;
+!!SN:R^TZSTAV.pcx^/^pZtaverna.pcx^;
+!!SN:R^TZSVAH.pcx^/^pZspec1a.pcx^;
+!!SN:R^TZSWOL1.pcx^/^pZdw5upga.pcx^;
+!!SN:R^TZSWOL2.pcx^/^pZdw5upga.pcx^;
+
+
+
+
+
+
+
+!!FU(SetBuilding'sPriority):P6/28/10;	blacksmith (16)	
+!!FU(SetBuilding'sPriority):P6/29/22;	ballists(22)
+
+!!FU(SetBuilding'sPriority):P6/31/14;	market	needed to prevent disappear!!!
+!!FU(SetBuilding'sPriority):P6/32/15;	silo
+
+!-!FU(SetBuilding'sPriority):P6/41/21;	mercenary guild
+	
+!!FU(SetBuilding'sPriority):P6/34/23;	walgalla (23)	
+!!FU(SetBuilding'sPriority):P6/30/40;	
+
+!!FU(SetBuilding'sPriority):P6/41/5;	tavern
+
+!-!FU(SetBuilding'sPriority):P6/39/31;	
+!!FU(SetBuilding'sPriority):P6/37/32;	
+
+!!FU(SetBuilding'sPriority):P6/23/38;
+!!FU(SetBuilding'sPriority):P6/40/39;
+
+!-!FU(SetBuilding'sPriority):P6/33/33;	
+!-!FU(SetBuilding'sPriority):P6/40/40;
+
+!!FU(SetBuilding'sPriority):P6/35/34;	
+!!FU(SetBuilding'sPriority):P6/36/41;	
+	
+!!FU(SetBuilding'sPriority):P6/37/35;	dwelling level_6 priority(35)
+!!FU(SetBuilding'sPriority):P6/38/42;	dwelling level_6up priority
+
+!-!FU(SetBuilding'sPriority):P6/37/35;	dwelling level_7 priority(35)
+!!FU(SetBuilding'sPriority):P6/26/43;	dwelling level_6up priority
+
+	
+
+
+
+ 
+	-----------------------------
+	; replace creatures
+	-----------------------------
+
+	!!FU(pyramid___monsters):P;
+
+
+!!FU(pyramid___town):E;  end function
+
+
+
+----------------------------------------------
+
+!?FU(pyramid___monsters);
+
+	 ; new upgrade
+	 !!MA:U116/543;		Upg platinum golem
+
+!!UN:T6/0/0/534;
+!!UN:T6/0/1/535;
+!!UN:T6/1/0/536;
+!!UN:T6/1/1/537;
+!!UN:T6/2/0/538;
+!!UN:T6/2/1/539;
+!!UN:T6/3/0/540;
+!!UN:T6/3/1/541;
+!!UN:T6/4/0/542;
+!!UN:T6/4/1/543;
+!!UN:T6/5/0/544;
+!!UN:T6/5/1/545;
+!!UN:T6/6/0/547;
+!!UN:T6/6/1/548;
+
+!-!FU(dex_SetDwellingSlotByTownId):P0/5/1/0/576/30;			Great Sphinx 546
+!-!FU(dex_SetDwellingSlotByTownType):P0/5/1/0/576/30;; 
+
+!!FU(pyramid___monsters):E;
+
+
+
+--------------------------------------------------
+
+
+

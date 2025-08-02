@@ -1,0 +1,96 @@
+ZVSE
+
+ ; dialog at game start 
+
+
+;DL528: ---iTownPort
+;v4058 selection
+;V14 player town number, town type v5, name z5, location v7/v8/v9
+;v600-v647 The number of the player's town in the map (not a list)
+;The total number of towns in the v698 map
+;The maximum number of towns that can be selected by v360=97+(v14-1)
+;v900=temp flag3 exchange flag // flag2 modifies memory
+;v9679-v9744 =1 has a hero, =0 has no hero
+;FU2070, P2700-2701 sorting, P2711-2713
+;FU9999949 Display town hint information dialog box---by007
+
+
+
+
+ ; variables (my)
+ ; v4058
+ ; v4059 
+
+
+
+!?PI;
+!!VRv4058:C0/0; 						v4058 sel. tw/v4059 tw nums
+!!VRv4059:S17;							max number of selection	17
+!!VRv360:Sv4059 -1 +97; 97-144	
+
+
+!!DL528:N^start_dlg1.txt^;				read DL information
+
+!-!IF:M^1^;
+!-!DL528:S;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!?DL&v998=528/v999=30721/v1000=13; 			cancel button/left-click left
+!!DL:C1; close dl
+
+
+
+
+!?DL&v998=528/v999=30722/v1000=13; 			30722 ok
+!-!IF:M^--result: %v4058 ^;
+!!DL:C1; close dl
+
+
+!-!DL528:C1000;
+
+
+ ; selection
+
+!?DL&v998=528/v999>=97/v999<=v360/v1000=12/v4059>0; def 97-144 ----After selection, what is displayed on the minimap?
+!!VRz-1:S^Button.wav^;
+!!SN:Pz-1;
+!!VRy2:S9600 +v999; 9600+97-144
+!!if&vy2<>1:;
+!!if&v4058=0:; v4058=0 is not selected
+    !!VRv4058:Sv999;
+    !!DL528:Av999/4/1/1 E30722/1;
+!!el:;
+   !!if&v999=v4058:; 		Select the same one, cancel the selection
+	 !!VRv4058:S0;
+     !!DL528:Av999/4/0/1 E30722/0;
+     !!FU:E;
+   !!en:;
+   !!DL528:Av4058/4/0/1; Choose another one
+   !!VRv4058:Sv999;
+   !!DL528:Av999/4/1/1 E30722/1;
+!!en:;
+!!en:;
+
+
+
+
+
+
+
+
+
+
+
+

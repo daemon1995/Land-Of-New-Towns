@@ -1,0 +1,52 @@
+ZVSE
+
+ ; settings for Land of New Towns
+
+
+ 
+
+ ; show the dialog for choosing the starting town for player 1...8 (human or Ai)
+ ; this setting should be useful for multiplayer
+ ; S1 - for player 1  /  S2 - for players 1,2  /  S3 - for players 1,2,3  / and so on
+ ; for example for two players line should be:    !#VRv4086:S2;
+
+!#VRv4086:S1;	
+
+
+
+
+
+
+ ; enable or disable towns types when generating a map ("S1"-enable / "S0"-disable town)
+ ; S0 means this type of town will not be generated
+
+!#VRi^t01_Wond^:S1;			WonderWoods
+!#VRi^t02_Eldo^:S1;			Eldorado
+!#VRi^t03_Sand^:S1;			Sand town
+!#VRi^t04_Shad^:S1;			Shadow town
+!#VRi^t05_Neut^:S1;			Neutral town
+!#VRi^t06_Magi^:S1;			Magic forest
+!#VRi^t08_Drui^:S1;			Druid town
+!#VRi^t10_Bast^:S1;			Bastion
+!#VRi^t13_Cove^:S1;			Cove
+!#VRi^t16_Myth^:S1;			Mythology
+!#VRi^t17_Tech^:S1;			Techno town
+!#VRi^t18_Temp^:S1;			Knight's Temple		
+!#VRi^t20_Icec^:S1;			Ice Castle
+!#VRi^t21_Elem^:S1;			Elemental Palace
+!#VRi^t24_Pyra^:S1;			Pyramid
+
+
+
+
+
+
+
+ ; S0 -the map generates all new types of towns without restrictions
+ ; S1 -each classic town type (Castle, Rampart...) is replaced by new town type (Knight's Castle, WonderWoods ...) or classic town type
+ ; S2 -each classic town type (Castle, Rampart...) is replaced by only one new town type (Knight's Castle, WonderWoods ...)
+ ; S3 -each classic town type (Castle, Rampart...) is replaced by only one new town type (Knight's Castle, WonderWoods ...) + classic town type become same as the start town 
+ ; R3 -random setting S0 ... S3
+ ; recommended setting: "S0" or "S3"
+ 
+!#VRi^one_type_of_new_town^:S0;	 

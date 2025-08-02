@@ -1,0 +1,445 @@
+{
+	"RMG": {
+		"objectGeneration": {
+			"16": {
+				"36": {
+									
+					"density": 20,
+					"enabled": true,
+					"name": "Magic Utopia1",
+					"properties": [
+						"UtopMagi.def 110111111101111111111111111111111111111111111111 001000000000000000000000000000000000000000000000 111111111 011111111 16 36 0 0"
+					],
+					"sound": {
+						"enter": null,
+						"loop":  null,
+					},
+					"states": [
+						{
+							"artifactTypeCounts": [
+								0,
+								0,
+								1,
+								1
+							],
+							"chance": 100,
+							"creatureRewardCount": 1,
+							"creatureRewardType": 258,
+							"guardians": {
+								"count": [
+									5,
+									5,
+									5,
+									5,
+									0,
+									0,
+									0
+								],
+								"type": [
+									134,
+									134,
+									134,
+									133,
+									-1,
+									-1,
+									-1
+								]
+							},
+							"resources": [
+								7,
+								3,
+								0,
+								0,
+								15,
+								2,
+								1
+							],
+							"upgrade": 50
+						},
+						{
+							"artifactTypeCounts": [
+								0,
+								0,
+								0,
+								0
+							],
+							"chance": 30,
+							"creatureRewardCount": 1,
+							"creatureRewardType": 258,
+							"guardians": {
+								"count": [
+									14,
+									14,
+									14,
+									14,
+									14,
+									0,
+									0
+								],
+								"type": [
+									114,
+									114,
+									114,
+									114,
+									114,
+									-1,
+									-1
+								]
+							},
+							"resources": [
+								0,
+								0,
+								0,
+								0,
+								0,
+								0,
+								0
+							],
+							"upgrade": 50
+						},
+						{
+							"artifactTypeCounts": [
+								0,
+								0,
+								0,
+								0
+							],
+							"chance": 30,
+							"creatureRewardCount": 3,
+							"creatureRewardType": 130,
+							"guardians": {
+								"count": [
+									21,
+									21,
+									21,
+									21,
+									21,
+									0,
+									0
+								],
+								"type": [
+									114,
+									114,
+									114,
+									114,
+									114,
+									-1,
+									-1
+								]
+							},
+							"resources": [
+								0,
+								0,
+								0,
+								0,
+								0,
+								0,
+								0
+							],
+							"upgrade": 50
+						},
+						{
+							"artifactTypeCounts": [
+								0,
+								0,
+								0,
+								0
+							],
+							"chance": 10,
+							"creatureRewardCount": 4,
+							"creatureRewardType": 130,
+							"guardians": {
+								"count": [
+									28,
+									28,
+									28,
+									28,
+									28,
+									0,
+									0
+								],
+								"type": [
+									114,
+									114,
+									114,
+									114,
+									114,
+									-1,
+									-1
+								]
+							},
+							"resources": [
+								0,
+								0,
+								0,
+								0,
+								0,
+								0,
+								0
+							],
+							"upgrade": 50
+						}
+					],
+					"value": 4000
+				},
+				
+				
+				
+				
+				
+				
+				
+				"91": {
+									
+					"density": 30,
+					"enabled": true,
+					"name": "Pyramid Utopia",
+					"properties": [
+						"UtopPyra.def 110111111101111111111111111111111111111111111111 001000000000000000000000000000000000000000000000 111111111 011111111 16 91 0 0"
+					],
+					"sound": {
+						"enter": null,
+						"loop":  null,
+					},
+					"states": [
+						{
+							"artifactTypeCounts": [0,0,1,0],
+							"chance": 90,
+							"creatureRewardCount": 7,
+							"creatureRewardType": 546,
+							"guardians": {
+								"count": [5,20,10,15,0,0,0],
+								"type":  [546,545,545,323,-1,-1,-1]
+							},
+							"resources": [0,0,0,0,0,0,40000,0],
+							"skills.primary": [0,0,0,2],
+							"upgrade": 50
+						},
+						{
+							"artifactTypeCounts": [0,0,1,0],
+							"chance": 10,
+							"creatureRewardCount": 7,
+							"creatureRewardType": 546,
+							"guardians": {
+								"count": [
+									12,
+									25,
+									20,
+									25,
+									0,
+									0,
+									0
+								],
+								"type": [
+									546,
+									545,
+									545,
+									323,
+									-1,
+									-1,
+									-1
+								]
+							},
+							"resources": [0,0,0,0,0,0,100000,5],
+							"skills.primary": [0,0,0,2],
+							"upgrade": 50
+						},
+
+					],
+					"value": 8000
+				},
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				"89": {
+									
+					"density": 20,
+					"enabled": true,
+					"name": "Knight's Utopia",
+					"properties": [
+						"UtopKnig.def 110111111101111111111111111111111111111111111111 001000000000000000000000000000000000000000000000 111111111 011111111 16 89 0 0"
+					],
+					"sound": {
+						"enter": null,
+						"loop":  null,
+					},
+					"states": [
+						{
+							"artifactTypeCounts": [
+								0,
+								1,
+								0,
+								0
+							],
+							"chance": 70,
+							"creatureRewardCount": 3,
+							"creatureRewardType": 443,
+							"guardians": {
+								"count": [
+									5,
+									5,
+									8,
+									8,
+									15,
+									15,
+									0
+								],
+								"type": [
+									443,
+									443,
+									442,
+									442,
+									441,
+									441,
+									-1
+								]
+							},
+							"resources": [
+								0,
+								0,
+								0,
+								0,
+								0,
+								20,
+								30000
+							],
+							"upgrade": 50
+						},
+						{
+							"artifactTypeCounts": [
+								0,
+								0,
+								1,
+								0
+							],
+							"chance": 30,
+							"creatureRewardCount": 5,
+							"creatureRewardType": 443,
+							"guardians": {
+								"count": [
+									10,
+									10,
+									18,
+									18,
+									45,
+									45,
+									45
+								],
+								"type": [
+									443,
+									443,
+									442,
+									442,
+									441,
+									441,
+									441
+								]
+							},
+							"resources": [
+								0,
+								0,
+								0,
+								0,
+								0,
+								30,
+								100000
+							],
+							"upgrade": 50
+						},
+
+					],
+					"value": 14000
+				},
+				
+				
+				
+				
+				
+				
+				"90": {
+									
+					"density": 30,
+					"enabled": true,
+					"name": "Crusader's Outpost",
+					"properties": [
+						"b_Crusad.def 110111111101111111111111111111111111111111111111 001000000000000000000000000000000000000000000000 111111111 011111111 16 90 0 0"
+					],
+					"sound": {
+						"enter": null,
+						"loop":  null,
+					},
+					"states": [
+						{
+							"artifactTypeCounts": [
+								1,
+								1,
+								0,
+								0
+							],
+							"chance": 100,
+							"creatureRewardCount": 2,
+							"creatureRewardType": 443,
+							"guardians": {
+								"count": [
+									20,
+									15,
+									30,
+									30,
+									35,
+									0,
+									0
+								],
+								"type": [
+									437,
+									437,
+									436,
+									7,
+									7,
+									-1,
+									-1
+								]
+							},
+							"resources": [
+								0,
+								0,
+								0,
+								0,
+								0,
+								0,
+								20000
+							],
+							"upgrade": 50
+						},
+						
+
+					],
+					"value": 9000
+				},
+				
+				
+				
+				
+				
+				
+
+
+
+
+
+				
+					}
+							}
+							
+			}
+}
+			

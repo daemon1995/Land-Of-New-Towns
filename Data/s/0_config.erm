@@ -1,0 +1,62 @@
+ZVSE
+
+option:  S0/S1  (No/Yes)    
+			
+!#VRv4080:S0;					show_emissares_number
+!#VRv4081:S0;					show dwellings on the map
+!#VRv4082:S0;				Random monsters in town (Inferno - based)
+!#VRv4083:S0;					allow AI recruit emissares
+!#VRv4084:S1;					enable Neutral town (Conflux based)
+!#VRv4085:S1;					ask user at start: what town to choose 
+!#VRv4087:S0;					WonderWoods old creatures enabled
+
+
+
+
+
+ ; allow one type of new town  (S0-many new_towns type, 
+ ; S1- classic / new type of town for a classic homm3 town												+
+ ; S2-only one type of town for a classic homm3 town
+ ; S3-only one type of town for classic homm3 town, classic town type same as the start town 			+
+ ; R3- mixed type
+ ; reccomended setting: "S0" or "S3"
+ 
+!--#VRi^one_type_of_new_town^:S3;		 
+
+
+
+
+
+
+!#VRi^choose_town_for_Ai^:S0;
+
+
+
+
+ ; enable towns (1-enable / 0-disable town)
+!-#VRi^t01_Wond^:S1;
+!-#VRi^t02_Eldo^:S1;
+!-#VRi^t03_Sand^:S1;
+!-#VRi^t04_Shad^:S1;
+!-#VRi^t05_Neut^:S1;
+!-#VRi^t06_Magi^:S1;
+!#VRi^t07_Myst^:S0;
+-!#VRi^t08_Drui^:S1;
+!#VRi^t09_Mona^:S0;
+!-#VRi^t10_Bast^:S1;
+!#VRi^t11_Stra^:S0;
+!#VRi^t12_Oasi^:S0;
+!-#VRi^t13_Cove^:S1;
+!#VRi^t14_Kite^:S0;
+!#VRi^t15_Ruin^:S0;
+!-#VRi^t16_Myth^:S1;
+!-#VRi^t17_Tech^:S1;
+!-#VRi^t18_Temp^:S1;			
+!#VRi^t00_Deep^:S0;
+!-#VRi^t20_Icec^:S1;
+!-#VRi^t21_Elem^:S1;
+!#VRi^t22_Cour^:S0;
+!#VRi^t23_Aban^:S0;
+!-#VRi^t24_Pyra^:S1;
+!#VRi^t25_Anci^:S0;
+!#VRi^t26_Pres^:S0;

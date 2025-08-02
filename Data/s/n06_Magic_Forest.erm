@@ -1,0 +1,112 @@
+ZVSE
+
+
+ ;  Magic Forest     ex. Druid town - based on Rampart
+
+	
+-------------------------------------------------------------------	
+	
+!?FU(magicforest___town); 					
+
+-----------------------------
+ ; replace town screen
+ ----------------------------
+
+!!FU(restore_XY_coordinates_rampart2):P;     
+!!FU(Restore_Default_TownScreen):P;			restore default screen first
+
+!!FU(SetBuilding'sPosition):P1/31/0/190;		154;
+!!FU(SetBuilding'sPosition):P1/38/0/170;		143;
+
+!!FU(SetBuilding'sPosition):P1/7/50/45;			
+!!FU(SetBuilding'sPosition):P1/8/50/35;			citadel
+!!FU(SetBuilding'sPosition):P1/9/50/35;			castle
+
+!!FU(SetBuilding'sPosition):P1/31/0/180;		73;		2 lvl		+
+!!FU(SetBuilding'sPosition):P1/38/0/180;				2 lvl upg
+!!FU(SetBuilding'sPosition):P1/19/0/180;				horde for 2 lvl
+!!FU(SetBuilding'sPosition):P1/22/0/220;				treasury
+
+!!FU(SetBuilding'sPosition):P1/33/287/23;		73;		5 lvl		+
+!!FU(SetBuilding'sPosition):P1/40/287/12;				5 lvl upg
+
+!!FU(SetBuilding'sPosition):P1/36/560/40;				7 lvl		
+!!FU(SetBuilding'sPosition):P1/43/560/40;				7 lvl upg
+
+
+!!SN:R^TBRMBACK.pcx^/^TBRMBACK3.pcx^;
+!!SN:R^Rampart.mp3^/^DruidTown.mp3^;
+!!SN:R^HALLRAMP.def^/^HALLdrui.def^;
+!!SN:R^TBRMBLAK.def^/^TBRMBLAK3.def^;
+!!SN:R^TBRMMARK.def^/^TBdrMARK.def^;
+
+!!SN:R^TBRMCAS2.def^/^TBdrCAS2.def^;
+!!SN:R^TBRMCAS3.def^/^TBdrCAS3.def^;
+!!SN:R^TBRMCSTL.def^/^TBdrCSTL.def^;
+!!SN:R^TBRMTVRN.def^/^TBdrTVRN.def^;
+
+!!SN:R^TBRMEXT2.def^/^TBRMEXT23.def^;
+!!SN:R^TBRMEXT3.def^/^TBRMEXT33.def^;
+!!SN:R^TBRMEXT4.def^/^TBRMEXT43.def^;
+!!SN:R^TBRMEXT5.def^/^TBRMEXT53.def^;
+!!SN:R^TBRMHAL2.def^/^TBRMHAL22.def^;
+!!SN:R^TBRMHAL3.def^/^TBRMHAL33.def^;
+!!SN:R^TBRMHAL4.def^/^TBdrHAL4.def^;
+!!SN:R^TBRMHALL.def^/^TBdrHALL.def^;
+!!SN:R^TBRMMAGe.def^/^TBdrMAGe.def^;
+!!SN:R^TBRMMAG5.def^/^TBRMMAG53.def^;
+!!SN:R^TBRMdw_2.def^/^TBRMdw_23.def^;
+!!SN:R^TBRMup_2.def^/^TBRMup_23.def^;
+!!SN:R^TBRMdw_3.def^/^TBRMdw_33.def^;
+!!SN:R^TBRMup_3.def^/^TBRMdw_33.def^;
+!!SN:R^TBRMDW_5.def^/^TBRMUP_53.def^;
+!!SN:R^TBRMUP_5.def^/^TBRMUP_53.def^;
+!!SN:R^TBRMDW_6.def^/^TBRMUP_63.def^;
+!!SN:R^TBRMUP_6.def^/^TBRMUP_63.def^;
+
+!!SN:R^TORUNI1.pcx^/^TORUNI1d.pcx^;
+!!SN:R^TORUNI2.pcx^/^TORUNI1d.pcx^;
+!!SN:R^TZRUNI1.pcx^/^TZRUNI1d.pcx^;
+!!SN:R^TZRUNI2.pcx^/^TZRUNI1d.pcx^;
+
+ ; lvl 7
+!!SN:R^TORDR1AA.PCX^/^TOdDR1AA.pcx^;
+!!SN:R^TORDR2AA.PCX^/^TOdDR1AA.pcx^;
+!!SN:R^TZRGAR1A.pcx^/^TZRDR2AA2.pcx^;
+!!SN:R^TZRGAR2A.pcx^/^TZRDR2AA2.pcx^;
+
+
+ 
+ 
+ 
+ -----------------------------
+ ; replace creatures
+-----------------------------
+	!!FU(magicforest___monsters):P;
+
+
+ !!FU(magicforest___town):E;  end function 
+ 
+ 
+ 
+ 
+----------------------------------------------------- 
+!?FU(magicforest___monsters); 
+
+!!UN:T1/0/0/256;   
+!!UN:T1/0/1/257;
+!!UN:T1/1/0/258;
+!!UN:T1/1/1/259;
+!!UN:T1/2/0/260;		forest harpii
+!!UN:T1/2/1/261;
+!!UN:T1/3/0/262;		favn
+!!UN:T1/3/1/263;		satir
+!!UN:T1/4/0/264;		
+!!UN:T1/4/1/265;		
+!!UN:T1/5/0/266;		spriggans
+!!UN:T1/5/1/267;
+!!UN:T1/6/0/268;
+!!UN:T1/6/1/269;
+					
+!!FU(magicforest___monsters):E; 					
+ 

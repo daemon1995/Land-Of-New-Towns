@@ -1,0 +1,56 @@
+ZVSE2
+
+; needed for Era version 3.9.12 and higher
+
+!?FU(OnGameEnter);
+!!UN:C7724635/1/186 C7724636/4/50; [Disable typhon regeneration hooks]
+!?FU(OnBattleStackRegeneration);
+!#VA(stackId:x) (finalValue:x) (stdValue:x);
+!!if&(finalValue)<30;
+  !!BM(stackId):T?(monType:y);
+  !!if&(monType)=250;
+    !!VR(random:y):R0/1/100;
+    !!VR(finalValue)&(random)<=10:S30; [10% chance for monster #250 to regenerate 30 HP]
+  !!en;
+  
+	
+!!if&(monType)=199;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=10:S10;	!!en;	magician
+!-!if&(monType)=201;	!-!VR(random:y):R0/1/100;	!-!VR(finalValue)&(random)<=30:S80;	!-!en;	ancient ents
+!!if&(monType)=200;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=30:S120;	!!en;
+!!if&(monType)=267;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=35:S50;	!!en;
+!!if&(monType)=200;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=30:S120;	!!en;
+!!if&(monType)=227;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=35:S10;	!!en;	sand reptile
+!!if&(monType)=237;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=20:S90;	!!en;	Great SandWorm
+!!if&(monType)=279;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=50:S50;	!!en;	fangarm
+!!if&(monType)=350;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=20:S15;	!!en;	snakes
+!!if&(monType)=425;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=25:S80;	!!en;
+!!if&(monType)=450;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=35:S150;	!!en;	Legendary Worms
+!!if&(monType)=452;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=15:S30;	!!en;
+!!if&(monType)=458;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=20:S80;	!!en;	Advanced Hydra
+!!if&(monType)=475;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=35:S90;	!!en;	Owner of DeepSwamp
+!!if&(monType)=487;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=40:S70;	!!en;	Yeti
+
+!!if&(monType)=507;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=90:S7;	!!en;	homuncul
+!!if&(monType)=508;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=100:S10;	!!en;	shined homuncul
+
+ ; Pyramid
+!!if&(monType)=548;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=40:S100; !!en;	Avatar Anubis 
+
+ ; Preserve
+!!if&(monType)=569;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=100:S35;	!!en;	dryads
+!!if&(monType)=570;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=100:S35;	!!en;	oak dryads  
+
+
+!!if&(monType)=580;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=40:S120;	!!en;	Swamp Keepers
+!!if&(monType)=603;	!!VR(random:y):R0/1/100;	!!VR(finalValue)&(random)<=35:S180;	!!en;	Green behemoths   
+  
+!!en;
+
+
+
+!?FU(OnGameEnter);
+
+
+
+
+

@@ -1,0 +1,86 @@
+ZVSE
+
+
+
+ ;  ________________________ for AI __________________________
+
+ ; every day for AI
+!?FU(OnEveryDay)&-1000; 
+
+!!OW:C?v60;      							player number
+!!OW:C?v4070;      							v4070 = current player number
+!!VRv4060:Sv60;
+
+!!VRv54:S13;								emissar's dwelling 13...16
+!!FU(Dissallow_emissars_to_AI)&v4083=0:P; 
+!!VRv54:S14;
+!!FU(Dissallow_emissars_to_AI)&v4083=0:P;
+!!VRv54:S15;
+!!FU(Dissallow_emissars_to_AI)&v4083=0:P;
+!!VRv54:S16;
+!!FU(Dissallow_emissars_to_AI)&v4083=0:P;
+
+
+
+
+
+
+ ; first AI v4070=1
+!!CA0/1&v4070=1:T?v4056;		get town type (v4056) for start town of  player1 (1)
+!!CA0/2&v4070=2:T?v4056;	
+!!CA0/3&v4070=3:T?v4056;
+!!CA0/4&v4070=4:T?v4056;
+!!CA0/5&v4070=5:T?v4056;
+!!CA0/6&v4070=6:T?v4056;
+!!CA0/7&v4070=7:T?v4056;
+		
+!!VRv100&v4070=1:S1;			v100 for player 1
+!!VRv100&v4070=2:S2;
+!!VRv100&v4070=3:S3;
+!!VRv100&v4070=4:S4;
+!!VRv100&v4070=5:S5;
+!!VRv100&v4070=6:S6;
+!!VRv100&v4070=7:S7;
+!!VRv100:Sv100+4000;	
+
+	!-!IF:M^%v100^;
+	!-!VRv100:S4002;					prevent hiring creatures from non-existent towns for AI   (temporary solution)
+
+!-!FU(change_monsters_variant2):P;
+
+
+
+
+
+
+
+
+ 
+  ;   AI build in town
+!?FU(OnBuildTownBuilding)&-1000;
+ ; x1 - town id
+!!VRv100:Sx1+4000;					variable (default var1...var4) for town
+!!CA0/x1:T?v4056;					get town type
+
+!!FU(change_monsters_variant2):P; 
+
+ 
+ 
+ 
+ 
+ 
+  
+
+  ;   AI visit town
+!?OB98&-1000; 
+!!VRv100:S0;
+!!CAv998/v999/v1000:U?v100;    		get	town id  (v100)
+!!CA0/v100:T?v4056;					get town type (v4056)
+!!VRv100:Sv100+4000; 				town id + 4000
+
+!!FU(change_monsters_variant2):P; 
+
+
+
+
+

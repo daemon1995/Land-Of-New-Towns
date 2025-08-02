@@ -1,0 +1,243 @@
+ZVSE
+
+
+ ; Bastion town - based on Stronghold 
+
+	
+-------------------------------------------------------------------	
+	
+	
+	
+!?FU(bastion___town); 					
+
+-----------------------------
+ ; new coordinates of town dwellings
+ ----------------------------
+
+!!FU(SetBuilding'sPosition):P6/0/350/90;
+!!FU(SetBuilding'sPosition):P6/1/340/59;
+!!FU(SetBuilding'sPosition):P6/2/340/43;
+!!FU(SetBuilding'sPosition):P6/5/301/182;
+!!FU(SetBuilding'sPosition):P6/7/43/60;
+!!FU(SetBuilding'sPosition):P6/8/28/4;   +8/43/60;
+!!FU(SetBuilding'sPosition):P6/9/28/4;
+!!FU(SetBuilding'sPosition):P6/10/650/128;
+!!FU(SetBuilding'sPosition):P6/11/176/93;
+!!FU(SetBuilding'sPosition):P6/12/141/96;
+!!FU(SetBuilding'sPosition):P6/13/141/61;			13/141/96;
+!!FU(SetBuilding'sPosition):P6/14/404/211;
+!!FU(SetBuilding'sPosition):P6/15/369/191;
+!!FU(SetBuilding'sPosition):P6/16/549/196;
+!!FU(SetBuilding'sPosition):P6/17/414/138;
+!!FU(SetBuilding'sPosition):P6/18/575/258;
+!!FU(SetBuilding'sPosition):P6/19/575/257;
+!!FU(SetBuilding'sPosition):P6/21/369/191;		549/196;
+!!FU(SetBuilding'sPosition):P6/22/549/196;    dvor ballist 369/191;		
+!!FU(SetBuilding'sPosition):P6/23/339/191; 		23/369/191;
+!!FU(SetBuilding'sPosition):P6/26/0/0;
+!!FU(SetBuilding'sPosition):P6/27/0/0;			water line in bastion
+!!FU(SetBuilding'sPosition):P6/30/575/258;
+!!FU(SetBuilding'sPosition):P6/31/0/94;
+!!FU(SetBuilding'sPosition):P6/32/178/203;
+!!FU(SetBuilding'sPosition):P6/33/206/97;
+!!FU(SetBuilding'sPosition):P6/34/639/251;
+!!FU(SetBuilding'sPosition):P6/35/0/209;
+!!FU(SetBuilding'sPosition):P6/36/449/70;
+!!FU(SetBuilding'sPosition):P6/37/575/258;
+!!FU(SetBuilding'sPosition):P6/38/0/91;
+!!FU(SetBuilding'sPosition):P6/39/164/203;
+!!FU(SetBuilding'sPosition):P6/40/206/97;
+!!FU(SetBuilding'sPosition):P6/41/639/251;
+!!FU(SetBuilding'sPosition):P6/42/0/209;
+!!FU(SetBuilding'sPosition):P6/43/449/70;
+
+-----------------------------
+ ; replace town screen
+ ----------------------------
+
+ 
+!!SN:R^tbstback.pcx^/^TBSTBACKb.pcx^;			replace background
+!!SN:R^StrongHold.mp3^/^BastionTown.mp3^;
+!!SN:R^HALLSTRN.def^/^HALLSTRNb.def^;
+
+!!SN:R^HALLSTRN.def^/^HALLBAST.def^;
+!-!SN:R^TPTHBKST.pcx^/^TPTHBKba.pcx^;			background for hall
+!!SN:R^TPCASSTR.pcx^/^TPCASbas.pcx^;			background for creatures
+!!SN:R^CRBKGSTR.pcx^/^CRBKGbas.pcx^;			 
+!!SN:D;
+
+!!SN:R^TBSTBLAK.def^/^TBSTBLAKb.def^;
+!!SN:R^TBSTCAS2.def^/^TBSTCAS2b.def^;
+!!SN:R^TBSTCAS3.def^/^TBSTCAS3b.def^;
+!!SN:R^TBSTCSTL.def^/^TBSTCSTLb.def^;
+!!SN:R^TBSTDW_0.def^/^TBSTDW_0b.def^;
+!!SN:R^TBSTDW_1.def^/^TBSTDW_1b.def^;
+!!SN:R^TBSTDW_2.def^/^TBSTDW_2b.def^;
+!!SN:R^TBSTDW_3.def^/^TBSTDW_3b.def^;
+!!SN:R^TBSTDW_4.def^/^TBSTDW_4b.def^;		don't work?
+!!SN:R^TBSTDW_5.def^/^TBSTDW_5b.def^;
+!!SN:R^TBSTDW_6.def^/^TBSTDW_6b.def^;
+!!SN:R^TBSTEXT0.def^/^TBSTEXT0b.def^;
+!!SN:R^TBSTEXT1.def^/^TBSTEXT1b.def^;
+!!SN:R^TBSTEXT2.def^/^TBSTEXT2b.def^;
+!!SN:R^TBSTEXT3.def^/^TBSTEXT3b.def^;
+!!SN:R^TBSTHAL2.def^/^TBSTHAL2b.def^;
+!!SN:R^TBSTHAL3.def^/^TBSTHAL3b.def^;
+!!SN:R^TBSTHAL4.def^/^TBSTHAL4b.def^;		tbsthal4.def
+!!SN:R^tbsthal4.def^/^TBSTHAL4b.def^;		
+!!SN:R^TBSTHALL.def^/^TBSTHALLb.def^;
+!!SN:R^TBSTHOLY.def^/^TBSTHOLYb.def^;
+!!SN:R^TBSTHRD1.def^/^TBSTHRD1b.def^;
+!!SN:R^TBSTHRD2.def^/^TBSTHRD2b.def^;
+!!SN:R^TBSTMAG2.def^/^TBSTMAG2b.def^;
+!!SN:R^TBSTMAG3.def^/^TBSTMAG3b.def^;
+!!SN:R^TBSTMAGE.def^/^TBSTMAGEb.def^;
+!!SN:R^TBSTMARK.def^/^TBSTMARKb.def^;
+!!SN:R^TBSTSILO.def^/^TBSTSILOb.def^;
+!!SN:R^TBSTSPEC.def^/^TBSTSPECb.def^;
+!!SN:R^TBSTTVRN.def^/^TBSTTVRNb.def^;
+!!SN:R^TBSTUP_0.def^/^TBSTUP_0b.def^;
+!!SN:R^TBSTUP_1.def^/^TBSTUP_1b.def^;
+!!SN:R^TBSTUP_2.def^/^TBSTUP_2b.def^;
+!!SN:R^TBSTUP_3.def^/^TBSTUP_3b.def^;
+!!SN:R^TBSTUP_4.def^/^TBSTUP_4b.def^;
+!!SN:R^TBSTUP_5.def^/^TBSTUP_5b.def^;
+!!SN:R^TBSTUP_6.def^/^TBSTUP_6b.def^;
+!!SN:R^TOSBEH1A.pcx^/^TOSBEH1Ab.pcx^;
+!!SN:R^TOSBEH2A.pcx^/^TOSBEH2Ab.pcx^;
+!!SN:R^TOSBLK1.pcx^/^TOSBLK1b.pcx^;
+!!SN:R^TOSBLK2.pcx^/^TOSBLK2b.pcx^;
+!!SN:R^TOSCA1.pcx^/^TOSCA1b.pcx^;
+!!SN:R^TOSCA1EA.pcx^/^TOSCA1EAb.pcx^;
+!!SN:R^TOSCA2.pcx^/^TOSCA2b.pcx^;
+!!SN:R^TOSCA3.pcx^/^TOSCA3b.pcx^;
+!!SN:R^TOSCYC1.pcx^/^TOSCYC1b.pcx^;
+!!SN:R^TOSCYC2A.pcx^/^TOSCYC2Ab.pcx^;
+!!SN:R^TOSGOB1.pcx^/^TOSGOB1b.pcx^;
+!!SN:R^TOSGOB1H.pcx^/^TOSGOB1Hb.pcx^;
+!!SN:R^TOSGOB2.pcx^/^TOSGOB2b.pcx^;
+!!SN:R^TOSGOB2H.pcx^/^TOSGOB2Hb.pcx^;
+!!SN:R^TOSHAL1A.pcx^/^TOSHAL1Ab.pcx^;
+!!SN:R^TOSHAL2A.pcx^/^TOSHAL2Ab.pcx^;
+!!SN:R^TOSHAL3A.pcx^/^TOSHAL3Ab.pcx^;
+!!SN:R^TOSHAL4A.pcx^/^TOSHAL4Ab.pcx^;
+!!SN:R^TOSHOLYA.pcx^/^TOSHOLYAb.pcx^;
+!!SN:R^TOSMAG1.pcx^/^TOSMAG1b.pcx^;
+!!SN:R^TOSMAG2.pcx^/^TOSMAG2b.pcx^;
+!!SN:R^TOSMAG3.pcx^/^TOSMAG3b.pcx^;
+!!SN:R^TOSMRK1.pcx^/^TOSMRK1b.pcx^;
+!!SN:R^TOSMRK1C.pcx^/^TOSMRK1Cb.pcx^;
+!!SN:R^TOSMRK2.pcx^/^TOSMRK2b.pcx^;
+!!SN:R^TOSOGR1.pcx^/^TOSOGR1b.pcx^;
+!!SN:R^TOSOGR2.pcx^/^TOSOGR2b.pcx^;
+!!SN:R^TOSORC1.pcx^/^TOSORC1b.pcx^;
+!!SN:R^TOSORC2.pcx^/^TOSORC2b.pcx^;
+!!SN:R^TOSROC1.pcx^/^TOSROC1b.pcx^;
+!!SN:R^TOSROC2.pcx^/^TOSROC2b.pcx^;
+!!SN:R^TOSTAV.pcx^/^TOSTAVb.pcx^;
+!!SN:R^TOSVAH.pcx^/^TOSVAHb.pcx^;
+!!SN:R^TOSWOL1.pcx^/^TOSWOL1b.pcx^;
+!!SN:R^TOSWOL2.pcx^/^TOSWOL2b.pcx^;
+!!SN:R^TPMAGEST.pcx^/^TPMAGESTb.pcx^;
+!!SN:R^TZSBEH1A.pcx^/^TZSBEH1Ab.pcx^;
+!!SN:R^TZSBEH2A.pcx^/^TZSBEH2Ab.pcx^;
+!!SN:R^TZSBLK1.pcx^/^TZSBLK1b.pcx^;
+!!SN:R^TZSBLK2.pcx^/^TZSBLK2b.pcx^;
+!!SN:R^TZSCA1.pcx^/^TZSCA1b.pcx^;
+!!SN:R^TZSCA1EA.pcx^/^TZSCA1EAb.pcx^;
+!!SN:R^TZSCA2.pcx^/^TZSCA2b.pcx^;
+!!SN:R^TZSCA3.pcx^/^TZSCA3b.pcx^;
+!!SN:R^TZSCYC1.pcx^/^TZSCYC1b.pcx^;
+!!SN:R^TZSCYC2A.pcx^/^TZSCYC2Ab.pcx^;
+!!SN:R^TZSGOB1.pcx^/^TZSGOB1b.pcx^;
+!!SN:R^TZSGOB1H.pcx^/^TZSGOB1Hb.pcx^;
+!!SN:R^TZSGOB2.pcx^/^TZSGOB2b.pcx^;
+!!SN:R^TZSGOB2H.pcx^/^TZSGOB2Hb.pcx^;
+!!SN:R^TZSHAL1A.pcx^/^TZSHAL1Ab.pcx^;
+!!SN:R^TZSHAL2A.pcx^/^TZSHAL2Ab.pcx^;
+!!SN:R^TZSHAL3A.pcx^/^TZSHAL3Ab.pcx^;
+!!SN:R^TZSHAL4A.pcx^/^TZSHAL4Ab.pcx^;
+!!SN:R^TZSHOLYA.pcx^/^TZSHOLYAb.pcx^;
+!!SN:R^TZSMAG1.pcx^/^TZSMAG1b.pcx^;
+!!SN:R^TZSMAG2.pcx^/^TZSMAG2b.pcx^;
+!!SN:R^TZSMAG3.pcx^/^TZSMAG3b.pcx^;
+!!SN:R^TZSMRK1.pcx^/^TZSMRK1b.pcx^;
+!!SN:R^TZSMRK1C.pcx^/^TZSMRK1Cb.pcx^;
+!!SN:R^TZSMRK2.pcx^/^TZSMRK2b.pcx^;
+!!SN:R^TZSOGR1.pcx^/^TZSOGR1b.pcx^;
+!!SN:R^TZSOGR2.pcx^/^TZSOGR2b.pcx^;
+!!SN:R^TZSORC1.pcx^/^TZSORC1b.pcx^;
+!!SN:R^TZSORC2.pcx^/^TZSORC2b.pcx^;
+!!SN:R^TZSROC1.pcx^/^TZSROC1b.pcx^;
+!!SN:R^TZSROC2.pcx^/^TZSROC2b.pcx^;
+!!SN:R^TZSTAV.pcx^/^TZSTAVb.pcx^;
+!!SN:R^TZSVAH.pcx^/^TZSVAHb.pcx^;
+!!SN:R^TZSWOL1.pcx^/^TZSWOL1b.pcx^;
+!!SN:R^TZSWOL2.pcx^/^TZSWOL2b.pcx^;
+
+
+	!-!FU(SetBuilding'sPriority):P6/9/30;	capitol
+	!-!FU(SetBuilding'sPriority):P6/12/32;	citadel
+	!-!FU(SetBuilding'sPriority):P6/13/33;	capitol
+	!!FU(SetBuilding'sPriority):P6/33/14;	market
+	!!FU(SetBuilding'sPriority):P6/34/23;	dwelling valgalla priority(23)
+	!!FU(SetBuilding'sPriority):P6/5/26;	graal
+	!!FU(SetBuilding'sPriority):P6/35/34;	dwelling level_5 priority(34)
+	!!FU(SetBuilding'sPriority):P6/36/41;
+	!!FU(SetBuilding'sPriority):P6/37/35;	dwelling level_6 priority(35)
+	!!FU(SetBuilding'sPriority):P6/38/42;	dwelling level_6up priority
+	
+	!!FU(SetBuilding'sPriority):P6/40/16;	blacksmith
+ 	!!FU(SetBuilding'sPriority):P6/39/22;	dvor ballist
+ 
+
+ 
+ -----------------------------
+ ; replace creatures
+-----------------------------
+
+!!FU(bastion___monsters):P;
+
+
+!!FU(bastion___town):E;  end function
+
+
+
+----------------------------------------------
+
+!?FU(bastion___monsters);
+
+!!UN:T6/0/0/312;
+!!UN:T6/0/1/313;
+!!UN:T6/1/0/314;
+!!UN:T6/1/1/315;
+!!UN:T6/2/0/316;
+!!UN:T6/2/1/317;
+!!UN:T6/3/0/318;
+!!UN:T6/3/1/319;
+!!UN:T6/4/0/320;
+!!UN:T6/4/1/321;
+!!UN:T6/5/0/322;
+!!UN:T6/5/1/323;
+!!UN:T6/6/0/324;
+!!UN:T6/6/1/325;
+
+!!FU(bastion___monsters):E;
+
+
+
+--------------------------------------------------
+
+
+
+[Получение приоритетов зданий города]
+!?FU(GetPriorities);
+; x1 - тип города
+!!VRv1:Sx1 *44;
+!!DO(ShowRes)/0/43/1:P;
+!?FU(ShowRes);
+!!VRy1:Sv1 +x16;
+!!VRy2:S6565572 +y1;
+!!UN:Cy2/1/?y3;
+!!IF:M^%Y3^;
+!!FU(GetPriorities):E;

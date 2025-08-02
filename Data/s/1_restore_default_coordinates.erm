@@ -1,0 +1,379 @@
+ZVSE
+
+
+
+
+
+!?FU(SetBuilding'sPosition);
+;x1 - town's id
+;x2 - building's id
+;x3 - coordinate "x"
+;x4 - coordinate "y" 
+!!VRy1:Sx1 *44 +x2 *6;
+!!VRy2:S6859276 +2 +y1;
+!!UN:Cy2/2/x3;
+!!VRy2:+2;
+!!UN:Cy2/2/x4;
+
+
+
+
+
+
+
+
+!?FU(restore_XY_coordinates_rampart2);
+
+!!FU(SetBuilding'sPosition):P1/0/454/200;
+!!FU(SetBuilding'sPosition):P1/1/438/178;
+!!FU(SetBuilding'sPosition):P1/2/418/153;
+!!FU(SetBuilding'sPosition):P1/3/406/129;
+!!FU(SetBuilding'sPosition):P1/4/384/104;
+!!FU(SetBuilding'sPosition):P1/5/181/229;
+!!FU(SetBuilding'sPosition):P1/7/79/31;
+!!FU(SetBuilding'sPosition):P1/8/79/18; 
+!!FU(SetBuilding'sPosition):P1/9/79/18;
+!!FU(SetBuilding'sPosition):P1/10/565/216;
+!!FU(SetBuilding'sPosition):P1/11/538/187;
+!!FU(SetBuilding'sPosition):P1/12/539/187;
+!!FU(SetBuilding'sPosition):P1/13/534/187;			
+!!FU(SetBuilding'sPosition):P1/14/129/301;
+!!FU(SetBuilding'sPosition):P1/15/245/324;
+!!FU(SetBuilding'sPosition):P1/16/558/105;
+!!FU(SetBuilding'sPosition):P1/17/555/297;
+!!FU(SetBuilding'sPosition):P1/18/0/154;
+!!FU(SetBuilding'sPosition):P1/19/0/143;
+!!FU(SetBuilding'sPosition):P1/21/555/297;
+!!FU(SetBuilding'sPosition):P1/22/0/181;
+!!FU(SetBuilding'sPosition):P1/23/327/236; 	
+!!FU(SetBuilding'sPosition):P1/24/47/142;
+!!FU(SetBuilding'sPosition):P1/25/47/142;	
+!!FU(SetBuilding'sPosition):P1/26/0/54;	
+!!FU(SetBuilding'sPosition):P1/27/293/235;
+!!FU(SetBuilding'sPosition):P1/28/295/191;	
+!!FU(SetBuilding'sPosition):P1/29/260/171;
+!!FU(SetBuilding'sPosition):P1/30/0/236;		
+!!FU(SetBuilding'sPosition):P1/31/0/154;
+!!FU(SetBuilding'sPosition):P1/32/668/101;
+!!FU(SetBuilding'sPosition):P1/33/287/73;
+!!FU(SetBuilding'sPosition):P1/34/68/146;
+!!FU(SetBuilding'sPosition):P1/35/362/90;
+!!FU(SetBuilding'sPosition):P1/36/502/27;
+!!FU(SetBuilding'sPosition):P1/37/0/236;		
+!!FU(SetBuilding'sPosition):P1/38/0/143;		
+!!FU(SetBuilding'sPosition):P1/39/665/101;
+!!FU(SetBuilding'sPosition):P1/40/287/28;
+!!FU(SetBuilding'sPosition):P1/41/63/146;
+!!FU(SetBuilding'sPosition):P1/42/362/90;
+!!FU(SetBuilding'sPosition):P1/43/502/5;
+
+!!FU(restore_XY_coordinates_rampart2):E;
+
+
+
+--------------------------------------
+
+!?FU(restore_XY_coordinates_tower);
+
+!!FU(SetBuilding'sPosition):P2/0/597/82;
+!!FU(SetBuilding'sPosition):P2/1/593/65;
+!!FU(SetBuilding'sPosition):P2/2/593/48;
+!!FU(SetBuilding'sPosition):P2/3/593/31;
+!!FU(SetBuilding'sPosition):P2/4/593/14;
+!!FU(SetBuilding'sPosition):P2/5/375/278;
+!!FU(SetBuilding'sPosition):P2/6/0/0;
+!!FU(SetBuilding'sPosition):P2/7/304/0;
+!!FU(SetBuilding'sPosition):P2/8/301/0;
+!!FU(SetBuilding'sPosition):P2/9/301/0;
+!!FU(SetBuilding'sPosition):P2/10/0/260;
+!!FU(SetBuilding'sPosition):P2/11/0/220;
+!!FU(SetBuilding'sPosition):P2/12/0/82;
+!!FU(SetBuilding'sPosition):P2/13/0/82;			
+!!FU(SetBuilding'sPosition):P2/14/614/292;
+!!FU(SetBuilding'sPosition):P2/15/763/214;
+!!FU(SetBuilding'sPosition):P2/16/478/211;
+!!FU(SetBuilding'sPosition):P2/17/674/276;
+!!FU(SetBuilding'sPosition):P2/18/0/47;
+!!FU(SetBuilding'sPosition):P2/19/0/28;
+!!FU(SetBuilding'sPosition):P2/20/0/0;
+!!FU(SetBuilding'sPosition):P2/21/409/82;
+!!FU(SetBuilding'sPosition):P2/22/702/115;
+!!FU(SetBuilding'sPosition):P2/23/593/189; 	
+!!FU(SetBuilding'sPosition):P2/24/0/0;
+!!FU(SetBuilding'sPosition):P2/25/0/0;	
+!!FU(SetBuilding'sPosition):P2/26/236/14;	
+!!FU(SetBuilding'sPosition):P2/27/0/0;
+!!FU(SetBuilding'sPosition):P2/28/0/0;	
+!!FU(SetBuilding'sPosition):P2/29/0/0;
+!!FU(SetBuilding'sPosition):P2/30/453/221;			level_1	
+!!FU(SetBuilding'sPosition):P2/31/4/47;
+!!FU(SetBuilding'sPosition):P2/32/209/177;
+!!FU(SetBuilding'sPosition):P2/33/613/95;
+!!FU(SetBuilding'sPosition):P2/34/511/75;
+!!FU(SetBuilding'sPosition):P2/35/681/208;
+!!FU(SetBuilding'sPosition):P2/36/75/144;
+!!FU(SetBuilding'sPosition):P2/37/453/221;		4/28;				level_1 upg	
+!!FU(SetBuilding'sPosition):P2/38/446/221;		
+!!FU(SetBuilding'sPosition):P2/39/209/177;
+!!FU(SetBuilding'sPosition):P2/40/613/74;
+!!FU(SetBuilding'sPosition):P2/41/511/8;
+!!FU(SetBuilding'sPosition):P2/42/681/157;
+!!FU(SetBuilding'sPosition):P2/43/75/91;
+
+
+!!FU(restore_XY_coordinates_tower):E;
+
+
+-----------------------------------------------
+
+
+!?FU(restore_XY_coordinates_inferno);
+
+!!FU(SetBuilding'sPosition):P3/0/670/134;
+!!FU(SetBuilding'sPosition):P3/1/667/100;
+!!FU(SetBuilding'sPosition):P3/2/665/79;
+!!FU(SetBuilding'sPosition):P3/3/670/56;
+!!FU(SetBuilding'sPosition):P3/4/670/34;			707/166;
+!!FU(SetBuilding'sPosition):P3/5/0/230;
+!!FU(SetBuilding'sPosition):P3/6/478/134;
+!!FU(SetBuilding'sPosition):P3/7/222/44; 
+!!FU(SetBuilding'sPosition):P3/8/222/44; 
+!!FU(SetBuilding'sPosition):P3/9/222/18;
+!!FU(SetBuilding'sPosition):P3/10/0/174;
+!!FU(SetBuilding'sPosition):P3/11/0/174;
+!!FU(SetBuilding'sPosition):P3/12/0/174;
+!!FU(SetBuilding'sPosition):P3/13/0/131;					
+!!FU(SetBuilding'sPosition):P3/14/511/301;
+!!FU(SetBuilding'sPosition):P3/15/496/337;
+!!FU(SetBuilding'sPosition):P3/16/684/253;
+!!FU(SetBuilding'sPosition):P3/17/0/0;
+!!FU(SetBuilding'sPosition):P3/18/614/256;
+!!FU(SetBuilding'sPosition):P3/19/614/221;
+!!FU(SetBuilding'sPosition):P3/20/0/0;
+!!FU(SetBuilding'sPosition):P3/21/297/0;
+!!FU(SetBuilding'sPosition):P3/22/227/154;			/174;
+!!FU(SetBuilding'sPosition):P3/23/593/104; 	
+!!FU(SetBuilding'sPosition):P3/24/9/301;
+!!FU(SetBuilding'sPosition):P3/25/9/273;	
+!!FU(SetBuilding'sPosition):P3/26/24/10;		
+!!FU(SetBuilding'sPosition):P3/30/614/256;		
+!!FU(SetBuilding'sPosition):P3/31/187/248;
+!!FU(SetBuilding'sPosition):P3/32/9/325;
+!!FU(SetBuilding'sPosition):P3/33/414/204;
+!!FU(SetBuilding'sPosition):P3/34/359/296;
+!!FU(SetBuilding'sPosition):P3/35/220/350;		
+!!FU(SetBuilding'sPosition):P3/36/420/152;
+!!FU(SetBuilding'sPosition):P3/37/614/221;		
+!!FU(SetBuilding'sPosition):P3/38/187/212;		
+!!FU(SetBuilding'sPosition):P3/39/9/273;
+!!FU(SetBuilding'sPosition):P3/40/414/203;
+!!FU(SetBuilding'sPosition):P3/41/359/244;
+!!FU(SetBuilding'sPosition):P3/42/220/282;
+!!FU(SetBuilding'sPosition):P3/43/420/105;
+
+!!FU(restore_XY_coordinates_inferno):E;
+
+
+
+
+--------------------------------------
+
+
+!?FU(restore_XY_coordinates_necropolis);
+
+!!FU(SetBuilding'sPosition):P4/0/354/120;	454/200;
+!!FU(SetBuilding'sPosition):P4/1/354/110;	438/178;
+!!FU(SetBuilding'sPosition):P4/2/354/95;	/406/129;
+!!FU(SetBuilding'sPosition):P4/3/354/65;	/384/104;
+!!FU(SetBuilding'sPosition):P4/4/360/45;	670/34;			
+!!FU(SetBuilding'sPosition):P4/5/491/209;		510/184;
+!!FU(SetBuilding'sPosition):P4/6/0/0;
+!!FU(SetBuilding'sPosition):P4/7/138/66;		// 		
+!!FU(SetBuilding'sPosition):P4/8/139/66; 		*
+!!FU(SetBuilding'sPosition):P4/9/34/18;
+!!FU(SetBuilding'sPosition):P4/10/468/76;
+!!FU(SetBuilding'sPosition):P4/11/482/56;
+!!FU(SetBuilding'sPosition):P4/12/478/26;		
+!!FU(SetBuilding'sPosition):P4/13/481/26;					
+!!FU(SetBuilding'sPosition):P4/14/347/215;		market
+!!FU(SetBuilding'sPosition):P4/15/276/185;		//	
+!!FU(SetBuilding'sPosition):P4/16/365/250;		558/105;		blacksmith
+!!FU(SetBuilding'sPosition):P4/17/0/0;	555/297;		vual of darkness
+!!FU(SetBuilding'sPosition):P4/18/0/154;
+!!FU(SetBuilding'sPosition):P4/19/50/236;
+!!FU(SetBuilding'sPosition):P4/20/0/0;
+!!FU(SetBuilding'sPosition):P4/21/320/67;		increaser necroman
+!!FU(SetBuilding'sPosition):P4/22/275/285;		transformator skeletons				
+!!FU(SetBuilding'sPosition):P4/23/0/279;		327/326; 		// long ext2 
+!!FU(SetBuilding'sPosition):P4/24/47/142;
+!!FU(SetBuilding'sPosition):P4/25/47/142;	
+!!FU(SetBuilding'sPosition):P4/26/420/104;			grail	
+	!!FU(SetBuilding'sPosition):P4/27/460/270;	293/235;	
+	!!FU(SetBuilding'sPosition):P4/28/350/290;	 295/191;
+		!!FU(SetBuilding'sPosition):P4/29/110/110;	260/171;		
+!!FU(SetBuilding'sPosition):P4/30/70/236;		1	50/206;	0/236;		//		
+!!FU(SetBuilding'sPosition):P4/31/490/240;		2	/0/154;
+!!FU(SetBuilding'sPosition):P4/32/0/191;		3	668/101;			0/236;	
+!!FU(SetBuilding'sPosition):P4/33/615/191;		4	287/73;
+!!FU(SetBuilding'sPosition):P4/34/225/175;			5	8/146;
+!!FU(SetBuilding'sPosition):P4/35/362/90;		6
+!!FU(SetBuilding'sPosition):P4/36/663/25;			///
+!!FU(SetBuilding'sPosition):P4/37/70/236;		1	upgardes
+!!FU(SetBuilding'sPosition):P4/38/490/240;		2
+!!FU(SetBuilding'sPosition):P4/39/0/154;		3	ghosts		665/101;
+!!FU(SetBuilding'sPosition):P4/40/615/191;		4	462/190;		362/90;	287/28;
+!!FU(SetBuilding'sPosition):P4/41/225/175; 		5		250/205		63/146;
+!!FU(SetBuilding'sPosition):P4/42/0/30;		6	362/90;
+!!FU(SetBuilding'sPosition):P4/43/662/23;		7
+
+
+
+!!FU(restore_XY_coordinates_necropolis):E;
+
+
+----------------------------------------
+
+
+!?FU(restore_XY_coordinates_stronghold);
+
+
+!!FU(SetBuilding'sPosition):P6/0/473/67;
+!!FU(SetBuilding'sPosition):P6/1/474/37;
+!!FU(SetBuilding'sPosition):P6/2/473/1;
+!!FU(SetBuilding'sPosition):P6/5/170/280;
+!!FU(SetBuilding'sPosition):P6/7/402/148;
+!!FU(SetBuilding'sPosition):P6/8/402/114; 
+!!FU(SetBuilding'sPosition):P6/9/402/114;
+!!FU(SetBuilding'sPosition):P6/10/0/259;
+!!FU(SetBuilding'sPosition):P6/11/0/255;
+!!FU(SetBuilding'sPosition):P6/12/0/201;
+!!FU(SetBuilding'sPosition):P6/13/0/148;			
+!!FU(SetBuilding'sPosition):P6/14/397/308;
+!!FU(SetBuilding'sPosition):P6/15/458/248;
+!!FU(SetBuilding'sPosition):P6/16/660/286;
+!!FU(SetBuilding'sPosition):P6/17/550/229;
+!!FU(SetBuilding'sPosition):P6/18/373/239;
+!!FU(SetBuilding'sPosition):P6/19/373/220;
+!!FU(SetBuilding'sPosition):P6/21/473/282;
+!!FU(SetBuilding'sPosition):P6/22/617/286;
+!!FU(SetBuilding'sPosition):P6/23/313/13; 		
+!!FU(SetBuilding'sPosition):P6/26/321/105;		
+!!FU(SetBuilding'sPosition):P6/30/373/239;		
+!!FU(SetBuilding'sPosition):P6/31/266/246;
+!!FU(SetBuilding'sPosition):P6/32/566/232;
+!!FU(SetBuilding'sPosition):P6/33/197/204;
+!!FU(SetBuilding'sPosition):P6/34/137/30;
+!!FU(SetBuilding'sPosition):P6/35/622/160;
+!!FU(SetBuilding'sPosition):P6/36/604/0;
+!!FU(SetBuilding'sPosition):P6/37/373/220;		
+!!FU(SetBuilding'sPosition):P6/38/266/225;		
+!!FU(SetBuilding'sPosition):P6/39/566/158;
+!!FU(SetBuilding'sPosition):P6/40/197/137;
+!!FU(SetBuilding'sPosition):P6/41/129/15;
+!!FU(SetBuilding'sPosition):P6/42/616/93;
+!!FU(SetBuilding'sPosition):P6/43/604/0;
+
+
+!!FU(restore_XY_coordinates_stronghold):E;
+
+
+
+--------------------------------------------------
+
+
+
+!?FU(restore_XY_coordinates_castle);
+
+
+!!FU(SetBuilding'sPosition):P0/0/707/166;
+!!FU(SetBuilding'sPosition):P0/1/707/135;
+!!FU(SetBuilding'sPosition):P0/2/704/107;
+!!FU(SetBuilding'sPosition):P0/3/704/76;
+!!FU(SetBuilding'sPosition):P0/4/707/166;
+!!FU(SetBuilding'sPosition):P0/5/0/230;
+!!FU(SetBuilding'sPosition):P0/7/595/66;
+!!FU(SetBuilding'sPosition):P0/8/478/66; 
+!!FU(SetBuilding'sPosition):P0/9/478/37;
+!!FU(SetBuilding'sPosition):P0/10/0/218;
+!!FU(SetBuilding'sPosition):P0/11/0/176;
+!!FU(SetBuilding'sPosition):P0/12/0/164;
+!!FU(SetBuilding'sPosition):P0/13/0/154;			
+!!FU(SetBuilding'sPosition):P0/14/413/264;
+!!FU(SetBuilding'sPosition):P0/15/488/228;
+!!FU(SetBuilding'sPosition):P0/16/213/251;
+!!FU(SetBuilding'sPosition):P0/17/533/71;
+!!FU(SetBuilding'sPosition):P0/18/76/53;
+!!FU(SetBuilding'sPosition):P0/19/76/35;
+!!FU(SetBuilding'sPosition):P0/20/478/134;
+!!FU(SetBuilding'sPosition):P0/21/384/193;
+!!FU(SetBuilding'sPosition):P0/22/0/198;
+!!FU(SetBuilding'sPosition):P0/23/46/119; 	
+!!FU(SetBuilding'sPosition):P0/24/0/0;
+!!FU(SetBuilding'sPosition):P0/25/0/0;	
+!!FU(SetBuilding'sPosition):P0/26/456/109;	
+!!FU(SetBuilding'sPosition):P0/27/0/0;
+!!FU(SetBuilding'sPosition):P0/28/0/0;	
+!!FU(SetBuilding'sPosition):P0/29/0/0;
+!!FU(SetBuilding'sPosition):P0/30/304/92;		
+!!FU(SetBuilding'sPosition):P0/31/360/130;
+!!FU(SetBuilding'sPosition):P0/32/76/57;
+!!FU(SetBuilding'sPosition):P0/33/176/101;
+!!FU(SetBuilding'sPosition):P0/34/563/211;
+!!FU(SetBuilding'sPosition):P0/35/174/190;
+!!FU(SetBuilding'sPosition):P0/36/303/0;
+!!FU(SetBuilding'sPosition):P0/37/304/65;		
+!!FU(SetBuilding'sPosition):P0/38/360/115;		
+!!FU(SetBuilding'sPosition):P0/39/76/35;
+!!FU(SetBuilding'sPosition):P0/40/176/85;
+!!FU(SetBuilding'sPosition):P0/41/563/173;
+!!FU(SetBuilding'sPosition):P0/42/160/190;
+!!FU(SetBuilding'sPosition):P0/43/303/0;
+
+
+!!FU(restore_XY_coordinates_castle):E;
+
+
+
+
+
+
+
+
+!?FU(restore_XY_coordinates_conflux);
+
+
+!!FU(SetBuilding'sPosition):P8/0/206/58;
+!!FU(SetBuilding'sPosition):P8/1/206/58;
+!!FU(SetBuilding'sPosition):P8/2/206/58;
+!!FU(SetBuilding'sPosition):P8/3/206/58;
+!!FU(SetBuilding'sPosition):P8/4/206/58;
+!!FU(SetBuilding'sPosition):P8/5/553/203;
+
+!!FU(SetBuilding'sPosition):P8/10/0/164;
+!!FU(SetBuilding'sPosition):P8/11/0/164;
+!!FU(SetBuilding'sPosition):P8/12/0/164;
+!!FU(SetBuilding'sPosition):P8/13/0/164;
+
+!!FU(SetBuilding'sPosition):P8/15/372/171;
+!!FU(SetBuilding'sPosition):P8/21/104/170;
+!!FU(SetBuilding'sPosition):P8/22/682/183;
+
+!!FU(SetBuilding'sPosition):P8/31/630/50;
+
+!!FU(SetBuilding'sPosition):P8/34/264/168;
+!!FU(SetBuilding'sPosition):P8/35/394/283;
+!!FU(SetBuilding'sPosition):P8/36/34/16;
+!!FU(SetBuilding'sPosition):P8/37/689/250;
+!!FU(SetBuilding'sPosition):P8/38/630/50;
+!!FU(SetBuilding'sPosition):P8/39/709/210;
+!!FU(SetBuilding'sPosition):P8/40/108/131;
+!!FU(SetBuilding'sPosition):P8/41/264/168;
+!!FU(SetBuilding'sPosition):P8/42/394/283;
+!!FU(SetBuilding'sPosition):P8/43/43/0;
+
+
+
+
+!!FU(restore_XY_coordinates_conflux):E;
+
+

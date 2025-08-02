@@ -1,0 +1,179 @@
+ZVSE
+
+ ; reduce monster's growth at start of the week for Mythology, Techno town 
+
+ 
+ 
+ 
+ ; on the end of the week apply techno town values
+!?GM1; 
+!!VRy1:Si^timerWeekday^;
+!!FU(techno___monsters)&y1=7:P;
+!!FU(mythology___monsters)&y1=7:P;
+
+
+
+
+
+
+  ;   build in town, reduce growth bonus at start
+!?FU(OnBuildTownBuilding);
+ ; x1 - town id
+ ; x2 - building id
+!!VRv100:Sx1+4000; 							linking with variables v4000...v4030
+!!CA0/x1:T?y5;								get town type
+!!CA0/x1&y5=3/vv100=1/x2=31:M1/0/4/4;		dwelling level2 (31)
+
+!-!FU(reduce_growth)&y5=3/vv100=1/x2=30:Px1/0/15/25;	for Techno lv_1  (town_id/level/def_growth/percents)
+!-!FU(reduce_growth)&y5=3/vv100=1/x2=31:Px1/1/8/45;
+
+
+
+
+
+!?FU(OnEveryDay)&i^timerWeekday^=7/i^timerOwner^=0;
+ ; make Techno monsters growth equal to inferno defaults on the end of week
+!!MA:G416/15;
+!!MA:G417/15;
+!-!MA:G418/8;
+!-!MA:G419/8;
+!-!MA:G420/5; 
+!-!MA:G421/5;
+!-!MA:G422/4;
+!-!MA:G423/4; 
+!!MA:G424/3;
+!!MA:G425/3;
+!!MA:G426/2;	
+!!MA:G427/2;	techodendrout
+!-!MA:G428/1;
+!-!MA:G429/1;
+
+ ; Mythology
+!-!MA:G402/14;
+!-!MA:G403/14;
+!!MA:G404/8;
+!!MA:G405/8;
+!-!MA:G406/7; 
+!-!MA:G407/7;
+!-!MA:G408/4;
+!-!MA:G409/4; 
+!-!MA:G410/3;
+!-!MA:G411/3;
+!-!MA:G412/2;
+!-!MA:G413/2;
+!-!MA:G414/1;
+!-!MA:G415/1;
+
+ 
+
+--------------------------------------------------------
+
+ ; trigger on mondays for all players   
+!?FU(OnEveryDay)&i^timerWeekday^=1/i^timerOwner^=0;  /i^timerWeek^>1;
+
+ !!FU(techno___town):P;
+
+	!!DO(nnh2towns)/4000/v4052/1:P5;			x16 is a counter of DO2
+	!?FU(nnh2towns);
+	!!VRy1:Sx16-4000;     		y1 - current town id
+	!!CA0/y1:T?y2; 				y2 - game_default_type of this town  (0...8)
+	 ; 	vx16 - new type of town (default / new / new_var2 / new_var3)
+	
+	!!FU(reduce_growth)&y2=3/vx16=1:Py1/0/15/30;	for Techno lv_1  (town_id/level/def_growth/percents) (/25)
+	!--!FU(reduce_growth)&y2=3/vx16=1:Py1/1/8/45;
+	!--!FU(reduce_growth)&y2=3/vx16=1:Py1/2/5/35;		mechanoid
+	!--!FU(reduce_growth)&y2=3/vx16=1:Py1/3/4/70;		mech-grifons
+	!!FU(reduce_growth)&y2=3/vx16=1:Py1/4/3/40;
+	!!FU(reduce_growth)&y2=3/vx16=1:Py1/5/2/50;
+	
+	; Mythology
+	!!FU(reduce_growth)&y2=5/vx16=3:Py1/1/8/40;		  lv_2
+
+	
+	; Conflux
+	!!FU(reduce_growth)&y2=8/vx16=0:Py1/6/1/200;  160;	increase Phoenix growth *2
+	
+	; WonderWoods (Rampart)
+	!!FU(reduce_growth)&y2=1/vx16=1:Py1/3/5/80; 		level_3 petrels
+	!!FU(reduce_growth)&y2=1/vx16=1:Py1/4/3/80;			
+	
+	; Deep Swamp
+	!!FU(reduce_growth)&y2=7/vx16=2:Py1/0/12/60;
+	!!FU(reduce_growth)&y2=7/vx16=2:Py1/1/9/65;
+	!!FU(reduce_growth)&y2=7/vx16=2:Py1/2/8/80;
+	
+	; Ice Castle
+	!!FU(reduce_growth)&y2=2/vx16=2:Py1/0/16/70;	85	60;	1
+	!!FU(reduce_growth)&y2=2/vx16=2:Py1/1/8/70;				8
+	!!FU(reduce_growth)&y2=2/vx16=2:Py1/2/7/85;	95;			7
+	!!FU(reduce_growth)&y2=2/vx16=2:Py1/3/4/80;				4
+
+	
+	; Elemental Palace     
+	!!FU(reduce_growth)&y2=2/vx16=3:Py1/0/16/70;				1 level
+
+	!!FU(reduce_growth)&y2=2/vx16=3:Py1/4/3/60;		60;			5 level
+	!!FU(reduce_growth)&y2=2/vx16=3:Py1/5/2/50;					6 level
+
+
+	!!FU(nnh2towns):E;
+
+
+	
+
+------------------------------------------------------------------------------
+
+
+
+  town		castle		wanted value
+1)15		30			12
+2)8			16			7
+3)5			10			6
+4)4			8			6
+5)3			6			3
+6)2			4			2
+7)1			2			2
+
+
+
+-------------------------------------
+
+!?FU(reduce_growth);
+ ; x1 - town id
+ ; x2 - monster level 0...6
+ ; x3 - default monster's growth
+ ; x4 - decrease in percents 
+  !!VRy1:Sx3;				for fort
+
+  !!CA0/x1:B3/8; 			check citadel
+  !!VRy1&1:S0;
+  !!VRy1&1:Sx3:2; 
+  !!VRy1&1:Sy1+x3;  
+
+  !!CA0/x1:B3/9; 			check castle
+  !!VRy1&1:S0;
+  !!VRy1&1:Sx3+y1;
+
+  !!CA0/x1:B3/26;			check grail
+  !!VRy1&1:S0;
+  !!VRy1&1:Sx3*3; 
+  
+!!VRy2:Sy1*x4:100;  		new wanted value
+!!VRy3:Sy1-y2;				difference 
+!!VRy4:Sy1-y3;				new value 
+
+!!CA0/x1:M1/x2/?y10/?y11;	get avaliable monster's count on monday			level 1	 
+
+!!VRy5:Sy10-y3;		
+!!VRy6:Sy11-y3;
+	!!FU(reduce_growth)&y10=<y3/y11=<y3:E;		prevent errors (negative values)
+	!!FU(reduce_growth)&y5=<0/y6=<0:E;
+	
+!!CA0/x1:M1/x2/y5/y6;		set new values
+ 
+ 
+ 
+!!FU(reduce_growth):E;
+
+
+

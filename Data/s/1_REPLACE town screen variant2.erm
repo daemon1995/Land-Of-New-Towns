@@ -1,0 +1,59 @@
+ZVSE
+
+
+
+!?FU(Change_TownScreen_variant2); function REPLACE townscreens for new 
+
+
+!!VRy5:Sv4056;
+
+
+
+ ; castle based
+!!FU(cove___town)&y5=0/vv100=1:P;
+!!FU(ruins___town)&y5=0/vv100=2:P;
+!!FU(templeoflight___town)&y5=0/vv100=3:P;	
+
+ ; rampart based
+!!FU(wonderwoods___town)&y5=1/vv100=1:P;				rampart (y5=1)     var=1 (vv100)
+!!FU(magicforest___town)&y5=1/vv100=2:P;
+!!FU(druid___town)&y5=1/vv100=3:P; 
+!!FU(kitezh_grad___town)&y5=1/vv100=4:P;
+!!FU(preserve___town)&y5=1/vv100=5:P;	
+
+ ; tower based
+!!FU(monastery___town)&y5=2/vv100=1:P;
+!!FU(icecastle___town)&y5=2/vv100=2:P;
+!!FU(elementalpalace___town)&y5=2/vv100=3:P;
+
+ ; inferno based	
+!!FU(techno___town)&y5=3/vv100=1:P;
+!!FU(courtyyard___town)&y5=3/vv100=2:P;
+!-!FU(random_monsters_in_town_v2)&y5=3/vv100=2/v4082=1:P;		town with random monsters(Inferno based) 
+
+ ; necropolis based
+!!FU(abandonedpyramid___town)&y5=4/vv100=1:P; 
+
+ ; dungeon based
+!!FU(shadow___town)&y5=5/vv100=1:P;
+!!FU(strange_cult___town)&y5=5/vv100=2:P;
+!!FU(mythology___town)&y5=5/vv100=3:P; 
+
+ ; citadel based 
+!!FU(sand___town)&y5=6/vv100=1:P; 
+!!FU(bastion___town)&y5=6/vv100=2:P; 
+!!FU(pyramid___town)&y5=6/vv100=3:P; 
+!!FU(ancienttemple___town)&y5=6/vv100=4:P;
+ 
+ ; fortress based 
+!!FU(mystic___town)&y5=7/vv100=1:P;
+!!FU(deepswamp___town)&y5=7/vv100=2:P;
+
+ ; conflux based
+!!FU(eldorado___town)&y5=8/vv100=1:P;
+!!FU(neutral___town)&y5=8/vv100=2:P; 
+!!FU(oasis___town)&y5=8/vv100=3:P;
+
+
+
+!!FU(Change_TownScreen_variant2):E;  end function 

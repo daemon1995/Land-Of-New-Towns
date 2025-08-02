@@ -1,0 +1,1003 @@
+Pikemen
+Halberdiers
+Archers
+Marksmen
+Griffins
+Royal Griffins
+Swordsmen
+Crusaders
+Monks
+Zealots
+Cavaliers
+Champions
+Angels
+Archangels
+Centaurs
+Centaur Captains
+Dwarves
+Battle Dwarves
+Wood Elves
+Grand Elves
+Pegasi
+Silver Pegasi
+Dendroid Guards
+Dendroid Soldiers
+Unicorns
+War Unicorns
+Green Dragons
+Gold Dragons
+Gremlins
+Master Gremlins
+Stone Gargoyles
+Obsidian Gargoyles
+Stone Golems
+Iron Golems
+Magi
+Arch Magi
+Genies
+Master Genies
+Nagas
+Naga Queens
+Giants
+Titans
+Imps
+Familiars
+Gogs
+Magogs
+Hell Hounds
+Cerberi
+Demons
+Horned Demons
+Pit Fiends
+Pit Lords
+Efreet
+Efreet Sultans
+Devils
+Arch Devils
+Skeletons
+Skeleton Warriors
+Walking Dead
+Zombies
+Wights
+Wraiths
+Vampires
+Vampire Lords
+Liches
+Power Liches
+Black Knights
+Dread Knights
+Bone Dragons
+Ghost Dragons
+Troglodytes
+Infernal Troglodytes
+Harpies
+Harpy Hags
+Beholders
+Evil Eyes
+Medusas
+Medusa Queens
+Minotaurs
+Minotaur Kings
+Manticores
+Scorpicores
+Red Dragons
+Black Dragons
+Goblins
+Hobgoblins
+Wolf Riders
+Wolf Raiders
+Orcs
+Orc Chieftains
+Ogres
+Ogre Magi
+Rocs
+Thunderbirds
+Cyclopes
+Cyclops Kings
+Behemoths
+Ancient Behemoths
+Gnolls
+Gnoll Marauders
+Lizardmen
+Lizard Warriors
+Gorgons
+Mighty Gorgons
+Serpent Flies
+Dragon Flies
+Basilisks
+Greater Basilisks
+Wyverns
+Wyvern Monarchs
+Hydras
+Chaos Hydras
+Air Elementals
+Earth Elementals
+Fire Elementals
+Water Elementals
+Gold Golems
+Diamond Golems
+Pixies
+Sprites
+Psychic Elementals
+Magic Elementals
+NOT USED (1)
+Ice Elementals
+NOT USED (2)
+Magma Elementals
+NOT USED (3)
+Storm Elementals
+NOT USED (4)
+Energy Elementals
+Firebirds
+Phoenixes
+Azure Dragons
+Crystal Dragons
+Faerie Dragons
+Rust Dragons
+Enchanters
+Sharpshooters
+Halflings
+Peasants
+Boars
+Mummies
+Nomads
+Rogues
+Trolls
+Catapults
+Ballistas
+First Aid Tents
+Ammo Carts
+Arrow Towers
+Supreme Archangels
+Diamond Dragons
+Lords of Thunder
+Hell Barons
+Blood Dragons
+Darkness Dragons
+Ghost Behemoths
+Hell Hydras
+Sacred Phoenixes
+Ghosts
+Emissaries of War
+Emissaries of Peace
+Emissaries of Mana
+Emissaries of Lore
+Fire Messengers
+Earth Messengers
+Air Messengers
+Water Messengers
+Gorynyches
+War Zealots
+Arctic Sharpshooters
+Lava Sharpshooters
+Nightmares
+Santa Gremlins
+Paladins
+Hierophants
+Temple Guardians
+Succubuses
+Soul Eaters
+Brutes
+Ogre Leaders
+Shamans
+Astral Spirits
+Paladins
+Hierophants
+Temple Guardians
+Succubuses
+Soul Eaters
+Brutes
+Ogre Leaders
+Shamans
+Astral Spirits
+Sylvan Centaurs
+Sorceresses
+Werewolves
+Hell Steeds
+Dracoliches
+Wood dwellers
+Treefolk Wizards
+Magician
+Giant Ents
+Ancient Ents
+Forest Birds
+Loogans
+Treefolks
+Ents
+Vermilion Petrels
+Loogans warriors
+Small Wooddwellers
+Small Magicians
+Guards
+Elder Guards
+Beastmans
+Beastmen-Jaguars
+Riders
+Rider - Champions
+Sacrificers
+Higher Sacrificers
+Coatles
+Coatles Predators
+Preimages of Lamassu
+Lamassu
+Falcons jr.
+Falcons
+Desert goblin jr.
+Desert goblin
+Small reptiles
+reptiles
+Axe throwers jr.
+Axe throwers
+Sand golems jr.
+Sand golems
+Strongmans 
+Strongmans masters
+Centaurs of desert jr.
+Centaurs of desert
+Sand Worms
+Great Sand Worms
+Ratmans
+Predatory Ratmans
+Shadow Acolytes
+Acolytes od Darkness
+Flying Beholders
+Beholders of abyss
+Lords of Shadows
+Lords of Darkness
+Hiding-in-the-dark
+Seekers-in-the-dark
+Big Gargoyles
+Giant Gargoyles
+Spider Queens
+Ancient Spider Queens
+Ancient Gorynyches
+Halfings masters
+Sorcessers Apprentices
+Nomads of Storm
+Gnomes jr.
+Forest Gnomes
+leprechauns jr.
+Leprechauns
+Turquoise Harpies
+Forest Harpies
+Fauns
+Satir
+Alikorns jr.
+Alikorns
+Young Spriggans
+Spriggans
+Finists jr.
+Finists
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ravens
+Black Ravens
+Forest Guards jr.
+Forest Guards
+Forest shooters
+Forest archers
+Herbalists jr.
+Herbalists
+Green Princes
+Green Kings
+Indriks
+Royal Indriks
+Druids Apprentice
+Druids
+creature . 1111
+creature 111
+
+
+
+
+
+
+
+
+
+
+
+
+Scarabs
+Sacred scarabs
+Whippers
+Overseers
+Camel Riders
+Desert Warriors
+Priestesses
+High Priestesses
+Amts
+Ammuts
+Sphinxes
+Sphinxes oracle
+Servants of Anubis
+Warriors of Anubis
+m 1111
+War1111
+Necross Dragons
+Lordes Iratuses
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mon1
+
+
+
+
+
+
+
+Nymphs
+Oceanids
+Crew Mates
+Seaman
+Pirates
+Corsairs
+Stormbirds
+Ayssids
+Sea Witches
+Sorceresses
+Nixes
+Nix Warriors
+Sea Serpents
+Haspids
+Sea Dogs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mythical harpies jr.
+Mythical harpies
+Big centaurs
+Mythical Centaurs
+Mistresses of Snakes
+Medusas Gorgon
+Cyclops the Cannibal
+Cyclops Leaders
+Big Minotaurs
+Mythical Minotaurs
+Giant Manticores
+Colossal Manticores
+Young Colossus
+Colossus
+Bots
+Steel Bots
+Robots
+Upgraded Robots
+Mechanical Griffins
+Griffins Cyborgs
+Mechanoids
+upg. Mechanoids
+Mechanical Guards jr.
+Mechanical Guards
+TechnoDreadnoughts jr.
+TechnoDreadnoughts
+Primes
+Ultra Primes
+Trainers
+Squires
+Archers of Light jr.
+Archers of Light
+Crusaders Pikeman
+Knights Templars
+Heavy Knights
+Armored Knights
+Monks of Light jr.
+Monks of Light
+Cavalry Crusaders
+Champion Crusaders
+Fearless Knights
+Great Knigt
+
+
+
+Epic Palladins
+
+Dark Angels
+Legendary Sand Worms
+Upg. Golden Golem
+
+
+Sky genies
+Grandmasters gremlins
+Gnoll Shamans
+Kings of Vasilisks
+Advanced  Chaos Hydras
+
+Lava elementals
+Dendroid Leaders
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Snow Centaurids jr.
+Snow Centaurides
+snow boars jr.
+snow Boars
+Blue Snowbirds
+SnowBirds
+snow tigers
+Ice Tigers
+Snow Bears
+Polar Bears
+Young Yeties
+Yeti
+young Yorrs
+Yorrs
+walking snow jr.
+Walking snow
+Elementals of Ice wind
+Elementals of Snowstorm
+Elementals of Cold jr.
+Elementals of Cold
+Snow Queens
+Ice Queens
+Snow Giants
+Ice Giants
+Snow Golems
+Snow Golem-warriors
+Snow Golem-spellcasters
+Snow Atronachs
+Ice Atronachs
+
+
+
+
+
+
+arquebusiers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Necro Sphinxes
+
+Sphinxes
+
+Big Scarabs
+Golden Scarabs
+Wadjet
+Poisonous Wadjet
+Warriors Inpu jr.
+Warrior Inpu
+small avatars of Gorus
+avatars of Gorus
+silver Golems
+Golden Golems of Pyramid
+Stone Sphinxes jr.
+Stone Sphinxes
+Great Sphinxes
+small avatars of Anubis
+avatars of Anubis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Colorful Coatles
+Prime Leaders
+
+Walking Plants jr.
+Walking Plants
+Treebeards jr.
+Treebeards
+Young Brownies
+Brownies
+young Green Giants
+Green Giants
+
+
+
+Atlants
+Mythic Minotaurs
+Titans of Thunder
+Titans of Storm
+Tiamats
+Sea Wurms
+Big Sea Wurms
+Tritons
+Dark Elementals
+Fire Ifrits
+The Great Stone Giants
+Green Behemoth
+Metamorphs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

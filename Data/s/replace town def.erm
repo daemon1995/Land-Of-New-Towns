@@ -1,0 +1,73 @@
+ZVSE
+
+ ; apply towns new def's on map at start 
+
+
+ 
+ 
+!?PI;
+
+
+!!DO(place_town_def)/4000/v4052/1:P5;			x16 is a counter of DO2
+!?FU(place_town_def);
+!!VRy1:Sx16-4000;     		y1 - current town id
+!!CA0/y1:T?y2; 				y2 - game_default_type of this town  (0...8)
+vx16						vx16 - new type of town (default / new / new_var2 / new_var3)
+
+!!CA0/y1:P?y10/?y11/?y12;		get coordinates of town y1
+!!VRy10:+2;  
+
+
+ ; number of new towns (type 63) / 0...15 = subtype (100...115)
+!!UN&y2=0/vx16=0:Iy10/y11/y12/63/90/1;		Castle
+!!UN&y2=0/vx16=1:Iy10/y11/y12/63/113/1;		Cove
+!!UN&y2=0/vx16=2:Iy10/y11/y12/63/115/1;		Ruins
+!!UN&y2=0/vx16=3:Iy10/y11/y12/63/118/1;		Knight's Castle
+ 
+!!UN&y2=1/vx16=0:Iy10/y11/y12/63/91/1;		Rampart (default vx16=0)
+!!UN&y2=1/vx16=1:Iy10/y11/y12/63/101/1;		WonderWoods 
+!!UN&y2=1/vx16=2:Iy10/y11/y12/63/106/1;		Magic Forest
+!!UN&y2=1/vx16=3:Iy10/y11/y12/63/108/1;		Druids town
+!!UN&y2=1/vx16=4:Iy10/y11/y12/63/114/1;		Kitezh Grad
+!!UN&y2=1/vx16=5:Iy10/y11/y12/63/126/1;		Preserve			
+
+!!UN&y2=2/vx16=0:Iy10/y11/y12/63/92/1;		Tower
+!!UN&y2=2/vx16=1:Iy10/y11/y12/63/109/1;		Monastery
+!!UN&y2=2/vx16=2:Iy10/y11/y12/63/120/1;		Ice Castle
+!!UN&y2=2/vx16=3:Iy10/y11/y12/63/121/1;		Elemental Palace
+
+!!UN&y2=3/vx16=0:Iy10/y11/y12/63/93/1;		Inferno
+!!UN&y2=3/vx16=1:Iy10/y11/y12/63/117/1;		Techno town
+!!UN&y2=3/vx16=2:Iy10/y11/y12/63/122/1;		Courtyard
+!-!UN&y2=3/vx16=1:Iy10/y11/y12/63/99/1;		town with Random monsters
+
+!!UN&y2=4/vx16=0:Iy10/y11/y12/63/94/1;		Necropolis
+!!UN&y2=4/vx16=1:Iy10/y11/y12/63/123/1;		Abandoned Pyramid
+
+!!UN&y2=5/vx16=0:Iy10/y11/y12/63/95/1;		Dungeon (default)
+!!UN&y2=5/vx16=1:Iy10/y11/y12/63/104/1;		Shadow town
+!!UN&y2=5/vx16=2:Iy10/y11/y12/63/111/1;		Strange Cult
+!!UN&y2=5/vx16=3:Iy10/y11/y12/63/116/1;		Mythology
+
+!!UN&y2=6/vx16=0:Iy10/y11/y12/63/96/1;		Stronghold
+!!UN&y2=6/vx16=1:Iy10/y11/y12/63/103/1;		Sand town
+!!UN&y2=6/vx16=2:Iy10/y11/y12/63/110/1;		Bastion
+!!UN&y2=6/vx16=3:Iy10/y11/y12/63/124/1;		Pyramid
+!!UN&y2=6/vx16=4:Iy10/y11/y12/63/125/1;		Ancent Temple
+
+!!UN&y2=7/vx16=0:Iy10/y11/y12/63/97/1;		Fortress
+!!UN&y2=7/vx16=1:Iy10/y11/y12/63/107/1;		Mystic town
+!!UN&y2=7/vx16=2:Iy10/y11/y12/63/151/1;		Deep Swamp
+
+!!UN&y2=8/vx16=0:Iy10/y11/y12/63/98/1;		Conflux (default vx16=0) 
+!!UN&y2=8/vx16=1:Iy10/y11/y12/63/102/1;		Eldorado 
+!!UN&y2=8/vx16=2:Iy10/y11/y12/63/105/1;		Neutral town 
+!!UN&y2=8/vx16=3:Iy10/y11/y12/63/112/1;		Oasis 
+
+
+	!!FU(reduce_monster_growth_for Mythology):P;
+
+	FU(third_upgrades_and_deny_buildings):P;	
+
+
+!!FU(place_town_def):E; 

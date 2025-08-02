@@ -1,0 +1,1003 @@
+None
+Pikeman
+Halberdier
+Archer
+Marksman
+Griffin
+Royal Griffin
+Swordsman
+Crusader
+Monk
+Zealot
+Cavalier
+Champion
+Angel
+Archangel
+Centaur
+Centaur Captain
+Dwarf
+Battle Dwarf
+Wood Elf
+Grand Elf
+Pegasus
+Silver Pegasus
+Dendroid Guard
+Dendroid Soldier
+Unicorn
+War Unicorn
+Green Dragon
+Gold Dragon
+Gremlin
+Master Gremlin
+Stone Gargoyle
+Obsidian Gargoyle
+Stone Golem
+Iron Golem
+Mage
+Arch Mage
+Genie
+Master Genie
+Naga
+Naga Queen
+Giant
+Titan
+Imp
+Familiar
+Gog
+Magog
+Hell Hound
+Cerberus
+Demon
+Horned Demon
+Pit Fiend
+Pit Lord
+Efreeti
+Efreet Sultan
+Devil
+Arch Devil
+Skeleton
+Skeleton Warrior
+Walking Dead
+Zombie
+Wight
+Wraith
+Vampire
+Vampire Lord
+Lich
+Power Lich
+Black Knight
+Dread Knight
+Bone Dragon
+Ghost Dragon
+Troglodyte
+Infernal Troglodyte
+Harpy
+Harpy Hag
+Beholder
+Evil Eye
+Medusa
+Medusa Queen
+Minotaur
+Minotaur King
+Manticore
+Scorpicore
+Red Dragon
+Black Dragon
+Goblin
+Hobgoblin
+Wolf Rider
+Wolf Raider
+Orc
+Orc Chieftain
+Ogre
+Ogre Mage
+Roc
+Thunderbird
+Cyclops
+Cyclops King
+Behemoth
+Ancient Behemoth
+Gnoll
+Gnoll Marauder
+Lizardman
+Lizard Warrior
+Gorgon
+Mighty Gorgon
+Serpent Fly
+Dragon Fly
+Basilisk
+Greater Basilisk
+Wyvern
+Wyvern Monarch
+Hydra
+Chaos Hydra
+Air Elemental
+Earth Elemental
+Fire Elemental
+Water Elemental
+Gold Golem
+Diamond Golem
+Pixie
+Sprite
+Psychic Elemental
+Magic Elemental
+NOT USED (1)
+Ice Elemental
+NOT USED (2) 
+Magma Elemental
+NOT USED (3)
+Storm Elemental
+NOT USED (4)
+Energy Elemental
+Firebird
+Phoenix
+Azure Dragon
+Crystal Dragon
+Faerie Dragon
+Rust Dragon
+Enchanter
+Sharpshooter
+Halfling
+Peasant
+Boar
+Mummy
+Nomad
+Rogue
+Troll
+Catapult
+Ballista
+First Aid Tent
+Ammo Cart
+Arrow Tower
+Supreme Archangel
+Diamond Dragon
+Lord of Thunder
+Hell Baron
+Blood Dragon
+Darkness Dragon
+Ghost Behemoth
+Hell Hydra
+Sacred Phoenix
+Ghost
+Emissary of War
+Emissary of Peace
+Emissary of Mana
+Emissary of Lore
+Fire Messenger
+Earth Messenger
+Air Messenger
+Water Messenger
+Gorynych
+War Zealot
+Arctic Sharpshooter
+Lava Sharpshooter
+Nightmare
+Santa Gremlin
+Paladin
+Hierophant
+Temple Guardian
+Succubus
+Soul Eater
+Brute
+Ogre Leader
+Shaman
+Astral Spirit
+Paladin
+Hierophant
+Temple Guardian
+Succubus
+Soul Eater
+Brute
+Ogre Leader
+Shaman
+Astral Spirit
+Sylvan Centaur
+Sorceress
+Werewolf
+Hell Steed
+Dracolich
+Wood dweller
+Treefolk Wizard
+Magician
+Giant Ent
+Ancient Ent
+Forest Bird
+Loogan
+Treefolk
+Ent
+Petrel
+Loogan warrior
+Small Wooddweller
+Small Magician
+Guard
+Elder Guard
+Beastman
+Beastmen-Jaguars
+Rider
+Rider - Champion
+Sacrificer
+Higher Sacrificer
+Coatl
+Coatl Predator
+Preimage of Lamassu
+Lamassu
+Falcon jr.
+Falcon
+Desert goblin jr.
+Desert goblin
+Small reptile
+reptile
+Axe thrower jr
+Axe thrower
+Sand golem jr.
+Sand golem
+Strongmans 
+Strongmans master
+Centaur of desert jr.
+Centaurs of desert
+Sand Worm
+Great Sand Worm
+Ratmans
+Predatory Ratman
+Shadow Acolyte
+Acolyte od Darkness
+Flying Beholder
+Beholders of abyss
+Lord of Shadows
+Lord of Darkness
+Hiding-in-the-dark
+Seeker-in-the-dark
+Big Gargoyle
+Giant Gargoyle
+Spider Queen
+Ancient Spider Queen
+Ancient Gorynyches
+Halfing master
+Sorcesser Apprentice
+Nomad of Storm
+Gnome jr.
+Forest Gnome
+leprechaun jr.
+Leprechaun
+Turquoise Harpy
+Forest Harpy
+Faun
+Satir
+Alikorn jr.
+Alikorn
+Young Spriggan
+Spriggan
+Finist jr.
+Finist
+Blank Monster #268
+Blank Monster #269
+Blank Monster #270
+Blank Monster #271
+Blank Monster #272
+Blank Monster #273
+Blank Monster #274
+Blank Monster #275
+Blank Monster #276
+Blank Monster #277
+Blank Monster #278
+Blank Monster #279
+Blank Monster #280
+Blank Monster #281
+Raven
+Black Raven
+Forest Guard jr.
+Forest Guard
+Forest shooter
+Forest archer
+Herbalist jr.
+Herbalist
+Green Prince
+Green King
+Indrik
+Royal Indrik
+Druid Apprentice
+Druid
+creature 1111
+creature  11nn
+Blank Monster #298
+Blank Monster #299
+Blank Monster #300
+Blank Monster #301
+Blank Monster #302
+Blank Monster #303
+Blank Monster #304
+Blank Monster #305
+Blank Monster #306
+Blank Monster #307
+Blank Monster #308
+Blank Monster #309
+Scarab
+Sacred scarab
+Whipper
+Overseer
+Camel Rider
+Desert Warrior
+Priestess
+High Priestess
+Amt
+Ammut
+Sphinx
+Sphinx oracle
+Servant of Anubis
+Warrior of Anubis
+m 11111
+Wa111
+Necross Dragon
+Lord Iratus
+Blank Monster #328
+Blank Monster #329
+Blank Monster #330
+Blank Monster #331
+Blank Monster #332
+Blank Monster #333
+Blank Monster #334
+Blank Monster #335
+Blank Monster #336
+Blank Monster #337
+Blank Monster #338
+Blank Monster #339
+Blank Monster #340
+Blank Monster #341
+Blank Monster #342
+Blank Monster #343
+Blank Monster #344
+Blank Monster #345
+Blank Monster #346
+Blank Monster #347
+Blank Monster #348
+mon1
+Blank Monster #350
+Blank Monster #351
+Blank Monster #352
+Blank Monster #353
+Blank Monster #354
+Blank Monster #355
+Blank Monster #356
+Nymph
+Oceanid
+Crew Mate
+Seaman
+Pirate
+Corsair
+Stormbird
+Ayssid
+Sea Witch
+Sorceress
+Nix
+Nix Warrior
+Sea Serpent
+Haspid
+Sea Dog
+Blank Monster #372
+Blank Monster #373
+Blank Monster #374
+Blank Monster #375
+Blank Monster #376
+Blank Monster #377
+Blank Monster #378
+Blank Monster #379
+Blank Monster #380
+Blank Monster #381
+Blank Monster #382
+Blank Monster #383
+Blank Monster #384
+Blank Monster #385
+Blank Monster #386
+Blank Monster #387
+Blank Monster #388
+Blank Monster #389
+Blank Monster #390
+Blank Monster #391
+Blank Monster #392
+Blank Monster #393
+Blank Monster #394
+Blank Monster #395
+Blank Monster #396
+Blank Monster #397
+Blank Monster #398
+Blank Monster #399
+Mythical harpy jr.
+Mythical harpy
+Big centaur
+Mythical Centaur
+Mistress of Snakes
+Medusa Gorgon
+Cyclop the Cannibal
+Cyclops Leader
+Big Minotaur
+Mythical Minotaur
+Giant Manticora
+Colossal Manticore
+Young Colossus
+Colossus
+Bot
+Steel Bot
+Robot
+Upgraded Robot
+Mechanical Griffin
+Griffin Cyborg
+Mechanoid
+upg. Mechanoid
+Mechanical Guard jr.
+Mechanical Guard
+TechnoDreadnought jr.
+TechnoDreadnoughts
+Prime
+Ultra Primes
+Trainer
+Squire
+Archer of Light jr.
+Archers of Light
+Crusader Pikeman
+Knights Templar
+Heavy Knight
+Armored Knight
+Monk of Light jr.
+Monks of Light
+Cavalry Crusader
+Champion Crusader
+Fearless Knight
+Great Knigt
+Blank Monster #442
+Blank Monster #443
+Blank Monster #444
+Epic Palladin
+Blank Monster #446
+Dark Angel
+Legendary Sand Worm
+Upg. Golden Golem
+Blank Monster #450
+Blank Monster #451
+Sky genie
+Grandmaster gremlin
+Gnoll Shaman
+King of Vasilisks
+Advanced Chaos Hydra
+Blank Monster #457
+Lava elemental
+Dendroid Leader
+Blank Monster #460
+Blank Monster #461
+Blank Monster #462
+Blank Monster #463
+Blank Monster #464
+Blank Monster #465
+Blank Monster #466
+Blank Monster #467
+Blank Monster #468
+Blank Monster #469
+Blank Monster #470
+Blank Monster #471
+Blank Monster #472
+Blank Monster #473
+Snow Centaurid jr.
+Snow Centauride
+snow boar jr.
+snow boar
+Blue SnowBird
+SnowBird
+snow tiger
+Ice Tiger
+Snow Bear
+Polar Bear
+Young Yeti
+Yeti
+young Yorr
+Yorr
+walking snow jr.
+Walking snow
+Elemental of Ice wind 
+Elemental of Snowstorm
+Elemental of Cold jr.
+Elemental of Cold
+Snow Queen
+Ice Queen
+Snow Giant
+Ice Giant
+Snow Golem
+Snow Golem-warrior
+Snow Golem-spellcaster
+Snow Atronach
+Ice Atronach
+Blank Monster #503
+Blank Monster #504
+Blank Monster #505
+Blank Monster #506
+Blank Monster #507
+Blank Monster #508
+arquebusiers111
+Blank Monster #510
+Blank Monster #511
+Blank Monster #512
+Blank Monster #513
+Blank Monster #514
+Blank Monster #515
+Blank Monster #516
+Blank Monster #517
+Blank Monster #518
+Blank Monster #519
+Blank Monster #520
+Blank Monster #521
+Blank Monster #522
+Blank Monster #523
+Blank Monster #524
+Blank Monster #525
+Blank Monster #526
+Blank Monster #527
+Necro Sphinx
+Blank Monster #529
+Sphinx
+Blank Monster #531
+Big Scarab
+Golden Scarab
+Wadjet
+Poisonous Wadjet
+Warrior Inpu jr.
+Warrior Inpu
+small avatar of Gorus
+avatar of Gorus
+silver Golem
+Golden Golem of Pyramid
+Stone Sphinx jr.
+Stone Sphinx
+Great Sphinxes
+small avatar of Anubis
+avatars of Anubis
+Blank Monster #547
+Blank Monster #548
+Blank Monster #549
+Blank Monster #550
+Blank Monster #551
+Blank Monster #552
+Blank Monster #553
+Blank Monster #554
+Blank Monster #555
+Blank Monster #556
+Blank Monster #557
+Blank Monster #558
+Blank Monster #559
+Blank Monster #560
+Blank Monster #561
+Blank Monster #562
+Blank Monster #563
+Blank Monster #564
+Blank Monster #565
+Blank Monster #566
+Blank Monster #567
+Blank Monster #568
+Blank Monster #569
+Blank Monster #570
+Blank Monster #571
+Blank Monster #572
+Blank Monster #573
+Blank Monster #574
+Blank Monster #575
+Colorful Coatl
+Prime Leader
+Blank Monster #578
+Walking Plant jr.
+Walking Plant
+Treebeard jr.
+Treebeard
+Young Brownie
+Brownies
+young Green Giant
+Green Giant
+Blank Monster #587
+Blank Monster #588
+Blank Monster #589
+Atlant
+Mythic Minotaur
+Titan of Thunder
+Titan of Storm
+Tiamat
+Sea Wurm
+Big Sea Wurm
+Triton
+Dark Elemental
+Fire Ifrit
+The Great Stone Giant
+Green Behemoth
+Metamorph
+Blank Monster #603
+Blank Monster #604
+Blank Monster #605
+Blank Monster #606
+Blank Monster #607
+Blank Monster #608
+Blank Monster #609
+Blank Monster #610
+Blank Monster #611
+Blank Monster #612
+Blank Monster #613
+Blank Monster #614
+Blank Monster #615
+Blank Monster #616
+Blank Monster #617
+Blank Monster #618
+Blank Monster #619
+Blank Monster #620
+Blank Monster #621
+Blank Monster #622
+Blank Monster #623
+Blank Monster #624
+Blank Monster #625
+Blank Monster #626
+Blank Monster #627
+Blank Monster #628
+Blank Monster #629
+Blank Monster #630
+Blank Monster #631
+Blank Monster #632
+Blank Monster #633
+Blank Monster #634
+Blank Monster #635
+Blank Monster #636
+Blank Monster #637
+Blank Monster #638
+Blank Monster #639
+Blank Monster #640
+Blank Monster #641
+Blank Monster #642
+Blank Monster #643
+Blank Monster #644
+Blank Monster #645
+Blank Monster #646
+Blank Monster #647
+Blank Monster #648
+Blank Monster #649
+Blank Monster #650
+Blank Monster #651
+Blank Monster #652
+Blank Monster #653
+Blank Monster #654
+Blank Monster #655
+Blank Monster #656
+Blank Monster #657
+Blank Monster #658
+Blank Monster #659
+Blank Monster #660
+Blank Monster #661
+Blank Monster #662
+Blank Monster #663
+Blank Monster #664
+Blank Monster #665
+Blank Monster #666
+Blank Monster #667
+Blank Monster #668
+Blank Monster #669
+Blank Monster #670
+Blank Monster #671
+Blank Monster #672
+Blank Monster #673
+Blank Monster #674
+Blank Monster #675
+Blank Monster #676
+Blank Monster #677
+Blank Monster #678
+Blank Monster #679
+Blank Monster #680
+Blank Monster #681
+Blank Monster #682
+Blank Monster #683
+Blank Monster #684
+Blank Monster #685
+Blank Monster #686
+Blank Monster #687
+Blank Monster #688
+Blank Monster #689
+Blank Monster #690
+Blank Monster #691
+Blank Monster #692
+Blank Monster #693
+Blank Monster #694
+Blank Monster #695
+Blank Monster #696
+Blank Monster #697
+Blank Monster #698
+Blank Monster #699
+Blank Monster #700
+Blank Monster #701
+Blank Monster #702
+Blank Monster #703
+Blank Monster #704
+Blank Monster #705
+Blank Monster #706
+Blank Monster #707
+Blank Monster #708
+Blank Monster #709
+Blank Monster #710
+Blank Monster #711
+Blank Monster #712
+Blank Monster #713
+Blank Monster #714
+Blank Monster #715
+Blank Monster #716
+Blank Monster #717
+Blank Monster #718
+Blank Monster #719
+Blank Monster #720
+Blank Monster #721
+Blank Monster #722
+Blank Monster #723
+Blank Monster #724
+Blank Monster #725
+Blank Monster #726
+Blank Monster #727
+Blank Monster #728
+Blank Monster #729
+Blank Monster #730
+Blank Monster #731
+Blank Monster #732
+Blank Monster #733
+Blank Monster #734
+Blank Monster #735
+Blank Monster #736
+Blank Monster #737
+Blank Monster #738
+Blank Monster #739
+Blank Monster #740
+Blank Monster #741
+Blank Monster #742
+Blank Monster #743
+Blank Monster #744
+Blank Monster #745
+Blank Monster #746
+Blank Monster #747
+Blank Monster #748
+Blank Monster #749
+Blank Monster #750
+Blank Monster #751
+Blank Monster #752
+Blank Monster #753
+Blank Monster #754
+Blank Monster #755
+Blank Monster #756
+Blank Monster #757
+Blank Monster #758
+Blank Monster #759
+Blank Monster #760
+Blank Monster #761
+Blank Monster #762
+Blank Monster #763
+Blank Monster #764
+Blank Monster #765
+Blank Monster #766
+Blank Monster #767
+Blank Monster #768
+Blank Monster #769
+Blank Monster #770
+Blank Monster #771
+Blank Monster #772
+Blank Monster #773
+Blank Monster #774
+Blank Monster #775
+Blank Monster #776
+Blank Monster #777
+Blank Monster #778
+Blank Monster #779
+Blank Monster #780
+Blank Monster #781
+Blank Monster #782
+Blank Monster #783
+Blank Monster #784
+Blank Monster #785
+Blank Monster #786
+Blank Monster #787
+Blank Monster #788
+Blank Monster #789
+Blank Monster #790
+Blank Monster #791
+Blank Monster #792
+Blank Monster #793
+Blank Monster #794
+Blank Monster #795
+Blank Monster #796
+Blank Monster #797
+Blank Monster #798
+Blank Monster #799
+Blank Monster #800
+Blank Monster #801
+Blank Monster #802
+Blank Monster #803
+Blank Monster #804
+Blank Monster #805
+Blank Monster #806
+Blank Monster #807
+Blank Monster #808
+Blank Monster #809
+Blank Monster #810
+Blank Monster #811
+Blank Monster #812
+Blank Monster #813
+Blank Monster #814
+Blank Monster #815
+Blank Monster #816
+Blank Monster #817
+Blank Monster #818
+Blank Monster #819
+Blank Monster #820
+Blank Monster #821
+Blank Monster #822
+Blank Monster #823
+Blank Monster #824
+Blank Monster #825
+Blank Monster #826
+Blank Monster #827
+Blank Monster #828
+Blank Monster #829
+Blank Monster #830
+Blank Monster #831
+Blank Monster #832
+Blank Monster #833
+Blank Monster #834
+Blank Monster #835
+Blank Monster #836
+Blank Monster #837
+Blank Monster #838
+Blank Monster #839
+Blank Monster #840
+Blank Monster #841
+Blank Monster #842
+Blank Monster #843
+Blank Monster #844
+Blank Monster #845
+Blank Monster #846
+Blank Monster #847
+Blank Monster #848
+Blank Monster #849
+Blank Monster #850
+Blank Monster #851
+Blank Monster #852
+Blank Monster #853
+Blank Monster #854
+Blank Monster #855
+Blank Monster #856
+Blank Monster #857
+Blank Monster #858
+Blank Monster #859
+Blank Monster #860
+Blank Monster #861
+Blank Monster #862
+Blank Monster #863
+Blank Monster #864
+Blank Monster #865
+Blank Monster #866
+Blank Monster #867
+Blank Monster #868
+Blank Monster #869
+Blank Monster #870
+Blank Monster #871
+Blank Monster #872
+Blank Monster #873
+Blank Monster #874
+Blank Monster #875
+Blank Monster #876
+Blank Monster #877
+Blank Monster #878
+Blank Monster #879
+Blank Monster #880
+Blank Monster #881
+Blank Monster #882
+Blank Monster #883
+Blank Monster #884
+Blank Monster #885
+Blank Monster #886
+Blank Monster #887
+Blank Monster #888
+Blank Monster #889
+Blank Monster #890
+Blank Monster #891
+Blank Monster #892
+Blank Monster #893
+Blank Monster #894
+Blank Monster #895
+Blank Monster #896
+Blank Monster #897
+Blank Monster #898
+Blank Monster #899
+Blank Monster #900
+Blank Monster #901
+Blank Monster #902
+Blank Monster #903
+Blank Monster #904
+Blank Monster #905
+Blank Monster #906
+Blank Monster #907
+Blank Monster #908
+Blank Monster #909
+Blank Monster #910
+Blank Monster #911
+Blank Monster #912
+Blank Monster #913
+Blank Monster #914
+Blank Monster #915
+Blank Monster #916
+Blank Monster #917
+Blank Monster #918
+Blank Monster #919
+Blank Monster #920
+Blank Monster #921
+Blank Monster #922
+Blank Monster #923
+Blank Monster #924
+Blank Monster #925
+Blank Monster #926
+Blank Monster #927
+Blank Monster #928
+Blank Monster #929
+Blank Monster #930
+Blank Monster #931
+Blank Monster #932
+Blank Monster #933
+Blank Monster #934
+Blank Monster #935
+Blank Monster #936
+Blank Monster #937
+Blank Monster #938
+Blank Monster #939
+Blank Monster #940
+Blank Monster #941
+Blank Monster #942
+Blank Monster #943
+Blank Monster #944
+Blank Monster #945
+Blank Monster #946
+Blank Monster #947
+Blank Monster #948
+Blank Monster #949
+Blank Monster #950
+Blank Monster #951
+Blank Monster #952
+Blank Monster #953
+Blank Monster #954
+Blank Monster #955
+Blank Monster #956
+Blank Monster #957
+Blank Monster #958
+Blank Monster #959
+Blank Monster #960
+Blank Monster #961
+Blank Monster #962
+Blank Monster #963
+Blank Monster #964
+Blank Monster #965
+Blank Monster #966
+Blank Monster #967
+Blank Monster #968
+Blank Monster #969
+Blank Monster #970
+Blank Monster #971
+Blank Monster #972
+Blank Monster #973
+Blank Monster #974
+Blank Monster #975
+Blank Monster #976
+Blank Monster #977
+Blank Monster #978
+Blank Monster #979
+Blank Monster #980
+Blank Monster #981
+Blank Monster #982
+Blank Monster #983
+Blank Monster #984
+Blank Monster #985
+Blank Monster #986
+Blank Monster #987
+Blank Monster #988
+Blank Monster #989
+Blank Monster #990
+Blank Monster #991
+Blank Monster #992
+Blank Monster #993
+Blank Monster #994
+Blank Monster #995
+Blank Monster #996
+Blank Monster #997
+Blank Monster #998
+Blank Monster #999

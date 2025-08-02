@@ -1,0 +1,1001 @@
+Immune to Champion charge bonus.
+Immune to Champion charge bonus.
+
+Shoots twice.
+Retaliates twice.
+Unlimited retaliations.
+
+Strikes twice.
+
+No melee penalty.
+Jousting bonus.
+Jousting bonus.
+Hates Devils.
++1 morale. Hates Devils. Resurrects allies.
+
+
+20% magic resistance.
+40% magic resistance.
+
+Shoots twice.
+Magic damper.
+Magic damper.
+Binds enemies in place.
+Binds enemies in place.
+Aura of magic resistance.  Blinding attack.
+Aura of magic resistance. Blinding attack.
+Immune to spell levels 1-3.
+Immune to spell levels 1-4.
+
+Ranged attacker.
+
+
+Damage from spells reduced 50%.
+Damage from spells reduced 75%.
+No melee penalty. Hero spells cost less.
+No melee penalty. Hero spells cost less.
+Hates Efreet.
+Spellcaster: Random benefit. Hates Efreet.
+No enemy retaliation.
+No enemy retaliation.
+Mind spell immunity
+No melee penalty. Mind spell immunity.  Hates Black Dragons.
+
+Magic channel.
+
+Fireball attack.
+
+3-headed attack. Enemies cannot retaliate.
+
+
+
+Summon demons from a dead ally.
+Immune to fire. Hates Genies.
+Fire shield. Immune to fire. Hates Genies.
+-1 enemy luck. No enemy retaliation. Hates Angels.
+-1 enemy luck. No enemy retaliation. Hates Angels.
+Undead.
+Undead.
+Undead.
+Undead. Disease.
+Undead. Regenerating.
+Undead. Regenerating. Drains enemy mana.
+Undead. No enemy retaliation.
+Undead. Drains life. No enemy retaliation.
+Undead. Death cloud attack.
+Undead. Death cloud attack.
+Undead. Curses enemies.
+Undead. Curses enemies. Death Blow attack.
+Undead. -1 to enemy morale.
+Undead. -1 to enemy morale. Attack ages enemies.
+Immune to Blinding.
+Immune to Blinding.
+Strike and return.
+Strike and return. No enemy retaliation.
+No melee penalty.
+No melee penalty.
+No melee penalty. Stone gaze.
+No melee penalty. Stone gaze.
+Good morale.
+Good morale.
+
+Paralyzing venom.
+Immune to spell levels 1-3.
+Immune to all spells.
+
+
+
+Strikes twice.
+
+
+
+Spellcaster: Bloodlust.
+
+Lightning strike.
+Attacks siege walls.
+Attacks siege walls.
+Target enemy's defense is reduced 40%.
+Target enemy's defense is reduced 80%.
+
+
+
+
+
+Death stare.
+Dispels beneficial spells.
+Dispels beneficial spells. Weakens enemies.
+Petrifying attack.
+Petrifying attack.
+
+Poisonous.
+Attacks all adjacent enemies. Enemies cannot retaliate.
+Attacks all adjacent enemies. Enemies cannot retaliate.
+Lightning and firestorm vulnerability.
+Meteor shower vulnerability.
+Immune to fire. Vulnerable to ice.
+Immune to ice. Vulnerable to fire.
+Damage from spells reduced 85%.
+Damage from spells reduced 95%.
+
+No enemy retaliation.
+Attacks all adjacent enemies w/o retaliation. Mind spell immunity.
+Attacks all adjacent enemies w/o retaliation. Spell immunity.
+
+Mind spell immunity. Ice immunity. Fire vulnerability.
+
+Mind spell immunity. Casts protection from Earth.
+
+No melee penalty. Lightning and firestorm vulnerability.
+
+Casts Protect from Fire. Mind & fire immunity, cold vulnerability.
+Breath attack. Fire spell immunity.
+Breath attack. Fire spell immunity. Rebirth.
+Fear.
+Crystal generation.
+Offensive spell caster.
+Spits acid.
+No melee penalty. Group spell casters.
+No Range or Barrier penalties.
+Positive luck.
+
+
+Curse.
+Sandwalkers.
+Spying.
+Regenerating.
+Attacks siege walls.
+
+Heals troops.
+Unlimited ammunition.
+Unlimited ammunition.
++1(+2) morale. Resurrects twice. No fear. No enemy retaliation.
+Immune to all spells. No fear. Can blind. +1 Gem daily.
+Shoot twice. No melee penalty. No fear. Thunderclap. Air shield.
+-1(-2) enemy luck. No fear. Takes Soul. No enemy retaliation.
+Undead. -1(-2) enemy morale. Sucks blood. Ages enemy.
+Immune to all spells. Fearsome. Gets back. No fear. Darkness.
++1(+2) luck. Ignores defence. Answers twice. Ignores obstacles.
+Acid attack. Can regenerate. No fear. No enemy retaliation.
+Fire spell Immunity. Slayer. Rebirth always. Fire Shield.
+Attract dead souls.
+Increases Hero's Attack Skill by 1-3 per week.
+Increase Hero's Defense Skill by 1-3 per week.
+Increase Hero's Spell Power by 1-3 per week.
+Increase Hero's Knowledge by 1-3 per week.
+Protected against fire spells. No fear.
+Protected against earth spells. No fear.
+Protected against air spells. No fear.
+Protected against water spells. No fear.
+Attacks all adjacent enemies. No fear. No Enemy retaliation.
+Protected by Magic Mirror. No fear. No melee penalty.
+No walls or range penalty. No fear. Air shield.
+No walls or range penalty. No fear. Fire shield.
+Extended Death stare. No fear. Mind spell immunity.
+Ice Bolt attack. Can gift. Summon guards.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Shoots twice. Merry.
+Ranged spell caster.
+Lycanthropy (x2 if full moon). Berserk if full moon: days 14-16.
+Fire Shield. Fire Wall. Immune to Fire Magic.
+Undead. -1 to enemy morale. 20% Magic Resist. 20% Block.
+high moral
+Range retaliation, Always good moral. Chance of rebirth
+Shooting. Steal mana, always luck
+attack all around, bind, regeneration
+Attack all around, regeneration
+No enemy retaliation,paralyze
+stone gaze
+Range retaliation
+range attack, bind enemy
+
+attack on 2 cells, stone gaze
+
+Shooting army
+
+
+
+attack twice
+
+Reduce enemy defence by 10%
+no melee penalty
+no melee attack
+fly
+Acid breath
+chance of enemy blind, no moral penalty
+chance of enemy blind, no moral penalty, steal mana, immune to lighting bolt
+No enemy retaliation, immune to lightings
+Attack. twice. No enemy retaliation, immune to lighting bolts
+
+
+
+regenerate
+shooting
+shoot, no melee penalty
+neutral morale, immune to blindness, meteor shower
+casts quicksand, neutral morale, immune to blindness, meteor shower.
+
+
+
+shoot
+
+regenerates
+
+make disease
+Shooter
+Shooter
+fly
+chance of regeneration
+
+Attack all around
+
+strike and return. reduce enemy defence by 10%
+
+
+No melee penalty,
+30% chance poison ability, hate Black Dragons
+Attacks all adjacent enemies. No fear. No Enemy retaliation. Fire shield
+always luck
+shooter
+fast
+
+
+Cast luck
+cast luck on allies and himself
+
+15% reduce defence
+cast happiness on allies
+cast happiness on allies 2 times 
+fly, magic aura
+Fly, Magic Aura, luck, 40% spell resistance
+Roots enemies in place.
+Roots enemies in place. 20% chance create clone, regeneration
+Always high moral
+Cast resurrection 2 times. Always high moral
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fly
+fly, curse enemies
+30% magic resistance
+chance of cast magic arrow, 50% magic resistance
+shoot
+Precision, range retaliation
+
+Cure allies
+always high moral
+Cast bless on allies. Always high moral, fearless
+Magic Aura, fearless
+Magic Aura, fearless. Cast Ice lightning. Protection from Earth
+Shoots, Immune to fire spells, no melee penalty
+Shoots a fireball, Immune to fire spells, no melee penalty
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fly
+fly, cast disease on enemy
+
+
+
+cast shield on itself
+shooter
+shooter. cast bless on allies
+
+10% defence bonus, retallions
+immune for 1-4 spell levels, mindspell immune
+immune for 1-4 spell levels, mindspell immune. Magic mirror. Cast forgetfulness 3 times
+teleport, chance of casting aging spell
+Teleport, increased chance of casting aging spell.  Ñreates mummies from killed allies
+
+
+Undead. -1 to enemy morale. 30% chance to block attack. Aging. Acid breath. Magic resistance 50%. Attacks twice. Fear. Fearlessness
+Undead, 50% chance of casting  Titan's Thunder, 50% reduce defence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Teleporting, Immune to ice
+Teleporting, Immune to ice
+
+
+Ranged (4 shots), No melee penalty
+Ranged (4 shots), No melee penalty, No enemy
+Flying
+Flying, Ferocity
+Ranged (12 shots), Casts Weakness / Disrupting Ray
+Ranged (12 shots), Casts Weakness / Disrupting Ray
+Ignores 30% of enemy attack value
+Ignores 60% of enemy attack value
+Poisonous
+Poisonous
+Ranged (12 shots), No melee penalty, No enemy retaliation, Accurate Shot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stone gaze
+Close range shooting, stone gaze
+
+
+
+running kick
+
+paralyze
+protection from air
+Cast chain lightning. Protection from air. Thunderbolt. 
+neutral moral
+neutral moral
+neutral moral
+neutral moral
+fly, neutral moral
+fly, neutral moral, always retaliations, 10% defens from shooting
+Spells 1-4 level immune, neutral moral
+Range retaliation, spells 1-4 level immune, neutral moral
+neutral moral, fearless
+neutral moral, fearless, chance of self-repair
+shoot, neutral moral, spell immune 1-3 lev. 
+shoot, neutral moral, spell immune 1-3 lev., 20% protection from shooting, attack walls.
+neutral moral
+neutral moral. 40% reduce defence, 40% protection from shooting
++10% damage to undead
+dispel helpful spells, +20% damage to undead
++10% damage to undead
++20% damage to undead   25% chance od Death Blow, always high moral
+high moral, +10% damage to undead
+cast shield, fearless, +20% damage to undead
+15% firebolt, immune fire spells,  +10% damage to undead
+high moral, +20% damage to undead
++10% damage to undead
+cast exorcism, +20% damage to undead
+7% reduce defence, +10% damage to undead
+30% reduce defence, +20% damage to undead
+Fearless, high moral, +10% damage to undead
+Fearless, high moral, chance to ignore attack, +20% damage to undead
+
+
+
+attack all around, high moral, 20% defense bonus, fearless
+
+40% chance of death blow, no moral, no enemy retaliation
+regenerates
+damage spell reduced 85%, neutral moral
+
+
+cast random spell, hates infreeti
+shoots
+10% protection from shooting, cast precision
+stone gaze
+no enemy retallion, attack all around, regeneration
+
+Immune to fire spells, lighting bolt. neutral moral. cast protection from Earth
+Bind enemies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+shoot
+
+luck, immune for spells level 1
+immune to ice bolt, frost ring
+no enemy retaliation, fearless, immune to ice bolt, frost ring
+
+20% chance death blow, retalitation
+
+35% chance of death blow
+
+40% chance of regeneration, chance of selfhaste, immune to cold
+15% protection from shooting
+fear, 25% protection from shooting, immune to cold
+neutral moral
+neutral moral, 20% protection from shooting, immune to cold
+fly, neutral moral, 30% protection from shooting
+shoot, fly, neutral moral, 30% protection from shooting
+neutral moral, vulnerability to fire
+Chance of ice circle, neutral moral, vulnerability to fire. Protection from Air.
+neutral moral
+chance of incorporeality, cast ice bolt, neutral moral
+neutral moral, 20% protection of shooting
+cast earthquake, neutral moral, 60% protection of shooting
+neutral moral, immune to ice bolt, frost ring
+protect from shooting 15%, neutral moral, attack on 2 cells,  immune for ice bolt frost ring
+Shoot, neutral moral, mind immune, attack on 2 cells,  immune for ice bolt frost ring
+50% magic resistance, neutral moral, immune for ice bolt frost ring
+cast frost ring, 70% magic resistance, neutral moral, immune for ice bolt frost ring
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Curse on attack
+
+immune for 1-4 spell levels, mindspell immune
+
+
+
+
+poison enemy
+
+attack all around
+
+shoot
+magic from spells reduced 50%, neutral moral
+magic from spells reduced 85%, neutral moral
+
+50% protecrion from shooting
+60% protecrion from shooting
+neutral moral
+regeneration, no enemy retallion, teleport, neutral moral
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+acid breath
+spell immune, neutral moral, fire immune, shoot, 50% reduce defence
+
+
+shoot
+
+dispel helpful spells on attack
+shoot
+shoot, 15% protection from shooting
+
+
+
+
+
+Fearless. Chance Lightning Strike. Air Shield. Magic Immunity, Always High Morale
+Good morale. Immune to cavalry bonus.
+
+
+
+
+
+protection from water spells
+No enemy retaliation, cast fear, mind immune
+Immune to fire, cast inferno, attack all around
+50% defence 
+reduce enemy defence by 80%
+Transform to a random creature. Neutral moral
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

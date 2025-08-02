@@ -1,0 +1,171 @@
+ZVSE
+
+
+ ; Eldorado town - based on Conflux
+
+	
+-------------------------------------------------------------------	
+	
+	
+	
+!?FU(eldorado___town); 					
+
+
+
+!-!FU(SetBuilding'sPosition):P8/43/650/470;
+
+!!FU(SetBuilding'sPosition):P8/00/220/150;
+!!FU(SetBuilding'sPosition):P8/01/220/150;
+!!FU(SetBuilding'sPosition):P8/02/220/150;
+!!FU(SetBuilding'sPosition):P8/03/220/150;
+!!FU(SetBuilding'sPosition):P8/04/220/150;		mage5   210/150
+
+!!FU(SetBuilding'sPosition):P8/10/0/190;		Village Hall	
+!!FU(SetBuilding'sPosition):P8/11/0/190;
+!!FU(SetBuilding'sPosition):P8/12/0/190;
+!!FU(SetBuilding'sPosition):P8/13/0/190;		capitol
+
+!!FU(SetBuilding'sPosition):P8/31/587/258;		lvl_2  
+!!FU(SetBuilding'sPosition):P8/38/587/258;
+
+!!FU(SetBuilding'sPosition):P8/34/300/200;		lvl_5  
+!!FU(SetBuilding'sPosition):P8/41/300/200;
+
+!!FU(SetBuilding'sPosition):P8/35/475/260;			lvl_6  
+!!FU(SetBuilding'sPosition):P8/42/475/260;			390
+
+!!FU(SetBuilding'sPosition):P8/36/-20/130;		lvl_7  -20/-10;			-20/80;
+!!FU(SetBuilding'sPosition):P8/43/-20/130;
+
+
+!!FU(SetBuilding'sPosition):P8/15/410/180;		silo
+!!FU(SetBuilding'sPosition):P8/21/120/190;		University of Magic 
+!!FU(SetBuilding'sPosition):P8/22/690/190;		Ext5 (waterfall)
+
+
+-----------------------------
+ ; replace town screen
+ ----------------------------
+ 
+ 
+ 
+!!SN:R^TBELBack.pcx^/^TBELBackn.pcx^;			
+!!SN:R^ElemTown.mp3^/^Eldorado.mp3^;
+!!SN:R^HallElem.def^/^HallElemn.def^;  pictures of dwellings on buildcastle screen
+
+!!SN:R^TBELExt6.def^/^TBedExt6.def^;
+!!SN:R^TBELmage.def^/^TBedmage.def^;
+!!SN:R^TBELmag2.def^/^TBedmag2.def^;
+!!SN:R^TBELmag3.def^/^TBedmag3.def^;
+!!SN:R^TBELmag4.def^/^TBedmag4.def^;
+!!SN:R^TBELmag5.def^/^TBedmag5.def^;
+!!SN:R^TBELSpec.def^/^TBedSpec.def^;
+!!SN:R^TBELsilo.def^/^TBedsilo.def^;
+
+!!SN:R^TBELcas1.def^/^TBELcas1n.def^;
+!!SN:R^TBELcas2.def^/^TBELcas2n.def^;
+!!SN:R^TBELCas3.pcx^/^TBELCas3n.pcx^;
+!!SN:R^TBELcas3.def^/^TBELcas3n.def^;
+!!SN:R^TBELcstl.def^/^TBELcstln.def^;
+!!SN:R^TBELDW_0.def^/^TBELDW_0n.def^;
+!!SN:R^TBELDW_1.def^/^TBELup_1n.def^;
+!!SN:R^TBELdw_2.def^/^TBELdw_2n.def^;
+!!SN:R^TBELDW_3.def^/^TBELDW_3n.def^;
+!!SN:R^TBELDW_4.def^/^TBELup_4n.def^;
+!!SN:R^TBELDW_5.def^/^TBELDW_5n.def^;
+!!SN:R^TBELDW_6.def^/^TBELup6E.def^;
+!!SN:R^TBELExt1.def^/^TBELExt1n.def^;
+!!SN:R^TBELExt2.def^/^TBELExt2n.def^;
+!!SN:R^TBELExt3.def^/^TBELExt3n.def^;
+!!SN:R^TBELExt4.def^/^TBELExt4n.def^;
+!!SN:R^TBELhal2.def^/^TBELhal2n.def^;
+!!SN:R^TBELhal3.def^/^TBELhal3n.def^;
+!!SN:R^TBELhal4.def^/^TBELhal4n.def^;
+!!SN:R^TBELhall.def^/^TBELhalln.def^;
+!!SN:R^TBELHrd1.def^/^TBELHrd1n.def^;
+!!SN:R^TBELHrd2.def^/^TBELHrd2n.def^;
+!!SN:R^TBELIP_4.def^/^TBELIP_4n.def^;
+!!SN:R^TBELup_0.def^/^TBELup_0n.def^;
+!!SN:R^TBELup_1.def^/^TBELup_1n.def^;
+!!SN:R^TBELUp_2.def^/^TBELUp_2n.def^;
+!!SN:R^TBELup_3.def^/^TBELup_3n.def^;
+!!SN:R^TBELup_4.def^/^TBELup_4n.def^;
+!-!SN:R^TBELup_4.def^/^sf1445.def^;
+!!SN:R^TBELup_5.def^/^TBELup_5n.def^;
+!-!SN:R^TBELup_5.def^/^sf136.def^;
+!-!SN:R^TBELup_6.def^/^TBELUP_6n.def^;
+!!SN:R^TBELup_6.def^/^TBELup6E.def^;
+!rr!SN:R^TOELCas2.pcx^/^TOELCas2n.pcx^; don't work
+!!SN:R^TOELCas3.pcx^/^TOELCas3n.pcx^;
+!!SN:R^TOELCstl.pcx^/^TOELCstln.pcx^;
+!!SN:R^TOELDw_0.pcx^/^TOELDw_0n.pcx^;
+!!SN:R^TOELDw_1.pcx^/^TOedDw_1n.pcx^;	^TOELDw_1n.pcx^;
+!!SN:R^TOELDw_2.pcx^/^TOELDw_2n.pcx^;
+!!SN:R^TOELDw_3.pcx^/^TOELDw_3n.pcx^;
+!!SN:R^TOELdw_4.pcx^/^Toedup4a.pcx^;		TOELdw_4n.pcx^;
+!!SN:R^TOELDw_5.pcx^/^TOELDw_5n.pcx^;
+!!SN:R^TOELDW_6.pcx^/^TOELUP6E.pcx^;       ? don't work
+!!SN:R^TOELHal2.pcx^/^TOELHal2n.pcx^;
+!!SN:R^TOELHal3.pcx^/^TOELHal3n.pcx^;
+!!SN:R^TOELHal4.pcx^/^TOELHal4n.pcx^;
+!!SN:R^TOELHall.pcx^/^TOELHalln.pcx^;
+!!SN:R^TOELHrd2.pcx^/^TOELHrd2n.pcx^;
+!!SN:R^TOELUp_0.pcx^/^TOELUp_0n.pcx^;
+!!SN:R^TOELUp_1.pcx^/^TOedDw_1n.pcx^;		^TOELUp_1n.pcx^;
+!!SN:R^TOELUp_2.pcx^/^TOELUp_2n.pcx^;
+!!SN:R^TOELUp_3.pcx^/^TOELUp_3n.pcx^;
+!!SN:R^TOELup_4.pcx^/^Toedup4a.pcx^;	TOELup_4n.pcx^;	//
+!!SN:R^TOELUp_5.pcx^/^TOELUp_5n.pcx^;
+!-!SN:R^TOELUP_6.pcx^/^TOELUP_6n.pcx^;
+!!SN:R^TOELUP_6.pcx^/^TOELUP6E.pcx^;
+!!SN:R^TZELCas2.pcx^/^TZELCas2n.pcx^;
+!!SN:R^TZELCas3.pcx^/^TZELCas3n.pcx^;
+!!SN:R^TZELCstl.pcx^/^TZELCstln.pcx^;
+!!SN:R^TZELDw_0.pcx^/^TZELDw_0n.pcx^;
+!!SN:R^TZELDw_1.pcx^/^TZedDw_1n.pcx^;			//
+!!SN:R^TZELDw_3.pcx^/^TZELDw_3n.pcx^;
+!!SN:R^TZELDw_5.pcx^/^TZELDw_5n.pcx^;
+!!SN:R^TZELDW_6.pcx^/^TZELUp6E.pcx^;
+!!SN:R^TZELHal4.pcx^/^TZELHal4n.pcx^;
+!!SN:R^TZELHrd2.pcx^/^TZELHrd2n.pcx^;
+!!SN:R^TZELUp_0.pcx^/^TZELUp_0n.pcx^;
+!!SN:R^TZELUp_1.pcx^/^TZedDw_1n.pcx^;
+!!SN:R^TZELUp_3.pcx^/^TZELUp_3n.pcx^;
+!!SN:R^TZELUp_5.pcx^/^TZELUp_5n.pcx^;
+!!SN:R^TZELUp_6.pcx^/^TZELUp6E.pcx^;
+
+ 
+ 
+ 
+ -----------------------------
+ ; replace creatures
+-----------------------------
+
+	!!FU(eldorado___monsters):P;
+
+
+
+ !!FU(eldorado___town):E;  end function
+ 
+ 
+ 
+ 
+----------------------------------
+!?FU(eldorado___monsters);
+
+!!UN:T8/0/0/210;   
+!!UN:T8/0/1/211;
+!!UN:T8/1/0/212;
+!!UN:T8/1/1/213;
+!!UN:T8/2/0/214;
+!!UN:T8/2/1/215;
+!!UN:T8/3/0/216;
+!!UN:T8/3/1/217;
+!!UN:T8/4/0/218;
+!!UN:T8/4/1/219;
+!!UN:T8/5/0/220;
+!!UN:T8/5/1/221;
+!!UN:T8/6/0/222;
+!!UN:T8/6/1/223;
+
+!!FU(eldorado___monsters):E;

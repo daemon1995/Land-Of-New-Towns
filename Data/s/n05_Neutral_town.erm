@@ -1,0 +1,109 @@
+ZVSE
+
+
+ ; Neutral town - based on Conflux
+
+	
+-------------------------------------------------------------------	
+	
+	
+	
+!?FU(neutral___town); 					
+
+-----------------------------
+ ; replace town screen
+ ----------------------------
+ 
+!!FU(Restore_Default_TownScreen):P;			restore default screen first
+!!FU(restore_XY_coordinates_conflux):P;
+
+!-!SN:R^TBELBack.pcx^/^TBELBackm.pcx^;
+!!SN:R^TBELBack.pcx^/^TBNEBack.pcx^;			
+!!SN:R^ElemTown.mp3^/^NeutralTown.mp3^;
+
+!!SN:R^TBELUP_6.def^/^TBELUP_6e.def^;
+!!SN:R^TOELUP_6.pcx^/^TOELUP_6e.pcx^;	
+!-!SN:R^TBELBack.pcx^/^TBELBackm.pcx^;	
+
+!!SN:R^TBELcas1.def^/^TBNEcas1.def^;
+!!SN:R^TBELcas2.def^/^TBNEcas2.def^;
+!!SN:R^TBELcas3.def^/^TBNEcas3.def^;
+!!SN:R^TBELcstl.def^/^TBNEcstl.def^;
+!!SN:R^TBELhal2.def^/^TBNEhal2.def^;
+!!SN:R^TBELhal3.def^/^TBNEhal3.def^;
+!!SN:R^TBELhal4.def^/^TBNEhal4.def^;
+!!SN:R^TBELhall.def^/^TBNEhall.def^;
+!!SN:R^TBELtvrn.def^/^TBNEtvrn.def^;
+!!SN:R^TBELdw_6.def^/^TBNEdw_6.def^;
+!!SN:R^tbELup_6.def^/^tbNEup_6.def^;
+
+!!SN:R^TOELHal2.pcx^/^TONEHal2.pcx^;
+!!SN:R^TOELHal3.pcx^/^TONEHal3.pcx^;
+!!SN:R^TOELHal4.pcx^/^TONEHal4.pcx^;
+!!SN:R^TOELHall.pcx^/^TONEHall.pcx^;
+!!SN:R^TOELDw_6.pcx^/^TONEDw_6.pcx^;
+!!SN:R^TOELUP_6.pcx^/^TONEUP_6.pcx^;
+
+!!SN:R^TZELHal2.pcx^/^TZNEHal2.pcx^;
+!!SN:R^TZELHal3.pcx^/^TZNEHal3.pcx^;
+!!SN:R^TZELHal4.pcx^/^TZNEHal4.pcx^;
+!!SN:R^TZELHall.pcx^/^TZNEHall.pcx^;
+
+
+
+!!MA:U195/172; 	[upg hellsteed to nightmare]
+!!MA:G193/3; 	[Increase Sorceress Growth to 3]
+!!MA:O138/8; 	[these creatures all count as being conflux troops]
+!!MA:O140/8;
+!!MA:O144/8;	troll
+!!MA:O193/8;	Sorceresses
+!!MA:O172/8;	Nightmares
+!!MA:O168/8;	Gorynych
+!!MA:O195/8;	Hell Steed
+!!MA:O194/8;	Werewolf
+
+ 
+ 
+ 
+ -----------------------------
+ ; replace creatures
+-----------------------------
+
+	!!FU(neutral___monsters):P;
+
+
+
+
+
+ !!FU(neutral___town):E;  end function
+ 
+ 
+ 
+
+--------------------------------------
+!?FU(neutral___monsters);
+ 
+!!UN:T8/0/0/138;   
+!!UN:T8/0/1/253;
+!!UN:T8/1/0/140;
+!!UN:T8/1/1/140;
+!!UN:T8/2/0/142;		nomads		//(old setting -194 werewolf)
+!!UN:T8/2/1/255;		nomads of Strom 
+!!UN:T8/3/0/144;
+!!UN:T8/3/1/144;
+!!UN:T8/4/0/254;	 	[level 5 no upg - Sorceress - Apprentice]
+!!UN:T8/4/1/193; 		Sorceress
+!!UN:T8/5/0/195;	 	[level 6 no upg - Hell Steed]
+!!UN:T8/5/1/172; 		[level 6    upg - Nightmare]
+!!UN:T8/6/0/168;
+!!UN:T8/6/1/252;
+
+!!FU(neutral___monsters):E; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

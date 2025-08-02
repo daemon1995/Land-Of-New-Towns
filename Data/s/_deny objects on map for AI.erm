@@ -1,0 +1,128 @@
+ZVSE
+
+; independent erm file
+; deny objects on map for AI.erm
+; variables v8050 v8051 v8052
+; deny towns for Ai on map
+; variables:
+; v8030
+; v8031
+; v8032
+
+
+
+!?FU(OnEveryDay);
+
+!!OW:C?v60;      							player number
+!!OW:C?v4070;      							v4070 = current player number
+!!VRv4060:Sv60;
+!!VRv4074;
+!!OW:Iv60/?v4074;			0-human / 1 - ai 
+
+
+
+
+!!FU(deny_object_for_AI)&v4083=0:P16/13; 	emissars 13...16
+!!FU(deny_object_for_AI)&v4083=0:P16/14; 
+!!FU(deny_object_for_AI)&v4083=0:P16/15; 
+!!FU(deny_object_for_AI)&v4083=0:P16/16;
+
+!!FU(deny_towns_for_ai_complete):P0/2;		Ruins
+!!FU(deny_towns_for_ai_complete):P1/4;		Kitezh Grad
+!!FU(deny_towns_for_ai_complete):P3/2;		Courtyard
+!!FU(deny_towns_for_ai_complete):P4/1;		Abandoned Pyramid
+!!FU(deny_towns_for_ai_complete):P6/3;		Pyramid
+
+
+
+	
+
+
+
+	
+-----------------------------
+
+!?FU(deny_object_for_AI); 
+ ; x1 - type
+ ; x2 - subtype
+ 
+!!VRv8050:Sx1;
+!!VRv8051:Sx2; 
+!!VRv8052:Sx3;
+!!VRv100:S0;		
+!!UN:Ux1/x2/?v100;
+!!VRv1:S-1;
+
+!!DO(deny_object_1)/1/v100/1:P; 
+	!?FU(deny_object_1); 
+	!!UN:Uv8050/v8051/-1/1;				count objects on map type/subtype
+	!!TRv1/v2/v3&v4074=1:P0;			dissallow Ai(v4074=1) visit object at X Y L
+	!!TRv1/v2/v3&v4074=0:P1;			allow human   visit object
+	
+
+!!FU(deny_object_for_AI):E; 
+
+
+
+
+ ; deny visit towns for Ai
+ 
+
+-------------------------------------------
+
+!?FU(deny_towns_for_ai_complete);
+ ; x1, x2  
+ 	!!FU(deny_towns_for_ai):Px1/x2;				
+	!!FU(deny_towns_for_ai77):Px1/x2;
+	
+!!FU(deny_towns_for_ai_complete):E;
+
+
+
+-------------------------------------------
+
+!?FU(deny_towns_for_ai); 
+ ; x1 - type of classic homm3 town (0..8)
+ ; x2 - new type of town (var1, var2 ...)
+!!VRv8030:Sx1;
+!!VRv8031:Sx2; 
+!!VRv100:S0;		
+!!UN:U98/x1/?v100;							calculate towns on map
+!!VRv1:S-1; 
+!!DO(func_dt)/1/v100/1:P; 
+	!?FU(func_dt); 
+	!!UN:U98/v8030/-1/1;
+	!!CAv1/v2/v3:U?y1;						get town id at X Y L 
+	!!VRy2:Sy1+4000;  						linking count of towns with v4052
+	!!TRv1/v2/v3&v4074=1/vy2=v8031:P0;		dissallow AI(v4074=1) visit object at X Y L
+	!!TRv1/v2/v3&v4074=0/vy2=v8031:P1;		allow human   visit object
+	
+
+!!FU(deny_towns_for_ai):E; 
+
+
+
+
+----------------------------------
+ ; same for random town
+ 
+!?FU(deny_towns_for_ai77); 
+ ; x1 - type of classic homm3 town (0..8)   not used here
+ ; x2 - new type of town (var1, var2 ...)
+!!VRv8030:Sx1;
+!!VRv8031:Sx2; 
+!!VRv100:S0;		
+!!UN:U77/-1/?v100;							calculate random towns on map
+!!VRv1:S-1; 
+!!DO(func_dt77)/1/v100/1:P; 
+	!?FU(func_dt77); 
+	!!UN:U77/-1/-1/1;
+	!!CAv1/v2/v3:U?y1;						get town id at X Y L 
+	!!VRy2:Sy1+4000;  						linking count of towns with v4052
+	
+	!!TRv1/v2/v3&v4074=1/vy2=v8031:P0;		dissallow AI(v4074=1) visit object at X Y L
+	!!TRv1/v2/v3&v4074=0/vy2=v8031:P1;		allow human  visit object
+	
+
+!!FU(deny_towns_for_ai77):E; 
+	

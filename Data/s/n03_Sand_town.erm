@@ -1,0 +1,205 @@
+ZVSE
+
+
+ ; Sand town - based on Stronghold 
+
+	
+-------------------------------------------------------------------	
+	
+	
+	
+!?FU(sand___town); 					
+
+	!-!FU(Restore_Default_TownScreen):P;				wonderwoods def not load if enabled
+	!!FU(restore_XY_coordinates_stronghold):P;
+	
+	!!FU(SetBuilding'sPosition):P6/0/0/0;
+	!!FU(SetBuilding'sPosition):P6/1/0/0;
+	!!FU(SetBuilding'sPosition):P6/2/0/0;
+	
+	!!FU(SetBuilding'sPosition):P6/7/0/0;
+	!!FU(SetBuilding'sPosition):P6/8/0/0;
+	!!FU(SetBuilding'sPosition):P6/9/0/0;
+	
+	!!FU(SetBuilding'sPosition):P6/10/0/0;
+	!!FU(SetBuilding'sPosition):P6/11/0/0;   +8/43/60;
+	!!FU(SetBuilding'sPosition):P6/12/0/0;
+	!!FU(SetBuilding'sPosition):P6/13/0/0;
+
+	
+	; restore first   default def
+	
+Stronghold
+!!SN:R^tbstback.pcx^/^^;			
+!!SN:R^StrongHold.mp3^/^^;
+!!SN:R^TBSTBLAK.def^/^^;
+!!SN:R^TBSTCAS2.def^/^TBsaCas3.def^;
+!!SN:R^TBSTCAS3.def^/^TBsaCas3.def^;
+!!SN:R^TBSTCSTL.def^/^TBsaCas3.def^;
+!!SN:R^TBSTDW_0.def^/^^;
+!!SN:R^TBSTDW_1.def^/^^;
+!!SN:R^TBSTDW_2.def^/^^;
+!!SN:R^TBSTDW_3.def^/^^;
+!!SN:R^TBSTDW_4.def^/^^;
+!!SN:R^TBSTDW_5.def^/^^;
+!!SN:R^TBSTDW_6.def^/^^;
+!!SN:R^TBSTEXT0.def^/^^;
+!!SN:R^TBSTEXT1.def^/^^;
+!!SN:R^TBSTEXT2.def^/^^;
+!!SN:R^TBSTEXT3.def^/^^;
+!!SN:R^TBSTHAL2.def^/^TBsaHal4.def^;
+!!SN:R^TBSTHAL3.def^/^TBsaHal4.def^;
+!!SN:R^TBSTHAL4.def^/^TBsaHal4.def^;
+!!SN:R^TBSTHALL.def^/^TBsaHal4.def^;
+!!SN:R^TBSTHOLY.def^/^^;
+!!SN:R^TBSTHRD1.def^/^^;
+!!SN:R^TBSTHRD2.def^/^^;
+!!SN:R^TBSTMAG2.def^/^TBSaMag2.def^;
+!!SN:R^TBSTMAG3.def^/^TBSaMag2.def^;
+!!SN:R^TBSTMAGE.def^/^TBSaMag2.def^;
+!!SN:R^TBSTMARK.def^/^^;
+!!SN:R^TBSTSILO.def^/^^;
+!!SN:R^TBSTSPEC.def^/^^;
+!!SN:R^TBSTTVRN.def^/^^;
+!!SN:R^TBSTUP_0.def^/^^;
+!!SN:R^TBSTUP_1.def^/^^;
+!!SN:R^TBSTUP_2.def^/^^;
+!!SN:R^TBSTUP_3.def^/^^;
+!!SN:R^TBSTUP_4.def^/^^;
+!!SN:R^TBSTUP_5.def^/^^;
+!!SN:R^TBSTUP_6.def^/^^;
+
+!!SN:R^TOSBEH1A.pcx^/^^;
+!!SN:R^TOSBEH2A.pcx^/^^;
+!!SN:R^TOSBLK1.pcx^/^^;
+!!SN:R^TOSBLK2.pcx^/^^;
+!!SN:R^TOSCA1.pcx^/^TOSaCA3.pcx^;
+!!SN:R^TOSCA1EA.pcx^/^^;
+!!SN:R^TOSCA2.pcx^/^TOSaCA3.pcx^;
+!!SN:R^TOSCA3.pcx^/^TOSaCA3.pcx^;
+!!SN:R^TOSCYC1.pcx^/^^;
+!!SN:R^TOSCYC2A.pcx^/^^;
+!!SN:R^TOSGOB1.pcx^/^^;
+!!SN:R^TOSGOB1H.pcx^/^^;
+!!SN:R^TOSGOB2.pcx^/^^;
+!!SN:R^TOSGOB2H.pcx^/^^;
+!!SN:R^TOSHAL1A.pcx^/^TOsaHAL1A.pcx^;
+!!SN:R^TOSHAL2A.pcx^/^TOsaHAL1A.pcx^;
+!!SN:R^TOSHAL3A.pcx^/^TOsaHAL1A.pcx^;
+!!SN:R^TOSHAL4A.pcx^/^TOsaHAL1A.pcx^;
+!!SN:R^TOSHOLYA.pcx^/^^;
+!!SN:R^TOSMAG1.pcx^/^TOSaMAG1.pcx^;
+!!SN:R^TOSMAG2.pcx^/^TOSaMAG1.pcx^;
+!!SN:R^TOSMAG3.pcx^/^TOSaMAG1.pcx^;
+!!SN:R^TOSMRK1.pcx^/^^;
+!!SN:R^TOSMRK1C.pcx^/^^;
+!!SN:R^TOSMRK2.pcx^/^^;
+!!SN:R^TOSOGR1.pcx^/^^;
+!!SN:R^TOSOGR2.pcx^/^^;
+!!SN:R^TOSORC1.pcx^/^^;
+!!SN:R^TOSORC2.pcx^/^^;
+!!SN:R^TOSROC1.pcx^/^^;
+!!SN:R^TOSROC2.pcx^/^^;
+!!SN:R^TOSTAV.pcx^/^^;
+!!SN:R^TOSVAH.pcx^/^^;
+!!SN:R^TOSWOL1.pcx^/^^;
+!!SN:R^TOSWOL2.pcx^/^^;
+!!SN:R^TPCASSTR.pcx^/^^;
+!!SN:R^TPMAGEST.pcx^/^^;
+
+!!SN:R^TZSBEH1A.pcx^/^^;
+!!SN:R^TZSBEH2A.pcx^/^^;
+!!SN:R^TZSBLK1.pcx^/^^;
+!!SN:R^TZSBLK2.pcx^/^^;
+!!SN:R^TZSCA1.pcx^/^TZSaCA3.pcx^;
+!!SN:R^TZSCA1EA.pcx^/^^;
+!!SN:R^TZSCA2.pcx^/^TZSaCA3.pcx^;
+!!SN:R^TZSCA3.pcx^/^TZSaCA3.pcx^;
+!!SN:R^TZSCYC1.pcx^/^^;
+!!SN:R^TZSCYC2A.pcx^/^^;
+!!SN:R^TZSGOB1.pcx^/^^;
+!!SN:R^TZSGOB1H.pcx^/^^;
+!!SN:R^TZSGOB2.pcx^/^^;
+!!SN:R^TZSGOB2H.pcx^/^^;
+!!SN:R^TZSHAL1A.pcx^/^TZsaHAL1A.pcx^;
+!!SN:R^TZSHAL2A.pcx^/^TZsaHAL1A.pcx^;
+!!SN:R^TZSHAL3A.pcx^/^TZsaHAL1A.pcx^;
+!!SN:R^TZSHAL4A.pcx^/^TZsaHAL1A.pcx^;
+!!SN:R^TZSHOLYA.pcx^/^^;
+!!SN:R^TZSMAG1.pcx^/^TZSaMAG1.pcx^;
+!!SN:R^TZSMAG2.pcx^/^TZSaMAG1.pcx^;
+!!SN:R^TZSMAG3.pcx^/^TZSaMAG1.pcx^;
+!!SN:R^TZSMRK1.pcx^/^^;
+!!SN:R^TZSMRK1C.pcx^/^^;
+!!SN:R^TZSMRK2.pcx^/^^;
+!!SN:R^TZSOGR1.pcx^/^^;
+!!SN:R^TZSOGR2.pcx^/^^;
+!!SN:R^TZSORC1.pcx^/^^;
+!!SN:R^TZSORC2.pcx^/^^;
+!!SN:R^TZSROC1.pcx^/^^;
+!!SN:R^TZSROC2.pcx^/^^;
+!!SN:R^TZSTAV.pcx^/^^;
+!!SN:R^TZSVAH.pcx^/^^;
+!!SN:R^TZSWOL1.pcx^/^^;
+!!SN:R^TZSWOL2.pcx^/^^;	
+!!SN:R^HALLSTRN.def^/^^;
+	
+	
+	
+	
+-----------------------------
+ ; replace town screen
+ ----------------------------
+ 
+!!SN:R^tbstback.pcx^/^TBsaBACK.pcx^;			replace background
+!!SN:R^StrongHold.mp3^/^Sandtown.mp3^;
+
+!!SN:R^TPCASSTR.pcx^/^TPCASsan.pcx^;			background for creatures
+!!SN:R^CRBKGSTR.pcx^/^CRBKGsan.pcx^;
+
+
+!!SN:R^TBStDw_4.def^/^TBStDw_4n.def^;
+!!SN:R^TBStDw_6.def^/^TBStDw_6n.def^;
+!!SN:R^TBStExt3.def^/^TBStExt3n.def^;
+!!SN:R^TBStUp_1.def^/^TBStUp_1n.def^;
+!!SN:R^TBStUp_4.def^/^TBStUp_4n.def^;
+!!SN:R^TBStUp_6.def^/^TBStUp_6n.def^;
+
+
+ 
+ -----------------------------
+ ; replace creatures
+-----------------------------
+
+!!FU(sand___monsters):P;
+
+
+
+
+!!FU(sand___town):E;  end function
+ 
+ 
+ 
+ 
+
+ 
+----------------------------
+ 
+!?FU(sand___monsters);
+
+!!UN:T6/0/0/224;
+!!UN:T6/0/1/225;
+!!UN:T6/1/0/226;
+!!UN:T6/1/1/227;
+!!UN:T6/2/0/228;
+!!UN:T6/2/1/229;
+!!UN:T6/3/0/230;
+!!UN:T6/3/1/231;
+!!UN:T6/4/0/232;
+!!UN:T6/4/1/233;
+!!UN:T6/5/0/234;
+!!UN:T6/5/1/235;
+!!UN:T6/6/0/236;
+!!UN:T6/6/1/237;
+
+!!FU(sand___monsters):E;
