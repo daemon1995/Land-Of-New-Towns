@@ -22,7 +22,7 @@
 		"file": "LoNT.ico",
 		"index": 0
 	},
-	"mod_version": "3.4.1",
+	"mod_version": "3.4",
 	"priority": 2,
 		"compatibility": {
 			"incompatible": ["TUM Enchanted","ResOunD","ERA+","Towns of Day and Night","Knightmare Kingdoms","H3-HD-Edition","TUM-Enchanted-Graphic-Pack"],
@@ -30,7 +30,7 @@
 		"entries": {}
 	},
 	"platform": "era",
-	"info_version": "3.4.1",
+	"info_version": "3.4",
 	"plugins": {},
 	"category": "gameplay"
 }
