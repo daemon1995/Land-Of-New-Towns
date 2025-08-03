@@ -1,41 +1,34 @@
-{
+﻿{
 	"caption": {
 		"Cn_Simp": "",
-		"en_US": "Land Of New Towns",
+		"en_US": "Land of New Towns",
 		"ru_RU": ""
 	},
-	
 	"description": {
 		"full": {
 			"Cn_Simp": "",
-			"en_US": "Readme.md",
+			"en_US": "readme.md",
 			"ru_RU": ""
 		},
 		"short": {
 			"Cn_Simp": "",
-			"en_US": "Readme.md",
+			"en_US": "",
 			"ru_RU": ""
 		}
 	},
-	
 	"author": "AnT",
-	
 	"homepage": "https://sites.google.com/view/landofnewtowns",
-	
 	"icon": {
 		"file": "LoNT.ico",
 		"index": 0
 	},
-	
 	"mod_version": "3.4",
-	
 	"priority": 2,
-	
-	"compatibility": {
+		"compatibility": {
+			"incompatible": ["TUM Enchanted","ResOunD","ERA+","Towns of Day and Night","Knightmare Kingdoms","H3-HD-Edition","TUM-Enchanted-Graphic-Pack"],
 		"class": "all",
 		"entries": {}
 	},
-	
 	"platform": "era",
 	"info_version": "3.4",
 	"plugins": {},
